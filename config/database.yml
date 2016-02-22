@@ -1,0 +1,22 @@
+# SQLite version 3.x
+#   gem install sqlite3
+#
+#   Ensure the SQLite 3 gem is defined in your Gemfile
+#   gem 'sqlite3'
+development:
+  adapter: ruby_mysql
+  database: tide
+  username: wwwUser
+  password: wwwpublic
+  host: 127.0.0.1
+  pool: 5
+  timeout: 5000
+
+production:
+  adapter: ruby_mysql
+  database: tide
+  username: wwwUser
+  password: wwwpublic
+  host: 127.0.0.1  
+  pool: 50
+  timeout: 5000

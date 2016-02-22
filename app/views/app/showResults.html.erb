@@ -1,0 +1,38 @@
+	<div class="container-fluid">
+    	
+    	<div class="panel panel-default">
+			<div class="panel-heading">
+    			<h3 class="panel-title">Filters</h3>
+  			</div>
+  			<div class="panel-body">
+   	 			<div align="center">
+   	 				<div class="form-inline">
+		    			<div class="form-group">
+				    		<%= form_tag(:controller => 'app', :action => 'showResults') do %>
+								Cancer type: <%= select_tag "cancerType", options_for_select(['PANCAN','A','B','C','..']), :class => 'form-control' %> &nbsp;
+								Drug: <%= select_tag "drug", options_for_select(['drug A','drug B','...']), :class => 'form-control' %> &nbsp;
+	    						<%= submit_tag 	"Show",  :class => 'btn btn-primary' %>
+							<% end -%>
+						</div>
+    				</div>
+    			</div>
+  			</div>
+		</div>
+    	
+    </div>	
+    
+    <div class="container-fluid">
+    	
+    	<div class="panel panel-default">
+			<div class="panel-heading">
+    			<h3 class="panel-title">LOBICO Results</h3>
+  			</div>
+  			<div class="panel-body">
+   	 			<div align="center">
+	    			<%= image_tag 'lobico_demo_res.jpg', :width => 1200, :height => 800 %>
+    			</div>
+  			</div>
+		</div>
+    	
+    </div>	
+    	
