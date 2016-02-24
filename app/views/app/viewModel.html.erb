@@ -1,0 +1,37 @@
+   <div class="container-fluid">
+    	
+    	<div class="panel panel-default">
+			<div class="panel-heading">
+    			<h4 class="panel-title">
+    				Single model: <b><%= @singleModel %></b></br>
+    				CV model: <b><%= @cvModel %></b>
+    			</h4>
+  			</div>
+  			<div class="panel-body">
+   	 				<% @models.values[0].split("#").each do |model| -%>
+				    	<div class="panel panel-default">
+							<div class="panel-heading">
+    							<h3 class="panel-title">
+    								Model Description
+    							</h3>
+  							</div>
+  							<div class="panel-body">
+  								<div align="left">
+  									<% vals = model.split(";") -%>
+  									Cancer:<b><%= vals[0] %></b> &nbsp; Drug:<b><%= vals[1] %></b> &nbsp; Drug target: <b><%= vals[2] %></b> &nbsp; Drug class:<b><%= vals[3] %></b></br>
+  									Number of IC50s measured: <b><%= vals[4] %></b> &nbsp; Number of sensitive cell lines: <b><%= vals[5] %></b></br>
+  									CV error: <b><%= vals[8] %></b> &nbsp; P-value: <b><%= vals[9] %></b> &nbsp; Q-value: <b><%= vals[10] %></b> </br>
+  									Improvement wrt single model: <b><%= vals[11] %></b> &nbsp; CV F-statistics: <b><%= vals[12] %></b> &nbsp; CV continuous F-statistics: <b><%= vals[13] %></b>
+  								</div>
+  								<hr>
+  								<div align="center">
+				    				<%= image_tag 'lobico_demo_res.jpg', :width => 1200, :height => 800 %>
+				    			</div>	
+   	 						</div>
+   	 					</div>	
+   	 				<% end -%>
+  			</div>
+		</div>
+    	
+    </div>	
+    	

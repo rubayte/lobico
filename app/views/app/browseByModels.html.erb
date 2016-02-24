@@ -1,0 +1,98 @@
+    <div class="container-fluid">
+    	
+    	<div class="panel panel-default">
+			<div class="panel-heading">
+    			<h3 class="panel-title">Filters</h3>
+  			</div>
+  			<div class="panel-body">
+   	 			<div align="center">
+   	 				<div class="form-inline">
+		    			<div class="form-group">
+				    		<%= form_tag(:controller => 'app', :action => 'browseByModels') do %>
+								<%= select_tag "cancerType", options_for_select(@cancers), :class => 'form-control' %> &nbsp;
+								<%= select_tag "drug", options_for_select(@drugs), :class => 'form-control' %> &nbsp;
+	    						<div class="input-group">
+      								<div class="input-group-addon">&lt;</div>
+      									<input type="text" class="form-control" id="cvelt" placeholder="CV Error">
+    							</div>
+    							<div class="input-group">
+      								<div class="input-group-addon">&gt;</div>
+      									<input type="text" class="form-control" id="cvelt" placeholder="CV Error">
+    							</div>
+	    						<%= submit_tag 	"Filter models", :disabled => true,  :class => 'btn btn-primary' %>
+							<% end -%>
+						</div>
+    				</div>
+    			</div>
+  			</div>
+		</div>
+    	
+    </div>	
+    
+    <div class="container-fluid">
+    	
+    	<div class="panel panel-default">
+			<div class="panel-heading">
+    			<h3 class="panel-title"><b>LOBICO Best Models</b></h3>
+  			</div>
+  			<div class="panel-body">
+   	 			<div align="center">
+	    			<table id="modelsTable" class="table table-striped">
+	    				<thead>
+	    	    			<tr>
+	    	    				<!--
+	    	    				<th>Cancer</th>
+	    	    				<th>Drug</th>
+	    	    				<th>Putative target</th>
+	    	    				<th>Drug class</th>
+	    	    				<th>#IC50s measured</th>
+	    	    				<th>#Sensitive cell lines</th>
+	    	    				-->
+	    	    				<th>Single model</th>
+	    	    				<th>Best CV model</th>
+	    	    				<th>Details</th>
+	    	    				<!--
+	    	    				<th>CV Error</th>
+	    	    				<th>P-value</th>
+	    	    				<th>Q-value</th>
+	    	    				<th>Improvement wrt single model</th>
+	    	    				<th>CV F-statistics</th>
+	    	    				<th>CV continuous F-statistics</th>
+	    	    				-->
+	    	    				<th>View model</th>
+	    	    			</tr>
+	    	    		</thead>
+	    	    		<tbody>
+	    	    			<% @modelsHash.each do |model,values|-%>
+	    	    				<tr>
+	    	    				<% smodel,cvmodel = model.split(";") -%>
+	    	    					<td><%= smodel %></td>
+	    	    					<td><%= cvmodel %></td>
+	    	    					<td>
+	    	    						<% items = values.split("#") -%>
+	    	    						<% items.each do |item| -%>
+	    	    							<% vals = item.split(";") -%>
+	    	    							<div>
+    											Cancer:<b><%= vals[0] %></b> &nbsp; Drug:<b><%= vals[1] %></b> &nbsp; CV Error:<font color="red"><%= vals[5] %></font>		
+	    	    							</div>
+	    	    						<% end -%>
+	    	    					</td>
+	    	    					<td>
+	    	    						<%= link_to '<b>View</b>'.html_safe,  {:controller => "app", :action => "viewModel", :singleModel => smodel , :cvModel => cvmodel } %>
+	    	    					</td>		
+	    	    				</tr>
+	    	    			<% end -%>
+	    	    		</tbody>
+	    			</table>	
+    			</div>
+  			</div>
+		</div>
+    	
+    </div>	
+
+	
+<script>
+$(document).ready(function(){
+	$('#modelsTable').DataTable();
+});
+</script>

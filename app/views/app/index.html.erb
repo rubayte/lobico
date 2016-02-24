@@ -1,17 +1,11 @@
-	<div class="container-fluid">
-    	
-    	<div class="well">
-    		<div align="center">
-    			<div class="form-inline">
-    				<div class="form-group">
-			    		<%= form_tag(:controller => 'app', :action => 'showResults') do %>
-							Cancer type: <%= select_tag "cancerType", options_for_select(['PANCAN','A','B','C','..']), :class => 'form-control' %> &nbsp;
-							Drug: <%= select_tag "drug", options_for_select(['drug A','drug B','...']), :class => 'form-control' %> &nbsp;
-	    					<%= submit_tag 	"Show",  :class => 'btn btn-primary' %>
-						<% end -%>
-					</div>
-				</div>
-			</div>	
-		</div>
-    	
-    </div>	
+    <div class="container">
+
+
+      <!-- Jumbotron -->
+      <div class="jumbotron">
+        <h1>LOBICO</h1>
+        <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet.</p>
+        <p><a class="btn btn-lg btn-success" href="#" role="button">Browse Best Models</a></p>
+      </div>
+
+	</div>
