@@ -14,5 +14,8 @@
 //= require jquery_ujs
 //= require bootstrap.min
 //= require datatables.min
+//= require d3.v3.4.8
+//= require box
+//= require dimple.v2.1.6.min
 //= require_tree .
-		
+

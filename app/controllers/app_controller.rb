@@ -13,6 +13,13 @@ class AppController < ApplicationController
     (@singleModel,@cvModel) = @models.keys[0].split(";")
   end
   
+  def viewTestModel
+    @drug = "Nutlin-3a"
+    (@models,@histData,@modelData,@boxData) = Datafile.getModelByCancerDrug("PANCAN","Nutlin-3a")
+    @singleModel = "Single Model"
+    @cvModel = "CV Model"
+  end
+  
   def browseAllModels
     (@res,@cancers,@drugs) = Datafile.readResTableFile()
   end

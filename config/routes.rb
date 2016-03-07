@@ -8,6 +8,8 @@ Lobico::Application.routes.draw do
   match "browseByCancerGenes", :to => 'app#browseByCancerGenes'
   match "browseByModels", :to => 'app#browseByModels'
   match "browseAllModels", :to => 'app#browseAllModels'
+  match "viewTestModel", :to => 'app#viewTestModel'
+  
   # Sample of regular route:
   #   match 'products/:id' => 'catalog#view'
   # Keep in mind you can assign values other than :controller and :action

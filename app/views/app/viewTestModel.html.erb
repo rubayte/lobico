@@ -1,0 +1,232 @@
+
+	<div class="container-fluid">
+    	
+    	<div class="panel panel-default">
+			<div class="panel-heading">
+    			<h4 class="panel-title">
+    				Drug: <b><%= @drug %></b>
+    			</h4>
+  			</div>
+  			<div class="panel-body">
+   	 				<% @models.values[0].split("#").each do |model| -%>
+				    	<div class="panel panel-default">
+							<div class="panel-heading">
+    							<h3 class="panel-title">
+    								Models
+    							</h3>
+  							</div>
+  							<div class="panel-body">
+
+								<div class="row">
+	  								<div id="histogramPlot" align="left">
+  									</div>
+  									<hr>
+								</div>
+  								
+								<% for i in 1..8 -%>
+									<div class="models">
+										<div class="input-group">
+										<% if i == 1 -%>
+  											<span class="input-group-addon" id="basic-addon1"><strong>Best</br>Model</strong></span>
+										<% else -%>
+  											<span class="input-group-addon" id="basic-addon1">Model</span>
+										<% end -%>
+  											<div class="row">
+											<div class="col-md-3">
+												<div align="center">
+													<% (sM,cvM) = @models.keys[0].split(";") -%>
+													Single Model: <b><%= sM %></b></br>
+													CV Model: <b><%= cvM %></b></br>
+													<% if i == 1-%>
+													<hr>
+													<div align="center">
+  														<% vals = model.split(";") -%>
+  														Cancer:<b><%= vals[0] %></b></br>
+  														Drug target: <b><%= vals[2] %></b> </br> 
+  														Drug class:<b><%= vals[3] %></b></br>
+  														Number of IC50s measured: <b><%= vals[4] %></b> </br> 
+  														Number of sensitive cell lines: <b><%= vals[5] %></b></br>
+  														CV error: <b><%= vals[8] %></b> </br> 
+  														P-value: <b><%= vals[9] %></b> </br> 
+  													</div>
+													<% end -%>
+												</div>
+											</div>	
+											<div class="col-md-6">
+												<div align="center">
+													<div id="modelPlot<%= i %>" >													
+													</div>
+												</div>	
+											</div>
+											<div class="col-md-3">
+												<div align="center">
+													<div id="boxPlot<%= i %>">
+  													</div>
+												</div>	
+											</div>	
+											</div>
+  										</div>
+  									</div>	
+  									&nbsp;
+								<% end -%>
+								
+   	 						</div>
+   	 					</div>	
+   	 				<% end -%>
+  			</div>
+		</div>
+    	
+    </div>	
+    
+    
+<script type="text/javascript">
+
+	$(document).ready(function(){	
+  		var data= <%= @histData.html_safe %>;
+  		//console.log("from div");
+  		//console.log(data);
+  		var svg = dimple.newSvg("#histogramPlot", 600, 400);
+		var myChart = new dimple.chart(svg, data);
+		myChart.setBounds(60, 30, 505, 305);
+		var y = myChart.addCategoryAxis("y", "logIC50");
+		y.addOrderRule("logIC50",true);
+		myChart.addMeasureAxis("x", "Number_of_Cell_lines");
+		myChart.addSeries("Classification", dimple.plot.bar);
+		myChart.addLegend(60, 10, 500, 20, "right");
+		myChart.draw();
+	});
+	
+</script>
+ 
+<script type="text/javascript">
+
+	$(document).ready(function(){	
+  		var dataModel = <%= @modelData.html_safe %>;
+  		
+  		for (i = 0; i < 8; i++ ){
+  			var divid = i + 1;
+  			var svgName = "#modelPlot" + divid;
+  			var modelName = "Model" + divid;
+	  		var svg = dimple.newSvg(svgName, 700, 200);
+	  		
+	  		// draw the pie chart with T* and F*
+	  		tempData = dimple.filterData(dataModel,"Model",[modelName]);
+	  		var myChart = new dimple.chart(svg, tempData);
+			myChart.setBounds(50, 10, 100, 150);
+			myChart.addMeasureAxis("p", "Value");
+			var ring = myChart.addSeries("Param", dimple.plot.pie);
+      		ring.innerRadius = "75%";
+      		myChart.addLegend(10, 175, 200, 10, "right");
+			myChart.draw();
+			
+			// draw the bar plot of second set of params
+			tempData2 = dimple.filterData(tempData,"Param2",["Specificity","Precision","Recall"])
+			var myChart2 = new dimple.chart(svg, tempData2);
+			myChart2.setBounds(300, 50, 300, 100);
+			var y = myChart2.addCategoryAxis("y", "Param2");
+			var x = myChart2.addMeasureAxis("x", "Value2");
+			var s = myChart2.addSeries(null, dimple.plot.bar);
+			myChart2.draw();
+			
+			// draw the boxplots
+			//tempData2 = dimple.filterData(tempData,"Param3")
+			//var myChart3 = new dimple.chart(svg, tempData);
+			//myChart3.setBounds(700, 50, 350, 100);
+			//var y = myChart3.addCategoryAxis("y", "Param3");
+			//var x = myChart3.addMeasureAxis("x", "Value3");
+			//var s = myChart3.addSeries(null, dimple.plot.bar);
+			//myChart3.draw();
+  		}
+  		
+	});
+	
+</script>
+
+
+<script type="text/javascript">
+
+	// $(document).ready(function(){
+	var margin = {top: 10, right: 50, bottom: 10, left: 50},
+    width = 120 - margin.left - margin.right,
+    height = 200 - margin.top - margin.bottom;
+
+	var min = Infinity,
+    	max = -Infinity;
+
+	var chart = d3.box()
+    	.whiskers(iqr(1.5))
+    	.width(width)
+    	.height(height);
+    	
+	var bdata = <%= @boxData.html_safe %>;
+	//console.log(bdata);
+	
+	//d3.csv(bdata, function(error, csv) {
+	  //if (error) throw error;
+
+	  var data = [];
+
+	  bdata.forEach(function(x) {
+	  	//console.log(x);
+	    //console.log(x.Expt);
+	    var e = Math.floor(x.Expt - 1),
+	        r = Math.floor(x.Run - 1),
+	        s = Math.floor(x.Speed),
+	        d = data[e];
+	       
+	    if (!d) d = data[e] = [s];
+	    else d.push(s);
+	    if (s > max) max = s;
+	    if (s < min) min = s;
+	  });
+
+	chart.domain([min, max]);
+	
+	for (i = 0; i < 8; i++ ){
+  		var divid = i + 1;
+  		var svgName = "#boxPlot" + divid;
+  		var svg = d3.select(svgName).selectAll("svg")
+	      .data(data)
+	    .enter().append("svg")
+	      .attr("class", "box")
+	      .attr("width", width + margin.left + margin.right)
+	      .attr("height", height + margin.bottom + margin.top)
+	    .append("g")
+	      .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
+	      .call(chart);
+  	}
+	
+
+	//setInterval(function() {
+	 //   svg.datum(randomize).call(chart.duration(1000));
+	  //}, 2000);
+	  //console.log('done');
+	//});
+
+	//function randomize(d) {
+	//  if (!d.randomizer) d.randomizer = randomizer(d);
+	//  return d.map(d.randomizer);
+	//}
+
+	//function randomizer(d) {
+	//  var k = d3.max(d) * .02;
+	//  return function(d) {
+	//    return Math.max(min, Math.min(max, d + k * (Math.random() - .5)));
+	//  };
+	//}
+
+	// Returns a function to compute the interquartile range.
+	function iqr(k) {
+	  return function(d, i) {
+	    var q1 = d.quartiles[0],
+	        q3 = d.quartiles[2],
+	        iqr = (q3 - q1) * k,
+	        i = -1,
+	        j = d.length;
+	    while (d[++i] < q1 - iqr);
+	    while (d[--j] > q3 + iqr);
+	    return [i, j];
+	  };
+	}
+	//});
+</script>
