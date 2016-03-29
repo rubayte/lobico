@@ -129,7 +129,52 @@ class Datafile
     boxContents = boxContents[1..-1]
     boxData = boxContents.split(",").each_slice(3).map{|s| {Expt: s[0], Run: s[1], Speed: s[2]}}.to_json
     
-    return models,histData,modelData,boxData
+    mutContents = ""
+    File.open(Rails.root.join('data','Nutlin-3a.mut')) do |fl|
+      fl.each_line do |line|
+        if line !~ /^#/
+          mutContents = mutContents + "\t" + line.strip()
+        end
+      end
+    end
+    mutContents = mutContents[1..-1]
+    mutData = mutContents.split("\t").each_slice(3).map{|s| {Cellline: s[0], Input: s[1], Score: s[2]}}.to_json
+
+    tissueContents = ""
+    File.open(Rails.root.join('data','Nutlin-3a.tissue')) do |fl|
+      fl.each_line do |line|
+        if line !~ /^#/
+          tissueContents = tissueContents + "\t" + line.strip()
+        end
+      end
+    end
+    tissueContents = tissueContents[1..-1]
+    tusData = tissueContents.split("\t").each_slice(3).map{|s| {Cellline: s[0], Tissue: s[1], Score: s[2]}}.to_json
+
+    tissueOContents = ""
+    File.open(Rails.root.join('data','Nutlin-3a.tissue.overall')) do |fl|
+      fl.each_line do |line|
+        if line !~ /^#/
+          tissueOContents = tissueOContents + "\t" + line.strip()
+        end
+      end
+    end
+    tissueOContents = tissueOContents[1..-1]
+    #tusOData = tissueOContents.split("\t").each_slice(5).map{|s| {Tissue: s[0], TotalCelllines: s[1], Score: s[2], SensitiveCelllines: s[3], TScore: s[4]}}.to_json
+    tusOData = tissueOContents.split("\t").each_slice(4).map{|s| {Param: s[0], Tissue: s[1], TypeCelllines: s[2], Score: s[3]}}.to_json
+
+    mutOContents = ""
+    File.open(Rails.root.join('data','Nutlin-3a.mut.overall')) do |fl|
+      fl.each_line do |line|
+        if line !~ /^#/
+          mutOContents = mutOContents + "\t" + line.strip()
+        end
+      end
+    end
+    mutOContents = mutOContents[1..-1]
+    mutOData = mutOContents.split("\t").each_slice(4).map{|s| {Param: s[0], Input: s[1], CountType: s[2], Count: s[3]}}.to_json
+    
+    return models,histData,modelData,boxData,mutData,tusData,tusOData,mutOData
     
   end
 
