@@ -4,8 +4,25 @@ class Datafile
     
   end
   
-  def self.readResTableFile()
+  def self.readResTableFile(params)
     
+    cancer = nil
+    drug = nil
+    cvelt = nil
+    cvegt = nil
+    if params[:cancerType] != "Cancer Type"
+      cancer = params[:cancerType]
+    end
+    if params[:drug] != "Drug"
+      drug = params[:drug]
+    end
+    if params[:cvelt] != ""
+      cvelt = params[:cvelt]
+    end  
+    if params[:cvegt] != ""
+      cvegt = params[:cvegt]
+    end  
+
     res = Array.new()
     cancers = Hash.new()
     drugs = Hash.new()
@@ -19,17 +36,45 @@ class Datafile
         sm = temp.delete_at(6)
         temp.insert(0,sm)
         cvm = temp.delete_at(7)
-        temp.insert(1,cvm)
-        res.push(temp)
+        temp.insert(0,cvm)
+        if (cancer == temp[2] or cancer == nil)
+          if (drug == temp[3] or drug == nil)
+             if (cvelt == nil or  temp[8].to_f < cvelt.to_f)
+               if (cvegt == nil or cvegt.to_f < temp[8].to_f)
+                temp2 = temp[0..3]
+                temp2.push(temp[8])
+                res.push(temp2)
+               end
+             end
+          end
+        end      
+        ## end filters
       end
     end
     
-    return res,cancers,drugs
+    return res,cancers.keys,drugs.keys
     
   end
   
-  def self.getBestModels()
+  def self.getBestModels(params)
     
+    cancer = nil
+    drug = nil
+    cvelt = nil
+    cvegt = nil
+    if params[:cancerType] != "Cancer Type"
+      cancer = params[:cancerType]
+    end
+    if params[:drug] != "Drug"
+      drug = params[:drug]
+    end
+    if params[:cvelt] != ""
+      cvelt = params[:cvelt]
+    end  
+    if params[:cvegt] != ""
+      cvegt = params[:cvegt]
+    end  
+       
     models = Hash.new()
     cancers = Hash.new()
     drugs = Hash.new()
@@ -37,19 +82,31 @@ class Datafile
     File.open(fileToRead,'r') do |file|
       file.each_line do |line|
         temp = line.strip.split("\t")
-        cancers[temp[0]] = 1
-        drugs[temp[1]] = 1
-        key = temp[6] + ";" + temp[7]
-        values = temp[0] + ";" + temp[1] + ";" + temp[2] + ";" + temp[3] + ";" + temp[5] + "/" + temp[4] + ";" + temp[8]
-        if (models.has_key?(key))
-          models[key] = models[key] + "#" + values
-        else
-          models[key] =  values
-        end
+        #if (not(temp[0].match(/^Cancer/)))
+         cancers[temp[0]] = 1
+         drugs[temp[1]] = 1
+         key = temp[6] + ";" + temp[7]
+         values = temp[0] + ";" + temp[1] + ";" + temp[2] + ";" + temp[3] + ";" + temp[5] + "/" + temp[4] + ";" + temp[8]
+         if (cancer == temp[0] or cancer == nil)
+           if (drug == temp[1] or drug == nil)
+             if (cvelt == nil or  temp[8].to_f < cvelt.to_f)
+               if (cvegt == nil or cvegt.to_f < temp[8].to_f)
+                 if (models.has_key?(key))
+                   models[key] = models[key] + "#" + values
+                 else
+                   models[key] =  values
+                 end
+               end
+             end
+           end  
+         else
+           ## do nothing
+         end  
+        #end
       end
     end
     
-    return models,cancers,drugs
+    return models,cancers.keys,drugs.keys
     
   end  
   

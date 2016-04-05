@@ -127,8 +127,8 @@
 		left = 50,
 		inMarg = 10,
 		width = (pixelsW/3) - 30,
-		height = pixelsH - 170,
-		heightBottomRow = 40,
+		height = pixelsH - 175,
+		heightBottomRow = 45,
 		totalWidth = parseFloat(svg.attr("width"));
 		
 		// loop over 
@@ -180,7 +180,8 @@
 				y = myChart.addCategoryAxis("y", "Cellline");
 				x = myChart.addCategoryAxis("x", "Tissue");
 				//myChart.addSeries(null, dimple.plot.bar);
-				myChart.addSeries("Origin?", dimple.plot.bar);
+				var s = myChart.addSeries("Origin?", dimple.plot.bar);
+				//s.addOrderRule("Tissue");
 				myChart.assignColor("Origin", "#819FF7");
 				myChart.stacked = false;
 				myChart.addLegend(left + (col * (width + inMarg))+10, (top - 10), (width/2), 20, "right");
@@ -234,9 +235,9 @@
 				x = myChart.addCategoryAxis("x", "InputType");
 				y = myChart.addCategoryAxis("y", "Param");
 				// testing color
-				myChart.addColorAxis("OddsRatio", ["#FFFFFF", "#380B61"]);
+				var ca = myChart.addColorAxis("OddsRatio", ["#FFFFFF", "#380B61"]);
 				var s = myChart.addSeries(null, dimple.plot.bar);
-				
+				//s.addOrderRule("Tissue");
 				function onHoverTissue(e) {
                 	var ovrdata = <%= @overallData.html_safe %>;
 					var todata = dimple.filterData(ovrdata,"InputType",e.xValue);
@@ -365,7 +366,6 @@
 				y = myChart.addCategoryAxis("y", "Param");
 				myChart.addColorAxis("OddsRatio", ["#FFFFFF", "#380B61"]);
 				var s = myChart.addSeries(null, dimple.plot.bar);
-				
 				function onHoverInput(e) {
                 	var ovrdata = <%= @overallData.html_safe %>;
 					var modata = dimple.filterData(ovrdata,"InputType",e.xValue);
@@ -478,8 +478,10 @@
 				// If this is not in the first column remove the y text
 				if (col > 0) {
 					y.shapes.selectAll("text").remove();
-					// Remove the axis labels
-					y.titleShape.remove();
+					//if (i != 4){
+						// Remove the axis labels
+						y.titleShape.remove();
+					//}
 				}
 				// If this is not in the last row remove the x text
 				if (row < 1) {

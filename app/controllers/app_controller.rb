@@ -5,7 +5,23 @@ class AppController < ApplicationController
   end
   
   def browseByModels
-    (@modelsHash,@cancers,@drugs) = Datafile.getBestModels()
+    @cvelt = nil
+    @cvegt = nil
+    @cancerSelected = ""
+    @drugSelected = ""
+    if (params[:cancerType] and params[:cancerType] != "Cancer Type")
+      @cancerSelected = params[:cancerType]
+    end
+    if (params[:drug] and params[:drug] != "Drug")
+      @drugSelected = params[:drug]
+    end
+    if (params[:cvelt] and params[:cvelt] != "")
+      @cvelt = params[:cvelt]
+    end
+    if (params[:cvegt] and params[:cvegt] != "")
+      @cvegt = params[:cvegt]
+    end
+    (@modelsHash,@cancers,@drugs) = Datafile.getBestModels(params)
   end
   
   def viewModel
@@ -21,7 +37,23 @@ class AppController < ApplicationController
   end
   
   def browseAllModels
-    (@res,@cancers,@drugs) = Datafile.readResTableFile()
+    @cvelt = nil
+    @cvegt = nil
+    @cancerSelected = ""
+    @drugSelected = ""
+    if (params[:cancerType] and params[:cancerType] != "Cancer Type")
+      @cancerSelected = params[:cancerType]
+    end
+    if (params[:drug] and params[:drug] != "Drug")
+      @drugSelected = params[:drug]
+    end
+    if (params[:cvelt] and params[:cvelt] != "")
+      @cvelt = params[:cvelt]
+    end
+    if (params[:cvegt] and params[:cvegt] != "")
+      @cvegt = params[:cvegt]
+    end
+    (@res,@cancers,@drugs) = Datafile.readResTableFile(params)
   end
   
   def browseByCancerGenes

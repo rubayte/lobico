@@ -2,24 +2,36 @@
     	
     	<div class="panel panel-default">
 			<div class="panel-heading">
-    			<h3 class="panel-title">Filters</h3>
+    			<h3 class="panel-title"><span class="glyphicon glyphicon-filter" aria-hidden="true"></span>Filters</h3>
   			</div>
   			<div class="panel-body">
    	 			<div align="center">
    	 				<div class="form-inline">
 		    			<div class="form-group">
-				    		<%= form_tag(:controller => 'app', :action => 'browseAllModels') do %>
-								<%= select_tag "cancerType", options_for_select(@cancers), :class => 'form-control' %> &nbsp;
-								<%= select_tag "drug", options_for_select(@drugs), :class => 'form-control' %> &nbsp;
+				    		<%= form_tag({:controller => 'app', :action => 'browseAllModels'},:multipart => true) do -%>
+								Cancer: <%= select_tag "cancerType", options_for_select(@cancers,@cancerSelected), :class => 'form-control' %> &nbsp;
+								Drug: <%= select_tag "drug", options_for_select(@drugs,@drugSelected), :class => 'form-control' %> &nbsp;
 	    						<div class="input-group">
       								<div class="input-group-addon">&lt;</div>
-      									<input type="text" class="form-control" id="cvelt" placeholder="CV Error">
+      									<% if @cvelt == nil -%>
+      										<input type="text" class="form-control" name="cvelt" id="cvelt" placeholder="CV Error">
+      									<% else -%>
+	      									<input type="text" class="form-control" name="cvelt" id="cvelt" placeholder="CV Error" value="<%= @cvelt %>">
+      									<% end -%>	
     							</div>
     							<div class="input-group">
       								<div class="input-group-addon">&gt;</div>
-      									<input type="text" class="form-control" id="cvelt" placeholder="CV Error">
+	      								<% if @cvegt == nil -%>
+      										<input type="text" class="form-control" name="cvegt" id="cvegt" placeholder="CV Error">
+      									<% else -%>
+	      									<input type="text" class="form-control" name="cvegt" id="cvegt" placeholder="CV Error" value="<%= @cvegt %>">
+      									<% end -%>
+      									
     							</div>
-	    						<%= submit_tag 	"Filter models", :disabled => true,  :class => 'btn btn-primary' %>
+    							<button type="submit" class="btn btn-primary">
+    								<span class="glyphicon glyphicon-filter" aria-hidden="true"></span>Filter
+    							</button>
+	    						 &nbsp; <a class="btn btn-danger" href="browseAllModels"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span>Clear Filter(s)</a>
 							<% end -%>
 						</div>
     				</div>
@@ -27,34 +39,37 @@
   			</div>
 		</div>
     	
-    </div>	
+    </div>
+
     
     <div class="container-fluid">
     	
     	<div class="panel panel-default">
 			<div class="panel-heading">
-    			<h3 class="panel-title"><b>All LOBICO Models</b></h3>
+    			<h3 class="panel-title"><b>LOBICO All Models</b></h3>
   			</div>
   			<div class="panel-body">
    	 			<div align="center">
 	    			<table id="modelsTable" class="table table-striped">
 	    				<thead>
 	    	    			<tr>
-	    	    				<th>Single model</th>
 	    	    				<th>Best CV model</th>
+	    	    				<th>Single model</th>
 	    	    				<th>Cancer</th>
 	    	    				<th>Drug</th>
+	    	    				<!-- >
 	    	    				<th>Drug target</th>
 	    	    				<th>Drug class</th>
 	    	    				<th>#IC50s</th>
 	    	    				<th>#Sensitive</th>
-	    	    				<th>CV Error</th>
 	    	    				<th>Pval</th>
 	    	    				<th>Qval</th>
 	    	    				<th>Impr. wrt single model</th>
 	    	    				<th>CV F-stat</th>
 	    	    				<th>CV cont. F-stat</th>
-	    	    				<th>View</th>
+	    	    				-->
+	    	    				<th>CV Error</th>
+	    	    				<th>Action</th>
 	    	    			</tr>
 	    	    		</thead>
 	    	    		<tbody>
@@ -64,7 +79,7 @@
 	    	    						<td><%= item %></td>
 									<% end -%>
     	    						<td>
-    	    							<%= link_to '<b>View</b>'.html_safe,  {:controller => "app", :action => "viewModel", :singleModel => items[0] , :cvModel => items[1] } %>
+    	    							<%= link_to '<span class="glyphicon glyphicon-eye-open" area-hiddne="true"></span> View'.html_safe,  {:controller => "app", :action => "viewModel", :singleModel => items[0] , :cvModel => items[1] } %>
     	    						</td>		
 	    	    				</tr>
 	    	    			<% end -%>
