@@ -15,7 +15,7 @@ class AppController < ApplicationController
   
   def viewTestModel
     @drug = "Nutlin-3a"
-    (@models,@histData,@modelData,@boxData,@mutData,@tusData,@tusOData,@mutOData) = Datafile.getModelByCancerDrug("PANCAN","Nutlin-3a")
+    (@models,@histData,@modelData,@boxData,@heatmapData,@overallData,@models2) = Datafile.getModelByCancerDrug("PANCAN","Nutlin-3a")
     @singleModel = "Single Model"
     @cvModel = "CV Model"
   end

@@ -1,0 +1,22 @@
+Param	0.5	CTNNB1	Number Of Mutated Celllines	18
+Param	0.5	CTNNB1	Number Of Sensitive Mutated Celllines	12
+Param	0.5	MAGI2	Number Of Mutated Celllines	9
+Param	0.5	MAGI2	Number Of Sensitive Mutated Celllines	4
+Param	0.5	a(MCM3)	Number Of Mutated Celllines	47
+Param	0.5	a(MCM3)	Number Of Sensitive Mutated Celllines	3
+Param	0.5	GATA3	Number Of Mutated Celllines	6
+Param	0.5	GATA3	Number Of Sensitive Mutated Celllines	4
+Param	0.5	RB1	Number Of Mutated Celllines	74
+Param	0.5	RB1	Number Of Sensitive Mutated Celllines	4
+Param	0.5	a(MET)	Number Of Mutated Celllines	62
+Param	0.5	a(MET)	Number Of Sensitive Mutated Celllines	13
+Param	0.5	F8	Number Of Mutated Celllines	15
+Param	0.5	F8	Number Of Sensitive Mutated Celllines	6
+Param	0.5	d(CHD3,GPS2,TP53)	Number Of Mutated Celllines	97
+Param	0.5	d(CHD3,GPS2,TP53)	Number Of Sensitive Mutated Celllines	13
+Param	0.5	MLL-AFF1	Number Of Mutated Celllines	2
+Param	0.5	MLL-AFF1	Number Of Sensitive Mutated Celllines	2
+Param	0.5	d(CUL3)	Number Of Mutated Celllines	17
+Param	0.5	d(CUL3)	Number Of Sensitive Mutated Celllines	1
+Param	0.5	TP53	Number Of Mutated Celllines	550
+Param	0.5	TP53	Number Of Sensitive Mutated Celllines	45

@@ -52,8 +52,9 @@
 											<div class="col-md-3">
 												<div align="center">
 													<% (sM,cvM) = @models.keys[0].split(";") -%>
+													CV Model: <b><%= @models2[ "Model"+i.to_s ] %></b></br>
 													Single Model: <b><%= sM %></b></br>
-													CV Model: <b><%= cvM %></b></br>
+													<!-- CV Model: <b><%= cvM %></b></br> -->
 													<% if i == 1-%>
 													<hr>
 													<div align="center">
@@ -76,7 +77,7 @@
 												</div>	
 											</div>
 											<div class="col-md-3">
-												<div align="center">
+												<div align="left">
 													<div id="boxPlot<%= i %>">
   													</div>
 												</div>	
@@ -98,13 +99,10 @@
 
 <script type="text/javascript">
 
-	$(document).ready(function(){	
+	$(document).ready(function(){
   		var data= <%= @histData.html_safe %>;
-		var tdata = <%= @tusData.html_safe %>;
-		var todata = <%= @tusOData.html_safe %>;
-		var mdata = <%= @mutData.html_safe %>;
-		var modata = <%= @mutOData.html_safe %>;
-		
+  		var heatmapdata = <%= @heatmapData.html_safe %>;
+  		var overalldata = <%= @overallData.html_safe %>;
 		//var parentWidth = document.body.clientWidth;
 		//var parentHeight = document.body.clientHeight;
 		//width(); //document.width;
@@ -126,9 +124,9 @@
 		var row = 0,
 		col = 0,
 		top = 30,
-		left = 100,
+		left = 50,
 		inMarg = 10,
-		width = (pixelsW/3) - 100,
+		width = (pixelsW/3) - 30,
 		height = pixelsH - 170,
 		heightBottomRow = 40,
 		totalWidth = parseFloat(svg.attr("width"));
@@ -163,13 +161,16 @@
 
 				y = myChart.addCategoryAxis("y", "logIC50");
 				y.addOrderRule("logIC50",true);
+				y.ticks = null;
 				x = myChart.addMeasureAxis("x", "Number_of_Cell_lines");
 				myChart.addSeries("Classification", dimple.plot.bar);
-				myChart.addLegend(left+10, (top - 10), (width/2), 20, "right");
+				myChart.assignColor("RESISTANT", "#E6E6E6");
+				myChart.assignColor("SENSITIVE", "#F78181");
+				myChart.addLegend(left + (col * (width + inMarg))+10, (top - 10), (width/2), 20, "right");
 				myChart.draw();
 			}else if (i == 1){
 				// draw the binary cell line tissue heatmap
-				var myChart = new dimple.chart(svg, tdata);
+				var myChart = new dimple.chart(svg, heatmapdata);
 				myChart.setBounds(
 					left + (col * (width + inMarg)),
 					top + (row * (height + inMarg)),
@@ -179,8 +180,10 @@
 				y = myChart.addCategoryAxis("y", "Cellline");
 				x = myChart.addCategoryAxis("x", "Tissue");
 				//myChart.addSeries(null, dimple.plot.bar);
-				var st = myChart.addSeries("Score", dimple.plot.bar);
-				st.stacked = false;
+				myChart.addSeries("Origin?", dimple.plot.bar);
+				myChart.assignColor("Origin", "#819FF7");
+				myChart.stacked = false;
+				myChart.addLegend(left + (col * (width + inMarg))+10, (top - 10), (width/2), 20, "right");
 				myChart.draw();				
 				x.shapes.selectAll("text").attr("transform", " translate(10,-10) rotate(45)");
 				
@@ -194,7 +197,7 @@
 					.text("Tissue Types");	
 			}else if (i == 2){
 				// draw the binary cell line mutation heatmap
-				var myChart = new dimple.chart(svg, mdata);
+				var myChart = new dimple.chart(svg, heatmapdata);
 				myChart.setBounds(
 					left + (col * (width + inMarg)),
 					top + (row * (height + inMarg)),
@@ -203,8 +206,11 @@
 				y = myChart.addCategoryAxis("y", "Cellline");
 				x = myChart.addCategoryAxis("x", "Input");
 				//myChart.addSeries(null, dimple.plot.bar);
-				var s = myChart.addSeries("Score", dimple.plot.bar);
-				s.stacked = false;
+				myChart.addSeries("Mutated?", dimple.plot.bar);
+				myChart.assignColor("Not Mutated", "#FFFFFF","#FFFFFF",0);
+				myChart.assignColor("Mutated", "#B40431");				
+				myChart.stacked = false;
+				myChart.addLegend(left + (col * (width + inMarg))+10, (top - 10), (width/2), 20, "right");
 				myChart.draw();
 				x.shapes.selectAll("text").attr("transform", " translate(10,-10) rotate(45)");
 				
@@ -215,39 +221,253 @@
 					.style("text-anchor", "middle")
 					.style("font-family", "sans-serif")
 					.style("font-weight", "bold")
-					.text("Mutations");
-					
+					.text("Mutations");					
 			}else if (i == 4){
 				// draw the overall tissue scenario
+				var todata = dimple.filterData(overalldata, "Param", "Tissue");
 				var myChart = new dimple.chart(svg, todata);
 				myChart.setBounds(
 					left + (col * (width + inMarg)),
 					top + (row * (height + inMarg)),
 					width,
 					heightMain);
-				x = myChart.addCategoryAxis("x", "Tissue");
+				x = myChart.addCategoryAxis("x", "InputType");
 				y = myChart.addCategoryAxis("y", "Param");
-				myChart.addMeasureAxis("p", "Score");
-				//var s = myChart.addSeries("TScore", dimple.plot.bar);
-				var s = myChart.addSeries("TypeCelllines", dimple.plot.pie);
-        		s.radius = 15;
-				//s.stacked = false;
+				// testing color
+				myChart.addColorAxis("OddsRatio", ["#FFFFFF", "#380B61"]);
+				var s = myChart.addSeries(null, dimple.plot.bar);
+				
+				function onHoverTissue(e) {
+                	var ovrdata = <%= @overallData.html_safe %>;
+					var todata = dimple.filterData(ovrdata,"InputType",e.xValue);
+					var odrValue = todata[0].OddsRatio;
+			        // Get the properties of the selected shape
+			        var cx = parseFloat(e.selectedShape.attr("x")),
+			            cy = parseFloat(e.selectedShape.attr("y")),
+			            r = 10,
+			            fill = "#F2F2F2",
+			            stroke = "#A4A4A4"; //e.selectedShape.attr("stroke");
+			            
+			        // Set the size and position of the popup
+			        var width = 250,
+			            height = 150,
+			            x = (cx + r + width + 10 < svg.attr("width") ?
+			                  cx + r + 10 :
+			                  cx - r - width - 20);
+			            y = (cy - height / 2 < 0 ?
+			                  15 :
+			                  cy - height / 2);
+			        
+			        // Fade the popup fill mixing the shape fill with 80% white
+			        var popupFillColor = d3.rgb(
+			                    d3.rgb(fill).r ,
+			                    d3.rgb(fill).g ,
+			                    d3.rgb(fill).b
+			                );
+			        
+			        // Create a group for the popup objects
+			        popup = svg.append("g");
+			        
+			        popup
+			        	.append("rect")
+        			  	.attr("x", x)
+          			  	.attr("y", y)
+          				.attr("width", width + 50)
+          				.attr("height", height + 30)
+          				.attr("rx", 5)
+          				.attr("ry", 5)
+          				.style("fill", popupFillColor)
+          				.style("stroke", stroke)
+          				.style("stroke-width", 2);
+			        
+			        // Add the series value text
+        			popup
+				          .append("text")
+				          .attr("x", x + 20)
+				          .attr("y", y + 20)
+				          .text("Tissue: " + e.xValue + ", OR: " + odrValue)
+				          .style("font-family", "sans-serif")
+				          .style("font-size", 12)
+				          .style("font-weight", "bold");
+				          //.style("fill", stroke);
+			        
+			        // Create a new mini chart of Unit Sales over Months
+			        tipChart = new dimple.chart(svg,  todata);
+			        tipChart.setBounds(x + 70, y + 30, width - 30, height - 40);
+			        var tx = tipChart.addCategoryAxis("x", "SR");
+			        var ty = tipChart.addCategoryAxis("y", "OM");				
+			        var popUpSeries = tipChart.addSeries("Count", dimple.plot.bar);
+			        popUpSeries.barGap = 0;
+					
+					popUpSeries.afterDraw = function (shape, data) {
+						// Get the shape as a d3 selection
+						var s = d3.select(shape),
+						rect = {
+							x: parseFloat(s.attr("x")),
+							y: parseFloat(s.attr("y")),
+							width: parseFloat(s.attr("width")),
+							height: parseFloat(s.attr("height"))
+						};
+						// Only label bars where the text can fit
+						if (rect.height >= 8) {
+							// Add a text label for the value
+							popup.append("text")
+								// Position in the centre of the shape (vertical position is
+								// manually set due to cross-browser problems with baseline)
+								.attr("x", rect.x + rect.width / 2)
+								.attr("y", rect.y + rect.height / 2 + 3.5)
+								// Centre align
+								.style("text-anchor", "middle")
+								.style("font-size", "14px")
+								.style("font-weight", "bold")
+								.style("font-family", "sans-serif")
+								// Make it a little transparent to tone down the black
+								//.style("opacity", 0.6)
+								// Format the number
+								.text(data.aggField[0]);
+						}
+					};
+					
+			        // Draw the mini chart
+			        tipChart.draw();
+					tx.titleShape.remove();
+					ty.titleShape.remove();
+        
+				};
+				
+				// Event to handle mouse exit
+    			function onLeave(e) {
+    				// Remove the chart
+        			if (tipChart !== null) {
+          				tipChart._group.remove();
+        			}
+        			// Remove the popup
+        			if (popup !== null) {
+          				popup.remove();
+        			}
+    			};
+				// hover events
+				s.addEventHandler("mouseover", onHoverTissue);
+      			s.addEventHandler("mouseleave", onLeave);
 				myChart.draw();
+
 				x.shapes.selectAll("text").attr("transform", " translate(10,-10) rotate(45)");
 			}else if (i == 5){
 				// draw the overall mutation scenario
+				var modata = dimple.filterData(overalldata, "Param", "Input");
 				var myChart = new dimple.chart(svg, modata);
 				myChart.setBounds(
 					left + (col * (width + inMarg)),
 					top + (row * (height + inMarg)),
 					width,
 					heightMain);
-				x = myChart.addCategoryAxis("x", "Input");
+				x = myChart.addCategoryAxis("x", "InputType");
 				y = myChart.addCategoryAxis("y", "Param");
-				myChart.addMeasureAxis("p", "Count");
-				var s = myChart.addSeries("CountType", dimple.plot.pie);
-        		s.radius = 15;
+				myChart.addColorAxis("OddsRatio", ["#FFFFFF", "#380B61"]);
+				var s = myChart.addSeries(null, dimple.plot.bar);
+				
+				function onHoverInput(e) {
+                	var ovrdata = <%= @overallData.html_safe %>;
+					var modata = dimple.filterData(ovrdata,"InputType",e.xValue);
+					var odrValue = modata[0].OddsRatio;
+			        // Get the properties of the selected shape
+			        var cx = parseFloat(e.selectedShape.attr("x")),
+			            cy = parseFloat(e.selectedShape.attr("y")),
+			            r = 10,
+			            fill = "#F2F2F2",
+			            stroke = "#A4A4A4"; //e.selectedShape.attr("stroke");
+			            
+			        // Set the size and position of the popup
+			        var width = 250,
+			            height = 150,
+			            x = (cx + r + width + 10 < svg.attr("width") ?
+			                  cx + r + 10 :
+			                  cx - r - width - 20);
+			            y = (cy - height / 2 < 0 ?
+			                  15 :
+			                  cy - height / 2);
+			        
+			        // Fade the popup fill mixing the shape fill with 80% white
+			        var popupFillColor = d3.rgb(
+			                    d3.rgb(fill).r ,
+			                    d3.rgb(fill).g ,
+			                    d3.rgb(fill).b
+			                );
+			        
+			        // Create a group for the popup objects
+			        popup = svg.append("g");
+			        
+			        popup
+			        	.append("rect")
+        			  	.attr("x", x)
+          			  	.attr("y", y)
+          				.attr("width", width + 50)
+          				.attr("height", height + 30)
+          				.attr("rx", 5)
+          				.attr("ry", 5)
+          				.style("fill", popupFillColor)
+          				.style("stroke", stroke)
+          				.style("stroke-width", 2);
+			        
+			        // Add the series value text
+        			popup
+				          .append("text")
+				          .attr("x", x + 20)
+				          .attr("y", y + 20)
+				          .text("Input:  " + e.xValue + " , OR: " + odrValue)
+				          .style("font-family", "sans-serif")
+				          .style("font-size", 12)
+				          .style("font-weight", "bold");
+			        
+			        // Create a new mini chart of Unit Sales over Months
+			        tipChart = new dimple.chart(svg,  modata);
+			        tipChart.setBounds(x + 70, y + 30, width - 30, height - 40);
+			        var tx = tipChart.addCategoryAxis("x", "SR");
+			        var ty = tipChart.addCategoryAxis("y", "OM");				
+			        var popUpSeries = tipChart.addSeries("Count", dimple.plot.bar);
+			        popUpSeries.barGap = 0;
+					
+					popUpSeries.afterDraw = function (shape, data) {
+						// Get the shape as a d3 selection
+						var s = d3.select(shape),
+						rect = {
+							x: parseFloat(s.attr("x")),
+							y: parseFloat(s.attr("y")),
+							width: parseFloat(s.attr("width")),
+							height: parseFloat(s.attr("height"))
+						};
+						// Only label bars where the text can fit
+						if (rect.height >= 8) {
+							// Add a text label for the value
+							popup.append("text")
+								// Position in the centre of the shape (vertical position is
+								// manually set due to cross-browser problems with baseline)
+								.attr("x", rect.x + rect.width / 2)
+								.attr("y", rect.y + rect.height / 2 + 3.5)
+								// Centre align
+								.style("text-anchor", "middle")
+								.style("font-size", "14px")
+								.style("font-weight", "bold")
+								.style("font-family", "sans-serif")
+								// Make it a little transparent to tone down the black
+								//.style("opacity", 0.6)
+								// Format the number
+								.text(data.aggField[0]);
+						}
+					};
+					
+			        // Draw the mini chart
+			        tipChart.draw();
+					tx.titleShape.remove();
+					ty.titleShape.remove();
+        
+				};
+				// hover events
+				s.addEventHandler("mouseover", onHoverInput);
+      			s.addEventHandler("mouseleave", onLeave);
 				myChart.draw();
+
+				
 				x.shapes.selectAll("text").attr("transform", " translate(10,-10) rotate(45)");
 			}else{
 				
@@ -282,23 +502,6 @@
 	
 </script>
 
-    
-<script type="text/javascript">
-	function overallPlot(){
-				var myChart = new dimple.chart(svg, todata);
-				myChart.setBounds(
-					left + (col * (width + inMarg)),
-					top + (row * (height + inMarg)),
-					width,
-					height);
-				x = myChart.addCategoryAxis("x", "Tissue");
-				y = myChart.addCategoryAxis("x", "SensitiveCelllines:");
-				var s = myChart.addSeries("TScore", dimple.plot.bar);
-				s.stacked = false;
-				myChart.draw();
-				x.shapes.selectAll("text").attr("transform", " translate(10,-10) rotate(45)");	
-	}
-</script> 
 
 <script type="text/javascript">
 
@@ -315,29 +518,23 @@
 	  		tempData = dimple.filterData(dataModel,"Model",[modelName]);
 	  		var myChart = new dimple.chart(svg, tempData);
 			myChart.setBounds(50, 10, 100, 150);
-			myChart.addMeasureAxis("p", "Value");
-			var ring = myChart.addSeries("Param", dimple.plot.pie);
+			myChart.addMeasureAxis("p", "CountValues");
+			var ring = myChart.addSeries("Count", dimple.plot.pie);
       		ring.innerRadius = "75%";
       		myChart.addLegend(10, 175, 200, 10, "right");
 			myChart.draw();
 			
 			// draw the bar plot of second set of params
-			tempData2 = dimple.filterData(tempData,"Param2",["Specificity","Precision","Recall"])
+			tempData2 = dimple.filterData(tempData,"Stats",["Specificity","Precision","Recall"])
 			var myChart2 = new dimple.chart(svg, tempData2);
 			myChart2.setBounds(300, 50, 300, 100);
-			var y = myChart2.addCategoryAxis("y", "Param2");
-			var x = myChart2.addMeasureAxis("x", "Value2");
+			var y = myChart2.addCategoryAxis("y", "Stats");
+			var x = myChart2.addMeasureAxis("x", "StatsValues");
+			x.tickFormat = "%";
 			var s = myChart2.addSeries(null, dimple.plot.bar);
 			myChart2.draw();
-			
-			// draw the boxplots
-			//tempData2 = dimple.filterData(tempData,"Param3")
-			//var myChart3 = new dimple.chart(svg, tempData);
-			//myChart3.setBounds(700, 50, 350, 100);
-			//var y = myChart3.addCategoryAxis("y", "Param3");
-			//var x = myChart3.addMeasureAxis("x", "Value3");
-			//var s = myChart3.addSeries(null, dimple.plot.bar);
-			//myChart3.draw();
+			x.titleShape.remove();
+			y.titleShape.remove();			
   		}
   		
 	});
@@ -347,56 +544,208 @@
 
 <script type="text/javascript">
 
-	// $(document).ready(function(){
-	var margin = {top: 10, right: 50, bottom: 10, left: 50},
-    width = 120 - margin.left - margin.right,
+	var labels = true; // show the text labels beside individual boxplots?
+	var margin = {top: 10, right: 30, bottom: 50, left: 50},
+    width = 350 - margin.left - margin.right,
     height = 200 - margin.top - margin.bottom;
 
 	var min = Infinity,
     	max = -Infinity;
 
-	var chart = d3.box()
-    	.whiskers(iqr(1.5))
-    	.width(width)
-    	.height(height);
-    	
 	var bdata = <%= @boxData.html_safe %>;
-	//console.log(bdata);
+
+	for (i = 0; i < 8; i++ ){
+  		var divid = i + 1;
+  		var modelid = "Model" + divid;
+  		var svgName = "#boxPlot" + divid;
+  		var btempdata = dimple.filterData(bdata,"Model",modelid);
+  		var data = [];
+		data[0] = [];
+		data[1] = [];
+
+		// add here the header of the csv file
+		data[0][0] = "Predicted Sensitive";
+		data[1][0] = "Predicted Resistant";
+	
+	  	data[0][1] = [];
+		data[1][1] = [];		
+  		
+  		btempdata.forEach(function(x) {
+			var v1 = Math.floor(x.Q1),
+				v2 = Math.floor(x.Q2);
+				//v3 = Math.floor(x.Q3),
+				//v4 = Math.floor(x.Q4);
+				// add more variables if your csv file has more columns
+			
+			if (v1 != 1000 && v2 != 1000){
+				//var rowMax = Math.max(v1, Math.max(v2, Math.max(v3,v4)));
+				var rowMax = Math.max(v1, v2);
+				//var rowMin = Math.min(v1, Math.min(v2, Math.min(v3,v4)));
+				var rowMin = Math.min(v1, v2);
+				if (rowMax > max) max = rowMax;
+				if (rowMin < min) min = rowMin;	
+			}
+			if (v1 != 1000)
+			{
+				data[0][1].push(v1);				
+			}
+			if (v2 != 1000)
+			{
+				data[1][1].push(v2);
+			}
+			//data[2][1].push(v3);
+			//data[3][1].push(v4);
+			// add more rows if your csv file has more columns
+		 
+		});
+		
+		var chart = d3.box()
+			.whiskers(iqr(1.5))
+			.height(height)	
+			.domain([min, max])
+			.showLabels(labels);
+
+		var svg = d3.select(svgName).append("svg")
+			.attr("width", width + margin.left + margin.right)
+			.attr("height", height + margin.top + margin.bottom)
+			.attr("class", "box")    
+			.append("g")
+			.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+		// the x-axis
+		var x = d3.scale.ordinal()	   
+			.domain( data.map(function(d) { console.log(d); return d[0] } ) )	    
+			.rangeRoundBands([0 , width], 0.7, 0.3); 		
+
+		var xAxis = d3.svg.axis()
+			.scale(x)
+			.orient("bottom");
+
+		// the y-axis
+		var y = d3.scale.linear()
+			.domain([min, max])
+			.range([height + margin.top, 0 + margin.top]);
+	
+		var yAxis = d3.svg.axis()
+    		.scale(y)
+    		.orient("left");
+
+		// draw the boxplots	
+		svg.selectAll(".box")	   
+    	  	.data(data)
+	  		.enter().append("g")
+				.attr("transform", function(d) { return "translate(" +  x(d[0])  + "," + margin.top + ")"; } )
+      		.call(chart.width(x.rangeBand())); 
+      		
+      	// draw y axis
+		svg.append("g")
+        	.attr("class", "y axis")
+        	.call(yAxis)
+			.append("text") // and text1
+		  		.attr("transform", "rotate(-90)")
+		  		.attr("y", -50)
+		  		.attr("x", -( height / 2))
+		  		.attr("dy", ".71em")
+		  		.style("text-anchor", "end")
+		  		.style("font-size", "10px") 
+		  		.text("logIC50s");		
+	
+		// draw x axis	
+		svg.append("g")
+      		.attr("class", "x axis")
+      		.attr("transform", "translate(0," + (height  + margin.top + 10) + ")")
+      		.call(xAxis)
+	  		.append("text")             // text label for the x axis
+        		.attr("x", (width / 2) )
+        		.attr("y",  10 )
+				.attr("dy", ".71em")
+        		.style("text-anchor", "middle")
+				.style("font-size", "10px"); 
+        		//.text("Predictions"); 
+	
+
+  	//	var svg = d3.select(svgName).selectAll("svg")
+	//      .data(data)
+	//   .enter().append("svg")
+	//      .attr("class", "box")
+	//      .attr("width", width + margin.left + margin.right)
+	//      .attr("height", height + margin.bottom + margin.top)
+	//    .append("g")
+	//      .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
+	//      .call(chart);
+  	}
+
+
+
+	//data[2] = [];
+	//data[3] = [];
+	// add more rows if your csv file has more columns
+
+	//data[2][0] = "Q3";
+	//data[3][0] = "Q4";
+	// add more rows if your csv file has more columns
+
+
+	//data[2][1] = [];
+	//data[3][1] = [];
+  
+	//console.log(max);
+	//console.log(min);
+	
+
+	
+	      
+	// add a title
+	//svg.append("text")
+    //    .attr("x", (width / 2))             
+    //    .attr("y", 0 + (margin.top / 2))
+    //    .attr("text-anchor", "middle")  
+    //    .style("font-size", "18px") 
+        //.style("text-decoration", "underline")  
+    //    .text("IC50s by Models");
+ 
+        
+	//var chart = d3.box()
+    //	.whiskers(iqr(1.5))
+    //	.width(width)
+    //	.height(height);
+    	
+
 	
 	//d3.csv(bdata, function(error, csv) {
 	  //if (error) throw error;
 
-	  var data = [];
+	//  var data = [];
 
-	  bdata.forEach(function(x) {
+	//  bdata.forEach(function(x) {
 	  	//console.log(x);
 	    //console.log(x.Expt);
-	    var e = Math.floor(x.Expt - 1),
-	        r = Math.floor(x.Run - 1),
-	        s = Math.floor(x.Speed),
-	        d = data[e];
+	//    var e = Math.floor(x.Expt - 1),
+	//        r = Math.floor(x.Run - 1),
+	//        s = Math.floor(x.Speed),
+	//        d = data[e];
 	       
-	    if (!d) d = data[e] = [s];
-	    else d.push(s);
-	    if (s > max) max = s;
-	    if (s < min) min = s;
-	  });
+	//    if (!d) d = data[e] = [s];
+	//    else d.push(s);
+	//    if (s > max) max = s;
+	//    if (s < min) min = s;
+	//  });
 
-	chart.domain([min, max]);
+	//chart.domain([min, max]);
 	
-	for (i = 0; i < 8; i++ ){
-  		var divid = i + 1;
-  		var svgName = "#boxPlot" + divid;
-  		var svg = d3.select(svgName).selectAll("svg")
-	      .data(data)
-	    .enter().append("svg")
-	      .attr("class", "box")
-	      .attr("width", width + margin.left + margin.right)
-	      .attr("height", height + margin.bottom + margin.top)
-	    .append("g")
-	      .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
-	      .call(chart);
-  	}
+	//for (i = 0; i < 8; i++ ){
+  	//	var divid = i + 1;
+  	//	var svgName = "#boxPlot" + divid;
+  	//	var svg = d3.select(svgName).selectAll("svg")
+	//      .data(data)
+	//   .enter().append("svg")
+	//      .attr("class", "box")
+	//      .attr("width", width + margin.left + margin.right)
+	//      .attr("height", height + margin.bottom + margin.top)
+	//    .append("g")
+	//      .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
+	//      .call(chart);
+  	//}
 	
 
 	//setInterval(function() {
@@ -430,7 +779,5 @@
 	    return [i, j];
 	  };
 	}
-	//});
+	
 </script>
-
-

@@ -1,0 +1,5 @@
+#Param	OddsRatio	Tissue	SR	ONO	value
+Param	0	skin	Sensitive CLs	Origin	20
+Param	0	skin	Sensitive CLs	Non-Origin	20
+Param	0	skin	Resistant CLs	Origin	17
+Param	0	skin	Resistant CLs	Non-Origin	799

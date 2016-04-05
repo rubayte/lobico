@@ -9,22 +9,12 @@ d3.box = function() {
       value = Number,
       whiskers = boxWhiskers,
       quartiles = boxQuartiles,
-	  showLabels = true, // whether or not to show text labels
-	  numBars = 4,
-	  curBar = 1,
       tickFormat = null;
 
   // For each small multiple…
   function box(g) {
-    g.each(function(data, i) {
-      //d = d.map(value).sort(d3.ascending);
-	  //var boxIndex = data[0];
-	  //var boxIndex = 1;
-	  var d = data[1].sort(d3.ascending);
-	  
-	 // console.log(boxIndex); 
-	  //console.log(d); 
-	  
+    g.each(function(d, i) {
+      d = d.map(value).sort(d3.ascending);
       var g = d3.select(this),
           n = d.length,
           min = d[0],
@@ -51,7 +41,6 @@ d3.box = function() {
       // Retrieve the old x-scale, if this is an update.
       var x0 = this.__chart__ || d3.scale.linear()
           .domain([0, Infinity])
-		 // .domain([0, max])
           .range(x1.range());
 
       // Stash the new scale.
@@ -66,7 +55,6 @@ d3.box = function() {
       var center = g.selectAll("line.center")
           .data(whiskerData ? [whiskerData] : []);
 
-	 //vertical line
       center.enter().insert("line", "rect")
           .attr("class", "center")
           .attr("x1", width / 2)
@@ -141,7 +129,7 @@ d3.box = function() {
           .attr("class", "whisker")
           .attr("x1", 0)
           .attr("y1", x0)
-          .attr("x2", 0 + width)
+          .attr("x2", width)
           .attr("y2", x0)
           .style("opacity", 1e-6)
         .transition()
@@ -195,20 +183,19 @@ d3.box = function() {
       // Update box ticks.
       var boxTick = g.selectAll("text.box")
           .data(quartileData);
-	 if(showLabels == true) {
+
       boxTick.enter().append("text")
           .attr("class", "box")
           .attr("dy", ".3em")
           .attr("dx", function(d, i) { return i & 1 ? 6 : -6 })
-          .attr("x", function(d, i) { return i & 1 ?  + width : 0 })
+          .attr("x", function(d, i) { return i & 1 ? width : 0 })
           .attr("y", x0)
           .attr("text-anchor", function(d, i) { return i & 1 ? "start" : "end"; })
           .text(format)
         .transition()
           .duration(duration)
           .attr("y", x1);
-	}
-		 
+
       boxTick.transition()
           .duration(duration)
           .text(format)
@@ -219,7 +206,7 @@ d3.box = function() {
       // to join box ticks pre-transition with whisker ticks post-.
       var whiskerTick = g.selectAll("text.whisker")
           .data(whiskerData || []);
-	if(showLabels == true) {
+
       whiskerTick.enter().append("text")
           .attr("class", "whisker")
           .attr("dy", ".3em")
@@ -232,7 +219,7 @@ d3.box = function() {
           .duration(duration)
           .attr("y", x1)
           .style("opacity", 1);
-	}
+
       whiskerTick.transition()
           .duration(duration)
           .text(format)
@@ -287,12 +274,6 @@ d3.box = function() {
   box.whiskers = function(x) {
     if (!arguments.length) return whiskers;
     whiskers = x;
-    return box;
-  };
-  
-  box.showLabels = function(x) {
-    if (!arguments.length) return showLabels;
-    showLabels = x;
     return box;
   };
 

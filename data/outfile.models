@@ -1,0 +1,32 @@
+Model2	CTNNB1  | GATA3  | TP53 	TP	181	Specificity	0.811
+Model2	CTNNB1  | GATA3  | TP53 	TN	499	Precision	0.609
+Model2	CTNNB1  | GATA3  | TP53 	FP	116	Recall	0.819
+Model2	CTNNB1  | GATA3  | TP53 	FN	40	NA	0
+Model6	TP53  & a(MCM3)  & d(CHD3,GPS2,TP53) 	TP	167	Specificity	0.875
+Model6	TP53  & a(MCM3)  & d(CHD3,GPS2,TP53) 	TN	538	Precision	0.684
+Model6	TP53  & a(MCM3)  & d(CHD3,GPS2,TP53) 	FP	77	Recall	0.756
+Model6	TP53  & a(MCM3)  & d(CHD3,GPS2,TP53) 	FN	54	NA	0
+Model4	CTNNB1  | TP53 	TP	180	Specificity	0.815
+Model4	CTNNB1  | TP53 	TN	501	Precision	0.612
+Model4	CTNNB1  | TP53 	FP	114	Recall	0.814
+Model4	CTNNB1  | TP53 	FN	41	NA	0
+Model1	F8  & MAGI2   |  TP53  & a(MET) 	TP	167	Specificity	0.837
+Model1	F8  & MAGI2   |  TP53  & a(MET) 	TN	515	Precision	0.625
+Model1	F8  & MAGI2   |  TP53  & a(MET) 	FP	100	Recall	0.756
+Model1	F8  & MAGI2   |  TP53  & a(MET) 	FN	54	NA	0
+Model7	CTNNB1  | GATA3  | MLL-AFF1  | TP53 	TP	182	Specificity	0.811
+Model7	CTNNB1  | GATA3  | MLL-AFF1  | TP53 	TN	499	Precision	0.611
+Model7	CTNNB1  | GATA3  | MLL-AFF1  | TP53 	FP	116	Recall	0.824
+Model7	CTNNB1  | GATA3  | MLL-AFF1  | TP53 	FN	39	NA	0
+Model3	RB1  & TP53  & a(MCM3)  & d(CUL3) 	TP	173	Specificity	0.863
+Model3	RB1  & TP53  & a(MCM3)  & d(CUL3) 	TN	531	Precision	0.673
+Model3	RB1  & TP53  & a(MCM3)  & d(CUL3) 	FP	84	Recall	0.783
+Model3	RB1  & TP53  & a(MCM3)  & d(CUL3) 	FN	48	NA	0
+Model5	TP53  & a(MCM3) 	TP	175	Specificity	0.839
+Model5	TP53  & a(MCM3) 	TN	516	Precision	0.639
+Model5	TP53  & a(MCM3) 	FP	99	Recall	0.792
+Model5	TP53  & a(MCM3) 	FN	46	NA	0
+Model8	TP53 	TP	176	Specificity	0.821
+Model8	TP53 	TN	505	Precision	0.615
+Model8	TP53 	FP	110	Recall	0.796
+Model8	TP53 	FN	45	NA	0
