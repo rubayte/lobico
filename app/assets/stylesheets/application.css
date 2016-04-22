@@ -10,6 +10,7 @@
  *
  *= require_self
  *= require bootstrap.min
+ *= require joint.min 
  *= require datatables.min
  *= require_tree .
  */

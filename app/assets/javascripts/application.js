@@ -13,6 +13,9 @@
 //= require bootstrap.min
 //= require jquery
 //= require jquery_ujs
+//= require lodash.min
+//= require backbone-min
+//= require joint.min.js
 //= require datatables.min
 //= require d3.v3.min
 //= require box

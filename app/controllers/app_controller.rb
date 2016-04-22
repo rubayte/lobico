@@ -35,6 +35,13 @@ class AppController < ApplicationController
     @singleModel = "Single Model"
     @cvModel = "CV Model"
   end
+
+  def viewTestModel2
+    @drug = "Nutlin-3a"
+    (@models,@histData,@modelData,@boxData,@heatmapData,@overallData,@models2,@mnData) = Datafile.getModelByCancerDrug("PANCAN","Nutlin-3a")
+    @singleModel = "Single Model"
+    @cvModel = "CV Model"
+  end
   
   def browseAllModels
     @cvelt = nil

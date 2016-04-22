@@ -9,6 +9,7 @@ Lobico::Application.routes.draw do
   match "browseByModels", :to => 'app#browseByModels'
   match "browseAllModels", :to => 'app#browseAllModels'
   match "viewTestModel", :to => 'app#viewTestModel'
+  match "viewTestModel2", :to => 'app#viewTestModel2'
   
   # Sample of regular route:
   #   match 'products/:id' => 'catalog#view'

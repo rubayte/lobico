@@ -1,0 +1,1579 @@
+Cell line name	Analysis Set Name	COSMIC ID	Sanger_ID	Matched status	GDSC description_1	GDSC description_2	Study Abbreviation	Comment	MMR	Analysis Set	Exome	SNP6	expression	methylation	IC50s	RNA-seq	Comment - genetics
+A253	A253	906794	1710STDY5035552	Unmatched	aero_dig_tract	head and neck		submandibular gland carcinoma	MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+BB30-HNC	BB30-HNC	753531	1710STDY5035555	Matched	aero_dig_tract	head and neck	HNSC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+BB49-HNC	BB49-HNC	753532	CGP_CCL5103737	Matched	aero_dig_tract	head and neck	HNSC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+BHY	BHY	753535	1710STDY5035551	Unmatched	aero_dig_tract	head and neck	HNSC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+BICR10	BICR10	1290724	CGP_CCL5306254	Unmatched	aero_dig_tract	head and neck	HNSC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+BICR22	BICR22	1240121	1710STDY5035533	Unmatched	aero_dig_tract	head and neck	HNSC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+BICR31	BICR31	1290725	CGP_CCL5369281	Unmatched	aero_dig_tract	head and neck	HNSC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+BICR78	BICR78	1240122	1710STDY5035534	Unmatched	aero_dig_tract	head and neck	HNSC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+Ca9-22	Ca9-22	753538	1710STDY5035527	Unmatched	aero_dig_tract	head and neck	HNSC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+CAL-27	CAL-27	910916	CGP_CCL5055372	Unmatched	aero_dig_tract	head and neck	HNSC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	in-process (CCLE)	
+CAL-33	CAL-33	753541	1710STDY5035523	Unmatched	aero_dig_tract	head and neck	HNSC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+Detroit562	Detroit562	906837	1710STDY5035543	Unmatched	aero_dig_tract	head and neck	HNSC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+DOK	DOK	910936	1710STDY5035525	Unmatched	aero_dig_tract	head and neck	HNSC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+FADU	FADU	906863	1710STDY5035548	Unmatched	aero_dig_tract	head and neck	HNSC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	in-process (CCLE)	
+H3118	H3118	1240140	1710STDY5035537	Unmatched	aero_dig_tract	head and neck		parotid gland tumour	MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		Not commercially available
+HN	HN	907059	1710STDY5035549	Unmatched	aero_dig_tract	head and neck	HNSC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+HO-1-N-1	HO-1-N-1	924111	1710STDY5035546	Unmatched	aero_dig_tract	head and neck	HNSC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+HO-1-u-1	HO-1-u-1	753561	1710STDY5035542	Unmatched	aero_dig_tract	head and neck	HNSC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+HSC-2	HSC-2	753562	CGP_CCL5103686	Unmatched	aero_dig_tract	head and neck	HNSC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+HSC-3	HSC-3	907061	1710STDY5035547	Unmatched	aero_dig_tract	head and neck	HNSC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	in-process (CCLE)	
+HSC-4	HSC-4	907062	CGP_CCL5306162	Unmatched	aero_dig_tract	head and neck	HNSC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+JHU-011	JHU-011	1240161	1710STDY5035535	Unmatched	aero_dig_tract	head and neck	HNSC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		Not commercially available
+JHU-022	JHU-022	1240162	1710STDY5035536	Unmatched	aero_dig_tract	head and neck	HNSC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		Not commercially available
+KON	KON	1298215	1710STDY5035540	Unmatched	aero_dig_tract	head and neck	HNSC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+KOSC-2	KOSC-2	753570	1710STDY5035545	Unmatched	aero_dig_tract	head and neck	HNSC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+LB771-HNC	LB771-HNC	753583	1710STDY5035554	Matched	aero_dig_tract	head and neck	HNSC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+OSC-19	OSC-19	1298362	CGP_CCL5103722	Unmatched	aero_dig_tract	head and neck	HNSC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+OSC-20	OSC-20	1240196	1710STDY5035529	Unmatched	aero_dig_tract	head and neck	HNSC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+PCI-15A	PCI-15A	1240204	1710STDY5035531	Unmatched	aero_dig_tract	head and neck	HNSC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		Not commercially available
+PCI-30	PCI-30	1298529	1710STDY5035556	Unmatched	aero_dig_tract	head and neck	HNSC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		Not commercially available
+PCI-38	PCI-38	1240205	1710STDY5035532	Unmatched	aero_dig_tract	head and neck	HNSC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		Not commercially available
+PCI-4B	PCI-4B	1298531	1710STDY5035559	Unmatched	aero_dig_tract	head and neck	HNSC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		Not commercially available
+PCI-6A	PCI-6A	1240206	1710STDY5035558	Unmatched	aero_dig_tract	head and neck	HNSC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		Not commercially available
+PE_CA-PJ15	PE/CA-PJ15	1240207	1710STDY5035530	Unmatched	aero_dig_tract	head and neck	HNSC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+RPMI-2650	RPMI-2650	909700	1710STDY5035550	Unmatched	aero_dig_tract	head and neck	HNSC	nasal squamous cell carcinoma	MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+SAS	SAS	909708	1710STDY5035528	Unmatched	aero_dig_tract	head and neck	HNSC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+SAT	SAT	1299050	CGP_CCL5306224	Unmatched	aero_dig_tract	head and neck	HNSC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+SCC-15	SCC-15	910911	1710STDY5035524	Unmatched	aero_dig_tract	head and neck	HNSC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+SCC-25	SCC-25	910701	1710STDY5035539	Unmatched	aero_dig_tract	head and neck	HNSC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+SCC-4	SCC-4	910904	1710STDY5035544	Unmatched	aero_dig_tract	head and neck	HNSC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+SCC-9	SCC-9	909709	1710STDY5035526	Unmatched	aero_dig_tract	head and neck	HNSC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+SKN-3	SKN-3	1299059	CGP_CCL5306152	Unmatched	aero_dig_tract	head and neck	HNSC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+COLO-680N	COLO-680N	906817	1710STDY5034847	Unmatched	aero_dig_tract	oesophagus	ESCA		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	in-process (CCLE)	
+EC-GI-10	EC-GI-10	753555	1710STDY5034846	Unmatched	aero_dig_tract	oesophagus	ESCA		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+ESO26	ESO26	1503366	CGP_CCL5228690	Unmatched	aero_dig_tract	oesophagus	ESCA		MSI-L	Yes	Yes	Yes	Yes	Yes	Yes		
+ESO51	ESO51	1503367	CGP_CCL5228718	Unmatched	aero_dig_tract	oesophagus	ESCA		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+FLO-1	FLO-1	1503361	CGP_CCL5228698	Unmatched	aero_dig_tract	oesophagus	ESCA		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+HCE-4	HCE-4	753559	1710STDY5034830	Unmatched	aero_dig_tract	oesophagus	ESCA		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+KYAE-1	KYAE-1	1503368	CGP_CCL5228731	Unmatched	aero_dig_tract	oesophagus	ESCA		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+KYSE-140	KYSE-140	753573	1710STDY5034833	Unmatched	aero_dig_tract	oesophagus	ESCA		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+KYSE-150	KYSE-150	907317	1710STDY5034832	Unmatched	aero_dig_tract	oesophagus	ESCA		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	in-process (CCLE)	
+KYSE-180	KYSE-180	907318	1710STDY5034831	Unmatched	aero_dig_tract	oesophagus	ESCA		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	in-process (CCLE)	
+KYSE-220	KYSE-220	1240167	1710STDY5034827	Unmatched	aero_dig_tract	oesophagus	ESCA		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+KYSE-270	KYSE-270	907319	1710STDY5034829	Unmatched	aero_dig_tract	oesophagus	ESCA		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+KYSE-410	KYSE-410	753574	1710STDY5034824	Unmatched	aero_dig_tract	oesophagus	ESCA		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	in-process (CCLE)	
+KYSE-450	KYSE-450	907320	1710STDY5034845	Unmatched	aero_dig_tract	oesophagus	ESCA		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+KYSE-50	KYSE-50	1298222	1710STDY5034821	Unmatched	aero_dig_tract	oesophagus	ESCA		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+KYSE-510	KYSE-510	907321	1710STDY5034844	Unmatched	aero_dig_tract	oesophagus	ESCA		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	in-process (CCLE)	
+KYSE-520	KYSE-520	753575	1710STDY5034843	Unmatched	aero_dig_tract	oesophagus	ESCA		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+KYSE-70	KYSE-70	753576	1710STDY5034826	Unmatched	aero_dig_tract	oesophagus	ESCA		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+OACM5-1	OACM5-1	1503363	CGP_CCL5228684	Unmatched	aero_dig_tract	oesophagus	ESCA		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+OACp4C	OACp4C	1503362	CGP_CCL5228713	Unmatched	aero_dig_tract	oesophagus	ESCA		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+OE19	OE19	910079	1710STDY5034842	Unmatched	aero_dig_tract	oesophagus	ESCA		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+OE21	OE21	1298359	1710STDY5034822	Unmatched	aero_dig_tract	oesophagus	ESCA		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+OE33	OE33	910549	1710STDY5034828	Unmatched	aero_dig_tract	oesophagus	ESCA		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+SK-GT-4	SK-GT-4	1503365	CGP_CCL5228706	Unmatched	aero_dig_tract	oesophagus	ESCA		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+TE-1	TE-1	753621	1710STDY5034840	Unmatched	aero_dig_tract	oesophagus	ESCA		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+TE-10	TE-10	753622	1710STDY5034841	Unmatched	aero_dig_tract	oesophagus	ESCA		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+TE-11	TE-11	946354	1710STDY5034825	Unmatched	aero_dig_tract	oesophagus	ESCA		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+TE-12	TE-12	946356	1710STDY5034839	Unmatched	aero_dig_tract	oesophagus	ESCA		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+TE-15	TE-15	753614	1710STDY5034838	Unmatched	aero_dig_tract	oesophagus	ESCA		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+TE-4	TE-4	1503371	CGP_CCL5103695	Unmatched	aero_dig_tract	oesophagus	ESCA		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+TE-5	TE-5	735784	1710STDY5034837	Unmatched	aero_dig_tract	oesophagus	ESCA		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	in-process (CCLE)	
+TE-6	TE-6	946355	1710STDY5034836	Unmatched	aero_dig_tract	oesophagus	ESCA		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+TE-8	TE-8	753623	1710STDY5034835	Unmatched	aero_dig_tract	oesophagus	ESCA		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+TE-9	TE-9	946353	1710STDY5034834	Unmatched	aero_dig_tract	oesophagus	ESCA		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+T-T	T-T	1299064	CGP_CCL5306159	Unmatched	aero_dig_tract	oesophagus	ESCA		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+CESS	CESS	910688	1710STDY5034905	Unmatched	leukemia	acute_myeloid_leukaemia	LAML		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+CMK	CMK	910566	1710STDY5034891	Unmatched	leukemia	acute_myeloid_leukaemia	LAML		MSI-S	Yes	Yes	Yes	Yes	No	Yes	Yes	
+CTV-1	CTV-1	753548	1710STDY5034892	Unmatched	leukemia	acute_myeloid_leukaemia	LAML		MSI-H	Yes	Yes	Yes	Yes	Yes	Yes		
+GDM-1	GDM-1	906870	CGP_CCL5391656	Unmatched	leukemia	acute_myeloid_leukaemia	LAML		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+HEL	HEL	907053	1710STDY5034909	Unmatched	leukemia	acute_myeloid_leukaemia	LAML		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+HL-60	HL-60	905938	1710STDY5034929	Unmatched	leukemia	acute_myeloid_leukaemia	LAML		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+KASUMI-1	KASUMI-1	907275	1710STDY5034897	Unmatched	leukemia	acute_myeloid_leukaemia	LAML		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+KG-1	KG-1	907278	1710STDY5034855	Unmatched	leukemia	acute_myeloid_leukaemia	LAML		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+KMOE-2	KMOE-2	907280	1710STDY5034858	Unmatched	leukemia	acute_myeloid_leukaemia	LAML		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+KO52	KO52	1330932	1710STDY5034956	Unmatched	leukemia	acute_myeloid_leukaemia	LAML		MSI-L	Yes	Yes	Yes	No	No	No		
+ME-1	ME-1	1330942	CGP_CCL5306251	Unmatched	leukemia	acute_myeloid_leukaemia	LAML		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+ML-2	ML-2	908141	1710STDY5034868	Unmatched	leukemia	acute_myeloid_leukaemia	LAML		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+MOLM-13	MOLM-13	1330947	CGP_CCL5306219	Unmatched	leukemia	acute_myeloid_leukaemia	LAML		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	in-process (CCLE)	
+MONO-MAC-6	MONO-MAC-6	908148	1710STDY5034871	Unmatched	leukemia	acute_myeloid_leukaemia	LAML		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+NB4	NB-4	1323913	CGP_CCL5391645	Unmatched	leukemia	acute_myeloid_leukaemia	LAML	#N/A	MSI-S	Yes	Yes	Yes	Yes	No	Yes	Yes	
+NKM-1	NKM-1	908448	1710STDY5034938	Unmatched	leukemia	acute_myeloid_leukaemia	LAML		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+NOMO-1	NOMO-1	908451	1710STDY5034939	Unmatched	leukemia	acute_myeloid_leukaemia	LAML		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+OCI-AML2	OCI-AML2	910947	1710STDY5034856	Unmatched	leukemia	acute_myeloid_leukaemia	LAML		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+OCI-AML3	OCI-AML3	1290455	1710STDY5034910	Unmatched	leukemia	acute_myeloid_leukaemia	LAML		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+OCI-AML5	OCI-AML5	1330983	CGP_CCL5306153	Unmatched	leukemia	acute_myeloid_leukaemia	LAML		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+OCI-M1	OCI-M1	1330985	CGP_CCL5306180	Unmatched	leukemia	acute_myeloid_leukaemia	LAML		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	in-process (CCLE)	
+P31-FUJ	P31-FUJ	909253	1710STDY5034874	Unmatched	leukemia	acute_myeloid_leukaemia	LAML		MSI-H	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+PL-21	PL-21	1330991	CGP_CCL5306151	Unmatched	leukemia	acute_myeloid_leukaemia	LAML		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+QIMR-WIL	QIMR-WIL	910545	1710STDY5034940	Unmatched	leukemia	acute_myeloid_leukaemia	LAML		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+SIG-M5	SIG-M5	909715	CGP_CCL5306287	Unmatched	leukemia	acute_myeloid_leukaemia	LAML		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+THP-1	THP-1	909771	1710STDY5034883	Unmatched	leukemia	acute_myeloid_leukaemia	LAML		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+KARPAS-299	KARPAS-299	907273	CGP_CCL5103846	Unmatched	lymphoma	anaplastic_large_cell_lymphoma			MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+SU-DHL-1	SU-DHL-1	909742	CGP_CCL5103781	Unmatched	lymphoma	anaplastic_large_cell_lymphoma			MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+SUP-M2	SUP-M2	1331040	CGP_CCL5306308	Unmatched	lymphoma	anaplastic_large_cell_lymphoma			MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	in-process (CCLE)	
+BALL-1	BALL-1	910705	1710STDY5034889	Unmatched	leukemia	B_cell_leukemia			MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+KARPAS-231	KARPAS-231	1327774	CGP_CCL5306220	Unmatched	leukemia	B_cell_leukemia			MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+KOPN-8	KOPN-8	1330933	CGP_CCL5306222	Unmatched	leukemia	B_cell_leukemia			MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+MHH-CALL-2	MHH-CALL-2	908132	CGP_CCL5369285	Unmatched	leukemia	B_cell_leukemia			MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+MHH-CALL-4	MHH-CALL-4	908133	CGP_CCL5369295	Unmatched	leukemia	B_cell_leukemia			MSI-S	Yes	Yes	Yes	Yes	Yes	No	Yes	Poor Growth - Might possibly be improved if re-ordered
+MHH-PREB-1	MHH-PREB-1	908136	1710STDY5034867	Unmatched	leukemia	B_cell_leukemia			MSI-H	Yes	Yes	Yes	Yes	Yes	Yes		
+MN-60	MN-60	908143	1710STDY5034933	Unmatched	leukemia	B_cell_leukemia			MSI-H	Yes	Yes	Yes	Yes	Yes	Yes		
+NALM-6	NALM-6	908158	CGP_CCL5103824	Unmatched	leukemia	B_cell_leukemia			MSI-H	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+RCH-ACV	RCH-ACV	1330994	CGP_CCL5391647	Unmatched	leukemia	B_cell_leukemia			MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+REH	REH	909696	1710STDY5034876	Unmatched	leukemia	B_cell_leukemia			MSI-H	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+ROS-50	ROS-50	1331025	CGP_CCL5306259	Unmatched	leukemia	B_cell_leukemia			MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+SUP-B8	SUP-B8	910209	1710STDY5034901	Unmatched	leukemia	B_cell_leukemia			MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+U-698-M	U-698-M	909777	1710STDY5034885	Unmatched	leukemia	B_cell_leukemia			MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+A3-KAW	A3-KAW	910935	CGP_CCL5103735	Unmatched	lymphoma	B_cell_lymphoma	DLBC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+A4-Fuk	A4-Fuk	910934	1710STDY5035143	Unmatched	lymphoma	B_cell_lymphoma	DLBC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+BC-1	BC-1	910919	1710STDY5034913	Unmatched	lymphoma	B_cell_lymphoma	DLBC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+BC-3	BC-3	910918	1710STDY5034959	Unmatched	lymphoma	B_cell_lymphoma	DLBC		MSI-S	Yes	Yes	Yes	No	Yes	Yes		
+CRO-AP2	CRO-AP2	906807	1710STDY5034950	Unmatched	lymphoma	B_cell_lymphoma	DLBC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+CTB-1	CTB-1	949088	1710STDY5034896	Unmatched	lymphoma	B_cell_lymphoma	DLBC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+DB	DB	906832	CGP_CCL5103693	Unmatched	lymphoma	B_cell_lymphoma	DLBC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	in-process (CCLE)	
+DOHH-2	DOHH-2	906842	1710STDY5034924	Unmatched	lymphoma	B_cell_lymphoma	DLBC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+Farage	Farage	1297449	CGP_CCL5306272	Unmatched	lymphoma	B_cell_lymphoma	DLBC		MSI-L	Yes	Yes	Yes	Yes	Yes	Yes		
+GRANTA-519	GRANTA-519	1303897	CGP_CCL5306250	Unmatched	lymphoma	B_cell_lymphoma	DLBC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+HT	HT	907063	CGP_CCL5369334	Unmatched	lymphoma	B_cell_lymphoma	DLBC		MSI-H	Yes	Yes	Yes	No	Yes	Yes	Yes	
+JEKO-1	JEKO-1	1327765	CGP_CCL5228676	Unmatched	lymphoma	B_cell_lymphoma	DLBC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+JM1	JM1	1327768	CGP_CCL5306229	Unmatched	lymphoma	B_cell_lymphoma	DLBC		MSI-S	Yes	Yes	Yes	Yes	No	Yes	Yes	
+JSC-1	JSC-1	1327769	CGP_CCL5306213	Unmatched	lymphoma	B_cell_lymphoma	DLBC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+KARPAS-1106P	KARPAS-1106P	1327773	CGP_CCL5391663	Unmatched	lymphoma	B_cell_lymphoma	DLBC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+KARPAS-422	KARPAS-422	907274	1710STDY5034887	Unmatched	lymphoma	B_cell_lymphoma	DLBC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+MC116	MC116	907799	1710STDY5034866	Unmatched	lymphoma	B_cell_lymphoma	DLBC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+NU-DUL-1	NU-DUL-1	1330982	CGP_CCL5306202	Unmatched	lymphoma	B_cell_lymphoma	DLBC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+OCI-LY-19	OCI-LY-19	1330984	CGP_CCL5306179	Unmatched	lymphoma	B_cell_lymphoma	DLBC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+RC-K8	RC-K8	1330995	CGP_CCL5306157	Unmatched	lymphoma	B_cell_lymphoma	DLBC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+RL	RL	910861	CGP_CCL5103797	Unmatched	lymphoma	B_cell_lymphoma	DLBC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	in-process (CCLE)	
+Sci-1	SC-1	1331030	CGP_CCL5369301	Unmatched	lymphoma	B_cell_lymphoma	DLBC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		Same cell line as Sci-1 which is already in the collection - All expression and methylation data for Sci-1 needs to be renamed to SC-1
+SCC-3	SCC-3	910930	CGP_CCL5103687	Unmatched	lymphoma	B_cell_lymphoma	DLBC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+SLVL	SLVL	1331032	CGP_CCL5306149	Unmatched	lymphoma	B_cell_lymphoma	DLBC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+SU-DHL-10	SU-DHL-10	1331033	CGP_CCL5306181	Unmatched	lymphoma	B_cell_lymphoma	DLBC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+SU-DHL-16	SU-DHL-16	1331034	CGP_CCL5306184	Unmatched	lymphoma	B_cell_lymphoma	DLBC		MSI-L	Yes	Yes	Yes	Yes	Yes	Yes		
+SU-DHL-4	SU-DHL-4	1331035	CGP_CCL5306183	Unmatched	lymphoma	B_cell_lymphoma	DLBC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+SU-DHL-5	SU-DHL-5	1331036	CGP_CCL5306306	Unmatched	lymphoma	B_cell_lymphoma	DLBC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+SU-DHL-6	SU-DHL-6	1331037	CGP_CCL5306284	Unmatched	lymphoma	B_cell_lymphoma	DLBC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+SU-DHL-8	SU-DHL-8	1331038	CGP_CCL5306189	Unmatched	lymphoma	B_cell_lymphoma	DLBC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+TK	TK	1331045	CGP_CCL5306249	Unmatched	lymphoma	B_cell_lymphoma	DLBC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+TUR	TUR	909773	1710STDY5034884	Unmatched	lymphoma	B_cell_lymphoma	DLBC		MSI-H	Yes	Yes	Yes	Yes	Yes	Yes		
+VAL	VAL	1331048	CGP_CCL5228739	Unmatched	lymphoma	B_cell_lymphoma	DLBC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+WSU-DLCL2	WSU-DLCL2	1331050	CGP_CCL5306170	Unmatched	lymphoma	B_cell_lymphoma	DLBC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+BL-41	BL-41	910706	CGP_CCL5369293	Unmatched	lymphoma	Burkitt_lymphoma			MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+CA46	CA46	910703	1710STDY5034904	Unmatched	lymphoma	Burkitt_lymphoma			MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+Daudi	Daudi	906831	1710STDY5034960	Unmatched	lymphoma	Burkitt_lymphoma			MSI-L	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+DG-75	DG-75	906838	1710STDY5034894	Unmatched	lymphoma	Burkitt_lymphoma			MSI-H	Yes	Yes	Yes	Yes	Yes	Yes		
+EB2	EB2	906846	1710STDY5034906	Unmatched	lymphoma	Burkitt_lymphoma			MSI-L	Yes	Yes	Yes	Yes	Yes	Yes		
+EB-3	EB-3	906847	1710STDY5034907	Unmatched	lymphoma	Burkitt_lymphoma			MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+GA-10	GA-10	1303896	1710STDY5034954	Unmatched	lymphoma	Burkitt_lymphoma			MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+JiyoyeP-2003	JiyoyeP-2003	907268	1710STDY5034908	Unmatched	lymphoma	Burkitt_lymphoma			MSI-L	Yes	Yes	Yes	Yes	Yes	Yes		
+NAMALWA	NAMALWA	908159	CGP_CCL5228744	Unmatched	lymphoma	Burkitt_lymphoma			MSI-L	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+P32-ISH	P32-ISH	1330987	1710STDY5034953	Unmatched	lymphoma	Burkitt_lymphoma			MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+Raji	Raji	909262	1710STDY5034958	Unmatched	lymphoma	Burkitt_lymphoma			MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+Ramos-2G6-4C10	Ramos-2G6-4C10	910401	1710STDY5034941	Unmatched	lymphoma	Burkitt_lymphoma			MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+ST486	ST486	910906	1710STDY5034880	Unmatched	lymphoma	Burkitt_lymphoma			MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+BV-173	BV-173	910710	1710STDY5034920	Unmatched	leukemia	chronic_myeloid_leukaemia	LCML		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+CML-T1	CML-T1	910951	CGP_CCL5369342	Unmatched	leukemia	chronic_myeloid_leukaemia	LCML		MSI-L	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+EM-2	EM-2	906855	CGP_CCL5103725	Unmatched	leukemia	chronic_myeloid_leukaemia	LCML		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+JURL-MK1	JURL-MK1	1327771	CGP_CCL5306214	Unmatched	leukemia	chronic_myeloid_leukaemia	LCML		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+K-562	K-562	905940	CGP_CCL5391671	Unmatched	leukemia	chronic_myeloid_leukaemia	LCML		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+KCL-22	KCL-22	1330931	CGP_CCL5306216	Unmatched	leukemia	chronic_myeloid_leukaemia	LCML		MSI-H	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+KU812	KU812	907311	1710STDY5034859	Unmatched	leukemia	chronic_myeloid_leukaemia	LCML		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+LAMA-84	LAMA-84	907783	1710STDY5034863	Unmatched	leukemia	chronic_myeloid_leukaemia	LCML		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+MEG-01	MEG-01	908126	1710STDY5034852	Unmatched	leukemia	chronic_myeloid_leukaemia	LCML		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	in-process (CCLE)	
+RPMI-8866	RPMI-8866	910544	1710STDY5034893	Unmatched	leukemia	chronic_myeloid_leukaemia	LCML		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+AMO-1	AMO-1	1295741	CGP_CCL5306150	Unmatched	myeloma	haematopoietic_neoplasm other	MM	plasmacytoma	MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+EoL-1-cell	EoL-1-cell	906856	1710STDY5034926	Unmatched	leukemia	haematopoietic_neoplasm other		eosinophilic leukaemia	MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+JJN-3	JJN-3	1327766	CGP_CCL5306231	Unmatched	myeloma	haematopoietic_neoplasm other	MM	Plasma cell leukemia	MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+KARPAS-620	KARPAS-620	1327775	CGP_CCL5306234	Unmatched	myeloma	haematopoietic_neoplasm other	MM	Plasma cell leukemia	MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+MC-CAR	MC-CAR	683665	CGP_CCL5210536	Unmatched	myeloma	haematopoietic_neoplasm other	MM	plasmacytoma	MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+SKM-1	SKM-1	909722	1710STDY5034878	Unmatched	leukemia	haematopoietic_neoplasm other		myelomonocytic leukemia in myelodysplastic syndrome	MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+BONNA-12	BONNA-12	906695	1710STDY5034890	Unmatched	leukemia	hairy_cell_leukaemia			MSI-S	Yes	Yes	Yes	Yes	Yes	No		Poor Defrost - Possibly bad Cryovial Expansion Batch?
+HC-1	HC-1	907044	CGP_CCL5228714	Unmatched	leukemia	hairy_cell_leukaemia			MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+MLMA	MLMA	908142	CGP_CCL5391667	Unmatched	leukemia	hairy_cell_leukaemia			MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+Mo-T	Mo-T	908149	1710STDY5034964	Unmatched	leukemia	hairy_cell_leukaemia			MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+HDLM-2	HDLM-2	924110	1710STDY5034895	Unmatched	lymphoma	Hodgkin_lymphoma			MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+HD-MY-Z	HD-MY-Z	907050	1710STDY5034928	Unmatched	lymphoma	Hodgkin_lymphoma			MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	in-process (CCLE)	
+Hs-445	Hs-445	1322218	CGP_CCL5369292	Unmatched	lymphoma	Hodgkin_lymphoma			MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+KM-H2	KM-H2	909976	CGP_CCL5103819	Unmatched	lymphoma	Hodgkin_lymphoma			MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+L-1236	L-1236	1330935	CGP_CCL5306235	Unmatched	lymphoma	Hodgkin_lymphoma			MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+L-428	L-428	907322	1710STDY5034962	Unmatched	lymphoma	Hodgkin_lymphoma			MSI-L	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+L-540	L-540	907323	1710STDY5034862	Unmatched	lymphoma	Hodgkin_lymphoma			MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+RPMI-6666	RPMI-6666	909701	1710STDY5034955	Unmatched	lymphoma	Hodgkin_lymphoma			MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+SUP-HD1	SUP-HD1	1331039	CGP_CCL5306303	Unmatched	lymphoma	Hodgkin_lymphoma			MSI-L	Yes	Yes	Yes	Yes	Yes	Yes		
+KY821	KY821	907300	1710STDY5034860	Unmatched	leukemia	leukemia	LAML	Acute leukaemia of ambiguous lineage	MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+MV-4-11	MV-4-11	908156	1710STDY5034936	Unmatched	leukemia	leukemia		biphenotypic B-myelomonocytic leukemia	MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	in-process (CCLE)	
+MY-M12	MY-M12	1330960	CGP_CCL5306218	Unmatched	leukemia	leukemia	ALL	 acute biphenotypic leukemia	MSI-S	Yes	Yes	Yes	No	No	Yes		
+RS4-11	RS4-11	909703	1710STDY5034914	Unmatched	leukemia	leukemia	ALL		MSI-H	Yes	Yes	Yes	Yes	Yes	Yes		Failed to download
+697	697	906800	1710STDY5034898	Unmatched	leukemia	lymphoblastic_leukemia			MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+ALL-PO	ALL-PO	910944	1710STDY5034918	Unmatched	leukemia	lymphoblastic_leukemia	ALL		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+BE-13	BE-13	906763	1710STDY5034943	Unmatched	leukemia	lymphoblastic_leukemia	ALL		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+CCRF-CEM	CCRF-CEM	905952	1710STDY5034922	Unmatched	leukemia	lymphoblastic_leukemia	ALL		MSI-L	Yes	Yes	Yes	Yes	Yes	Yes		
+GR-ST	GR-ST	906877	1710STDY5034916	Unmatched	leukemia	lymphoblastic_leukemia	ALL		MSI-H	Yes	Yes	Yes	Yes	Yes	Yes		
+HAL-01	HAL-01	949153	CGP_CCL5103734	Unmatched	leukemia	lymphoblastic_leukemia	ALL		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+KARPAS-45	KARPAS-45	907272	1710STDY5034888	Unmatched	leukemia	lymphoblastic_leukemia	ALL		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+KE-37	KE-37	907277	1710STDY5034951	Unmatched	leukemia	lymphoblastic_leukemia	ALL		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+LC4-1	LC4-1	907787	1710STDY5034864	Unmatched	leukemia	lymphoblastic_leukemia	ALL		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+MOLT-4	MOLT-4	905958	1710STDY5034934	Unmatched	leukemia	lymphoblastic_leukemia	ALL		MSI-H	Yes	Yes	Yes	Yes	Yes	Yes		
+P30-OHK	P30-OHK	909252	CGP_CCL5228702	Unmatched	leukemia	lymphoblastic_leukemia	ALL		MSI-H	Yes	Yes	Yes	Yes	Yes	Yes		
+SUP-B15	SUP-B15	1247871	1710STDY5034911	Unmatched	leukemia	lymphoblastic_leukemia	ALL		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+ATN-1	ATN-1	910687	1710STDY5034919	Unmatched	leukemia	lymphoblastic_T_cell_leukaemia	ALL		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+LOUCY	LOUCY	907789	1710STDY5034865	Unmatched	leukemia	lymphoblastic_T_cell_leukaemia	ALL		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+MOLT-13	MOLT-13	908146	1710STDY5034869	Unmatched	leukemia	lymphoblastic_T_cell_leukaemia	ALL		MSI-H	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+MOLT-16	MOLT-16	908147	CGP_CCL5228700	Unmatched	leukemia	lymphoblastic_T_cell_leukaemia	ALL		MSI-L	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+P12-ICHIKAWA	P12-ICHIKAWA	909251	1710STDY5034899	Unmatched	leukemia	lymphoblastic_T_cell_leukaemia	ALL		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+PF-382	PF-382	909260	CGP_CCL5103820	Unmatched	leukemia	lymphoblastic_T_cell_leukaemia	ALL		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+RPMI-8402	RPMI-8402	909702	CGP_CCL5306265	Unmatched	leukemia	lymphoblastic_T_cell_leukaemia	ALL		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+SUP-T1	SUP-T1	909743	1710STDY5034882	Unmatched	leukemia	lymphoblastic_T_cell_leukaemia	ALL		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+TALL-1	TALL-1	909762	CGP_CCL5103828	Unmatched	leukemia	lymphoblastic_T_cell_leukaemia	ALL		MSI-S	Yes	Yes	Yes	No	No	Yes	Yes	
+DEL	DEL	906836	1710STDY5034923	Unmatched	lymphoma	lymphoid_neoplasm other		malignant histiocytosis	MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+EHEB	EHEB	906854	1710STDY5034900	Unmatched	lymphoma	lymphoid_neoplasm other	CLL		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+EJM	EJM	1297447	CGP_CCL5369314	Unmatched	myeloma	lymphoid_neoplasm other	MM	IgG lambda myeloma plasma cell line	MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+H9	H9	907043	1710STDY5034961	Unmatched	lymphoma	lymphoid_neoplasm other		cutaneous T-cell lymphoma	MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+JVM-2	JVM-2	907269	1710STDY5034930	Unmatched	lymphoma	lymphoid_neoplasm other	CLL		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+JVM-3	JVM-3	907270	1710STDY5034931	Unmatched	lymphoma	lymphoid_neoplasm other	CLL		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+NK-92MI	NK-92MI	1330981	CGP_CCL5306233	Unmatched	lymphoma	lymphoid_neoplasm other		NK-92MI is an IL-2 independent Natural Killer Cell line derived from peripheral blood mononuclear cells from a 50 year old Caucasian male with rapidly progressive non-Hodgkin's lymphoma. 	MSI-S	Yes	Yes	Yes	No	No	Yes		Poor Growth
+SR	SR	905965	1710STDY5034879	Unmatched	lymphoma	lymphoid_neoplasm other		large cell immunoblastic lymphoma	MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+WIL2-NS	WIL2-NS	1331049	CGP_CCL5228751	Unmatched	lymphoma	lymphoid_neoplasm other		A non secreting B lymphocyte variant of WIL-2, which was originally isolated from the spleen of a Caucasian male with hereditary spherocytic anaemia.	MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+WSU-NHL	WSU-NHL	909785	1710STDY5034886	Unmatched	lymphoma	lymphoid_neoplasm other		nodular follicular lymphoma	MSI-H	Yes	Yes	Yes	Yes	Yes	Yes		
+YT	YT	946358	1710STDY5034857	Unmatched	lymphoma	lymphoid_neoplasm other	ALL		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+ARH-77	ARH-77	906765	1710STDY5034903	Unmatched	myeloma	myeloma	MM	Plasma cell leukemia	MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+IM-9	IM-9	753563	CGP_CCL5103736	Unmatched	myeloma	myeloma	MM	? this line has been shown to be an EBV-transformed B lymphoblastoid cell line	MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+KMS-12-BM	KMS-12-BM	907281	CGP_CCL5306247	Unmatched	myeloma	myeloma	MM		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+L-363	L-363	924239	1710STDY5034861	Unmatched	myeloma	myeloma	MM	Plasma cell leukemia	MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+LP-1	LP-1	907791	CGP_CCL5369306	Unmatched	myeloma	myeloma	MM		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+MM1S	MM1S	1659818	CGP_CCL5391637	Unmatched	myeloma	myeloma	MM		MSI-L	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+MOLP-8	MOLP-8	1330950	CGP_CCL5369277	Unmatched	myeloma	myeloma	MM		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+NCI-H929	NCI-H929	724825	CGP_CCL5228709	Unmatched	myeloma	myeloma	MM		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+OPM-2	OPM-2	909249	CGP_CCL5103830	Unmatched	myeloma	myeloma	MM		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+RPMI-8226	RPMI-8226	905964	1710STDY5034942	Unmatched	myeloma	myeloma	MM		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+SK-MM-2	SK-MM-2	753612	1710STDY5034875	Unmatched	myeloma	myeloma	MM		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+U-266	U-266	753615	1710STDY5034853	Unmatched	myeloma	myeloma	MM		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+ALL-SIL	ALL-SIL	1295740	CGP_CCL5369310	Unmatched	leukemia	T_cell_leukemia	ALL		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+DND-41	DND-41	1297446	CGP_CCL5306154	Unmatched	leukemia	T_cell_leukemia	ALL		MSI-H	Yes	Yes	Yes	Yes	Yes	Yes	in-process (CCLE)	
+HH	HH	907056	CGP_CCL5103727	Unmatched	leukemia	T_cell_leukemia		T cell  leukemia/lymphoma	MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+JURKAT	Jurkat	998184	CGP_CCL5391646	Unmatched	leukemia	T_cell_leukemia	ALL		MSI-H	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+CS1	CS1	1290795	CGP_CCL5306298	Unmatched	bone	bone_other			MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+SJSA-1	SJSA-1	909717	1710STDY5035445	Unmatched	bone	bone_other			MSI-L	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+U-CH2	U-CH2	1503373	CGP_CCL5306194	Unmatched	bone	bone_other			MSI-S	Yes	Yes	Yes	No	No	No		Not commercially available, Poor Growth
+CAL-78	CAL-78	1290765	1710STDY5035449	Unmatched	bone	chondrosarcoma			MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+CHSA8926	CHSA8926	1303912	CGP_CCL5306278	Unmatched	bone	chondrosarcoma			MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		Not commercially available
+H-EMC-SS	H-EMC-SS	907290	CGP_CCL5103691	Unmatched	bone	chondrosarcoma			MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+CADO-ES1	CADO-ES1	753539	CGP_CCL5391636	Unmatched	bone	ewings_sarcoma			MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+ES1	ES1	949158	1710STDY5035456	Unmatched	bone	ewings_sarcoma			MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+ES3	ES3	684055	1710STDY5035458	Unmatched	bone	ewings_sarcoma			MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+ES4	ES4	949156	1710STDY5035428	Unmatched	bone	ewings_sarcoma			MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+ES5	ES5	684057	1710STDY5035429	Unmatched	bone	ewings_sarcoma			MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+ES6	ES6	949157	CGP_CCL5306158	Unmatched	bone	ewings_sarcoma			MSI-S	Yes	Yes	Yes	Yes	No	Yes		
+ES7	ES7	684059	1710STDY5035454	Unmatched	bone	ewings_sarcoma			MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+ES8	ES8	949155	1710STDY5035455	Unmatched	bone	ewings_sarcoma			MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+EW-1	EW-1	949163	1710STDY5035430	Unmatched	bone	ewings_sarcoma			MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+EW-11	EW-11	684062	1710STDY5035431	Unmatched	bone	ewings_sarcoma			MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+EW-12	EW-12	949162	1710STDY5035432	Unmatched	bone	ewings_sarcoma			MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		Poor Growth - Clumps hard to break up
+EW-13	EW-13	949166	1710STDY5035433	Unmatched	bone	ewings_sarcoma			MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+EW-16	EW-16	949165	1710STDY5035434	Unmatched	bone	ewings_sarcoma			MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+EW-18	EW-18	949164	1710STDY5035435	Unmatched	bone	ewings_sarcoma			MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+EW-22	EW-22	949167	1710STDY5035436	Unmatched	bone	ewings_sarcoma			MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+EW-24	EW-24	949168	1710STDY5035437	Unmatched	bone	ewings_sarcoma			MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+EW-3	EW-3	949161	1710STDY5035457	Unmatched	bone	ewings_sarcoma			MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+EW-7	EW-7	949160	1710STDY5035438	Unmatched	bone	ewings_sarcoma			MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+MHH-ES-1	MHH-ES-1	908134	CGP_CCL5369339	Unmatched	bone	ewings_sarcoma			MSI-S	Yes	Yes	Yes	No	Yes	Yes	Yes	
+SK-ES-1	SK-ES-1	684072	1710STDY5035446	Unmatched	bone	ewings_sarcoma			MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+SK-PN-DW	SK-PN-DW	909731	1710STDY5035447	Unmatched	bone	ewings_sarcoma			MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+TC-71	TC-71	1240221	CGP_CCL5228748	Unmatched	bone	ewings_sarcoma			MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+CAL-72	CAL-72	906827	1710STDY5035453	Unmatched	bone	osteosarcoma			MSI-L	Yes	Yes	Yes	Yes	Yes	Yes		
+G-292-Clone-A141B1	G-292 Clone A141B1	1290807	CGP_CCL5103690	Unmatched	bone	osteosarcoma		#N/A	MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+HOS	HOS	907060	1710STDY5035439	Unmatched	bone	osteosarcoma			MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+HuO-3N1	HuO-3N1	909977	1710STDY5035440	Unmatched	bone	osteosarcoma			MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+HuO9	HuO9	907072	1710STDY5035451	Unmatched	bone	osteosarcoma			MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+MG-63	MG-63	908131	1710STDY5035441	Unmatched	bone	osteosarcoma			MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+NOS-1	NOS-1	925345	1710STDY5035443	Unmatched	bone	osteosarcoma			MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+NY	NY	910849	1710STDY5035452	Unmatched	bone	osteosarcoma			MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+Saos-2	Saos-2	909707	1710STDY5035444	Unmatched	bone	osteosarcoma			MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+U-2-OS	U-2-OS	909776	1710STDY5035448	Unmatched	bone	osteosarcoma			MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+AU565	AU565	910704	1710STDY5035269	Unmatched	breast	breast	BRCA		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+BT-20	BT-20	906801	1710STDY5035274	Unmatched	breast	breast	BRCA		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+BT-474	BT-474	946359	1710STDY5035235	Unmatched	breast	breast	BRCA		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+BT-483	BT-483	949093	1710STDY5035262	Unmatched	breast	breast	BRCA		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+BT-549	BT-549	905951	1710STDY5035236	Unmatched	breast	breast	BRCA		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+CAL-120	CAL-120	906826	1710STDY5035237	Unmatched	breast	breast	BRCA		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+CAL-148	CAL-148	924106	1710STDY5035238	Unmatched	breast	breast	BRCA		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	Growth not suitable - clumpy
+CAL-51	CAL-51	910927	1710STDY5035267	Unmatched	breast	breast	BRCA		MSI-L	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+CAL-85-1	CAL-85-1	910852	1710STDY5035239	Unmatched	breast	breast	BRCA		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+CAMA-1	CAMA-1	946382	1710STDY5035240	Unmatched	breast	breast	BRCA		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+COLO-824	COLO-824	906812	1710STDY5035268	Unmatched	breast	breast	BRCA		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+DU-4475	DU-4475	906844	1710STDY5035278	Unmatched	breast	breast	BRCA		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	in-process (CCLE)	
+EFM-19	EFM-19	906851	1710STDY5035241	Unmatched	breast	breast	BRCA		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+EFM-192A	EFM-192A	1290798	1710STDY5035263	Unmatched	breast	breast	BRCA		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+EVSA-T	EVSA-T	906862	1710STDY5035276	Unmatched	breast	breast	BRCA		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+HCC1143	HCC1143	749710	CGP_CCL5369300	Matched	breast	breast	BRCA		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	in-process (CCLE)	
+HCC1187	HCC1187	749711	1710STDY5035258	Matched	breast	breast	BRCA		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+HCC1395	HCC1395	749712	CGP_CCL5306263	Matched	breast	breast	BRCA		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+HCC1419	HCC1419	907045	CGP_CCL5228722	Unmatched	breast	breast	BRCA		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	in-process (CCLE)	
+HCC1428	HCC1428	1290905	1710STDY5035272	Unmatched	breast	breast	BRCA		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+HCC1500	HCC1500	1303900	1710STDY5035271	Unmatched	breast	breast	BRCA		MSI-L	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+HCC1569	HCC1569	907046	1710STDY5035270	Unmatched	breast	breast	BRCA		MSI-H	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+HCC1599	HCC1599	749713	1710STDY5035259	Matched	breast	breast	BRCA		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+HCC1806	HCC1806	907047	1710STDY5035243	Unmatched	breast	breast		acantholytic squamous carcinoma	MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+HCC1937	HCC1937	749714	1710STDY5035244	Matched	breast	breast	BRCA		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+HCC1954	HCC1954	749709	1710STDY5035257	Matched	breast	breast	BRCA		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	in-process (CCLE)	
+HCC202	HCC202	1290906	1710STDY5035261	Unmatched	breast	breast	BRCA		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+HCC2157	HCC2157	749715	1710STDY5035275	Matched	breast	breast	BRCA		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+HCC2218	HCC2218	749716	1710STDY5035277	Matched	breast	breast	BRCA		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	in-process (CCLE)	
+HCC38	HCC38	749717	1710STDY5035245	Matched	breast	breast	BRCA		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+HCC70	HCC70	907048	1710STDY5035246	Unmatched	breast	breast	BRCA		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+HDQ-P1	HDQ-P1	1290922	1710STDY5035273	Unmatched	breast	breast	BRCA		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+Hs-578-T	Hs-578-T	905957	CGP_CCL5103701	Unmatched	breast	breast	BRCA		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+MCF7	MCF7	905946	1710STDY5035247	Unmatched	breast	breast	BRCA		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	in-process (CCLE)	
+MDA-MB-157	MDA-MB-157	925338	1710STDY5035249	Unmatched	breast	breast	BRCA		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+MDA-MB-175-VII	MDA-MB-175-VII	908120	CGP_CCL5103825	Unmatched	breast	breast	BRCA		MSI-S	Yes	Yes	Yes	No	No	Yes	Yes	
+MDA-MB-231	MDA-MB-231	905960	1710STDY5035250	Unmatched	breast	breast	BRCA		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+MDA-MB-330	MDA-MB-330	1330941	CGP_CCL5369287	Unmatched	breast	breast	BRCA	lobular carcinoma	MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+MDA-MB-361	MDA-MB-361	908121	1710STDY5035251	Unmatched	breast	breast	BRCA		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	in-process (CCLE)	
+MDA-MB-415	MDA-MB-415	924240	CGP_CCL5369315	Unmatched	breast	breast	BRCA		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+MDA-MB-436	MDA-MB-436	1240172	CGP_CCL5391670	Unmatched	breast	breast	BRCA		MSI-L	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+MDA-MB-453	MDA-MB-453	908122	1710STDY5035252	Unmatched	breast	breast	BRCA		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	in-process (CCLE)	
+MDA-MB-468	MDA-MB-468	908123	CGP_CCL5103837	Unmatched	breast	breast	BRCA		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	Repeated Expansion Fail
+MFM-223	MFM-223	910948	1710STDY5035266	Unmatched	breast	breast	BRCA		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+MRK-nu-1	MRK-nu-1	908151	CGP_CCL5228693	Unmatched	breast	breast	BRCA		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+OCUB-M	OCUB-M	909256	1710STDY5035253	Unmatched	breast	breast	BRCA		MSI-L	Yes	Yes	Yes	Yes	Yes	Yes		
+T47D	T47D	905945	1710STDY5035254	Unmatched	breast	breast	BRCA		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	in-process (CCLE)	
+UACC-812	UACC-812	910910	CGP_CCL5103685	Unmatched	breast	breast	BRCA		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	Poor Growth
+UACC-893	UACC-893	909778	1710STDY5035255	Unmatched	breast	breast	BRCA		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+YMB-1-E	YMB-1-E	1303911	1710STDY5035279	Unmatched	breast	breast	BRCA		MSI-S	Yes	Yes	Yes	No	No	Yes		
+ZR-75-30	ZR-75-30	909907	1710STDY5035256	Unmatched	breast	breast	BRCA		MSI-L	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+EGI-1	EGI-1	906853	CGP_CCL5055313	Unmatched	digestive_system	biliary_tract			MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+ETK-1	ETK-1	906861	CGP_CCL5055361	Unmatched	digestive_system	biliary_tract			MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+HuCCT1	HuCCT1	907069	CGP_CCL5055314	Unmatched	digestive_system	biliary_tract			MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+TGBC1TKB	TGBC1TKB	909769	CGP_CCL5306255	Unmatched	digestive_system	biliary_tract			MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+TGBC24TKB	TGBC24TKB	910695	CGP_CCL5055362	Unmatched	digestive_system	biliary_tract			MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+HUTU-80	HUTU-80	907073	CGP_CCL5103730	Unmatched	digestive_system	digestive_system_other		duodenum adenocarcinoma	MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+C2BBe1	C2BBe1	910700	1710STDY5035351	Unmatched	large_intestine	large_intestine	COREAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Requested 08052014	
+CaR-1	CaR-1	924108	CGP_CCL5103703	Unmatched	large_intestine	large_intestine	COREAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Requested 08052014	
+CCK-81	CCK-81	1240123	1710STDY5035353	Unmatched	large_intestine	large_intestine	COREAD		MSI-H	Yes	Yes	Yes	Yes	Yes	Yes	Requested 08052014	
+CL-11	CL-11	1290769	CGP_CCL5306232	Unmatched	large_intestine	large_intestine	COREAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+CL-40	CL-40	1240124	CGP_CCL5306274	Unmatched	large_intestine	large_intestine	COREAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+COLO-205	COLO-205	905961	1710STDY5035331	Unmatched	large_intestine	large_intestine	COREAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Requested 08052014	
+COLO-320-HSR	COLO-320-HSR	910569	1710STDY5035359	Unmatched	large_intestine	large_intestine	COREAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+COLO-678	COLO-678	910689	1710STDY5035356	Unmatched	large_intestine	large_intestine	COREAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+COLO-741	COLO-741	906815	1710STDY5035332	Unmatched	large_intestine	large_intestine		Putative Melanoma identified through transcriptional/genomic/drug response profile matching	MSI-S	No	Yes	Yes	Yes	Yes	Yes		
+CW-2	CW-2	910554	1710STDY5035333	Unmatched	large_intestine	large_intestine	COREAD		MSI-H	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+DIFI	DIFI	1789883	CGP_CCL5369320	Unmatched	large_intestine	large_intestine	COREAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Requested 08052014	
+GP5d	GP5d	907291	1710STDY5035334	Unmatched	large_intestine	large_intestine	COREAD		MSI-H	Yes	Yes	Yes	Yes	Yes	Yes	Requested 08052014	
+HCC2998	HCC2998	905971	1710STDY5035335	Unmatched	large_intestine	large_intestine	COREAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Requested 08052014	
+HCC-56	HCC-56	1290907	1710STDY5035369	Unmatched	large_intestine	large_intestine	COREAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+HCT-116	HCT-116	905936	1710STDY5035336	Unmatched	large_intestine	large_intestine	COREAD		MSI-H	Yes	Yes	Yes	Yes	Yes	Yes	Requested 08052014	
+HCT-15	HCT-15	905937	1710STDY5035337	Unmatched	large_intestine	large_intestine	COREAD		MSI-H	Yes	Yes	Yes	Yes	Yes	Yes	Requested 08052014	
+HT-115	HT-115	907289	1710STDY5035372	Unmatched	large_intestine	large_intestine	COREAD		MSI-L	Yes	Yes	Yes	Yes	Yes	Yes	Requested 08052014	
+HT-29	HT-29	905939	1710STDY5035371	Unmatched	large_intestine	large_intestine	COREAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Requested 08052014	
+HT55	HT55	907287	CGP_CCL5306195	Unmatched	large_intestine	large_intestine	COREAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Requested 08052014	
+KM12	KM12	905989	1710STDY5035338	Unmatched	large_intestine	large_intestine	COREAD		MSI-H	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+LoVo	LoVo	907790	1710STDY5035366	Unmatched	large_intestine	large_intestine	COREAD		MSI-H	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+LS-1034	LS-1034	917486	1710STDY5035358	Matched	large_intestine	large_intestine	COREAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+LS-123	LS-123	907792	1710STDY5035339	Unmatched	large_intestine	large_intestine	COREAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+LS-180	LS-180	998189	1710STDY5035368	Unmatched	large_intestine	large_intestine	COREAD		MSI-H	Yes	Yes	Yes	Yes	Yes	Yes	Requested 08052014	
+LS-411N	LS-411N	907794	1710STDY5035340	Unmatched	large_intestine	large_intestine	COREAD		MSI-H	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+LS-513	LS-513	907795	1710STDY5035341	Unmatched	large_intestine	large_intestine	COREAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Requested 08052014	
+MDST8	MDST8	1240173	1710STDY5035354	Unmatched	large_intestine	large_intestine	COREAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+NCI-H508	NCI-H508	908442	CGP_CCL5228707	Unmatched	large_intestine	large_intestine	COREAD		MSI-S	Yes	Yes	Yes	No	Yes	Yes	Yes	
+NCI-H630	NCI-H630	908482	1710STDY5035342	Unmatched	large_intestine	large_intestine	COREAD		MSI-H	Yes	Yes	Yes	Yes	Yes	Yes	Requested 08052014	
+NCI-H716	NCI-H716	908458	1710STDY5035362	Unmatched	large_intestine	large_intestine	COREAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+NCI-H747	NCI-H747	908457	1710STDY5035343	Unmatched	large_intestine	large_intestine	COREAD		MSI-L	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+RCM-1	RCM-1	909263	1710STDY5035376	Unmatched	large_intestine	large_intestine	COREAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+RKO	RKO	909698	1710STDY5035344	Unmatched	large_intestine	large_intestine	COREAD		MSI-H	Yes	Yes	Yes	Yes	Yes	Yes	Requested 08052014	
+SK-CO-1	SK-CO-1	909718	CGP_CCL5369288	Unmatched	large_intestine	large_intestine	COREAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+SNU-1040	SNU-1040	1659823	CGP_CCL5391664	Unmatched	large_intestine	large_intestine	COREAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+SNU-175	SNU-175	1659928	CGP_CCL5369321	Unmatched	large_intestine	large_intestine	COREAD		MSI-H	Yes	Yes	Yes	Yes	Yes	No	Requested 08052014	
+SNU-283	SNU-283	1659929	CGP_CCL5391665	Unmatched	large_intestine	large_intestine	COREAD		MSI-S	Yes	Yes	Yes	Yes	Yes	No	Requested 08052014	
+SNU-407	SNU-407	1660034	CGP_CCL5369319	Unmatched	large_intestine	large_intestine	COREAD		MSI-H	Yes	Yes	Yes	Yes	Yes	Yes	Requested 08052014	
+SNU-61	SNU-61	1660035	CGP_CCL5391655	Unmatched	large_intestine	large_intestine	COREAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+SNU-81	SNU-81	1660036	CGP_CCL5369318	Unmatched	large_intestine	large_intestine	COREAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+SNU-C1	SNU-C1	910905	1710STDY5035346	Unmatched	large_intestine	large_intestine	COREAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Requested 08052014	
+SNU-C2B	SNU-C2B	909740	1710STDY5035360	Unmatched	large_intestine	large_intestine	COREAD		MSI-H	Yes	Yes	Yes	Yes	Yes	Yes	Requested 08052014	
+SNU-C5	SNU-C5	1674021	CGP_CCL5369323	Unmatched	large_intestine	large_intestine	COREAD		MSI-H	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+SW1116	SW1116	909746	1710STDY5035365	Unmatched	large_intestine	large_intestine	COREAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+SW1417	SW1417	909747	1710STDY5035350	Unmatched	large_intestine	large_intestine	COREAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+SW1463	SW1463	909748	1710STDY5035364	Unmatched	large_intestine	large_intestine	COREAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+SW48	SW48	909751	1710STDY5035370	Unmatched	large_intestine	large_intestine	COREAD		MSI-H	Yes	Yes	Yes	Yes	Yes	Yes	Requested 08052014	
+SW620	SW620	905962	1710STDY5035347	Unmatched	large_intestine	large_intestine	COREAD		MSI-S	Yes	Yes	Yes	Yes	No	Yes	Requested 08052014	
+SW837	SW837	909755	1710STDY5035348	Unmatched	large_intestine	large_intestine	COREAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+SW948	SW948	909757	1710STDY5035375	Unmatched	large_intestine	large_intestine	COREAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Requested 08052014	
+T84	T84	909761	CGP_CCL5103832	Unmatched	large_intestine	large_intestine	COREAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+C3A	C3A	910850	CGP_CCL5055315	Unmatched	digestive_system	liver	LIHC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+Hep3B2-1-7	Hep 3B2_1-7	1240147	CGP_CCL5369291	Unmatched	digestive_system	liver	LIHC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+HLE	HLE	907057	CGP_CCL5055319	Unmatched	digestive_system	liver	LIHC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+huH-1	huH-1	1298146	CGP_CCL5306268	Unmatched	digestive_system	liver	LIHC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+HuH-7	HuH-7	907071	CGP_CCL5055329	Unmatched	digestive_system	liver	LIHC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+JHH-1	JHH-1	1298151	CGP_CCL5055327	Unmatched	digestive_system	liver	LIHC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+JHH-2	JHH-2	1240157	CGP_CCL5055326	Unmatched	digestive_system	liver	LIHC		MSI-S	Yes	Yes	No	Yes	Yes	Yes	Yes	
+JHH-4	JHH-4	1240158	CGP_CCL5055325	Unmatched	digestive_system	liver	LIHC		MSI-S	Yes	Yes	No	Yes	Yes	Yes	Yes	
+JHH-6	JHH-6	1240159	CGP_CCL5055321	Unmatched	digestive_system	liver	LIHC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	in-process (CCLE)	
+JHH-7	JHH-7	1240160	CGP_CCL5055322	Unmatched	digestive_system	liver	LIHC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+SK-HEP-1	SK-HEP-1	909719	CGP_CCL5055316	Unmatched	digestive_system	liver	LIHC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+SNU-182	SNU-182	1240216	CGP_CCL5055320	Unmatched	digestive_system	liver	LIHC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+SNU-387	SNU-387	909736	CGP_CCL5055318	Unmatched	digestive_system	liver	LIHC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+SNU-398	SNU-398	1240217	CGP_CCL5055324	Unmatched	digestive_system	liver	LIHC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+SNU-423	SNU-423	909737	CGP_CCL5055328	Unmatched	digestive_system	liver	LIHC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+SNU-449	SNU-449	909738	CGP_CCL5055317	Unmatched	digestive_system	liver	LIHC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+SNU-475	SNU-475	909739	CGP_CCL5103702	Unmatched	digestive_system	liver	LIHC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+23132-87	23132-87	910924	1710STDY5035585	Unmatched	digestive_system	stomach	STAD		MSI-H	Yes	Yes	Yes	Yes	Yes	Yes	in-process (CCLE)	
+AGS	AGS	906790	1710STDY5035586	Unmatched	digestive_system	stomach	STAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	in-process (CCLE)	
+ECC10	ECC10	906848	1710STDY5035610	Unmatched	digestive_system	stomach		stomach small-cell carcinoma	MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+ECC12	ECC12	906849	1710STDY5035587	Unmatched	digestive_system	stomach		stomach small-cell carcinoma	MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+FU97	FU97	1290806	1710STDY5035604	Unmatched	digestive_system	stomach	STAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	in-process (CCLE)	
+GCIY	GCIY	906869	1710STDY5035588	Unmatched	digestive_system	stomach	STAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	in-process (CCLE)	
+GT3TKB	GT3TKB	907041	1710STDY5035589	Unmatched	digestive_system	stomach	STAD		MSI-L	Yes	Yes	Yes	Yes	Yes	Yes		
+HGC-27	HGC-27	907055	1710STDY5035605	Unmatched	digestive_system	stomach	STAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	in-process (CCLE)	
+Hs746T	Hs746T	1240151	1710STDY5035601	Unmatched	digestive_system	stomach	STAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	in-process (CCLE)	
+HSC-39	HSC-39	1322224	CGP_CCL5306301	Unmatched	digestive_system	stomach	STAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+IM-95	IM-95	1240155	1710STDY5035602	Unmatched	digestive_system	stomach	STAD		MSI-L	Yes	Yes	Yes	Yes	Yes	Yes	in-process (CCLE)	
+KATOIII	KATOIII	907276	CGP_CCL5228686	Unmatched	digestive_system	stomach	STAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	in-process (CCLE)	
+MKN1	MKN1	908138	1710STDY5035590	Unmatched	digestive_system	stomach		adeno-squamous	MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+MKN28	MKN28	908139	1710STDY5035591	Unmatched	digestive_system	stomach	STAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+MKN45	MKN45	925340	1710STDY5035592	Unmatched	digestive_system	stomach	STAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+MKN7	MKN7	924250	1710STDY5035609	Unmatched	digestive_system	stomach	STAD		MSI-L	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+NCI-N87	NCI-N87	908461	1710STDY5035593	Unmatched	digestive_system	stomach	STAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+NCI-SNU-1	NCI-SNU-1	908444	1710STDY5035598	Unmatched	digestive_system	stomach	STAD		MSI-H	Yes	Yes	Yes	Yes	Yes	Yes	in-process (CCLE)	
+NCI-SNU-16	NCI-SNU-16	908446	1710STDY5035594	Unmatched	digestive_system	stomach	STAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+NCI-SNU-5	NCI-SNU-5	908445	1710STDY5035595	Unmatched	digestive_system	stomach	STAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+NUGC-3	NUGC-3	908455	1710STDY5035596	Unmatched	digestive_system	stomach	STAD		MSI-H	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+NUGC-4	NUGC-4	1298357	CGP_CCL5369282	Unmatched	digestive_system	stomach	STAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	in-process (CCLE)	
+OCUM-1	OCUM-1	1298358	CGP_CCL5228729	Unmatched	digestive_system	stomach	STAD		MSI-L	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+RERF-GC-1B	RERF-GC-1B	1240209	1710STDY5035600	Unmatched	digestive_system	stomach	STAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+RF-48	RF-48	909697	1710STDY5035607	Unmatched	digestive_system	stomach	STAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		Not commercially available (Discontinued by ATCC)
+SCH	SCH	909711	1710STDY5035606	Unmatched	digestive_system	stomach		choriocarcinoma	MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+SK-GT-2	SK-GT-2	1503364	CGP_CCL5228687	Unmatched	digestive_system	stomach	STAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+TGBC11TKB	TGBC11TKB	909770	1710STDY5035597	Unmatched	digestive_system	stomach	STAD		MSI-H	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+SW13	SW13	909744	1710STDY5035415	Unmatched	kidney	adrenal_gland	ACC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+769-P	769-P	910922	1710STDY5035391	Unmatched	kidney	kidney	KIRC		MSI-L	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+786-0	786-0	905947	1710STDY5035392	Unmatched	kidney	kidney	KIRC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	in-process (CCLE)	
+A498	A498	905948	1710STDY5035393	Unmatched	kidney	kidney	KIRC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+A704	A704	910920	1710STDY5035408	Unmatched	kidney	kidney	KIRC		MSI-L	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+ACHN	ACHN	905950	1710STDY5035394	Unmatched	kidney	kidney	KIRC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+BB65-RCC	BB65-RCC	753533	CGP_CCL5103731	Matched	kidney	kidney	KIRC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+BFTC-909	BFTC-909	910698	1710STDY5035403	Unmatched	kidney	kidney	KIRC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+CAKI-1	CAKI-1	905963	1710STDY5035395	Unmatched	kidney	kidney	KIRC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	in-process (CCLE)	
+CAL-54	CAL-54	910952	1710STDY5035404	Unmatched	kidney	kidney	KIRC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+G-401	G-401	907299	1710STDY5035419	Unmatched	kidney	kidney		Wilm's tumour	MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	in-process (CCLE)	
+HA7-RCC	HA7-RCC	753558	1710STDY5035409	Matched	kidney	kidney	KIRC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		Not commercially available
+KMRC-1	KMRC-1	1298168	1710STDY5035417	Unmatched	kidney	kidney	KIRC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+KMRC-20	KMRC-20	1298169	1710STDY5035412	Unmatched	kidney	kidney	KIRC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+LB1047-RCC	LB1047-RCC	753577	1710STDY5035410	Matched	kidney	kidney	KIRC		MSI-H	Yes	Yes	Yes	Yes	Yes	Yes		
+LB2241-RCC	LB2241-RCC	753578	1710STDY5035406	Matched	kidney	kidney	KIRC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+LB996-RCC	LB996-RCC	753585	1710STDY5035405	Matched	kidney	kidney	KIRC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+NCC010	NCC010	1509073	CGP_CCL5228720	Unmatched	kidney	kidney	KIRC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		Not commercially available
+NCC021	NCC021	1509074	CGP_CCL5228724	Unmatched	kidney	kidney	KIRC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		Not commercially available
+OS-RC-2	OS-RC-2	909250	1710STDY5035396	Unmatched	kidney	kidney	KIRC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+RCC10RGB	RCC10RGB	909974	1710STDY5035397	Unmatched	kidney	kidney	KIRC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+RCC-AB	RCC-AB	1524418	CGP_CCL5228732	Unmatched	kidney	kidney	KIRC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+RCC-ER	RCC-ER	1524417	CGP_CCL5228742	Unmatched	kidney	kidney	KIRC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+RCC-FG2	RCC-FG2	1524414	CGP_CCL5228738	Unmatched	kidney	kidney	KIRC		MSI-L	Yes	Yes	Yes	Yes	Yes	Yes		
+RCC-JF	RCC-JF	1524415	CGP_CCL5369340	Unmatched	kidney	kidney	KIRC		MSI-S	Yes	Yes	Yes	Yes	No	Yes		
+RCC-JW	RCC-JW	1524416	CGP_CCL5228730	Unmatched	kidney	kidney	KIRC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+RCC-MF	RCC-MF	1524419	CGP_CCL5228734	Unmatched	kidney	kidney	KIRC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+RXF393	RXF393	905978	1710STDY5035398	Unmatched	kidney	kidney	KIRC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+SK-NEP-1	SK-NEP-1	909730	1710STDY5035418	Unmatched	kidney	kidney		SK-NEP-1 expresses EWS-FLI1 gene fusion & Putative Ewing's sarcoma identified through transcriptional/genomic/drug response profile matching	MSI-S	No	Yes	Yes	Yes	Yes	Yes		
+SN12C	SN12C	905979	1710STDY5035402	Unmatched	kidney	kidney	KIRC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+SW156	SW156	1240220	1710STDY5035413	Unmatched	kidney	kidney	KIRC		MSI-S	Yes	Yes	No	Yes	Yes	Yes		
+TK10	TK10	905980	1710STDY5035399	Unmatched	kidney	kidney	KIRC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+U031	U031	905981	1710STDY5035400	Unmatched	kidney	kidney	KIRC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+VMRC-RCW	VMRC-RCW	1240224	1710STDY5035414	Unmatched	kidney	kidney	KIRC		MSI-S	Yes	Yes	Yes	No	No	Yes	Yes	
+VMRC-RCZ	VMRC-RCZ	909781	CGP_CCL5228696	Unmatched	kidney	kidney	KIRC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+201T	201T	1287381	1710STDY5034701	Unmatched	lung_NSCLC	lung_NSCLC_adenocarcinoma	LUAD		MSI-L	Yes	Yes	Yes	Yes	Yes	Yes		
+A549	A549	905949	1710STDY5034564	Unmatched	lung_NSCLC	lung_NSCLC_adenocarcinoma	LUAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	in-process (CCLE)	
+ABC-1	ABC-1	906791	CGP_CCL5228677	Unmatched	lung_NSCLC	lung_NSCLC_adenocarcinoma	LUAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	in-process (CCLE)	
+Calu-3	Calu-3	687777	CGP_CCL5306262	Unmatched	lung_NSCLC	lung_NSCLC_adenocarcinoma	LUAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+Calu-6	Calu-6	724859	1710STDY5034566	Unmatched	lung_NSCLC	lung_NSCLC_adenocarcinoma	LUAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+COR-L105	COR-L105	906805	1710STDY5034569	Unmatched	lung_NSCLC	lung_NSCLC_adenocarcinoma	LUAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+EKVX	EKVX	905970	1710STDY5034572	Unmatched	lung_NSCLC	lung_NSCLC_adenocarcinoma	LUAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+EMC-BAC-1	EMC-BAC-1	1503369	CGP_CCL5228701	Unmatched	lung_NSCLC	lung_NSCLC_adenocarcinoma	LUAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		Not commercially available
+EMC-BAC-2	EMC-BAC-2	1503370	CGP_CCL5228699	Unmatched	lung_NSCLC	lung_NSCLC_adenocarcinoma	LUAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		Not commercially available
+H3255	H3255	1247873	1710STDY5034693	Unmatched	lung_NSCLC	lung_NSCLC_adenocarcinoma	LUAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	Not commercially available
+HCC-44	HCC-44	1240145	1710STDY5034697	Unmatched	lung_NSCLC	lung_NSCLC_adenocarcinoma	LUAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	in-process (CCLE)	
+HCC-78	HCC-78	1290908	CGP_CCL5306163	Unmatched	lung_NSCLC	lung_NSCLC_adenocarcinoma	LUAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+HCC-827	HCC-827	1240146	1710STDY5034694	Unmatched	lung_NSCLC	lung_NSCLC_adenocarcinoma	LUAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+HOP-62	HOP-62	905972	1710STDY5034573	Unmatched	lung_NSCLC	lung_NSCLC_adenocarcinoma	LUAD		MSI-S	Yes	Yes	Yes	Yes	No	Yes	Yes	
+LC-2-ad	LC-2-ad	907786	1710STDY5034578	Unmatched	lung_NSCLC	lung_NSCLC_adenocarcinoma	LUAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+LXF-289	LXF-289	753592	1710STDY5034583	Unmatched	lung_NSCLC	lung_NSCLC_adenocarcinoma	LUAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+NCI-H1355	NCI-H1355	724866	1710STDY5034585	Unmatched	lung_NSCLC	lung_NSCLC_adenocarcinoma	LUAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+NCI-H1395	NCI-H1395	684681	1710STDY5034586	Matched	lung_NSCLC	lung_NSCLC_adenocarcinoma	LUAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+NCI-H1435	NCI-H1435	1298347	CGP_CCL5369313	Unmatched	lung_NSCLC	lung_NSCLC_adenocarcinoma	LUAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	in-process (CCLE)	
+NCI-H1437	NCI-H1437	687794	1710STDY5034587	Matched	lung_NSCLC	lung_NSCLC_adenocarcinoma	LUAD		MSI-S	Yes	Yes	Yes	No	Yes	Yes	Yes	
+NCI-H1563	NCI-H1563	753600	CGP_CCL5228678	Unmatched	lung_NSCLC	lung_NSCLC_adenocarcinoma	LUAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+NCI-H1568	NCI-H1568	1298348	1710STDY5034721	Unmatched	lung_NSCLC	lung_NSCLC_adenocarcinoma	LUAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	in-process (CCLE)	
+NCI-H1573	NCI-H1573	908472	1710STDY5034685	Unmatched	lung_NSCLC	lung_NSCLC_adenocarcinoma	LUAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+NCI-H1623	NCI-H1623	687798	1710STDY5034639	Unmatched	lung_NSCLC	lung_NSCLC_adenocarcinoma	LUAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+NCI-H1648	NCI-H1648	687799	1710STDY5034589	Unmatched	lung_NSCLC	lung_NSCLC_adenocarcinoma	LUAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+NCI-H1650	NCI-H1650	687800	1710STDY5034590	Unmatched	lung_NSCLC	lung_NSCLC_adenocarcinoma	LUAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+NCI-H1651	NCI-H1651	910900	1710STDY5034640	Unmatched	lung_NSCLC	lung_NSCLC_adenocarcinoma	LUAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+NCI-H1666	NCI-H1666	908473	1710STDY5034591	Unmatched	lung_NSCLC	lung_NSCLC_adenocarcinoma	LUAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+NCI-H1693	NCI-H1693	687802	1710STDY5034592	Unmatched	lung_NSCLC	lung_NSCLC_adenocarcinoma	LUAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+NCI-H1703	NCI-H1703	908474	1710STDY5034593	Unmatched	lung_NSCLC	lung_NSCLC_adenocarcinoma		mixed adeno-squamous	MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+NCI-H1734	NCI-H1734	722058	1710STDY5034712	Unmatched	lung_NSCLC	lung_NSCLC_adenocarcinoma	LUAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+NCI-H1755	NCI-H1755	908475	1710STDY5034677	Unmatched	lung_NSCLC	lung_NSCLC_adenocarcinoma	LUAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+NCI-H1781	NCI-H1781	1298350	1710STDY5034653	Unmatched	lung_NSCLC	lung_NSCLC_adenocarcinoma	LUAD		MSI-L	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+NCI-H1792	NCI-H1792	724868	1710STDY5034594	Unmatched	lung_NSCLC	lung_NSCLC_adenocarcinoma	LUAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+NCI-H1793	NCI-H1793	908463	1710STDY5034683	Unmatched	lung_NSCLC	lung_NSCLC_adenocarcinoma	LUAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+NCI-H1838	NCI-H1838	687807	1710STDY5034595	Unmatched	lung_NSCLC	lung_NSCLC_adenocarcinoma	LUAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+NCI-H1944	NCI-H1944	1240185	CGP_CCL5306227	Unmatched	lung_NSCLC	lung_NSCLC_adenocarcinoma	LUAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+NCI-H1975	NCI-H1975	924244	1710STDY5034596	Unmatched	lung_NSCLC	lung_NSCLC_adenocarcinoma	LUAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+NCI-H1993	NCI-H1993	908476	1710STDY5034678	Unmatched	lung_NSCLC	lung_NSCLC_adenocarcinoma	LUAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+NCI-H2009	NCI-H2009	724873	1710STDY5034597	Matched	lung_NSCLC	lung_NSCLC_adenocarcinoma	LUAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	in-process (CCLE)	
+NCI-H2023	NCI-H2023	1240187	1710STDY5034622	Unmatched	lung_NSCLC	lung_NSCLC_adenocarcinoma	LUAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+NCI-H2030	NCI-H2030	722045	1710STDY5034598	Unmatched	lung_NSCLC	lung_NSCLC_adenocarcinoma	LUAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+NCI-H2085	NCI-H2085	687812	1710STDY5034617	Unmatched	lung_NSCLC	lung_NSCLC_adenocarcinoma	LUAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+NCI-H2087	NCI-H2087	724834	1710STDY5034686	Matched	lung_NSCLC	lung_NSCLC_adenocarcinoma	LUAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+NCI-H2122	NCI-H2122	722046	1710STDY5034599	Matched	lung_NSCLC	lung_NSCLC_adenocarcinoma	LUAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	in-process (CCLE)	
+NCI-H2126	NCI-H2126	687814	1710STDY5034674	Matched	lung_NSCLC	lung_NSCLC_adenocarcinoma	LUAD		MSI-S	Exclude	Yes	Yes	Yes	Yes	Yes	Yes	
+NCI-H2228	NCI-H2228	687816	1710STDY5034601	Unmatched	lung_NSCLC	lung_NSCLC_adenocarcinoma	LUAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+NCI-H2291	NCI-H2291	724874	1710STDY5034627	Unmatched	lung_NSCLC	lung_NSCLC_adenocarcinoma	LUAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+NCI-H23	NCI-H23	905942	1710STDY5034603	Unmatched	lung_NSCLC	lung_NSCLC_adenocarcinoma	LUAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+NCI-H2342	NCI-H2342	687819	1710STDY5034645	Unmatched	lung_NSCLC	lung_NSCLC_adenocarcinoma	LUAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	in-process (CCLE)	
+NCI-H2347	NCI-H2347	687820	1710STDY5034628	Unmatched	lung_NSCLC	lung_NSCLC_adenocarcinoma	LUAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+NCI-H2405	NCI-H2405	687821	1710STDY5034643	Unmatched	lung_NSCLC	lung_NSCLC_adenocarcinoma	LUAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+NCI-H292	NCI-H292	753604	1710STDY5034604	Unmatched	lung_NSCLC	lung_NSCLC_adenocarcinoma		mucoepidermoid carcinoma	MSI-L	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+NCI-H3122	NCI-H3122	1240190	1710STDY5034625	Unmatched	lung_NSCLC	lung_NSCLC_adenocarcinoma	LUAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		Not commercially available
+NCI-H322M	NCI-H322M	905967	1710STDY5034605	Unmatched	lung_NSCLC	lung_NSCLC_adenocarcinoma	LUAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+NCI-H358	NCI-H358	908465	1710STDY5034606	Unmatched	lung_NSCLC	lung_NSCLC_adenocarcinoma	LUAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+NCI-H441	NCI-H441	908460	1710STDY5034633	Unmatched	lung_NSCLC	lung_NSCLC_adenocarcinoma	LUAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+NCI-H522	NCI-H522	905944	1710STDY5034610	Unmatched	lung_NSCLC	lung_NSCLC_adenocarcinoma	LUAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+NCI-H596	NCI-H596	908459	1710STDY5034648	Unmatched	lung_NSCLC	lung_NSCLC_adenocarcinoma		mixed adeno-squamous	MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+NCI-H650	NCI-H650	722066	1710STDY5034681	Unmatched	lung_NSCLC	lung_NSCLC_adenocarcinoma	LUAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+NCI-H838	NCI-H838	910399	CGP_CCL5103783	Unmatched	lung_NSCLC	lung_NSCLC_adenocarcinoma	LUAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+PC-14	PC-14	753608	1710STDY5034615	Unmatched	lung_NSCLC	lung_NSCLC_adenocarcinoma	LUAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+PC-3 [JPC-3]	PC-3 [JPC-3]	1240202	CGP_CCL5055300	Unmatched	lung_NSCLC	lung_NSCLC_adenocarcinoma	LUAD		MSI-S	Yes	Yes	Yes	Yes	No	Yes		
+RERF-LC-KJ	RERF-LC-KJ	1298537	CGP_CCL5306245	Unmatched	lung_NSCLC	lung_NSCLC_adenocarcinoma	LUAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+RERF-LC-MS	RERF-LC-MS	910931	1710STDY5034634	Unmatched	lung_NSCLC	lung_NSCLC_adenocarcinoma	LUAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+SK-LU-1	SK-LU-1	909721	1710STDY5034682	Unmatched	lung_NSCLC	lung_NSCLC_adenocarcinoma	LUAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+SW1573	SW1573	724878	CGP_CCL5228688	Unmatched	lung_NSCLC	lung_NSCLC_adenocarcinoma	LUAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+NCI-H720	NCI-H720	687600	CGP_CCL5103696	Unmatched	lung_NSCLC	lung_NSCLC_carcinoid			MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+NCI-H727	NCI-H727	724855	1710STDY5034613	Unmatched	lung_NSCLC	lung_NSCLC_carcinoid			MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+NCI-H835	NCI-H835	753607	CGP_CCL5228708	Unmatched	lung_NSCLC	lung_NSCLC_carcinoid			MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+UMC-11	UMC-11	909779	1710STDY5034667	Unmatched	lung_NSCLC	lung_NSCLC_carcinoid			MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		poor growth
+COR-L23	COR-L23	687780	1710STDY5034642	Unmatched	lung_NSCLC	lung_NSCLC_large cell			MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	in-process (CCLE)	
+HOP-92	HOP-92	905973	1710STDY5034647	Unmatched	lung_NSCLC	lung_NSCLC_large cell			MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+IA-LM	IA-LM	910779	1710STDY5034671	Unmatched	lung_NSCLC	lung_NSCLC_large cell			MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	in-process (CCLE)	
+LCLC-103H	LCLC-103H	753586	1710STDY5034579	Unmatched	lung_NSCLC	lung_NSCLC_large cell			MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+LCLC-97TM1	LCLC-97TM1	946361	1710STDY5034725	Unmatched	lung_NSCLC	lung_NSCLC_large cell			MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+LU-65	LU-65	724863	1710STDY5034679	Unmatched	lung_NSCLC	lung_NSCLC_large cell			MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+LU-99A	LU-99A	907796	1710STDY5034582	Unmatched	lung_NSCLC	lung_NSCLC_large cell			MSI-L	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+NCI-H1155	NCI-H1155	908467	1710STDY5034680	Unmatched	lung_NSCLC	lung_NSCLC_large cell			MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+NCI-H1299	NCI-H1299	724831	1710STDY5034584	Unmatched	lung_NSCLC	lung_NSCLC_large cell			MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+NCI-H1581	NCI-H1581	908471	1710STDY5034644	Unmatched	lung_NSCLC	lung_NSCLC_large cell			MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	in-process (CCLE)	
+NCI-H1915	NCI-H1915	1240184	1710STDY5034620	Unmatched	lung_NSCLC	lung_NSCLC_large cell			MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+NCI-H460	NCI-H460	905943	1710STDY5034608	Unmatched	lung_NSCLC	lung_NSCLC_large cell			MSI-S	Yes	Yes	Yes	No	No	Yes	in-process (CCLE)	
+NCI-H661	NCI-H661	687829	1710STDY5034612	Unmatched	lung_NSCLC	lung_NSCLC_large cell			MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+NCI-H810	NCI-H810	925341	1710STDY5034641	Unmatched	lung_NSCLC	lung_NSCLC_large cell			MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+A427	A427	910851	CGP_CCL5228726	Unmatched	lung_NSCLC	lung_NSCLC_not specified	UNABLE TO CLASSIFY	poorly differentiated	MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+BEN	BEN	753534	1710STDY5034638	Unmatched	lung_NSCLC	lung_NSCLC_not specified	UNABLE TO CLASSIFY	poorly differentiated	MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+CAL-12T	CAL-12T	753540	1710STDY5034713	Unmatched	lung_NSCLC	lung_NSCLC_not specified	UNABLE TO CLASSIFY	poorly differentiated	MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+ChaGo-K-1	ChaGo-K-1	687596	1710STDY5034567	Unmatched	lung_NSCLC	lung_NSCLC_not specified	UNABLE TO CLASSIFY	poorly differentiated	MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+HCC-366	HCC-366	1240144	CGP_CCL5369286	Unmatched	lung_NSCLC	lung_NSCLC_not specified		mixed adeno-squamous	MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+NCI-H1770	NCI-H1770	687804	1710STDY5034687	Matched	lung_NSCLC	lung_NSCLC_not specified	UNABLE TO CLASSIFY	carcinoma	MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+NCI-H2110	NCI-H2110	1298351	CGP_CCL5391648	Unmatched	lung_NSCLC	lung_NSCLC_not specified	UNABLE TO CLASSIFY	carcinoma	MSI-L	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+NCI-H2135	NCI-H2135	1298352	1710STDY5034705	Unmatched	lung_NSCLC	lung_NSCLC_not specified	UNABLE TO CLASSIFY	carcinoma	MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+NCI-H2172	NCI-H2172	1298353	CGP_CCL5306256	Unmatched	lung_NSCLC	lung_NSCLC_not specified	UNABLE TO CLASSIFY	carcinoma	MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+NCI-H2444	NCI-H2444	1298356	1710STDY5034652	Unmatched	lung_NSCLC	lung_NSCLC_not specified	UNABLE TO CLASSIFY	carcinoma	MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+NCI-H647	NCI-H647	1240191	1710STDY5034688	Unmatched	lung_NSCLC	lung_NSCLC_not specified		mixed adeno-squamous	MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+EBC-1	EBC-1	753554	1710STDY5034651	Unmatched	lung_NSCLC	lung_NSCLC_squamous_cell_carcinoma	LUSC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+EPLC-272H	EPLC-272H	753556	1710STDY5034676	Unmatched	lung_NSCLC	lung_NSCLC_squamous_cell_carcinoma	LUSC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+HARA	HARA	1240142	1710STDY5034696	Unmatched	lung_NSCLC	lung_NSCLC_squamous_cell_carcinoma	LUSC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	in-process (CCLE)	
+HCC-15	HCC-15	1240143	CGP_CCL5228711	Unmatched	lung_NSCLC	lung_NSCLC_squamous_cell_carcinoma	LUSC		MSI-L	Yes	Yes	Yes	Yes	Yes	Yes	in-process (CCLE)	
+KNS-62	KNS-62	753569	1710STDY5034575	Unmatched	lung_NSCLC	lung_NSCLC_squamous_cell_carcinoma	LUSC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	in-process (CCLE)	
+LC-1-sq	LC-1-sq	1298223	CGP_CCL5369273	Unmatched	lung_NSCLC	lung_NSCLC_squamous_cell_carcinoma	LUSC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+LK-2	LK-2	687787	1710STDY5034727	Unmatched	lung_NSCLC	lung_NSCLC_squamous_cell_carcinoma	LUSC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+LOU-NH91	LOU-NH91	1298226	CGP_CCL5306193	Unmatched	lung_NSCLC	lung_NSCLC_squamous_cell_carcinoma	LUSC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+NCI-H1869	NCI-H1869	1240183	1710STDY5034690	Unmatched	lung_NSCLC	lung_NSCLC_squamous_cell_carcinoma	LUSC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+NCI-H2170	NCI-H2170	687815	1710STDY5034600	Unmatched	lung_NSCLC	lung_NSCLC_squamous_cell_carcinoma	LUSC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+NCI-H226	NCI-H226	905941	1710STDY5034602	Unmatched	lung_NSCLC	lung_NSCLC_squamous_cell_carcinoma	LUSC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	in-process (CCLE)	
+NCI-H520	NCI-H520	908443	1710STDY5034609	Unmatched	lung_NSCLC	lung_NSCLC_squamous_cell_carcinoma	LUSC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+RERF-LC-Sq1	RERF-LC-Sq1	1298538	1710STDY5034729	Unmatched	lung_NSCLC	lung_NSCLC_squamous_cell_carcinoma	LUSC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+SK-MES-1	SK-MES-1	909728	1710STDY5034646	Unmatched	lung_NSCLC	lung_NSCLC_squamous_cell_carcinoma	LUSC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+SW900	SW900	724879	1710STDY5034616	Unmatched	lung_NSCLC	lung_NSCLC_squamous_cell_carcinoma	LUSC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+COR-L321	COR-L321	1322213	CGP_CCL5306275	Unmatched	lung	Lung_other	UNABLE TO CLASSIFY	carcinoma	MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+NCI-H740	NCI-H740	1331055	CGP_CCL5228715	Unmatched	lung_SCLC	lung_small_cell_carcinoma	SCLC	small cell lung cancer	MSI-S	Yes	Yes	Yes	Yes	Yes	No		
+COLO-668	COLO-668	910692	1710STDY5034568	Unmatched	lung_SCLC	lung_small_cell_carcinoma	SCLC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	in-process (CCLE)	
+COR-L279	COR-L279	910937	CGP_CCL5369298	Unmatched	lung_SCLC	lung_small_cell_carcinoma	SCLC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	in-process (CCLE)	
+COR-L303	COR-L303	1297438	CGP_CCL5369322	Unmatched	lung_SCLC	lung_small_cell_carcinoma	SCLC		MSI-S	Yes	Yes	Yes	Yes	Yes	No		
+COR-L311	COR-L311	687980	CGP_CCL5369280	Unmatched	lung_SCLC	lung_small_cell_carcinoma	SCLC		MSI-S	Yes	Yes	Yes	Yes	Yes	No	in-process (CCLE)	
+COR-L32	COR-L32	1322212	CGP_CCL5306292	Unmatched	lung_SCLC	lung_small_cell_carcinoma	SCLC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+COR-L88	COR-L88	906808	1710STDY5034660	Unmatched	lung_SCLC	lung_small_cell_carcinoma	SCLC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	in-process (CCLE)	
+COR-L95	COR-L95	1297439	CGP_CCL5369294	Unmatched	lung_SCLC	lung_small_cell_carcinoma	SCLC		MSI-S	Yes	Yes	Yes	Yes	No	Yes	Yes	
+CPC-N	CPC-N	753547	1710STDY5034571	Unmatched	lung_SCLC	lung_small_cell_carcinoma	SCLC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+DMS-114	DMS-114	687983	CGP_CCL5228682	Unmatched	lung_SCLC	lung_small_cell_carcinoma	SCLC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	in-process (CCLE)	Growth pattern
+DMS-273	DMS-273	687985	CGP_CCL5306161	Unmatched	lung_SCLC	lung_small_cell_carcinoma	SCLC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	in-process (CCLE)	
+DMS-53	DMS-53	907295	1710STDY5034722	Unmatched	lung_SCLC	lung_small_cell_carcinoma	SCLC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	in-process (CCLE)	
+HCC-33	HCC-33	1303901	CGP_CCL5228723	Unmatched	lung_SCLC	lung_small_cell_carcinoma	SCLC		MSI-S	Yes	Yes	Yes	No	Yes	Yes	in-process (CCLE)	
+IST-SL1	IST-SL1	753564	1710STDY5034636	Unmatched	lung_SCLC	lung_small_cell_carcinoma	SCLC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+IST-SL2	IST-SL2	753565	1710STDY5034574	Unmatched	lung_SCLC	lung_small_cell_carcinoma	SCLC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+LB647-SCLC	LB647-SCLC	753582	1710STDY5034576	Matched	lung_SCLC	lung_small_cell_carcinoma	SCLC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+LU-134-A	LU-134-A	753588	1710STDY5034580	Unmatched	lung_SCLC	lung_small_cell_carcinoma	SCLC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+LU-135	LU-135	713899	1710STDY5034718	Unmatched	lung_SCLC	lung_small_cell_carcinoma	SCLC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+LU-139	LU-139	713878	1710STDY5034666	Unmatched	lung_SCLC	lung_small_cell_carcinoma	SCLC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+LU-165	LU-165	753589	1710STDY5034581	Unmatched	lung_SCLC	lung_small_cell_carcinoma	SCLC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+MS-1	MS-1	753594	1710STDY5034661	Unmatched	lung_SCLC	lung_small_cell_carcinoma	SCLC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+NCI-H1048	NCI-H1048	687995	CGP_CCL5103688	Unmatched	lung_SCLC	lung_small_cell_carcinoma	SCLC		MSI-H	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+NCI-H1092	NCI-H1092	687997	1710STDY5034670	Unmatched	lung_SCLC	lung_small_cell_carcinoma	SCLC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+NCI-H1105	NCI-H1105	908468	1710STDY5034702	Unmatched	lung_SCLC	lung_small_cell_carcinoma	SCLC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+NCI-H128	NCI-H128	753597	1710STDY5034672	Matched	lung_SCLC	lung_small_cell_carcinoma	SCLC		MSI-S	Yes	Yes	Yes	No	Yes	Yes		Poor Growth
+NCI-H1304	NCI-H1304	753599	CGP_CCL5103697	Unmatched	lung_SCLC	lung_small_cell_carcinoma	SCLC		MSI-S	Yes	Yes	Yes	Yes	No	Yes		
+NCI-H1341	NCI-H1341	1330964	CGP_CCL5306267	Unmatched	lung_SCLC	lung_small_cell_carcinoma	SCLC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+NCI-H1417	NCI-H1417	688001	CGP_CCL5369269	Unmatched	lung_SCLC	lung_small_cell_carcinoma	SCLC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+NCI-H1436	NCI-H1436	908469	CGP_CCL5369338	Unmatched	lung_SCLC	lung_small_cell_carcinoma	SCLC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+NCI-H146	NCI-H146	910899	1710STDY5034588	Unmatched	lung_SCLC	lung_small_cell_carcinoma	SCLC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+NCI-H1688	NCI-H1688	1298349	1710STDY5034689	Unmatched	lung_SCLC	lung_small_cell_carcinoma	SCLC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+NCI-H1694	NCI-H1694	688006	1710STDY5034706	Unmatched	lung_SCLC	lung_small_cell_carcinoma	SCLC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+NCI-H1836	NCI-H1836	1240182	CGP_CCL5391668	Unmatched	lung_SCLC	lung_small_cell_carcinoma	SCLC		MSI-L	Yes	Yes	Yes	Yes	Yes	Yes		
+NCI-H187	NCI-H187	688007	CGP_CCL5228735	Unmatched	lung_SCLC	lung_small_cell_carcinoma	SCLC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+NCI-H1876	NCI-H1876	1330972	CGP_CCL5103694	Unmatched	lung_SCLC	lung_small_cell_carcinoma	SCLC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+NCI-H196	NCI-H196	1240186	1710STDY5034619	Unmatched	lung_SCLC	lung_small_cell_carcinoma	SCLC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+NCI-H1963	NCI-H1963	688010	1710STDY5034665	Unmatched	lung_SCLC	lung_small_cell_carcinoma	SCLC		MSI-L	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+NCI-H2029	NCI-H2029	688011	1710STDY5034669	Unmatched	lung_SCLC	lung_small_cell_carcinoma	SCLC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+NCI-H2066	NCI-H2066	1330973	CGP_CCL5228710	Unmatched	lung_SCLC	lung_small_cell_carcinoma	SCLC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+NCI-H2081	NCI-H2081	908480	1710STDY5034711	Unmatched	lung_SCLC	lung_small_cell_carcinoma	SCLC		MSI-S	Yes	Yes	Yes	No	Yes	Yes	Yes	
+NCI-H209	NCI-H209	688013	1710STDY5034668	Matched	lung_SCLC	lung_small_cell_carcinoma	SCLC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+NCI-H211	NCI-H211	1240189	1710STDY5034621	Unmatched	lung_SCLC	lung_small_cell_carcinoma	SCLC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+NCI-H2141	NCI-H2141	688014	CGP_CCL5369299	Unmatched	lung_SCLC	lung_small_cell_carcinoma	SCLC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+NCI-H2171	NCI-H2171	688015	1710STDY5034707	Matched	lung_SCLC	lung_small_cell_carcinoma	SCLC		MSI-S	Yes	Yes	Yes	No	Yes	Yes	Yes	
+NCI-H2196	NCI-H2196	908481	1710STDY5034719	Unmatched	lung_SCLC	lung_small_cell_carcinoma	SCLC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+NCI-H2227	NCI-H2227	688018	CGP_CCL5103706	Unmatched	lung_SCLC	lung_small_cell_carcinoma	SCLC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+NCI-H250	NCI-H250	924241	CGP_CCL5369311	Unmatched	lung_SCLC	lung_small_cell_carcinoma	SCLC		MSI-L	Yes	Yes	Yes	Yes	Yes	Yes		
+NCI-H345	NCI-H345	688021	CGP_CCL5103700	Unmatched	lung_SCLC	lung_small_cell_carcinoma	SCLC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+NCI-H378	NCI-H378	688022	1710STDY5034723	Unmatched	lung_SCLC	lung_small_cell_carcinoma	SCLC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+NCI-H446	NCI-H446	688023	1710STDY5034607	Unmatched	lung_SCLC	lung_small_cell_carcinoma	SCLC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	in-process (CCLE)	
+NCI-H510A	NCI-H510A	753605	1710STDY5034635	Unmatched	lung_SCLC	lung_small_cell_carcinoma	SCLC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+NCI-H524	NCI-H524	908483	CGP_CCL5306282	Unmatched	lung_SCLC	lung_small_cell_carcinoma	SCLC		MSI-L	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+NCI-H526	NCI-H526	688025	1710STDY5034663	Unmatched	lung_SCLC	lung_small_cell_carcinoma	SCLC		MSI-L	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+NCI-H64	NCI-H64	688026	1710STDY5034611	Unmatched	lung_SCLC	lung_small_cell_carcinoma	SCLC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+NCI-H69	NCI-H69	688027	1710STDY5034664	Unmatched	lung_SCLC	lung_small_cell_carcinoma	SCLC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+NCI-H748	NCI-H748	909194	1710STDY5034715	Unmatched	lung_SCLC	lung_small_cell_carcinoma	SCLC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		Poor Growth - Few very large cumps
+NCI-H82	NCI-H82	688031	1710STDY5034662	Unmatched	lung_SCLC	lung_small_cell_carcinoma	SCLC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+NCI-H841	NCI-H841	1240192	CGP_CCL5228704	Unmatched	lung_SCLC	lung_small_cell_carcinoma	SCLC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	in-process (CCLE)	
+NCI-H847	NCI-H847	1240193	CGP_CCL5369303	Unmatched	lung_SCLC	lung_small_cell_carcinoma	SCLC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+RERF-LC-FM	RERF-LC-FM	930081	1710STDY5034716	Unmatched	lung_SCLC	lung_small_cell_carcinoma	SCLC		MSI-S	Yes	Yes	Yes	No	Yes	No		
+SBC-1	SBC-1	713885	1710STDY5034703	Unmatched	lung_SCLC	lung_small_cell_carcinoma	SCLC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+SBC-3	SBC-3	753610	CGP_CCL5306210	Unmatched	lung_SCLC	lung_small_cell_carcinoma	SCLC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+SBC-5	SBC-5	713880	1710STDY5034631	Unmatched	lung_SCLC	lung_small_cell_carcinoma	SCLC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+SHP-77	SHP-77	724872	1710STDY5034629	Unmatched	lung_SCLC	lung_small_cell_carcinoma	SCLC		MSI-S	Yes	Yes	Yes	Yes	No	Yes	Yes	
+SW1271	SW1271	1299062	CGP_CCL5306238	Unmatched	lung_SCLC	lung_small_cell_carcinoma	SCLC		MSI-S	Yes	Yes	Yes	Yes	No	Yes	Yes	
+H2369	H2369	1290808	1710STDY5034704	Unmatched	lung	mesothelioma	MESO		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Requested 08052014	Not commercially available
+H2373	H2373	1290809	1710STDY5034710	Unmatched	lung	mesothelioma	MESO		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Requested 08052014	Not commercially available
+H2461	H2461	1290810	1710STDY5034714	Unmatched	lung	mesothelioma	MESO		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Requested 08052014	Not commercially available
+H2591	H2591	1240131	1710STDY5034624	Unmatched	lung	mesothelioma	MESO		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Requested 08052014	Not commercially available
+H2595	H2595	1240132	CGP_CCL5103733	Unmatched	lung	mesothelioma	MESO		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Requested 08052014	Not commercially available
+H2722	H2722	1290812	1710STDY5034726	Unmatched	lung	mesothelioma	MESO		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Requested 08052014	Not commercially available
+H2731	H2731	1240134	1710STDY5034728	Unmatched	lung	mesothelioma	MESO		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Requested 08052014	Not commercially available
+H2795	H2795	1290813	1710STDY5034720	Unmatched	lung	mesothelioma	MESO		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Requested 08052014	Not commercially available
+H2803	H2803	1240135	1710STDY5034698	Unmatched	lung	mesothelioma	MESO		MSI-L	Yes	Yes	Yes	Yes	Yes	Yes	Requested 08052014	Not commercially available
+H2804	H2804	1240136	1710STDY5034655	Unmatched	lung	mesothelioma	MESO		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Requested 08052014	Not commercially available
+H2810	H2810	1240137	CGP_CCL5103723	Unmatched	lung	mesothelioma	MESO		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Requested 08052014	Not commercially available
+H2818	H2818	1290814	1710STDY5034700	Unmatched	lung	mesothelioma	MESO		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Requested 08052014	Not commercially available
+H2869	H2869	1240138	1710STDY5034618	Unmatched	lung	mesothelioma	MESO		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Requested 08052014	Not commercially available
+H290	H290	1240139	1710STDY5034626	Unmatched	lung	mesothelioma	MESO		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Requested 08052014	Not commercially available
+H513	H513	1240141	1710STDY5034654	Unmatched	lung	mesothelioma	MESO		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Requested 08052014	
+IST-MES1	IST-MES1	907173	1710STDY5034659	Unmatched	lung	mesothelioma	MESO		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Requested 08052014	
+MPP-89	MPP-89	908150	1710STDY5034563	Unmatched	lung	mesothelioma	MESO		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+MSTO-211H	MSTO-211H	908152	1710STDY5034650	Unmatched	lung	mesothelioma	MESO		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+NCI-H2052	NCI-H2052	688058	1710STDY5034724	Matched	lung	mesothelioma	MESO		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+NCI-H2452	NCI-H2452	908462	1710STDY5034649	Unmatched	lung	mesothelioma	MESO		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+NCI-H28	NCI-H28	908470	1710STDY5034699	Unmatched	lung	mesothelioma	MESO		MSI-L	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+42-MG-BA	42-MG-BA	687561	CGP_CCL5055140	Unmatched	nervous_system	glioma	GBM		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+8-MG-BA	8-MG-BA	687562	1710STDY5035135	Unmatched	nervous_system	glioma	GBM		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	in-process (CCLE)	
+A172	A172	687563	CGP_CCL5055111	Unmatched	nervous_system	glioma	GBM		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+AM-38	AM-38	910933	1710STDY5035128	Unmatched	nervous_system	glioma	GBM		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+Becker	Becker	906746	1710STDY5035127	Unmatched	nervous_system	glioma	GBM		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+CAS-1	CAS-1	910943	1710STDY5035126	Unmatched	nervous_system	glioma	GBM		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+CCF-STTG1	CCF-STTG1	906823	CGP_CCL5369274	Unmatched	nervous_system	glioma	GBM		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+D-245MG	D-245MG	946366	CGP_CCL5103698	Unmatched	nervous_system	glioma	GBM		MSI-S	Yes	Yes	Yes	No	Yes	No		Contaminated Vials - Re-Ordering
+D-247MG	D-247MG	946367	1710STDY5035125	Unmatched	nervous_system	glioma	GBM		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+D-263MG	D-263MG	946368	1710STDY5035124	Unmatched	nervous_system	glioma	GBM		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+D-336MG	D-336MG	946369	1710STDY5035122	Unmatched	nervous_system	glioma	LGG		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+D-392MG	D-392MG	946370	1710STDY5035121	Unmatched	nervous_system	glioma	GBM		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+D-423MG	D-423MG	946372	CGP_CCL5369337	Unmatched	nervous_system	glioma	GBM		MSI-S	Yes	Yes	Yes	Yes	No	Yes		
+D-502MG	D-502MG	946373	1710STDY5035120	Unmatched	nervous_system	glioma	LGG		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+D-542MG	D-542MG	753549	1710STDY5035132	Matched	nervous_system	glioma	GBM		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+D-566MG	D-566MG	946377	CGP_CCL5228685	Unmatched	nervous_system	glioma	GBM		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+DBTRG-05MG	DBTRG-05MG	906835	CGP_CCL5055133	Unmatched	nervous_system	glioma	GBM		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+DK-MG	DK-MG	906839	CGP_CCL5055113	Unmatched	nervous_system	glioma	GBM		MSI-L	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+GAMG	GAMG	906868	CGP_CCL5055114	Unmatched	nervous_system	glioma	LGG		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+GB-1	GB-1	687568	1710STDY5035119	Unmatched	nervous_system	glioma	GBM		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+GI-1	GI-1	906871	1710STDY5035118	Unmatched	nervous_system	glioma	LGG		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+GMS-10	GMS-10	906873	CGP_CCL5055135	Unmatched	nervous_system	glioma	GBM		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+H4	H4	907042	CGP_CCL5055115	Unmatched	nervous_system	glioma	LGG		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+Hs-683	Hs683	1240150	CGP_CCL5055131	Unmatched	nervous_system	glioma	LGG		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+KALS-1	KALS-1	907271	1710STDY5035117	Unmatched	nervous_system	glioma	LGG		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+KINGS-1	KINGS-1	907279	1710STDY5035116	Unmatched	nervous_system	glioma	LGG		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+KNS-42	KNS-42	907282	1710STDY5035133	Unmatched	nervous_system	glioma	LGG		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+KNS-81-FD	KNS-81-FD	924188	1710STDY5035129	Unmatched	nervous_system	glioma	LGG		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+KS-1	KS-1	907313	1710STDY5035115	Unmatched	nervous_system	glioma	GBM		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+LN-18	LN-18	1240168	CGP_CCL5055130	Unmatched	nervous_system	glioma	GBM		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+LN-229	LN-229	1240169	CGP_CCL5055129	Unmatched	nervous_system	glioma	GBM		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+LN-405	LN-405	910694	CGP_CCL5055136	Unmatched	nervous_system	glioma	GBM		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+LNZTA3WT4	LNZTA3WT4	1240170	CGP_CCL5055127	Unmatched	nervous_system	glioma	GBM		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+M059J	M059J	949094	CGP_CCL5055116	Unmatched	nervous_system	glioma	GBM		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+MOG-G-CCM	MOG-G-CCM	908144	CGP_CCL5306246	Unmatched	nervous_system	glioma	LGG		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+MOG-G-UVW	MOG-G-UVW	908145	CGP_CCL5391644	Unmatched	nervous_system	glioma	LGG		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+NMC-G1	NMC-G1	908449	1710STDY5035114	Unmatched	nervous_system	glioma	LGG		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	in-process (CCLE)	
+no-10	no-10	908452	1710STDY5035130	Unmatched	nervous_system	glioma	LGG		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+no-11	no-11	908450	1710STDY5035131	Unmatched	nervous_system	glioma	LGG		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+SF126	SF126	909712	CGP_CCL5103732	Unmatched	nervous_system	glioma	GBM		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+SF268	SF268	905986	1710STDY5035112	Unmatched	nervous_system	glioma	GBM		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+SF295	SF295	905985	CGP_CCL5369284	Unmatched	nervous_system	glioma	GBM		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	in-process (CCLE)	
+SF539	SF539	905984	1710STDY5035111	Unmatched	nervous_system	glioma	LGG		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+SK-MG-1	SK-MG-1	909729	1710STDY5035107	Unmatched	nervous_system	glioma	GBM		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+SNB75	SNB75	905982	1710STDY5035110	Unmatched	nervous_system	glioma	GBM		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+SW1088	SW1088	909745	CGP_CCL5055138	Unmatched	nervous_system	glioma	GBM		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+SW1783	SW1783	909750	CGP_CCL5055117	Unmatched	nervous_system	glioma	LGG		MSI-L	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+T98G	T98G	687586	CGP_CCL5055118	Unmatched	nervous_system	glioma	GBM		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+U-118-MG	U-118-MG	687588	CGP_CCL5055119	Unmatched	nervous_system	glioma	GBM		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+U251	U251	905983	CGP_CCL5055120	Unmatched	nervous_system	glioma	GBM		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	in-process (CCLE)	
+U-87-MG	U-87-MG	687590	CGP_CCL5055121	Unmatched	nervous_system	glioma	GBM		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+YH-13	YH-13	909905	1710STDY5035109	Unmatched	nervous_system	glioma	GBM		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+YKG-1	YKG-1	687592	CGP_CCL5055137	Unmatched	nervous_system	glioma	GBM		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	in-process (CCLE)	
+D-283MED	D-283MED	906834	1710STDY5035123	Unmatched	nervous_system	medulloblastoma	MB		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+Daoy	Daoy	906833	CGP_CCL5055112	Unmatched	nervous_system	medulloblastoma	MB		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	in-process (CCLE)	
+ONS-76	ONS-76	909248	1710STDY5035134	Unmatched	nervous_system	medulloblastoma	MB		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+PFSK-1	PFSK-1	683667	CGP_CCL5055144	Unmatched	nervous_system	medulloblastoma	MB		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+ACN	ACN	906803	CGP_CCL5055249	Unmatched	neuroblastoma	neuroblastoma		Putative Melanoma (identified through Transcriptional/Genomic/DrugResponse profile matching)	MSI-S	No	Yes	Yes	Yes	Yes	Yes		
+BE2-M17	BE2-M17	753616	CGP_CCL5055139	Unmatched	neuroblastoma	neuroblastoma	NB		MSI-L	Yes	Yes	Yes	Yes	Yes	Yes		
+CHP-126	CHP-126	910567	CGP_CCL5103692	Unmatched	neuroblastoma	neuroblastoma	NB		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+CHP-134	CHP-134	910941	CGP_CCL5055261	Unmatched	neuroblastoma	neuroblastoma	NB		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+CHP-212	CHP-212	906820	CGP_CCL5055124	Unmatched	neuroblastoma	neuroblastoma	NB		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	in-process (CCLE)	
+GI-ME-N	GI-ME-N	906872	CGP_CCL5055250	Unmatched	neuroblastoma	neuroblastoma	NB		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+GOTO	GOTO	906875	1710STDY5035390	Unmatched	neuroblastoma	neuroblastoma	NB		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+IMR-5	IMR-5	907170	CGP_CCL5055262	Unmatched	neuroblastoma	neuroblastoma	NB		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+KELLY	KELLY	753618	CGP_CCL5055132	Unmatched	neuroblastoma	neuroblastoma	NB		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+KP-N-RT-BM-1	KP-N-RT-BM-1	924189	CGP_CCL5306266	Unmatched	neuroblastoma	neuroblastoma	NB		MSI-S	Yes	Yes	Yes	No	Yes	Yes	Yes	
+KP-N-YN	KP-N-YN	907314	CGP_CCL5228725	Unmatched	neuroblastoma	neuroblastoma	NB		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+KP-N-YS	KP-N-YS	946363	CGP_CCL5055251	Unmatched	neuroblastoma	neuroblastoma	NB		MSI-S	Yes	Yes	Yes	No	Yes	Yes		Poor Growth - Failed multiple screen attempts
+LAN-6	LAN-6	949170	CGP_CCL5055254	Unmatched	neuroblastoma	neuroblastoma	NB		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+MC-IXC	MC-IXC	908118	CGP_CCL5055107	Unmatched	neuroblastoma	neuroblastoma	NB		MSI-L	Yes	Yes	Yes	No	Yes	Yes		
+MHH-NB-11	MHH-NB-11	908135	CGP_CCL5055109	Unmatched	neuroblastoma	neuroblastoma	NB		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	Continued High CV
+NB(TU)1-10	NB(TU)1-10	1240181	CGP_CCL5369272	Unmatched	neuroblastoma	neuroblastoma	NB		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+NB1	NB1	949179	CGP_CCL5391673	Unmatched	neuroblastoma	neuroblastoma	NB		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	in-process (CCLE)	
+NB10	NB10	949171	CGP_CCL5055255	Unmatched	neuroblastoma	neuroblastoma	NB		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+NB12	NB12	949172	CGP_CCL5055256	Unmatched	neuroblastoma	neuroblastoma	NB		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+NB13	NB13	949177	CGP_CCL5055257	Unmatched	neuroblastoma	neuroblastoma	NB		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+NB14	NB14	949178	CGP_CCL5055258	Unmatched	neuroblastoma	neuroblastoma	NB		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+NB17	NB17	949175	CGP_CCL5055266	Unmatched	neuroblastoma	neuroblastoma	NB		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+NB5	NB5	949176	CGP_CCL5055259	Unmatched	neuroblastoma	neuroblastoma	NB		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+NB6	NB6	949173	CGP_CCL5055264	Unmatched	neuroblastoma	neuroblastoma	NB		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+NB69	NB69	908440	CGP_CCL5055108	Unmatched	neuroblastoma	neuroblastoma	NB		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+NB7	NB7	949174	CGP_CCL5055260	Unmatched	neuroblastoma	neuroblastoma	NB		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+NBsusSR	NBsusSR	925342	CGP_CCL5055265	Unmatched	neuroblastoma	neuroblastoma	NB	Putative Ewing's sarcoma identified through transcriptional/genomic/drug response profile matching	MSI-S	No	Yes	Yes	Yes	Yes	Yes		
+NH-12	NH-12	908447	1710STDY5035416	Unmatched	neuroblastoma	neuroblastoma	NB		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+SIMA	SIMA	753620	CGP_CCL5306260	Unmatched	neuroblastoma	neuroblastoma	NB		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+SK-N-AS	SK-N-AS	724828	CGP_CCL5055110	Unmatched	neuroblastoma	neuroblastoma	NB		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+SK-N-DZ	SK-N-DZ	688086	CGP_CCL5055141	Unmatched	neuroblastoma	neuroblastoma	NB		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+SK-N-FI	SK-N-FI	688087	CGP_CCL5055123	Unmatched	neuroblastoma	neuroblastoma	NB		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+SK-N-SH	SK-N-SH	717431	CGP_CCL5055126	Unmatched	neuroblastoma	neuroblastoma	NB		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+TGW	TGW	910780	CGP_CCL5306295	Unmatched	neuroblastoma	neuroblastoma	NB		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+AsPC-1	AsPC-1	910702	1710STDY5035491	Unmatched	pancreas	pancreas	PAAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+BxPC-3	BxPC-3	906693	1710STDY5035475	Unmatched	pancreas	pancreas	PAAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+CAPAN-1	CAPAN-1	753624	1710STDY5035493	Unmatched	pancreas	pancreas	PAAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+Capan-2	Capan-2	910915	1710STDY5035501	Unmatched	pancreas	pancreas	PAAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+CFPAC-1	CFPAC-1	906821	1710STDY5035476	Unmatched	pancreas	pancreas	PAAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+DAN-G	DAN-G	1290797	1710STDY5035497	Unmatched	pancreas	pancreas	PAAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	in-process (CCLE)	
+HPAC	HPAC	1298136	1710STDY5035495	Unmatched	pancreas	pancreas	PAAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+HPAF-II	HPAF-II	724869	CGP_CCL5103729	Unmatched	pancreas	pancreas	PAAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+Hs-766T	Hs766T	1298141	CGP_CCL5228712	Unmatched	pancreas	pancreas	PAAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+HuP-T3	HuP-T3	907285	1710STDY5035478	Unmatched	pancreas	pancreas	PAAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+HuP-T4	HuP-T4	907286	1710STDY5035499	Unmatched	pancreas	pancreas	PAAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	in-process (CCLE)	
+KP-1N	KP-1N	1298216	1710STDY5035498	Unmatched	pancreas	pancreas	PAAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+KP-3	KP-3	1298219	1710STDY5035496	Unmatched	pancreas	pancreas	UNABLE TO CLASSIFY		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+KP-4	KP-4	753572	1710STDY5035479	Unmatched	pancreas	pancreas	PAAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+MIA-PaCa-2	MIA-PaCa-2	724870	1710STDY5035480	Unmatched	pancreas	pancreas	PAAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+MZ1-PC	MZ1-PC	753595	1710STDY5035494	Matched	pancreas	pancreas	PAAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+PANC-02-03	PANC-02-03	1298475	CGP_CCL5306285	Unmatched	pancreas	pancreas	PAAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+PANC-03-27	PANC-03-27	925346	1710STDY5035492	Unmatched	pancreas	pancreas	PAAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+PANC-04-03	PANC-04-03	1298476	CGP_CCL5391662	Unmatched	pancreas	pancreas	PAAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+PANC-08-13	PANC-08-13	925347	1710STDY5035485	Unmatched	pancreas	pancreas	PAAD		MSI-L	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+PANC-10-05	PANC-10-05	925348	1710STDY5035481	Unmatched	pancreas	pancreas	PAAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+PA-TU-8902	PA-TU-8902	1298526	CGP_CCL5391641	Unmatched	pancreas	pancreas	PAAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	in-process (CCLE)	
+PA-TU-8988T	PA-TU-8988T	1240201	1710STDY5035487	Unmatched	pancreas	pancreas	PAAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+PL18	PL18	1240208	1710STDY5035488	Unmatched	pancreas	pancreas	PAAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		Not commercially available
+PL4	PL4	1298533	CGP_CCL5306253	Unmatched	pancreas	pancreas	PAAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		Not commercially available
+PSN1	PSN1	910546	1710STDY5035482	Unmatched	pancreas	pancreas	PAAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	in-process (CCLE)	
+QGP-1	QGP-1	1298534	CGP_CCL5103699	Unmatched	pancreas	pancreas		pancreatic islet cell carcinoma	MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	in-process (CCLE)	
+SU8686	SU8686	1240218	1710STDY5035486	Unmatched	pancreas	pancreas	PAAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+SUIT-2	SUIT-2	1240219	1710STDY5035489	Unmatched	pancreas	pancreas	PAAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+SW1990	SW1990	910907	1710STDY5035483	Unmatched	pancreas	pancreas	PAAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+YAPC	YAPC	909904	1710STDY5035484	Unmatched	pancreas	pancreas	PAAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+451Lu	451Lu	1287706	CGP_CCL5306211	Unmatched	skin	melanoma	SKCM		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		Not commercially available
+A101D	A101D	910921	1710STDY5035139	Unmatched	skin	melanoma	SKCM		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+A2058	A2058	906792	1710STDY5035140	Unmatched	skin	melanoma	SKCM		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+A375	A375	906793	1710STDY5035141	Unmatched	skin	melanoma	SKCM		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	in-process (CCLE)	
+C32	C32	906830	1710STDY5035185	Unmatched	skin	melanoma	SKCM		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+CHL-1	CHL-1	910853	1710STDY5035144	Unmatched	skin	melanoma	SKCM		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+COLO-679	COLO-679	906818	1710STDY5035145	Unmatched	skin	melanoma	SKCM		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+COLO-783	COLO-783	1240125	CGP_CCL5369296	Unmatched	skin	melanoma	SKCM		MSI-S	Yes	Yes	Yes	Yes	No	Yes	Yes	
+COLO-792	COLO-792	906814	1710STDY5035181	Unmatched	skin	melanoma	SKCM		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+COLO-800	COLO-800	906813	1710STDY5035146	Unmatched	skin	melanoma	SKCM		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+COLO-829	COLO-829	687448	1710STDY5035173	Matched	skin	melanoma	SKCM		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+CP50-MEL-B	CP50-MEL-B	753545	1710STDY5035189	Matched	skin	melanoma	SKCM		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+CP66-MEL	CP66-MEL	753546	1710STDY5035170	Matched	skin	melanoma	SKCM		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+CP67-MEL	CP67-MEL	949092	1710STDY5035147	Unmatched	skin	melanoma	SKCM		MSI-L	Yes	Yes	Yes	No	Yes	Yes		Poor Growth
+G-361	G-361	906865	1710STDY5035186	Unmatched	skin	melanoma	SKCM		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	in-process (CCLE)	
+GAK	GAK	910932	1710STDY5035149	Unmatched	skin	melanoma	SKCM		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+G-MEL	G-MEL	1240130	1710STDY5035178	Unmatched	skin	melanoma	SKCM		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+HMV-II	HMV-II	907058	1710STDY5035150	Unmatched	skin	melanoma	SKCM		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+Hs-939-T	Hs939-T	1298144	CGP_CCL5306207	Unmatched	skin	melanoma	SKCM		MSI-S	Yes	Yes	Yes	No	No	Yes	Yes	
+Hs-940-T	Hs940-T	1298145	CGP_CCL5369270	Unmatched	skin	melanoma	SKCM		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+HT-144	HT-144	907067	1710STDY5035151	Unmatched	skin	melanoma	SKCM		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+IGR-1	IGR-1	907169	1710STDY5035182	Unmatched	skin	melanoma	SKCM		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+IGR-37	IGR-37	1240153	1710STDY5035177	Unmatched	skin	melanoma	SKCM		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	in-process (CCLE)	
+IPC-298	IPC-298	907171	CGP_CCL5103787	Unmatched	skin	melanoma	SKCM		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	in-process (CCLE)	
+IST-MEL1	IST-MEL1	907172	1710STDY5035153	Unmatched	skin	melanoma	SKCM		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+LB2518-MEL	LB2518-MEL	753579	1710STDY5035169	Matched	skin	melanoma	SKCM		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+LB373-MEL-D	LB373-MEL-D	753581	1710STDY5035187	Matched	skin	melanoma	SKCM		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+LOXIMVI	LOXIMVI	905974	1710STDY5035154	Unmatched	skin	melanoma	SKCM		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	in-process (CCLE)	
+M00921	M00921	1723793	CGP_CCL5391658	Unmatched	skin	melanoma	SKCM		MSI-S	No	Yes	Yes	Yes	No	No		Melanoma - UHZ - short term culture
+M14	M14	905975	1710STDY5035155	Unmatched	skin	melanoma	SKCM		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+M980513	M980513	1723794	CGP_CCL5391660	Unmatched	skin	melanoma	SKCM		MSI-S	No	Yes	Yes	Yes	No	No		Melanoma - UHZ - short term culture
+MEL-HO	MEL-HO	908124	1710STDY5035156	Unmatched	skin	melanoma	SKCM		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+MEL-JUSO	MEL-JUSO	908125	1710STDY5035157	Unmatched	skin	melanoma	SKCM		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+MET-2B	MET-2B	1659787	CGP_CCL5369331	Unmatched	skin	melanoma	SKCM		MSI-L	No	Yes	Yes	Yes	No	No		Melanoma - UHZ, From same patient as MET-2C- short term culture
+Mewo	Mewo	908128	1710STDY5035158	Unmatched	skin	melanoma	SKCM		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+MMAC-SF	MMAC-SF	925339	1710STDY5035159	Unmatched	skin	melanoma	SKCM		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+MZ2-MEL	MZ2-MEL	971777	1710STDY5035172	Unmatched	skin	melanoma	SKCM		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+MZ7-mel	MZ7-mel	753596	1710STDY5035171	Matched	skin	melanoma	SKCM		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+RPMI-7951	RPMI-7951	910903	1710STDY5035188	Unmatched	skin	melanoma	SKCM		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+RVH-421	RVH-421	909706	1710STDY5035180	Unmatched	skin	melanoma	SKCM		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+SH-4	SH-4	909713	1710STDY5035160	Unmatched	skin	melanoma	SKCM		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+SK-MEL-1	SK-MEL-1	909723	1710STDY5035161	Unmatched	skin	melanoma	SKCM		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+SK-MEL-2	SK-MEL-2	905955	1710STDY5035162	Unmatched	skin	melanoma	SKCM		MSI-H	Yes	Yes	Yes	Yes	Yes	Yes		
+SK-MEL-24	SK-MEL-24	909725	1710STDY5035163	Unmatched	skin	melanoma	SKCM		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+SK-MEL-28	SK-MEL-28	905954	1710STDY5035164	Unmatched	skin	melanoma	SKCM		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+SK-MEL-3	SK-MEL-3	909724	1710STDY5035190	Unmatched	skin	melanoma	SKCM		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+SK-MEL-30	SK-MEL-30	909726	1710STDY5035165	Unmatched	skin	melanoma	SKCM		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+SK-MEL-31	SK-MEL-31	909727	CGP_CCL5391642	Unmatched	skin	melanoma	SKCM		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+SK-MEL-5	SK-MEL-5	905956	CGP_CCL5228680	Unmatched	skin	melanoma	SKCM		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	in-process (CCLE)	
+UACC-257	UACC-257	905977	1710STDY5035166	Unmatched	skin	melanoma	SKCM		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+UACC-62	UACC-62	905976	1710STDY5035167	Unmatched	skin	melanoma	SKCM		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+VMRC-MELG	VMRC-MELG	930301	1710STDY5035168	Unmatched	skin	melanoma	SKCM		MSI-S	Yes	Yes	Yes	No	No	Yes		
+WM-115	WM-115	909784	CGP_CCL5103705	Unmatched	skin	melanoma	SKCM		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+WM1552C	WM1552C	1299078	1710STDY5035174	Unmatched	skin	melanoma	SKCM		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+WM278	WM278	1240226	1710STDY5035179	Unmatched	skin	melanoma	SKCM		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+WM35	WM35	1299080	1710STDY5035175	Unmatched	skin	melanoma	SKCM		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+WM793B	WM793B	1299081	CGP_CCL5306165	Unmatched	skin	melanoma	SKCM		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+A388	A388	910697	CGP_CCL5055196	Unmatched	skin	skin_other		skin squamous cell carcinoma	MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+A431	A431	910925	1710STDY5035142	Unmatched	skin	skin_other		skin squamous cell carcinoma	MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+DJM-1	DJM-1	906841	1710STDY5035148	Unmatched	skin	skin_other		skin squamous cell carcinoma	MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+Hs-633T	Hs633T	1240149	CGP_CCL5055191	Unmatched	soft_tissue	fibrosarcoma			MSI-S	Yes	Yes	No	Yes	Yes	Yes		
+HT-1080	HT-1080	907064	CGP_CCL5055195	Unmatched	soft_tissue	fibrosarcoma			MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+SW684	SW684	909754	CGP_CCL5055186	Unmatched	soft_tissue	fibrosarcoma			MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+A204	A204	910784	CGP_CCL5055337	Unmatched	soft_tissue	rhabdomyosarcoma			MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+A673	A673	684052	CGP_CCL5055342	Unmatched	soft_tissue	rhabdomyosarcoma			MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+KYM-1	KYM-1	1240166	CGP_CCL5055345	Unmatched	soft_tissue	rhabdomyosarcoma			MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+RD	RD	909264	CGP_CCL5055343	Unmatched	soft_tissue	rhabdomyosarcoma			MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+RH-1	RH-1	971773	CGP_CCL5055341	Unmatched	soft_tissue	rhabdomyosarcoma			MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+RH-18	RH-18	971774	CGP_CCL5055346	Unmatched	soft_tissue	rhabdomyosarcoma			MSI-L	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+RH-41	RH-41	1240210	CGP_CCL5055344	Unmatched	soft_tissue	rhabdomyosarcoma			MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+SJRH30	SJRH30	909716	CGP_CCL5055338	Unmatched	soft_tissue	rhabdomyosarcoma			MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+TE-441-T	TE-441-T	924248	CGP_CCL5055340	Unmatched	soft_tissue	rhabdomyosarcoma			MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	Poor Growth
+G-402	G-402	907298	1710STDY5035401	Unmatched	soft_tissue	soft_tissue_other			MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+GCT	GCT	906999	CGP_CCL5055194	Unmatched	soft_tissue	soft_tissue_other			MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+MFH-ino	MFH-ino	925343	CGP_CCL5055185	Unmatched	soft_tissue	soft_tissue_other			MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+SK-LMS-1	SK-LMS-1	909720	CGP_CCL5055190	Unmatched	soft_tissue	soft_tissue_other			MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+SK-UT-1	SK-UT-1	909732	CGP_CCL5055339	Unmatched	soft_tissue	soft_tissue_other			MSI-H	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+SW872	SW872	909756	CGP_CCL5055187	Unmatched	soft_tissue	soft_tissue_other			MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+SW982	SW982	909759	CGP_CCL5055188	Unmatched	soft_tissue	soft_tissue_other			MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+VA-ES-BJ	VA-ES-BJ	688121	CGP_CCL5055189	Unmatched	soft_tissue	soft_tissue_other			MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+8305C	8305C	906795	CGP_CCL5055241	Unmatched	thyroid	thyroid	THCA		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+8505C	8505C	924102	CGP_CCL5055225	Unmatched	thyroid	thyroid	THCA		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+ASH-3	ASH-3	1290722	CGP_CCL5228716	Unmatched	thyroid	thyroid	THCA		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+BCPAP	BCPAP	924104	CGP_CCL5055226	Unmatched	thyroid	thyroid	THCA		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+BHT-101	BHT-101	906696	CGP_CCL5055240	Unmatched	thyroid	thyroid	THCA		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+CAL-62	CAL-62	906828	CGP_CCL5055238	Unmatched	thyroid	thyroid	THCA		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	in-process (CCLE)	
+CGTH-W-1	CGTH-W-1	910568	CGP_CCL5055227	Unmatched	thyroid	thyroid	THCA		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+FTC-133	FTC-133	906864	CGP_CCL5055236	Unmatched	thyroid	thyroid	THCA		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+HTC-C3	HTC-C3	924151	CGP_CCL5055237	Unmatched	thyroid	thyroid	THCA		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+IHH-4	IHH-4	1240154	CGP_CCL5055235	Unmatched	thyroid	thyroid	THCA		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+K5	K5	924238	CGP_CCL5055228	Unmatched	thyroid	thyroid	THCA		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+KMH-2	KMH-2	1298167	CGP_CCL5055239	Unmatched	thyroid	thyroid	THCA		MSI-S	Yes	Yes	Yes	No	Yes	Yes		
+ML-1	ML-1	1240178	CGP_CCL5103728	Unmatched	thyroid	thyroid	THCA		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+RO82-W-1	RO82-W-1	930083	CGP_CCL5055231	Unmatched	thyroid	thyroid	THCA		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+S-117	S-117	910946	CGP_CCL5055230	Unmatched	thyroid	thyroid		thyroid sarcoma	MSI-S	No	Yes	Yes	Yes	Yes	Yes	Yes	
+TT	TT	930299	CGP_CCL5306318	Unmatched	thyroid	thyroid	THCA		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+TT2609-C02	TT2609-C02	1240223	CGP_CCL5055234	Unmatched	thyroid	thyroid	THCA		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+5637	5637	687452	CGP_CCL5055220	Unmatched	urogenital_system	Bladder	BLCA		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	in-process (CCLE)	
+639-V	639-V	906798	CGP_CCL5055215	Unmatched	urogenital_system	Bladder	BLCA		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+647-V	647-V	906797	CGP_CCL5055203	Unmatched	urogenital_system	Bladder	BLCA		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+BFTC-905	BFTC-905	910926	CGP_CCL5055204	Unmatched	urogenital_system	Bladder	BLCA		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+CAL-29	CAL-29	1290730	CGP_CCL5055218	Unmatched	urogenital_system	Bladder	BLCA		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+DSH1	DSH1	753552	CGP_CCL5055205	Unmatched	urogenital_system	Bladder	BLCA		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+HT-1197	HT-1197	907065	CGP_CCL5055217	Unmatched	urogenital_system	Bladder	BLCA		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+HT-1376	HT-1376	907066	CGP_CCL5055206	Unmatched	urogenital_system	Bladder	BLCA		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+J82	J82	753566	CGP_CCL5055214	Matched	urogenital_system	Bladder	BLCA		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+KU-19-19	KU-19-19	907312	CGP_CCL5055211	Unmatched	urogenital_system	Bladder	BLCA		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+LB831-BLC	LB831-BLC	753584	CGP_CCL5055216	Matched	urogenital_system	Bladder	BLCA		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+RT-112	RT-112	909704	CGP_CCL5055207	Unmatched	urogenital_system	Bladder	BLCA		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+RT4	RT4	687455	CGP_CCL5055222	Unmatched	urogenital_system	Bladder	BLCA		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	in-process (CCLE)	
+SCaBER	SCaBER	1299051	CGP_CCL5055219	Unmatched	urogenital_system	Bladder	BLCA		MSI-S	Exclude	Yes	Yes	Yes	Yes	Yes	Yes	
+SW1710	SW1710	909749	CGP_CCL5055208	Unmatched	urogenital_system	Bladder	BLCA		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+SW780	SW780	687457	CGP_CCL5055213	Unmatched	urogenital_system	Bladder	BLCA		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+T-24	T-24	724812	CGP_CCL5055221	Unmatched	urogenital_system	Bladder	BLCA		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+TCCSUP	TCCSUP	687459	CGP_CCL5055209	Unmatched	urogenital_system	Bladder	BLCA		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+UM-UC-3	UM-UC-3	724838	CGP_CCL5055210	Unmatched	urogenital_system	Bladder	BLCA		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+VM-CUB-1	VM-CUB-1	909780	CGP_CCL5055212	Unmatched	urogenital_system	Bladder	BLCA		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	in-process (CCLE)	
+C-33-A	C-33-A	687505	CGP_CCL5055162	Unmatched	urogenital_system	cervix	CESC		MSI-H	Yes	Yes	Yes	Yes	Yes	Yes		
+C-4-I	C-4-I	687506	CGP_CCL5306244	Unmatched	urogenital_system	cervix	CESC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+CAL-39	CAL-39	924107	CGP_CCL5055165	Unmatched	urogenital_system	cervix	CESC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+Ca-Ski	Ca-Ski	906824	CGP_CCL5055155	Unmatched	urogenital_system	cervix	CESC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+DoTc2-4510	DoTc2-4510	906843	CGP_CCL5055168	Unmatched	urogenital_system	cervix	CESC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+HeLa	HeLa	1298134	CGP_CCL5055170	Unmatched	urogenital_system	cervix	CESC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+HT-3	HT-3	907068	CGP_CCL5055167	Unmatched	urogenital_system	cervix	CESC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+ME-180	ME-180	687514	CGP_CCL5055156	Unmatched	urogenital_system	cervix	CESC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+MS751	MS751	1240179	CGP_CCL5055164	Unmatched	urogenital_system	cervix	CESC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+OMC-1	OMC-1	949154	CGP_CCL5055157	Unmatched	urogenital_system	cervix	CESC		MSI-S	Yes	Yes	Yes	No	Yes	Yes		
+SiHa	SiHa	930297	CGP_CCL5055158	Unmatched	urogenital_system	cervix	CESC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+SISO	SISO	1240212	CGP_CCL5055163	Unmatched	urogenital_system	cervix	CESC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+SKG-IIIa	SKG-IIIa	930298	CGP_CCL5055161	Unmatched	urogenital_system	cervix	CESC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+SW756	SW756	724839	CGP_CCL5306294	Unmatched	urogenital_system	cervix	CESC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+TC-YIK	TC-YIK	946357	CGP_CCL5055159	Unmatched	urogenital_system	cervix		small cell carcinoma of the uterine cervix	MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+AN3-CA	AN3-CA	910781	CGP_CCL5055273	Unmatched	urogenital_system	endometrium	UCEC		MSI-H	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+COLO-684	COLO-684	910691	CGP_CCL5055279	Unmatched	urogenital_system	endometrium	UCEC		MSI-H	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+EN	EN	1240127	CGP_CCL5055276	Unmatched	urogenital_system	endometrium	UCEC		MSI-L	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+ESS-1	ESS-1	907000	CGP_CCL5306197	Unmatched	urogenital_system	endometrium		endometrial stromal sarcoma	MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	in-process (CCLE)	
+HEC-1	HEC-1	907051	CGP_CCL5055283	Unmatched	urogenital_system	endometrium	UCEC		MSI-H	Yes	Yes	Yes	Yes	Yes	Yes		
+KLE	KLE	924187	CGP_CCL5055280	Unmatched	urogenital_system	endometrium	UCEC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+MFE-280	MFE-280	908129	CGP_CCL5055274	Unmatched	urogenital_system	endometrium	UCEC		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+MFE-296	MFE-296	908130	CGP_CCL5369335	Unmatched	urogenital_system	endometrium	UCEC		MSI-H	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+MFE-319	MFE-319	1240174	CGP_CCL5055282	Unmatched	urogenital_system	endometrium	UCEC		MSI-H	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+RL95-2	RL95-2	930082	CGP_CCL5055281	Unmatched	urogenital_system	endometrium		adenosquamous carcinoma of the endometrium	MSI-H	Yes	Yes	Yes	Yes	No	Yes	Yes	
+SNG-M	SNG-M	909735	CGP_CCL5369341	Unmatched	urogenital_system	endometrium	UCEC		MSI-H	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+A2780	A2780	906804	1710STDY5035292	Unmatched	urogenital_system	ovary	UNABLE TO CLASSIFY		MSI-L	Yes	Yes	Yes	Yes	Yes	Yes	in-process (CCLE)	
+Caov-3	Caov-3	906825	1710STDY5035313	Unmatched	urogenital_system	ovary	OV		MSI-S	Yes	Yes	Yes	No	Yes	Yes	Yes	
+Caov-4	Caov-4	949090	CGP_CCL5369324	Unmatched	urogenital_system	ovary	OV		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+DOV13	DOV13	1479987	CGP_CCL5306204	Unmatched	urogenital_system	ovary	OV		MSI-S	Yes	Yes	Yes	Yes	No	Yes		
+EFO-21	EFO-21	911905	1710STDY5035293	Unmatched	urogenital_system	ovary	OV		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+EFO-27	EFO-27	906852	1710STDY5035294	Unmatched	urogenital_system	ovary		mucinous papillary adenocarcinoma	MSI-H	Yes	Yes	Yes	Yes	Yes	Yes	in-process (CCLE)	
+ES-2	ES-2	1240128	1710STDY5035310	Unmatched	urogenital_system	ovary		ovary clear cell carcinoma	MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+FU-OV-1	FU-OV-1	1240129	1710STDY5035309	Unmatched	urogenital_system	ovary	OV		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+Hey	Hey	1479988	CGP_CCL5306206	Unmatched	urogenital_system	ovary	OV		MSI-S	Yes	Yes	Yes	Yes	No	Yes		
+IGROV-1	IGROV-1	905968	1710STDY5035295	Unmatched	urogenital_system	ovary	OV		MSI-H	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+JHOS-2	JHOS-2	1479995	CGP_CCL5306299	Unmatched	urogenital_system	ovary	OV		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	in-process (CCLE)	
+JHOS-3	JHOS-3	1480358	CGP_CCL5306290	Unmatched	urogenital_system	ovary	OV		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+JHOS-4	JHOS-4	1480359	CGP_CCL5306280	Unmatched	urogenital_system	ovary	OV		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+KGN	KGN	924186	1710STDY5035296	Unmatched	urogenital_system	ovary		granulosa-like tumor	MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+KURAMOCHI	KURAMOCHI	909975	1710STDY5035297	Unmatched	urogenital_system	ovary	UNABLE TO CLASSIFY		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+OAW-28	OAW-28	946360	1710STDY5035298	Unmatched	urogenital_system	ovary	OV		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+OAW-42	OAW-42	910548	1710STDY5035299	Unmatched	urogenital_system	ovary	OV	ovarian cystadenocarcinoma	MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+OC-314	OC-314	909257	1710STDY5035314	Unmatched	urogenital_system	ovary	OV		MSI-H	Yes	Yes	Yes	Yes	Yes	Yes	in-process (CCLE)	
+OV-17R	OV-17R	1480361	CGP_CCL5306286	Unmatched	urogenital_system	ovary	OV		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+OV-56	OV-56	1480362	CGP_CCL5391657	Unmatched	urogenital_system	ovary	OV		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+OV-7	OV-7	1480360	CGP_CCL5306304	Unmatched	urogenital_system	ovary	OV		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+OV-90	OV-90	1240197	CGP_CCL5306188	Unmatched	urogenital_system	ovary	OV		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+OVCA420	OVCA420	1480364	CGP_CCL5306293	Unmatched	urogenital_system	ovary	OV		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+OVCA433	OVCA433	1480367	CGP_CCL5306230	Unmatched	urogenital_system	ovary	OV		MSI-S	Yes	Yes	Yes	No	No	Yes		
+OVCAR-3	OVCAR-3	905933	1710STDY5035312	Unmatched	urogenital_system	ovary	OV		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+OVCAR-4	OVCAR-4	905990	1710STDY5035300	Unmatched	urogenital_system	ovary	OV		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+OVCAR-5	OVCAR-5	905969	1710STDY5035301	Unmatched	urogenital_system	ovary	OV		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+OVCAR-8	OVCAR-8	905991	1710STDY5035302	Unmatched	urogenital_system	ovary	OV		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+OVISE	OVISE	1240198	1710STDY5035311	Unmatched	urogenital_system	ovary	OV		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	in-process (CCLE)	
+OVK-18	OVK-18	1480371	CGP_CCL5306221	Unmatched	urogenital_system	ovary	OV		MSI-H	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+OVKATE	OVKATE	1240199	1710STDY5035308	Unmatched	urogenital_system	ovary	OV		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+OVMIU	OVMIU	1240200	1710STDY5035307	Unmatched	urogenital_system	ovary	OV		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+OVTOKO	OVTOKO	1298365	CGP_CCL5391643	Unmatched	urogenital_system	ovary	OV		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+PA-1	PA-1	909255	1710STDY5035303	Unmatched	urogenital_system	ovary		ovary teratocarcinoma	MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+PEO1	PEO1	1480372	CGP_CCL5306288	Unmatched	urogenital_system	ovary	OV		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+RKN	RKN	1298539	CGP_CCL5306156	Unmatched	urogenital_system	ovary		myoma ovarii	MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+RMG-I	RMG-I	909699	1710STDY5035304	Unmatched	urogenital_system	ovary		ovary clear cell carcinoma	MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+SK-OV-3	SK-OV-3	905959	1710STDY5035305	Unmatched	urogenital_system	ovary	OV		MSI-H	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+SW626	SW626	909753	1710STDY5035306	Unmatched	urogenital_system	ovary	OV		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+TOV-112D	TOV-112D	1299070	CGP_CCL5228721	Unmatched	urogenital_system	ovary	OV		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+TOV-21G	TOV-21G	1240222	CGP_CCL5306187	Unmatched	urogenital_system	ovary	OV		MSI-H	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+TYK-nu	TYK-nu	909774	CGP_CCL5369297	Unmatched	urogenital_system	ovary	UNABLE TO CLASSIFY		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+UWB1.289	UWB1.289	1480374	CGP_CCL5306297	Unmatched	urogenital_system	ovary	OV		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+22RV1	22RV1	924100	CGP_CCL5391666	Unmatched	urogenital_system	prostate	PRAD		MSI-H	Yes	Yes	Yes	Yes	Yes	Yes	in-process (CCLE)	
+BPH-1	BPH-1	924105	CGP_CCL5055299	Unmatched	urogenital_system	prostate		immortalised prostate epithelial cells	MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+DU-145	DU-145	905935	CGP_CCL5055302	Unmatched	urogenital_system	prostate	PRAD		MSI-H	Yes	Yes	Yes	Yes	Yes	Yes	in-process (CCLE)	
+LNCaP-Clone-FGC	LNCaP-Clone-FGC	907788	CGP_CCL5228737	Unmatched	urogenital_system	prostate	PRAD		MSI-H	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+NCI-H660	NCI-H660	1330975	CGP_CCL5369326	Unmatched	urogenital_system	prostate		prostate small cell carcinoma	MSI-S	Yes	Yes	Yes	Yes	Yes	No	Yes	
+PC-3	PC-3	905934	1710STDY5034637	Unmatched	urogenital_system	prostate	PRAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+PWR-1E	PWR-1E	1330993	CGP_CCL5369307	Unmatched	urogenital_system	prostate	PRAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+VCaP	VCaP	1299075	CGP_CCL5055301	Unmatched	urogenital_system	prostate	PRAD		MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	in-process (CCLE)	
+NCCIT	NCCIT	908441	CGP_CCL5055354	Unmatched	urogenital_system	testis			MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		Continued High CV
+NEC8	NEC8	910942	CGP_CCL5306277	Unmatched	urogenital_system	testis			MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+NTERA-2-cl-D1	NTERA-2 cl.D1	908454	CGP_CCL5055353	Unmatched	urogenital_system	testis			MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+JAR	JAR	907175	CGP_CCL5055193	Unmatched	urogenital_system	urogenital_system_other		placental choriocarcinoma	MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+JEG-3	JEG-3	907176	CGP_CCL5306160	Unmatched	urogenital_system	urogenital_system_other		placental choriocarcinoma	MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+SW954	SW954	924247	CGP_CCL5055369	Unmatched	urogenital_system	urogenital_system_other		vulval squamous cell carcinoma	MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+SW962	SW962	909758	CGP_CCL5055370	Unmatched	urogenital_system	urogenital_system_other		vulval squamous cell carcinoma	MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+Ishikawa(Heraklio)02ER-	Ishikawa(Heraklio)02ER-	1240156	CGP_CCL5055275	Unmatched	urogenital_system	uterus		endometrial adenocarcinoma	MSI-S	No	Yes	Yes	Yes	No	Yes	Yes	No published STR, Does not match fingerprint of Ishikawa, no overlapping variants with CCLE's versin of line
+MES-SA	MES-SA	908127	CGP_CCL5055284	Unmatched	urogenital_system	uterus		uterus sarcoma	MSI-S	Yes	Yes	Yes	Yes	Yes	Yes	Yes	
+SKN	SKN	1240215	CGP_CCL5306203	Unmatched	urogenital_system	uterus		leiomyoma	MSI-S	Yes	Yes	Yes	Yes	Yes	Yes		
+JHU-028	JHU-028	1298154	CGP_CCL5468633	Unmatched	aero_dig_tract	head and neck	HNSC			No	Yes	Yes	Yes	No	Yes		Not commercially available
+JHU-029	JHU-029	1298156	CGP_CCL5468653	Unmatched	aero_dig_tract	head and neck	HNSC			Yes	Yes	Yes	Yes	No	Yes		Not commercially available
+UPCI-SCC-090	SCC90	1299052	CGP_CCL5468630	Unmatched	aero_dig_tract	head and neck	HNSC			Yes	Yes	Yes	Yes	No	Yes		
+MOLM-16	MOLM-16	1330948	CGP_CCL5468637	Unmatched	leukemia	acute_myeloid_leukaemia	LAML			Yes	Yes	Yes	Yes	No	Yes	Yes	
+OCI-LY7	OCI-LY7	1659819	CGP_CCL5468629	Unmatched	lymphoma	B_cell_lymphoma	DLBC			Yes	Yes	Yes	Yes	No	Yes		
+KMS-11	KMS-11	1659817	CGP_CCL5468636	Unmatched	myeloma	myeloma	MM			Yes	Yes	Yes	Yes	No	Yes	in-process (CCLE)	
+CHSA0011	CHSA0011	1290767	CGP_CCL5391651	Unmatched	bone	chondrosarcoma				Yes	Yes	Yes	Yes	No	Yes		Not commercially available
+CHSA0108	CHSA0108	1290768	CGP_CCL5468656	Unmatched	bone	chondrosarcoma				Yes	Yes	Yes	Yes	No	Yes		Not commercially available
+JIMT-1	JIMT-1	1298157	CGP_CCL5468667	Unmatched	breast	breast	BRCA			Yes	Yes	Yes	Yes	No	Yes	Yes	
+CL-34	CL-34	1290771	CGP_CCL5468642	Unmatched	large_intestine	large_intestine	COREAD			Yes	Yes	Yes	Yes	No	Yes	Yes	Too mycoplasma contaminated
+TMK-1	TMK-1	1299069	CGP_CCL5468655	Unmatched	digestive_system	stomach	STAD			Yes	Yes	Yes	No	No	Yes		Not commercially available
+VMRC-LCD	VMRC-LCD	713869	CGP_CCL5306257	Unmatched	lung_NSCLC	lung_NSCLC_adenocarcinoma	LUAD			Yes	Yes	Yes	Yes	No	Yes		
+DMS-79	DMS-79	753551	CGP_CCL5306313	Unmatched	lung_SCLC	lung_small_cell_carcinoma	SCLC			Yes	Yes	Yes	Yes	Yes	Yes	in-process (CCLE)	
+TASK1	TASK1	1299067	CGP_CCL5369309	Unmatched	nervous_system	nervous_system_other		Primitive neuroectodermal tumor (Askin's tumor) & Putative Ewing's sarcoma identified through transcriptional/genomic/drug response profile matching		No	Yes	Yes	Yes	No	Yes		
+KP-2	KP-2	1298218	CGP_CCL5468640	Unmatched	pancreas	pancreas	PAAD			Yes	Yes	No	Yes	No	Yes	Yes	
+K2	K2	1298160	CGP_CCL5468650	Unmatched	skin	melanoma	SKCM			Yes	Yes	Yes	Yes	No	Yes		Not commercially available
+M120327_3	M120327_3	1754025	CGP_CCL5468646	Unmatched	skin	melanoma	SKCM			No	Yes	Yes	No	No	No		short term culture
+STS-0421	STS-0421	1299061	CGP_CCL5468651	Unmatched	soft_tissue	soft_tissue_other				Yes	Yes	Yes	Yes	No	Yes		Not commercially available
+SW403		910908	CGP_CCL5617012	Unmatched	large_intestine	large_intestine				TO BE ADDED	requested - 11032014	requested - 11032014	No	No	Yes		New version unique by SNP, no STR: previously Matches SW620. SW620 in Analysis set
+MCAS		1240171	CGP_CCL5616962	Unmatched	urogenital_system	ovary				TO BE ADDED	requested - 11032014	requested - 11032014	No	No	Yes		New version unique by SNP no STR: previously Matches KM-H2.KM-H2 in Analysis set
+UDSCC2		1299073	CGP_CCL5617010	Unmatched	aero_dig_tract	head and neck				TO BE ADDED	requested - 11032014	requested - 11032014	No	No	Yes		Unique by SNP, no STR
+KYSE-30		1298221	CGP_CCL5617000	Unmatched	aero_dig_tract	oesophagus				TO BE ADDED	requested - 11032014	requested - 11032014	No	No	Yes		Unique by SNP, no STR
+MC-1010		907798	CGP_CCL5617026	Unmatched	leukemia	acute_myeloid_leukaemia				TO BE ADDED	requested - 11032014	requested - 11032014	No	No	Yes		Unique by SNP, no STR
+CRO-AP3		1297440	CGP_CCL5617019	Unmatched	lymphoma	B_cell_lymphoma				TO BE ADDED	requested - 11032014	requested - 11032014	No	No	Yes		Unique by SNP, no STR
+BL-70		910707	CGP_CCL5617021	Unmatched	lymphoma	Burkitt_lymphoma				TO BE ADDED	requested - 11032014	requested - 11032014	No	No	Yes		Unique by SNP, no STR
+Geo			CGP_CCL5617022							TO BE ADDED	requested - 11032014	requested - 11032014					Unique by SNP, no STR
+LIM1215			CGP_CCL5617006		large_intestine	large_intestine				TO BE ADDED	requested - 11032014	requested - 11032014					Unique by SNP, no STR
+Sarc9371		1303910	CGP_CCL5617007	Unmatched	bone	bone_other				TO BE ADDED	requested - 11032014	requested - 11032014	No	No	Yes		Unique by SNP, no STR
+OUMS-23		1298363	CGP_CCL5617009	Unmatched	large_intestine	large_intestine				TO BE ADDED	requested - 11032014	requested - 11032014	No	No	Yes		Unique by SNP, no STR
+HUH-6-clone5		907070	CGP_CCL5617016	Unmatched	digestive_system	liver				TO BE ADDED	requested - 11032014	requested - 11032014	No	No	Yes		Unique by SNP, no STR
+NCI-H820		1333019	CGP_CCL5617020	Unmatched	lung_NSCLC	lung_NSCLC_papillary				TO BE ADDED	requested - 11032014	requested - 11032014	No	No	Yes		Unique by SNP, no STR
+MCC13		1333003	CGP_CCL5617001	Unmatched	skin	Merkel_cell_carcinoma				TO BE ADDED	requested - 11032014	requested - 11032014	No	No	Yes		Unique by SNP, no STR
+MCC26		1298234	CGP_CCL5616998	Unmatched	skin	Merkel_cell_carcinoma				TO BE ADDED	requested - 11032014	requested - 11032014	No	No	Yes		Unique by SNP, no STR
+Set2		1659820	CGP_CCL5617033	Unmatched	leukemia	leukemia				TO BE ADDED	requested - 11032014	requested - 11032014	No	No	Yes		Unique by SNP, no STR
+HCE-T	HCE-T	907049	CGP_CCL5055371	Unmatched	aero_dig_tract	head and neck			MSI-S	Exclude	Yes	Yes	Yes	Yes	No		Normal cells - SV40-transformed human corneal epithelial cell line 
+PCI-4A		1298530		Unmatched	aero_dig_tract	head and neck				Exclude	No	No	No	No	No		Not Human. Monkey (as per Jim Rocco)
+ACC8-2		1295738		Unmatched	aero_dig_tract	head and neck				Exclude	No	No	No	No	No		Not Human. Mouse origin
+ACC3		1290720		Unmatched	aero_dig_tract	head and neck				Exclude	No	No	No	No	No		Matches Hela. HeLa in Analysis set
+ACCS		1290721		Unmatched	aero_dig_tract	head and neck				Exclude	No	No	No	No	No		Matches T-24. T-24 in Analysis set
+JHU-012		NA		Unmatched	aero_dig_tract	head and neck				Exclude	No	No	No	No	No		Matches JHU-022. JHU-022 in Analysis set
+JHU-013		1298152		Unmatched	aero_dig_tract	head and neck				Exclude	No	No	No	No	Yes		Matches FADU. FADU in Analysis set
+JHU-019		1298153		Unmatched	aero_dig_tract	head and neck				Exclude	No	No	No	No	Yes		Matches PC-3. PC-3 in Analysis set
+JHU-028EP		1298155		Unmatched	aero_dig_tract	head and neck				Exclude	No	No	No	No	No		Matches JHU-028. JHU-028 (Guess parental line) in Analysis set
+PCI-15B		1298528		Unmatched	aero_dig_tract	head and neck				Exclude	No	No	No	No	No		Matches AGS. AGS in Analysis set
+SACC-83		1299049		Unmatched	aero_dig_tract	head and neck				Exclude	Yes	Yes	Yes	Yes	No		Contaminated line!
+HCE-7		998179		Unmatched	aero_dig_tract	oesophagus				Exclude	Yes	Yes	Yes	Yes	No		Contaminated by HCE-4
+TE7		1299068		Unmatched	aero_dig_tract	oesophagus				Exclude	No	No	No	No	No		Matches TE-12. TE-12 in Analysis set
+T-Tn		1299065		Unmatched	aero_dig_tract	oesophagus				Exclude	No	No	No	No	No		Derived from T-T. Established from T.T transplanted in nude mouse. T-T in Analysis set
+HL-60-MX2		999828		Unmatched	leukemia	acute_myeloid_leukaemia				Exclude	No	No	No	No	No		HL-60/MX2 is a mitoxantrone resistant derivative of the HL-60 cell line. HL-60 in Analysis set
+HL60RG		1322216		Unmatched	leukemia	acute_myeloid_leukaemia				Exclude	No	No	No	No	No		Derived from HL-60. HL-60 in Analysis set
+HL60-S		1303914		Unmatched	leukemia	acute_myeloid_leukaemia				Exclude	No	No	No	No	No		Derived from HL-60. HL-60 in Analysis set
+Eos-HL-60		1297448		Unmatched	leukemia	acute_myeloid_leukaemia				Exclude	No		No	No	No		Matches HL-60 - ECACC: Eos-HL-60 is a variant of the promyelocytic cell line HL60 (ECACC catalogue no. 85011431) established by sub-cloning in methylcellulose. HL-60 in Analysis set
+BDCM		1295744		Unmatched	leukemia	acute_myeloid_leukaemia				Exclude	No	No	No	No	No		Matches CCRF-CEM. CCRF-CEM in Analysis set
+HEL-92-1-7		907054		Unmatched	leukemia	acute_myeloid_leukaemia				Exclude	No	No	No	No	No		Matches HEL. HEL in Analysis set
+HL-60-MX1		1303915		Unmatched	leukemia	acute_myeloid_leukaemia				Exclude	No	No	No	No	No		Derived from HL-60 -is a mitoxantrone resistant derivative. HL-60 in Analysis set
+K052		907284		Unmatched	leukemia	acute_myeloid_leukaemia				Exclude	No	No	Yes	Yes	Yes		Same as KO52. K052 chosen as used in original paper: 1993 Nov 1;82(9):2829-36 pubmed:7693050. KO52 in Analysis set
+KG-1a		NA		Unmatched	leukemia	acute_myeloid_leukaemia				Exclude	No	No	No	No	No		Derivative of KG-1. KG-1 in Analysis set
+MONO-MAC-1		1330955		Unmatched	leukemia	acute_myeloid_leukaemia				Exclude	No	No	Yes	Yes	No		Matches MONO-MAC-6. Established from the peripheral blood of a 64-year-old man with acute monocytic leukemia (AML FAB M5) at relapse in 1985 following myeloid metaplasia; simultaneous sister cell line of MONO-MAC-6 (DSM ACC 124); cells are described to be less differentiated than MONO-MAC-6 and to support productive infection with HIV-1; see also website "www.monocytes.de". MONO-MAC-6 in Analysis set
+NOMO-1/ADM		NA		Unmatched	leukemia	acute_myeloid_leukaemia				Exclude	No	No	No	No	No		Derived from NOMO-1. NOMO-1 in Analysis set
+CCRF-SB		910778		Unmatched	leukemia	B_cell_leukemia				Exclude	No	No	No	No	No		Common ancestry CTV-1. CTV-1 in Analysis set
+MEC-1		1330943		Unmatched	leukemia	B_cell_leukemia				Exclude	No	No	Yes	Yes	Yes		Normal cells. MEC1 and MEC2, that grew spontaneously on two subsequent occasions from the peripheral blood (PB) of a patient with B-chronic lymphocytic leukemia (B-CLL).
+MEC-2		1330944		Unmatched	leukemia	B_cell_leukemia				Exclude	No	No	Yes	Yes	No		Normal cells. MEC1 and MEC2, that grew spontaneously on two subsequent occasions from the peripheral blood (PB) of a patient with B-chronic lymphocytic leukemia (B-CLL).
+NALM-19		1330962		Unmatched	leukemia	B_cell_leukemia				Exclude	No	No	No	No	No		Matches SW620. SW620 in Analysis set
+TANOUE		1331042		Unmatched	leukemia	B_cell_leukemia				Exclude	No	No	No	No	No		Parent line of GR-ST. RIKEN: "RCB1181 ST cells transformed with human G-CSF receptor cDNA. Responds to G-CSF. " Where RCB1181 states: "A subclone of RCB1180 Tanoue".  GR-ST and Tanoue synonymous, GR-ST in Analysis set.
+CI-1		1297433		Unmatched	lymphoma	B_cell_lymphoma				Exclude	No	No	No	No	No		Matches SW620. SW620 in Analysis set
+CRO-AP5		906806		Unmatched	lymphoma	B_cell_lymphoma				Exclude	No	No	No	No	No		Matches BC-1. BC-1 in Analysis set
+Pfeiffer		1330990		Unmatched	lymphoma	B_cell_lymphoma				Exclude	No	No	No	No	No		Matches CCRF-CEM. CCRF-CEM in Analysis set
+REC-1		1330997		Unmatched	lymphoma	B_cell_lymphoma				Exclude	No	No	No	No	No		Matches SW620. SW620 in Analysis set
+NC-37		1330963		Unmatched	lymphoma	Burkitt_lymphoma				Exclude	No	No	No	No	No		ATCC DNA fingerprinting has shown this line to be a derivative of Raji. RAJI in Analysis set
+EB-1		906845		Unmatched	lymphoma	Burkitt_lymphoma				Exclude	No	No	No	No	No		Common ancestry EB2. EB2 in Analysis set
+HS-Sultan		1322225		Unmatched	lymphoma	Burkitt_lymphoma				Exclude	No	No	No	No	No		Derivative of Jiyoye, JiyoyeP-2003. JiyoyeP-2003 in Analysis set
+2B8		1287383		Unmatched	lymphoma	Burkitt_lymphoma				Exclude	No	No	No	No	No		Matches JiyoyeP-2008 - The 2B8 cell line (ATCC CRL-12569) is a HAT sensitive fusion cell line derived from the P3HR-1 Burkitt's lymphoma cell line (ATCC HTB-62). The P3HR-1 line is a clonally derived subline of Jiyoye (ATCC CCL-87). JiyoyeP-2008 in Analysis set
+GA-10-Clone-20		906866		Unmatched	lymphoma	Burkitt_lymphoma				Exclude	No	No	No	No	No		Matches YMB-1 by STR. YMB-1 in Analysis set
+GA-10-Clone-4		906867		Unmatched	lymphoma	Burkitt_lymphoma				Exclude	No	No	Yes	Yes	No		Matches GA-10. GA-10 in Analysis set
+NAMALWA-CSN-70		1333016		Unmatched	lymphoma	Burkitt_lymphoma				Exclude	No	No	No	No	No		Subclone of  NAMALWA (DSM ACC 24) was described to be characterized by differential expression of immunoglobulin and MYC genes and of certain cell surface antigens. NAMALWA in Analysis set
+NAMALWA-IPN-45		1333017		Unmatched	lymphoma	Burkitt_lymphoma				Exclude	No	No	No	No	No		Subclone of  NAMALWA (DSM ACC 24) was described to be characterized by differential expression of immunoglobulin and MYC genes and of certain cell surface antigens. NAMALWA in Analysis set
+NAMALWA-KN2		1333018		Unmatched	lymphoma	Burkitt_lymphoma				Exclude	No	No	No	No	No		Subclone of  NAMALWA (DSM ACC 24) was described to be characterized by differential expression of immunoglobulin and MYC genes and of certain cell surface antigens. NAMALWA in Analysis set
+NAMALWA-PNT		1331051		Unmatched	lymphoma	Burkitt_lymphoma				Exclude	No	No	No	No	No		Subclone of  NAMALWA (DSM ACC 24) was described to be characterized by differential expression of immunoglobulin and MYC genes and of certain cell surface antigens. NAMALWA in Analysis set
+JURL-MK2		1327772		Unmatched	leukemia	chronic_myeloid_leukaemia				Exclude	No	No	No	No	No		DSMZ: JURL-MK1 and JURL-MK2 are sister cell lines derived from the same patient . JURL-MK1 in Analysis set
+LAMA-87		1330936		Unmatched	leukemia	chronic_myeloid_leukaemia				Exclude	No	No	No	No	No		DSMZ: the parental cell line LAMA-84 (DSM ACC 168) has been established from the peripheral blood of a 29-year-old woman with chronic myeloid leukemia (CML) in blast crisis; subclone LAMA-87 was obtained after subcutaneous transplantation of LAMA-84 cells into estrone-treated nude mice; cells are described to carry t(9;22) leading to BCR-ABL1 e14-a2 (b3-a2) fusion gene. LAMA-84 in Analysis set
+K562/ADM		NA		Unmatched	leukemia	chronic_myeloid_leukaemia				Exclude	No	No	No	No	No		Probable derivate of K-562. K-562 in Analysis set
+KU812E		NA		Unmatched	leukemia	chronic_myeloid_leukaemia				Exclude	No	No	No	No	No		Assumed derivative of KU812. KU812 in Analysis set
+KU812F		NA		Unmatched	leukemia	chronic_myeloid_leukaemia				Exclude	No	No	No	No	No		Assumed derivative of KU812. KU812 in Analysis set
+MUTZ-1		908155		Unmatched	leukemia	haematopoietic_neoplasm other				Exclude	No	No	No	No	No		MUTZ-1 discontinued by DSMZ as felt to be contaminated by NAMALWA (DNA fingerprinting and cytogenetic analysis showed cross-contamination with cell line NAMALWA). Genomic data for MUTZ-1 reassigned to NAMALWA
+Mo		1330945		Unmatched	leukemia	hairy_cell_leukaemia				Exclude	No	No	Yes	No	No		Matches Mo-T. Mo-T in Analysis set
+MY		1330959		Unmatched	leukemia	leukemia				Exclude	No	No	No	No	No		Parental line of MY-M12. MY-M12 Analysis set
+MY-M13		1330961		Unmatched	leukemia	leukemia				Exclude	No	No	No	No	No		Matches MY-M12. MY-M12 Analysis set
+CEMC1		911848		Unmatched	leukemia	lymphoblastic_leukemia				Exclude	No	No	No	No	No		Matches CCRF-CEM - camptothecin (CPT) resistant derivative of the human T cell leukemia cell line CCRF-CEM (see ATCC CCL-119). CCRF-CEM in Analysis set
+CEMC2		906822		Unmatched	leukemia	lymphoblastic_leukemia				Exclude	No	No	No	No	No		Matches CCRF-CEM - camptothecin (CPT) resistant derivative of the human T cell leukemia cell line CCRF-CEM (see ATCC CCL-119). CCRF-CEM in Analysis set
+AGR-ON		1295739		Unmatched	leukemia	lymphoblastic_leukemia				Exclude	No	No	No	No	No		Matches CCRF-CEM - Derived from CCRF-CEM, http://www.google.com/patents/US4675291?printsec=description#v=onepage&q&f=false. CCRF-CEM in Analysis set
+CCRF-HSB-2		1297431		Unmatched	leukemia	lymphoblastic_leukemia				Exclude	No	No	No	No	No		Matches CTV-1. CTV-1 in Analysis set
+MOLT-3		1330953		Unmatched	leukemia	lymphoblastic_T_cell_leukaemia				Exclude	No	No	No	No	No		Matches MOLT-4 - ATCC: MOLT-3 was derived from the same patient as the MOLT-4 cell line (ATCC CRL-1582). MOLT-4 in Analysis set
+MOLT-4F		1330954		Unmatched	leukemia	lymphoblastic_T_cell_leukaemia				Exclude	No	No	No	No	No		Matches MOLT-4 - ATCC: MOLT-4F was derived from the same patient as the MOLT-4 cell line (ATCC CRL-1582). MOLT-4 in Analysis set
+I-2-1		1327760		Unmatched	leukemia	lymphoblastic_T_cell_leukaemia				Exclude	No	No	No	No	No		Matches JURJAT - ATCC: The I 2.1 cell line is a FADD mutant of the wild-type Jurkat cell line A3 (see ATCC -CRL-2570). Jurkat in Analysis set
+J-RT3-T3-5		907391		Unmatched	leukemia	lymphoblastic_T_cell_leukaemia				Exclude	Yes	Yes	Yes	Yes	Yes		Matches Jurkat - ATCC: This is a mutant line derived from the E6-1 clone of Jurkat (ATCC TIB 152) that lacks the beta chain of the T cell antigen receptor. The cells do not express either CD3 or the T cell receptor alpha/beta heterodimer on the surface. JURKAT in Analysis set
+D1-1		910914		Unmatched	leukemia	lymphoblastic_T_cell_leukaemia				Exclude	No	No	No	No	No		Common ancestry JURKAT. JURKAT in analysis set
+J45-01		907294		Unmatched	leukemia	lymphoblastic_T_cell_leukaemia				Exclude	No	No	No	No	No		Common ancestry JURKAT. JURKAT in analysis set
+A3		1295737		Unmatched	leukemia	lymphoblastic_T_cell_leukaemia				Exclude	No	No	No	No	No		Matches JURKAT - The A3 subclone was derived from a Jurkat cell line obtained from the laboratory of Gerald Crabtree at Stanford University. The Jurkat cells were treated with Fas Antibody and isolated by limiting dilution to obtain a cell line that had a low spontaneous rate of resistance to Fas-medicated apoptosis. [51530]. JURKAT in Analysiss set
+J-gamma1		1327763		Unmatched	leukemia	lymphoblastic_T_cell_leukaemia				Exclude	No	No	No	No	No		Matches JURKAT. Wild-type Jurkat cells were mutagenized with the frameshifting mutagen ICR-191 and clones were isolated that failed to increase calcium in response to pervanadate. The selection procedure was repeated on the P98 clone to establish the J.gamma1 cell line. [51314]
+J-gamma1-WT		1327764		Unmatched	leukemia	lymphoblastic_T_cell_leukaemia				Exclude	No	No	No	No	No		Matches JURKAT. J.gamma1.WT cell line derived from J.gamma1 cell line by stable transfection with pcaPLC-gamma1. JUKAT in Analysis set
+Jurkat-Clone-E6-1		1327770		Unmatched	leukemia	lymphoblastic_T_cell_leukaemia				Exclude	No	No	No	No	No		Derived from JURKAT. JURKAT in Analysis set
+H33HJ-JA1		907297		Unmatched	lymphoma	lymphoid_neoplasm other				Exclude	No	No	No	No	No		Common ancestry JURKAT. JURKAT in analysis set
+U-937		998206		Unmatched	lymphoma	lymphoid_neoplasm other				Exclude	No	No	No	Yes	No		Common ancestry TUR. TUR in Analysis set
+WIL2-NS-6TG		1333027		Unmatched	lymphoma	lymphoid_neoplasm other				Exclude	No	No	No	No	No		Derived from WIL2-NS. WIL2-NS in Analysis set
+HCC1187-BL		911798		Unmatched	lymphoma	lymphoid_neoplasm other				Exclude	No	No	No	No	No		MPv7 matched normal
+HCC1599-BL		911800		Unmatched	lymphoma	lymphoid_neoplasm other				Exclude	No	No	No	No	No		MPv7 matched normal
+HCC1954-BL		911802		Unmatched	lymphoma	lymphoid_neoplasm other				Exclude	No	No	No	No	No		MPv7 matched normal
+HCC2157-BL		911803		Unmatched	lymphoma	lymphoid_neoplasm other				Exclude	No	No	No	No	No		MPv7 matched normal
+HCC2218-BL		911804		Unmatched	lymphoma	lymphoid_neoplasm other				Exclude	No	No	No	No	No		MPv7 matched normal
+HuT-78		1327758		Unmatched	lymphoma	lymphoid_neoplasm other				Exclude	No	No	No	No	No		HuT-78 is the parental lline of H9. H9 in Analysis set
+NCI-BL1607		NA		Unmatched	lymphoma	lymphoid_neoplasm other				Exclude	No	No	No	No	No		Normal cells
+NK-92		1330980		Unmatched	lymphoma	lymphoid_neoplasm other				Exclude	No	No	No	No	No		Parental line of MK-92MI. MK-92MI in Analysis set
+UE6E7T-2		1331059		Unmatched	blood	mesenchymal_stem_cells				Exclude	No	No	No	No	No		Normal cells
+UE6E7T-3		1331060		Unmatched	blood	mesenchymal_stem_cells				Exclude	Yes	Yes	Yes	No	No		Normal cells
+KMS-12-PE		753568		Unmatched	myeloma	myeloma				Exclude	No	No	No	No	No		Matches KMS-12-BM. KMS-12-BM and KMS-12-PE derived from bone marrow and pleural effusion of same patient. KMS-12-BM in Analysis set
+PEER		909261		Unmatched	leukemia	T_cell_leukemia				Exclude	No	No	No	No	No		Common ancestry BE-13. BE-13 in Analysis set
+MOLT-17		1330952		Unmatched	leukemia	T_cell_leukemia				Exclude	No	No	No	No	No		DSMZ: established from the peripheral blood of a 5-year-old girl with T cell acute lymphoblastic leukemia (T-ALL) at relapse in 1984 (sister cell line MOLT-17, DSM ACC 36). MOLT-16 in Analysis set
+C8166		906829		Unmatched	leukemia	T_cell_leukemia				Exclude	Yes	Yes	Yes	Yes	No		ECACC: fusion of primary umbilical cord blood cells with HTLV-1 producing line from adult T cell leukaemia lymphoma patient. 
+DERL-2		1297443		Unmatched	leukemia	T_cell_leukemia				Exclude	No	No	No	No	No		Matches SW620. SW620 in Analysis set
+JKT-beta-del		1327767		Unmatched	leukemia	T_cell_leukemia				Exclude	No	No	No	No	No		Derivide fro JURKAT- The JKT-beta-del cell line was isolated from the Jurkat cells {5011} by a cell sorter and lacks the surface expression of the T-cell receptor alpha/beta/CD3 complex..  JURKAT in Analysis set
+MOLT-14		1330951		Unmatched	leukemia	T_cell_leukemia				Exclude	No	No	No	No	No		Matches MOLT-13. Simultaneous sister cell lines derived from the same patient sample with similar or identical features. MOLT-13 in Analysis set
+Ch1		1297432		Unmatched	bone	bone_other				Exclude	No	No	No	No	No		Benign tumour
+CS1R		1290796		Unmatched	bone	bone_other				Exclude	No	No	No	No	No		Derived from CS1. CS1 in Analysis set
+Colo-738		1297436		Unmatched	bone	bone_other				Exclude	No	No	No	No	No		ECACC: This cell line was found to be indistinguishable from cell lines RPMI 7932 & COLO 699N by STR PCR DNA profiling. At ECACC the STR PCR profile of all stocks of this cell line match the profile of the original source material received at ECACC. However, it is not clear if the cell lines COLO 699N, RPMI 7932 & COLO 738 were originally derived from the same individual as the profiles suggest. The cell lines COLO 699N, RPMI 7932 & COLO 738 were received from the same depositor. COLO-699N Matches CHL-1. CHL-1 in Analysis set
+HTK-		907288		Unmatched	bone	bone_other				Exclude	No	No	No	No	No		Matches 143B/HOS. HIS is in the analysis set
+143B		906796		Unmatched	bone	osteosarcoma				Exclude	No	No	No	No	No		Matches HOS - 143B is TK- and originated indirectly from HOS which is TK+( which it matches by SNP/STR). HOS in Analysis set
+143B-PML-BK-TK		1287379		Unmatched	bone	osteosarcoma				Exclude	No	No	No	No	No		143B with a thymidine kinase (TK+) plasmid
+HuO9N2		1298147		Unmatched	bone	osteosarcoma				Exclude	No	No	No	No	No		Matches HuO9 - Both HuO9 and HuO9N2 derived from same patient. HuO9 in Analysis set
+KHOS-240S		1298165		Unmatched	bone	osteosarcoma				Exclude	No	No	No	No	No		Common ancestry HOS. HOS in Analysis set
+KHOS-312H		1298166		Unmatched	bone	osteosarcoma				Exclude	No	No	No	No	No		Common ancestry HOS. HOS in Analysis set
+KHOS-NP		1298164		Unmatched	bone	osteosarcoma				Exclude	No	No	No	No	No		Common ancestry HOS. HOS in Analysis set
+SK-BR-3		998199		Unmatched	breast	breast				Exclude	No	No	No	No	No		Matches AU565 - ATCC: The AU565 cell line was derived at the Naval Biosciences Laboratory, Oakland, CA from a pleural effusion of a patient with breast carcinoma. This cell line was established from the same patient as SK-BR-3 (ATCC HTB-30).  AU565 in Analysis set
+YMB-1		909906		Unmatched	breast	breast				Exclude	No	No	No	No	No		Common ancestry GA-10 (Clone 20). GA-10 in Analysis set
+MT-3		908154		Unmatched	breast	breast				Exclude	No	No	No	No	No		Common ancestry LS-174T. LS-174T matches LS-180. LS-180 in  Analysis set
+KPL-1		907316		Unmatched	breast	breast				Exclude	No	No	No	No	No		Common ancestry MCF-7. MCF-7 in Analysis set
+SW527		999833		Unmatched	breast	breast				Exclude	No	No	No	No	No		Common ancestry SW620. SW620 in Analysis set
+EFM-192B		1240126		Unmatched	breast	breast				Exclude	No	No	No	No	No		Matches EFM-192A. EFM-192A in Analysis set
+EFM-192C		1290799		Unmatched	breast	breast				Exclude	No	No	No	No	No		Same patient as EFM-192A. EFM-192A in Analysis set
+fR2		1290803		Unmatched	breast	breast				Exclude	No	No	No	No	No		SV40-transformed breast epithelial cells
+MB157		1298233		Unmatched	breast	breast				Exclude	No	No	No	No	Yes		Matches 5637. 5637 in Analysis set
+MDA-MB-435		905988		Unmatched	breast	breast				Exclude	No	No	No	Yes	No		Matches M14. Both have melanocytic gene expression profile and M14 is melanoma line. M14 in Analysis set
+MDA-MB-435S		1298235		Unmatched	breast	breast				Exclude	No	No	No	No	No		Matches M14. Both have melanocytic gene expression profile and M14 is melanoma line. M14 in Analysis set
+NCI-ADR-RES		905987		Unmatched	breast	breast				Exclude	No	No	No	No	No		Matches OVCAR-8. OVCAR-8. OVCAR-8 in Analysis set
+ZR-75-1		998207		Unmatched	breast	breast				Exclude	No	No	No	No	No		Matches YMB-1. JHSF: Known synonymous with YMB-1-E  - http://www.jhsf.or.jp/cgi-bin/HSRRB/C_ViewBrief.cgi?jcrb1=0825&jcrb2=&jcrb3=&cellname=&animal_pull=&tissue_pull=&free1=&free2=&free3=&seekprio=1&maxdisp=20&page_rec=1. YMB-1 in Analysis set
+OCUG-1		1240195		Unmatched	digestive_system	biliary_tract				Exclude	No	No	No	No	No		Wrong line - incorrecy STR profile
+ECC4		906850		Unmatched	digestive_system	digestive_system_other				Exclude	No	No	Yes	Yes	Yes		Clumps Unscreenable
+FHs-74-Int		1303895		Unmatched	digestive_system	digestive_system_other				Exclude	No	No	No	No	No		Normal cells
+Caco-2		1290729		Unmatched	large_intestine	large_intestine				Exclude	No	No	No	No	No		Matches C2BBe1 - C2BBe1 was cloned in 1988 from Caco-2 cell line by limiting dilution. CeBBe1 in analysis set 
+COLO-201		906819		Unmatched	large_intestine	large_intestine				Exclude	No	No	No	No	No		Common ancestry COLO 205. COLO-205 in Analysis set
+DLD-1		910912		Unmatched	large_intestine	large_intestine				Exclude	No	No	No	No	No		Common ancestry HCT-15. HCT-15 in Analysis set
+HCT-8		998180		Unmatched	large_intestine	large_intestine				Exclude	No	No	No	No	No		Common ancestry HCT-15. HCT-15 in Analysis set
+HRT-18		1298137		Unmatched	large_intestine	large_intestine				Exclude	No	No	No	No	No		Common ancestry HCT-15. HCT-15 in Analysis set
+WiDr		909783		Unmatched	large_intestine	large_intestine				Exclude	No	No	No	No	No		Common ancestry HT-29. HT-29 in Analysis set
+COLO-206F		910565		Unmatched	large_intestine	large_intestine				Exclude	No	No	No	No	No		Matches COLO-205 - Derived from same patient as COLO-201 and COLO-205. COLO-205 in Analysis set
+COLO-320		1290773		Unmatched	large_intestine	large_intestine				Exclude	No	No	Yes	Yes	No		Matches COLO-320-HSR - Same cell line as COLO 320DM & COLO-320-HSR. COLO-320-HSR in Analysis set
+COLO-320DM		1290772		Unmatched	large_intestine	large_intestine				Exclude	No	No	No	No	No		Derivied from COLO-320. COLO-320-HSR in Analysis set
+Gp2D		907292		Unmatched	large_intestine	large_intestine				Exclude	No	No	No	No	No		Matches GP5D - Gp2D and GP5D both dervied from same patient but GP5D screened at MGH & Sanger. GP5D in Analysis set
+LS-174T		907793		Unmatched	large_intestine	large_intestine				Exclude	No	No	No	No	No		LS-174T is a trypsinised variant of LS180. LS-180 in Analysis set
+HLF		998181		Unmatched	digestive_system	liver				Exclude	No	No	No	Yes	No		Matches HLE - HLE and HLF same patient. HLF in Analysis set
+Hep-G2		1298135		Unmatched	digestive_system	liver				Exclude	No	No	No	Yes	No		Matches C3A - C3A is a derivative of Hep G2 - C3A in the Analysis set
+IM-95m		1298149		Unmatched	digestive_system	stomach				Exclude	No	No	No	No	No		Clone of IM-95. IM-95 in Analysis set
+AZ-521		906764		Unmatched	digestive_system	stomach				Exclude	No	No	No	No	No		Common ancestry HuTu-80. HuTu-80 in Analysis set
+GTL-16		1287937		Unmatched	digestive_system	stomach				Exclude	No	No	No	No	No		Matches MKN45 - Derived by limited dilution subcloning from MKN45. MKN45 in Analysis set
+KATOII		1298163		Unmatched	digestive_system	stomach				Exclude	No	No	No	No	No		Matches MKN45. MKN45 in Analysis set
+MKN74		908140		Unmatched	digestive_system	stomach				Exclude	No	No	No	No	No		MKN28 and MKN74 have same STR profile - JCRB, MKN-28 in Analysis set
+Takigawa		1299066		Unmatched	digestive_system	stomach				Exclude	No	No	No	No	Yes		Matches PC-14. PC-14 in Analysis set
+HK-2		1303913		Unmatched	kidney	kidney				Exclude	No	No	No	No	No		Normal cells
+KMRM-M1		1298170		Unmatched	kidney	kidney				Exclude	No	No	No	No	No		Matches CAL-51. CAL-51 in Analysis set
+CCD-1103-KIDTr		1295748		Unmatched	kidney	kidney_normal				Exclude	No	No	No	No	No		Normal cells
+CCD-1105-KIDTr		1295749		Unmatched	kidney	kidney_normal				Exclude	No	No	No	No	No		Normal cells
+HBE4-E6E7		1290903		Unmatched	lung	lung_normal				Exclude	No	No	No	No	No		Normal cells
+HBE4-E6E7-C1		1290904		Unmatched	lung	lung_normal				Exclude	No	No	No	No	No		Normal cells
+Hs-894-E-Lu		1298143		Unmatched	lung	lung_normal				Exclude	No	No	No	No	No		Normal cells
+COLO-699		1290774		Unmatched	lung_NSCLC	lung_NSCLC_adenocarcinoma				Exclude	No	No	No	No	No		Common ancestry CHL-1. CHL-1 in Analysis set
+NCI-H2073		908478		Unmatched	lung_NSCLC	lung_NSCLC_adenocarcinoma				Exclude	No	No	No	No	No		Common ancestry NCI-H1993. NCI-H1993 in Analysis set
+Calu-1		724858		Unmatched	lung_NSCLC	lung_NSCLC_adenocarcinoma				Exclude	No	No	No	No	Yes		Incorrect version by STR
+DV-90		753553		Unmatched	lung_NSCLC	lung_NSCLC_adenocarcinoma				Exclude	No	No	No	No	Yes		Matches LS-180. LS-180 in Analysis set
+NCI-H322		687822		Unmatched	lung_NSCLC	lung_NSCLC_adenocarcinoma				Exclude	No	No	No	No	No		Wrong line - incorrect STR profile. NCI-H322M and NCI-H322 probably the same cell line (same age/ethnicity/histology). NCI-H322M in Analysis set
+PC-9		1247874		Unmatched	lung_NSCLC	lung_NSCLC_adenocarcinoma				Exclude	No	No	No	No	No		Matches PC-14. PC-14 in Analysis set
+RERF-LC-Ad1		1298535		Unmatched	lung_NSCLC	lung_NSCLC_adenocarcinoma				Exclude	No	No	No	No	No		Matches SW1573. SW1573 in Analysis set
+LU-65A		753590		Unmatched	lung_NSCLC	lung_NSCLC_large cell				Exclude	No	No	No	No	No		Common ancestry LU-65. LU-65 in Analysis set
+LU65B		1298228		Unmatched	lung_NSCLC	lung_NSCLC_large cell				Exclude	No	No	No	No	No		Common ancestry LU-65. LU-65 in Analysis set
+LU65C		1298229		Unmatched	lung_NSCLC	lung_NSCLC_large cell				Exclude	No	No	No	No	No		Common ancestry LU-65. LU-65 in Analysis set
+LU99B		1298230		Unmatched	lung_NSCLC	lung_NSCLC_large cell				Exclude	No	No	No	No	No		Common ancestry LU-99A. LU-99A in Analysis set
+LU99C		1298231		Unmatched	lung_NSCLC	lung_NSCLC_large cell				Exclude	No	No	No	No	No		Common ancestry LU-99A. LU-99A in Analysis set
+COR-L23-CPR		1290794		Unmatched	lung_NSCLC	lung_NSCLC_large cell				Exclude	No	No	No	No	No		Derived from COR-L23 - COR-L23/CPR is a drug-resistant variant (ECACC catalogue no. 92031919). The line was developed by growing the parent line in increasing concentrations of cisplatin. COR-L23 in Analysis set
+LU99		1333012		Unmatched	lung_NSCLC	lung_NSCLC_large cell				Exclude	No	No	No	No	No		Possible parental line of LU-99A. LU-99A in Analysis set
+LUDLU-1		753591		Unmatched	lung_NSCLC	lung_NSCLC_squamous_cell_carcinoma				Exclude	No	No	No	No	No		Common ancestry HCT-15. HCT-15 in Analysis set
+273T		1287382		Unmatched	lung_NSCLC	lung_NSCLC_squamous_cell_carcinoma				Exclude	No	No	No	No	No		Matches A549. A548 in Analysis set
+LC-1F		907785		Unmatched	lung_NSCLC	lung_NSCLC_squamous_cell_carcinoma				Exclude	No	Yes	Yes	Yes	Yes		Matches LC-1-sq - Same patient as LC-1-sq. Has poor growth (clumpy). LC-1-sq in Analysis set
+VMRC-LCP		930300		Unmatched	lung_NSCLC	lung_NSCLC_squamous_cell_carcinoma				Exclude	No	No	No	No	No		Matches  VMRC-LCD. Wrong line. Missed published STR profile.  VMRC-LCD in Analysis set
+BEAS-2B		1290723		Unmatched	lung	Lung_other				Exclude	No	No	No	No	No		Normal cells
+CCD-14Br		1295750		Unmatched	lung	Lung_other				Exclude	No	No	No	No	No		Normal cells
+HBE135-E6E7		1290902		Unmatched	lung	Lung_other				Exclude	No	No	No	No	No		Normal cells
+WI-26-VA4		1308852		Unmatched	lung	Lung_other				Exclude	No	No	No	No	No		Normal cells
+H69AR		1303898		Unmatched	lung_SCLC	lung_small_cell_carcinoma				Exclude	No	No	No	No	No		Anthracycline-resistant clone of H69 (NCI-H69). NCI-H69 in Analysis set
+NCI-H1882		753602		Unmatched	lung_SCLC	lung_small_cell_carcinoma				Exclude	No	No	No	No	No		Matches NCI-H1876 - ATCC: Same patient information and STR profile as NCI-H1876. NCI-H1876 in Analysis set
+NCI-H1870		1330971		Unmatched	lung_SCLC	lung_small_cell_carcinoma				Exclude	No	No	No	No	No		ATCC: STR yielded similar profiles for NCI-H1304 (ATCC¨ CRL-5862) and NCI-H1870 (ATCC¨ CRL-5901). Both cell lines have been discontinued from the collection. NCI-H1304 in Analysis set
+NCI-H2195		1298354		Unmatched	lung_SCLC	lung_small_cell_carcinoma				Exclude	No	No	No	No	No		Matches NCI-H2196 - Both NCI-H2195 and NCI-H2196 are SCLC, were derived from a 67-year old white male and were deposited by the same researchers. NCI-H2196 in Analysis set
+H69V		1290901		Unmatched	lung_SCLC	lung_small_cell_carcinoma				Exclude	No	No	No	No	No		ECACC: An adherent subline H69v was derived from the cell line H69 (ECACC catalogue no. 91091802) . Behaves more like parental line - suspension. NCI-H69 in analysis set
+COR-L51		910555		Unmatched	lung_SCLC	lung_small_cell_carcinoma				Exclude	No	No	No	No	No		Incorrect version by STR
+H69		713879		Unmatched	lung_SCLC	lung_small_cell_carcinoma				Exclude	No	No	No	No	No		Matches NCI-H69. NCI-H69 and H69 are the same cell line. NCI-H69 in Analysis set
+Lu-134-A-H		1298227		Unmatched	lung_SCLC	lung_small_cell_carcinoma				Exclude	No	No	No	No	No		Lu-134-A-H and LU-134-A probably from same patient (80yr old male, SCLC). LU-134-A in Analysis set
+LU-134-B		1330938		Unmatched	lung_SCLC	lung_small_cell_carcinoma				Exclude	No	No	No	No	No		Lu-134-A and LU-134-B probably from same patient (80yr old male, SCLC) - RIKEN (RCB0467) has references to each on both cell info sheets. LU-134-A in Analysis set
+NCI-H889		908456		Unmatched	lung_SCLC	lung_small_cell_carcinoma				Exclude	No	No	No	No	No		Matches COLO-205. COLO-205 in Analysis set
+RERF-LC-MA		713883		Unmatched	lung_SCLC	lung_small_cell_carcinoma				Exclude	No	No	No	No	No		Matches SK-MES-1. JCRB: Human lung carcinoma-derived cell line. The same DNA profile as other lung squamous carcinoma cell line, SK-MES-1 (DSMZ ACC 353), and therefore is originated from common ancester (cross culture conatmination is suspected). SK-MES-1 in Analysis set
+SBC-2		1331029		Unmatched	lung_SCLC	lung_small_cell_carcinoma				Exclude	No	No	No	No	No		Matches SBC-1. Express the same DNA profile as other small cell carcinoma cell line, SBC-1 (JCRB0816), and therefore is originated from common ancester (cross culture conamination is suspected). SBC-1 in Analysis set
+SK-N-MC		753613		Unmatched	nervous_system	Ewings_sarcoma				Exclude	No	No	No	No	No		Common ancestry MC-IXC. MC-IXC in Analysis set
+M059K		1298232		Unmatched	nervous_system	glioma				Exclude	No	No	Yes	Yes	No		Matches M059J - ATCC: from same tumour specimen - M059J cells lack DNA-dependent protein kinase activity, while M059K cells express normal levels of DNA-dependent protein kinase. M059J in Analysis set
+B2-17		911904		Unmatched	nervous_system	glioma				Exclude	No	No	No	No	No		Matches U251 - Common ancestry - U-251-MG, B2-17 and SNB19. Hymidine kinase-deficient mutant of U-251 MG cells, GFAP-negative. U251 in Analysis set
+GOS-3		906874		Unmatched	nervous_system	glioma				Exclude	No	No	No	No	No		Common ancestry KINGS-1. KINGS-1 in Analysis set
+1321N1		906799		Unmatched	nervous_system	glioma				Exclude	No	No	No	No	No		Common ancestry U-118-MG. U-118-MG in Analysis set
+SNB19		905966		Unmatched	nervous_system	glioma				Exclude	No	No	No	No	No		Matches U251 - Common ancestry U-251 / discontinued by ATCC. U251 in Analysis set
+U-373-MG		910078		Unmatched	nervous_system	glioma				Exclude	No	No	No	No	No		Matches U251 - Common ancestry U-251 / discontinued by ATCC. U251 in Analysis set
+IPDDC-A2		1327762		Unmatched	nervous_system	glioma				Exclude	No	No	No	No	No		Discontinued by ECACC - Species found to be Rat.
+KG-1-C		1240164		Unmatched	nervous_system	glioma				Exclude	No	No	No	No	Yes		Matches KMRC-1. KMRC-1 in Analysis set
+LNZTA3WT11		1298224		Unmatched	nervous_system	glioma				Exclude	No	No	No	No	No		LNZTA3WT4 (ATCC CRL-11543) and LNZTA3WT11 (ATCC CRL-11544) cell lines were derived from the glioblastoma cell line LN-Z308 and were transfected with plasmid pUHD15-1 neo. No longer commercially available. LNZTA3WT4 in Analysis set
+U-138-MG		1299071		Unmatched	nervous_system	glioma				Exclude	No	No	No	No	No		Matches U-118-MG. U-118-MG and U-138-MG identical STR profiles (ATCC) and both provided by the same lab. U-118-MG in Analysis set
+SK-N-BE-2		1331058		Unmatched	neuroblastoma	neuroblastoma				Exclude	No	No	No	Yes	No		Matches BE(2)-M17 - ATCC: BE(2)-M17 is a clone of the SK-N-BE(2) neuroblastoma cell line (see ATCC CRL-2271) - BE(2)-M17 in analysis set
+IMR-32		998183		Unmatched	neuroblastoma	neuroblastoma				Exclude	No	No	No	Yes	No		Common ancestry IMR-5. IMR-5 in Analysis set
+BE2-C		910782		Unmatched	neuroblastoma	neuroblastoma				Exclude	No	No	No	No	No		Subclone of BE2-M17. BE2-M17 in Analysis set
+SH-SY5Y		909714		Unmatched	neuroblastoma	neuroblastoma				Exclude	No	No	No	No	No		Matches SK-N-SH - Clonal subline of the neuroepithelioma cell line SK-N-SH that had been established in 1970 from the bone marrow biopsy of a 4-year-old girl with metastatic neuroblastoma (DSMZ). SK-N-SH in Analysis set
+LAN-1		753619		Unmatched	neuroblastoma	neuroblastoma				Exclude	No	No	No	No	No		Matches BE(2)-M17 - prob cross-contaminated cell line. BE(2)-M17 in analysis set
+LAN-5		907784		Unmatched	neuroblastoma	neuroblastoma				Exclude	No	No	No	No	No		Matches SK-N-SH - prob cross-contaminated cell line. SK-N-SH in Analysis set
+GOTO-P3		906876		Unmatched	neuroblastoma	neuroblastoma				Exclude	No	No	No	No	No		Matches GOTO. GOTO in Analysis set
+NB16		910929		Unmatched	neuroblastoma	neuroblastoma				Exclude	No	No	No	No	No		Wrong line - incorrect STR profile.
+SCCH-26		909710		Unmatched	neuroblastoma	neuroblastoma				Exclude	No	No	No	No	No		Matches NCI-H810. Worng line by STR. NCI-H810 in analysis set
+KP-1NL		1298217		Unmatched	pancreas	pancreas				Exclude	No	No	No	No	No		Matches KP-1N. JHSF: Cells established from the resulting tumor nodules in the liver of mouse, into the spleen where KP-1N cells had been injected. KP-1N in Analysis set
+KP-3L		1298220		Unmatched	pancreas	pancreas				Exclude	No	No	No	No	No		Matches KP-3. JHSF: Cells were established from the resulting tumor nodules in the liver of mouse that had been injected KP-3 cells into the spleen. KP-3 in Analysis set
+PANC-1		753625		Unmatched	pancreas	pancreas				Exclude	No	No	No	No	No		JHSF: STR pattern is the same as KP-1N, and cross contamination is suspected. (Previous note: Common ancestry with HT-29). KP-1N in Analysis set
+PL45		725721		Unmatched	pancreas	pancreas				Exclude	No	No	No	No	No		Panc 10.05 & PL45 cell line (ATCC CRL-2558) derived from the same patient. PANC 10.05 in Analysis set
+HMCB		907296		Unmatched	skin	melanoma				Exclude	No	No	No	No	No		Common ancestry CHL-1. CHL-1 in Analysis set
+COLO-853		906811		Unmatched	skin	melanoma				Exclude	No	No	No	No	No		Common ancestry COLO 829. COLO-829 in Analysis set
+COLO-857		906810		Unmatched	skin	melanoma				Exclude	No	No	No	No	No		Common ancestry COLO 829. COLO-829 in Analysis set
+COLO-858		906809		Unmatched	skin	melanoma				Exclude	No	No	No	No	No		Common ancestry COLO 829. COLO-829 in Analysis set
+GR-M		907293		Unmatched	skin	melanoma				Exclude	No	No	No	No	No		Common ancestry PSN1. PSN1 in Analysis set
+WM-266-4		1299076		Unmatched	skin	melanoma				Exclude	No	No	Yes	Yes	No		Matches WM-115 - Derived from a metastasis of the same parent as WM-115 (ECACC catalogue no. 91061232). WM-115 in Analysis set
+A375-S2		1290717		Unmatched	skin	melanoma				Exclude	No	No	No	No	No		Derived from A375. A375 in Analysis set
+IGR-39		1298148		Unmatched	skin	melanoma				Exclude	No	No	No	Yes	No		Matches IGR-37 - DSMZ - from same patient as cell line IGR-37. IGR-37 in Analysis set
+COLO-818		1290793		Unmatched	skin	melanoma				Exclude	No	No	No	No	No		Matches COLO-800. COLO-800 in Analysis set
+Colo-794		1297437		Unmatched	skin	melanoma				Exclude	No	No	No	No	No		ECACC: COLO 800 and COLO 794 (ECACC Catalogue number 94072237) were both derived from the same 14 year old male This has been confirmed by STR profiling. COLO-800 in Analysis set
+1205Lu		1287378		Unmatched	skin	melanoma				Exclude	No	No	No	No	No		Matches WM793B. WM793B in Analysis set
+A375-C6		1290716		Unmatched	skin	melanoma				Exclude	No	No	No	No	No		Derived from the parental line A375 (ECACC catalogue no. 88113005) by limiting dilution together with its twin clone A375-C5 (ECACC catalogue no. 97011320) which is IL-1 unresponsive. Was previously labelled as A373-C6 howver this has been identified as a typo also present at SIGMA where the line is lablled as both A375 and A373. A375 in Analysis set
+COLO-849		910949		Unmatched	skin	melanoma				Exclude	No	No	No	No	No		Matches COLO-829. COLO-829 in Analysis set
+Hs-944-T		1240152		Unmatched	skin	melanoma				Exclude	Yes	Yes	Yes	Yes	No		Hs-944-T is listed at the ATCC as being derived from a fibroblast.
+SK-MEL-39		1299056		Unmatched	skin	melanoma				Exclude	No	No	No	No	No		Matches CAN. CAN in Analysis set
+FLYA13		1290802		Unmatched	soft_tissue	fibrosarcoma				Exclude	No	No	No	No	No		Derived from HT-1080. HT-1080 in Analysiss set
+RH-30		1330998		Unmatched	soft_tissue	rhabdomyosarcoma				Exclude	No	No	No	No	No		Matches SJRH30 and same paper referenced in each case. SJRH30 in Analysis set
+ONCO-DG-1		1298360		Unmatched	thyroid	thyroid				Exclude	No	No	No	No	No		Matches OVCAR-3 - DNA fingerprinting analysis at the DSMZ showed cross-contamination with cell line OVCAR-3. OVCAR-3 in Analysiss set
+FTC-238		999825		Unmatched	thyroid	thyroid				Exclude	No	No	No	No	No		Same patient as FTC-133. FTC-133 in Analysis set
+TCO-1		909763		Unmatched	thyroid	thyroid				Exclude	No	No	No	No	No		Wrong line. Misses STR profile
+1A6		1287380		Unmatched	urogenital_system	Bladder				Exclude	No	No	No	No	No		Common ancestry 5637. 5637 in Analysis set
+EJ138		1290800		Unmatched	urogenital_system	Bladder				Exclude	No	No	No	No	No		Common ancestry T-24. T-24 in Analysis set
+ECV304		1322215		Unmatched	urogenital_system	Bladder				Exclude	No	No	No	No	No		ECACC: Using new PCR based single locus fingerprint techniques, it was discovered that this cell line is identical to T-24. Because T-24 was established in 1970 compared to 1984 for ECV304 it is assumed that ECV304 is the false cell line.
+RT112-84		1299048		Unmatched	urogenital_system	Bladder				Exclude	No	No	No	No	No		Derived from RT-112  (Bader SA, 1987). RT-112 in Analysis set
+C-4-II		910553		Unmatched	urogenital_system	cervix				Exclude	No	No	No	No	No		Matches C-2-II - C-4 I and C-4 II derived from same patient. C-4-I in Analysis set
+AV3		1295742		Unmatched	urogenital_system	cervix				Exclude	No	No	No	No	No		Common ancestry HeLa. HeLa in Analysis set
+BT-B		1290726		Unmatched	urogenital_system	cervix				Exclude	No	No	No	No	No		Common ancestry HeLa. HeLa in Analysis set
+Bu25TK-		753537		Unmatched	urogenital_system	cervix				Exclude	No	No	No	No	No		Common ancestry HeLa. HeLa in Analysis set
+HeLaSF		687509		Unmatched	urogenital_system	cervix				Exclude	No	No	Yes	Yes	No		Matches HeLa - Derivative of HeLa, but HeLa used more extensively in research. Hela in Analysis set
+HeLa-229		1303903		Unmatched	urogenital_system	cervix				Exclude	No	No	No	No	No		Common ancestry HeLa. HeLa in Analysis set
+HeLa-AG		1303904		Unmatched	urogenital_system	cervix				Exclude	No	No	No	No	No		Common ancestry HeLa. HeLa in Analysis set
+HeLa-P3-S		1303909		Unmatched	urogenital_system	cervix				Exclude	No	No	No	No	No		Common ancestry HeLa. HeLa in Analysis set
+HeLa-S3		1303905		Unmatched	urogenital_system	cervix				Exclude	No	No	No	No	No		Common ancestry HeLa. HeLa in Analysis set
+HeLa-S3-sc		1303906		Unmatched	urogenital_system	cervix				Exclude	No	No	No	No	No		Common ancestry HeLa. HeLa in Analysis set
+HeLa-TG		1303907		Unmatched	urogenital_system	cervix				Exclude	No	No	No	No	No		Common ancestry HeLa. HeLa in Analysis set
+HeLa-TG-Cap		1303908		Unmatched	urogenital_system	cervix				Exclude	No	No	No	No	No		Common ancestry HeLa. HeLa in Analysis set
+Hs-588-T		1240148		Unmatched	urogenital_system	cervix				Exclude	No	No	No	No	No		Matches 201T. 201T in Analysis set
+SKG-IIIb		1299053		Unmatched	urogenital_system	cervix				Exclude	No	No	No	No	No		Matches SKG-IIIa. SKG-IIIa and SKG-IIIb originated from the same patient. SKG-111a in Analysis set
+EFE-184		924109		Unmatched	urogenital_system	endometrium				Exclude	No	No	No	No	Yes		Incorrect version by STR
+Ishikawa		1298150		Unmatched	urogenital_system	endometrium				Exclude	No	No	Yes	Yes	No		Incorrect version by STR - (does not match Ishikawa(Heraklio)02ER- (SLF)), Hits ECC-1 (ATCC (CRL-2923)) by STR
+MES-SADx-5		1298236		Unmatched	urogenital_system	endometrium				Exclude	No	No	No	No	No		Matches MES-SA. The multi drug-resistant cell line derived from MES-SA. MES-SA in Analysis set
+C13		1479983		Unmatched	urogenital_system	ovary				Exclude	No	No	No	No	No		Matches ME-180. ME-180 in Analysis set
+A2780ADR		1287940		Unmatched	urogenital_system	ovary				Exclude	No	No	No	No	No		Matches A2789 - Drug resistant clones of A2780. A2780 in Analysis set
+A2780cis		1295736		Unmatched	urogenital_system	ovary				Exclude	No	No	No	No	No		Matches A2789 - Drug resistant clones of A2780. A2780 in Analysis set
+PEO4		1480373		Unmatched	urogenital_system	ovary				Exclude	No	No	No	No	No		Matches PEO1 - ECACC: Same patient as PEO1 & PEO6 - PEO4was collected after clinical resistance developed to chemotherapy. PEO1 in Analysis set
+A1847		1479981		Unmatched	urogenital_system	ovary				Exclude	No	No	No	No	Yes		Matches OVCAR-8. OVCAR-8 in Analysis set
+A2008		1479982		Unmatched	urogenital_system	ovary				Exclude	No	No	No	No	No		Matches ME-180. ME-180 in Analysis set
+Caov-2		1479984		Unmatched	urogenital_system	ovary				Exclude	No	No	No	No	Yes		Matches Calu-6. Calu-6 in Analysis set
+COLO-704		906816		Unmatched	urogenital_system	ovary				Exclude	No	No	No	No	No		Matches COLO-684 . COLO-684 in Analysis set
+COLO-720E		910938		Unmatched	urogenital_system	ovary				Exclude	No	No	No	No	No		Matches COLO-684 . COLO-684 in Analysis set
+Hey-A8		1479989		Unmatched	urogenital_system	ovary				Exclude	No	No	No	No	No		Matches HEY. HEY in Analysis set
+Hey-C2		1479990		Unmatched	urogenital_system	ovary				Exclude	No	No	No	No	No		Matches HEY. HEY in Analysis set
+IOSE-364(-)		1479991		Unmatched	urogenital_system	ovary				Exclude	Yes	Yes	Yes	Yes	Yes		Normal cells
+IOSE-397		1479992		Unmatched	urogenital_system	ovary				Exclude	Yes	Yes	Yes	Yes	Yes		Normal cells
+IOSE-523(-)		1479993		Unmatched	urogenital_system	ovary				Exclude	Yes	Yes	Yes	Yes	Yes		Normal cells
+IOSE-75-16SV40		1479994		Unmatched	urogenital_system	ovary				Exclude	Yes	Yes	Yes	Yes	Yes		Normal cells
+OV2008		1480363		Unmatched	urogenital_system	ovary				Exclude	No	No	No	No	No		Matches ME-180. ME-180 in Analysis set
+OVCA429		1480365		Unmatched	urogenital_system	ovary				Exclude	No	No	No	No	No		Matches OVCA433 (3754). OVCA433 in Analysis set
+OVCAR-10		1480370		Unmatched	urogenital_system	ovary				Exclude	No	No	No	No	Yes		Matches A2780. A2780 in Analysis set
+OVCAR-2		1480369		Unmatched	urogenital_system	ovary				Exclude	No	No	No	No	Yes		Matches Calu-6. Calu-6 in Analysis set
+OVSAYO		1298364		Unmatched	urogenital_system	ovary				Exclude	No	No	No	No	No		Matches OVMIU. OVMIU in Analysis set
+RWPE-1		1331026		Unmatched	urogenital_system	prostate				Exclude	No	No	Yes	Yes	No		ATCC: Epithelial cells derived from the peripheral zone of a histologically normal adult human prostate were transfected with a single copy of the human papilloma virus 18 (HPV-18) to establish the RWPE-1 (ATCC CRL-11609) cell line [PubMed: 9214605]
+RWPE-2		1331027		Unmatched	urogenital_system	prostate				Exclude	No	No	No	No	No		ATCC: RWPE-2 cells were derived from RWPE-1 cells (ATCC CRL-11609) by transformation with Ki-ras using the Kirsten murine sarcoma virus (Ki-MuSV)
+BeWo		910917		Unmatched	urogenital_system	urogenital_system_other				Exclude	No	No	No	No	No		Common ancestry JEG-3. JEH-3 in Analysis set
+COLO-685		999822		Unmatched	urogenital_system	uterus				Exclude	No	No	No	No	No		Matches COLO-684 - COLO-684 and COLO-685 from same patient. COLO-684 IN Analysis set
+PCI-37B		1333024		Unmatched	aero_dig_tract	head and neck					No	No	No	No	No		Contaminated cell line - ???
+ACC112		1238786		Unmatched	aero_dig_tract	head and neck					No	No	No	No	No		Not commercially available
+ACC2		1290719		Unmatched	aero_dig_tract	head and neck					No	No	No	No	No		Not Commercially Available, many acc lines have been found to have been mis-identified http://www.accrf.org/pdf/accrf_update_march2009.pdf
+PCI-15		1240203		Unmatched	aero_dig_tract	head and neck					No	No	No	No	No		Passes QC - Does NOT match PCI-15A
+PCI-6B		1298532		Unmatched	aero_dig_tract	head and neck					No	No	No	No	No		No QC data. PCI-6A in Analysis set??
+BIC-1		1295745		Unmatched	aero_dig_tract	oesophagus					No	No	No	No	No		Incorrect cell line - ????
+SEG-1		NA		Unmatched	aero_dig_tract	oesophagus					No	No	No	No	No		No QC data
+AML-193		949089		Unmatched	leukemia	acute_myeloid_leukaemia					No	No	No	No	No		No QC data
+Clone15-HL-60		1297434		Unmatched	leukemia	acute_myeloid_leukaemia				Exclude	No	No	No	No	No		Derived from HL-60 that had been grown at an elevated pH. HL-60 in Analysis set
+Kasumi-3		1327776		Unmatched	leukemia	acute_myeloid_leukaemia					No	No	No	No	Yes		No QC data
+KASUMI-6		1330930		Unmatched	leukemia	acute_myeloid_leukaemia					No	No	No	No	No		No QC data
+MUTZ-2		1330957		Unmatched	leukemia	acute_myeloid_leukaemia					No	No	No	No	No		No QC data
+MUTZ-3		1330958		Unmatched	leukemia	acute_myeloid_leukaemia					No	No	No	No	No		No QC data
+TF-1		1331044		Unmatched	leukemia	acute_myeloid_leukaemia					No	No	No	No	Yes		No QC data
+TF-1.CN5a.1		NA		Unmatched	leukemia	acute_myeloid_leukaemia					No	No	No	No	No		No QC data
+TF-1a		NA		Unmatched	leukemia	acute_myeloid_leukaemia					No	No	No	No	No		No QC data
+UT-7		1331047		Unmatched	leukemia	acute_myeloid_leukaemia					No	No	No	No	No		No QC data
+BC-2		1295743		Unmatched	lymphoma	B_cell_lymphoma					No	No	No	No	Yes		No QC data
+BSL2KA		1295746		Unmatched	lymphoma	B_cell_lymphoma					No	No	No	No	No		Lost cell line - ????
+Toledo		1331046		Unmatched	lymphoma	B_cell_lymphoma					No	No	No	No	Yes		No QC data
+RPMI 1788		NA		Unmatched	blood	Blood_normal					No	No	No	No	No		No QC data
+WILCL		NA		Unmatched	blood	Blood_normal					No	No	No	No	No		No QC data
+P3HR-1		1330988		Unmatched	lymphoma	Burkitt_lymphoma					No	No	No	No	Yes		No QC data
+Ramos-RA-1		NA		Unmatched	lymphoma	Burkitt_lymphoma					No	No	No	No	No		No QC data
+TE-161-T		909765		Unmatched	lymphoma	Burkitt_lymphoma					No	No	No	No	No		No QC data. Poor Growth, unable to obtain good quality DNA sample
+KASUMI-4		1330929		Unmatched	leukemia	chronic_myeloid_leukaemia					No	No	No	No	No		No QC data
+NALM-1		908157		Unmatched	leukemia	chronic_myeloid_leukaemia					No	No	No	No	No		No QC data
+Hs 819.T		NA		Unmatched	leukemia	haematopoietic_neoplasm other					No	No	No	No	No		No QC data
+MOLM-20		1330949		Unmatched	leukemia	haematopoietic_neoplasm other					No	No	No	No	No		No QC data
+Mo-B		1330946		Unmatched	leukemia	hairy_cell_leukaemia					No	No	No	No	No		No QC data
+Hs 604.T		NA		Unmatched	lymphoma	Hodgkin_lymphoma					No	No	No	No	No		No QC data
+Hs 611.T		NA		Unmatched	lymphoma	Hodgkin_lymphoma					No	No	No	No	No		No QC data
+Hs 616.T		NA		Unmatched	lymphoma	Hodgkin_lymphoma					No	No	No	No	No		No QC data
+Hs-751-T		1322223		Unmatched	lymphoma	Hodgkin_lymphoma					No	No	No	No	No		No QC data - Not commercially available
+TO 175.T		NA		Unmatched	lymphoma	Hodgkin_lymphoma					No	No	No	No	No		No QC data
+KY821A3		NA		Unmatched	leukemia	leukemia					No	No	No	No	No		No QC data
+M-07e		1330939		Unmatched	leukemia	leukemia					No	No	No	No	No		No QC data
+380		924101		Unmatched	leukemia	lymphoblastic_leukemia					No	No	No	No	No		DSMZ: Cells are very difficult to culture and grow very slowly! cells appear to grow better in 24-well-plates than in flasks
+TALL-104		1331041		Unmatched	leukemia	lymphoblastic_leukemia					No	No	No	No	No		No QC data
+I-9-2		1327761		Unmatched	leukemia	lymphoblastic_T_cell_leukaemia				Exclude	No	No	Yes	Yes	No		Matches JURKAT. JURKAT in Analysis set
+P116		1330986		Unmatched	leukemia	lymphoblastic_T_cell_leukaemia					No	No	No	No	Yes		No QC data
+P116.cl39		NA		Unmatched	leukemia	lymphoblastic_T_cell_leukaemia					No	No	No	No	No		No QC data
+HLCL-1		1322217		Unmatched	lymphoma	lymphoid_neoplasm other					No	No	No	No	No		No QC data
+Hs 313.T		NA		Unmatched	lymphoma	lymphoid_neoplasm other					No	No	No	No	No		No QC data
+Hs 505.T		NA		Unmatched	lymphoma	lymphoid_neoplasm other					No	No	No	No	No		No QC data
+Hs 777.T		NA		Unmatched	lymphoma	lymphoid_neoplasm other					No	No	No	No	No		No QC data
+Hs-491-T		1322219		Unmatched	lymphoma	lymphoid_neoplasm other					No	No	No	No	No		No QC data - Not commercially available
+Hs-518-T		1322220		Unmatched	lymphoma	lymphoid_neoplasm other					No	No	No	No	No		No QC data - Not commercially available
+Hs-602		1322221		Unmatched	lymphoma	lymphoid_neoplasm other					No	No	No	No	No		No QC data
+HT-1417		1327756		Unmatched	lymphoma	lymphoid_neoplasm other					No	No	No	No	No		No QC data
+HuT 102		NA		Unmatched	lymphoma	lymphoid_neoplasm other					No	No	No	No	No		No QC data
+MJ		908137		Unmatched	lymphoma	lymphoid_neoplasm other					No	No	No	No	No		No QC data. The cells produce Human T cell Leukemia virus (HTLV-I) and HTLV related antigens. 
+C5-MJ		1295747		Unmatched	leukemia	T_cell_leukemia					No	No	No	No	No		HTLV-1 - ????
+DERL-7		1297444		Unmatched	leukemia	T_cell_leukemia					No	No	No	No	No		No QC data
+4244135-GCT		1240120		Unmatched	bone	bone_other					No	No	No	No	No		Not commercially available
+Ch8		1290766		Unmatched	bone	bone_other					No	No	No	No	No		Not commercially available
+CS2		1297441		Unmatched	bone	bone_other					No	No	No	No	No		No QC data
+Hs-737-T		1322222		Unmatched	bone	bone_other					No	No	No	No	No		No QC data
+OSA-4463997		1333020		Unmatched	bone	bone_other					No	No	No	No	No		Growth pattern, Not commercially available
+SS1		1333025		Unmatched	bone	bone_other					No	No	No	No	No		No QC data. Not commercially available
+Hs 863.T		NA		Unmatched	bone	ewings_sarcoma					No	No	No	No	No		No QC data
+RD-ES		1330996		Unmatched	bone	ewings_sarcoma					No	No	No	No	Yes		No QC data
+CS3		1297442		Unmatched	bone	osteosarcoma					No	No	No	No	No		No QC data
+EW7476		1290801		Unmatched	bone	osteosarcoma					No	No	No	No	Yes		Not commercially available
+Hs 14.T		NA		Unmatched	bone	osteosarcoma					No	No	No	No	No		No QC data
+Hs 704.T		NA		Unmatched	bone	osteosarcoma					No	No	No	No	No		No QC data
+Hs 735.T		NA		Unmatched	bone	osteosarcoma					No	No	No	No	No		No QC data
+Hs 755(B).T		NA		Unmatched	bone	osteosarcoma					No	No	No	No	No		No QC data
+Hs 781.T		NA		Unmatched	bone	osteosarcoma					No	No	No	No	No		No QC data
+Hs 792(B).T		NA		Unmatched	bone	osteosarcoma					No	No	No	No	No		No QC data
+Hs 805.T		NA		Unmatched	bone	osteosarcoma					No	No	No	No	No		No QC data
+Hs 811.T		NA		Unmatched	bone	osteosarcoma					No	No	No	No	No		No QC data
+Hs 845.T		NA		Unmatched	bone	osteosarcoma					No	No	No	No	No		No QC data
+Hs 860.T		NA		Unmatched	bone	osteosarcoma					No	No	No	No	No		No QC data
+Hs 864.T		NA		Unmatched	bone	osteosarcoma					No	No	No	No	No		No QC data
+Hs 866.T		NA		Unmatched	bone	osteosarcoma					No	No	No	No	No		No QC data
+Hs 870.T		NA		Unmatched	bone	osteosarcoma					No	No	No	No	No		No QC data
+Hs 888.T		NA		Unmatched	bone	osteosarcoma					No	No	No	No	No		No QC data
+Hs 889.T		NA		Unmatched	bone	osteosarcoma					No	No	No	No	No		No QC data
+Hs 890.T		NA		Unmatched	bone	osteosarcoma					No	No	No	No	No		No QC data
+Hs 894(A).T		NA		Unmatched	bone	osteosarcoma					No	No	No	No	No		No QC data
+Hs 894(C).T		NA		Unmatched	bone	osteosarcoma					No	No	No	No	No		No QC data
+Hs 894(D).T		NA		Unmatched	bone	osteosarcoma					No	No	No	No	No		No QC data
+Hs 899(A).T		NA		Unmatched	bone	osteosarcoma					No	No	No	No	No		No QC data
+Hs 899(B).T		NA		Unmatched	bone	osteosarcoma					No	No	No	No	No		No QC data
+Hs 899(C).T		NA		Unmatched	bone	osteosarcoma					No	No	No	No	No		No QC data
+Hs 899(D).T		NA		Unmatched	bone	osteosarcoma					No	No	No	No	No		No QC data
+Hs-387-T		1298139		Unmatched	bone	osteosarcoma					No	No	No	No	No		No QC data
+Hs-707-A-T		1298140		Unmatched	bone	osteosarcoma					No	No	No	No	No		No QC data
+Hs-894-B-T		1298142		Unmatched	bone	osteosarcoma					No	No	No	No	No		No QC data - Not commercially available
+HT 728.T		NA		Unmatched	bone	osteosarcoma					No	No	No	No	No		No QC data
+OSA-4512351		1333021		Unmatched	bone	osteosarcoma					No	No	No	No	No		Growth pattern, Not commercially available
+OSA-7764		1333022		Unmatched	bone	osteosarcoma					No	No	No	No	No		Growth pattern, Not commercially available
+OSA-80		1298361		Unmatched	bone	osteosarcoma					No	No	No	No	Yes		No QC data. Not commercially available
+T1-73		NA		Unmatched	bone	osteosarcoma					No	No	No	No	No		No QC data
+TE 417.T		NA		Unmatched	bone	osteosarcoma					No	No	No	No	No		No QC data
+TE 418.T		NA		Unmatched	bone	osteosarcoma					No	No	No	No	No		No QC data
+TI-73		910696		Unmatched	bone	osteosarcoma					No	No	No	No	Yes		No QC data. Poor Growth - very slow and thin
+TO 203.T		NA		Unmatched	bone	osteosarcoma					No	No	No	No	No		No QC data
+HCC1008		1303899		Unmatched	breast	breast					No	No	No	No	No		No QC data
+Hs 564(E).Mg		NA		Unmatched	breast	breast					No	No	No	No	No		No QC data
+Hs 578Bst		NA		Unmatched	breast	breast					No	No	No	No	No		No QC data
+Hs 579.Mg		NA		Unmatched	breast	breast					No	No	No	No	No		No QC data
+MCF 10A		NA		Unmatched	breast	breast					No	No	No	No	No		No QC data
+MCF 10F		NA		Unmatched	breast	breast					No	No	No	No	No		No QC data
+MCF-12A		NA		Unmatched	breast	breast					No	No	No	No	No		No QC data
+MDA-MB-134-VI		908119		Unmatched	breast	breast					No	No	Yes	Yes	Yes		Passes QC. Poor Growth
+HuH-28		924163		Unmatched	digestive_system	biliary_tract					No	No	No	No	No		Fails STR comparison (doesn't hit MGH_HUH 28 (SNP))  (no other hits)
+Hs 1.Int		NA		Unmatched	digestive_system	digestive_system_other					No	No	No	No	No		No QC data
+KRJ-1		1330934		Unmatched	digestive_system	digestive_system_other					No	No	No	No	No		No QC data. Not commercially available
+C170		1290728		Unmatched	large_intestine	large_intestine					No	No	No	No	No		Not commercially available - no longer stocked by ECACC
+CL-14		1290770		Unmatched	large_intestine	large_intestine					No	No	No	No	No		No QC data
+CoCM-1		910783		Unmatched	large_intestine	large_intestine					No	No	No	No	No		No QC data
+Hs 200.T		NA		Unmatched	large_intestine	large_intestine					No	No	No	No	No		No QC data
+Hs 219.T		NA		Unmatched	large_intestine	large_intestine					No	No	No	No	No		No QC data
+Hs 587.Int		NA		Unmatched	large_intestine	large_intestine					No	No	No	No	No		No QC data
+Hs-257-T		1298138		Unmatched	large_intestine	large_intestine					No	No	No	No	No		No QC data
+Huh-7D12		1327757		Unmatched	digestive_system	liver					No	No	No	No	No		No QC data
+LI90		NA		Unmatched	digestive_system	liver					No	No	No	No	No		No QC data
+PLC-PRF-5		925349		Unmatched	digestive_system	liver					No	No	No	No	Yes		No QC data
+THLE-2		NA		Unmatched	digestive_system	liver					No	No	No	No	No		No QC data
+THLE-3		NA		Unmatched	digestive_system	liver					No	No	No	No	No		No QC data
+Hs 738.St/Int		NA		Unmatched	digestive_system	stomach					No	No	No	No	No		No QC data
+Hs-740-T		1333004		Unmatched	digestive_system	stomach					No	No	No	No	No		No QC data - Not commercially available
+NUGC-2		1240194		Unmatched	digestive_system	stomach					No	No	No	No	No		No QC data: Cell ID: 4054
+NCI-H295		908466		Unmatched	kidney	adrenal_gland					No	No	No	No	No		No QC data
+KMRC-2		1333010		Unmatched	kidney	kidney					No	No	No	No	No		Contaminated cell line - ???
+621-101		1287878		Unmatched	kidney	kidney					No	No	No	No	No		Not commercially available
+Hs 891.T		NA		Unmatched	kidney	kidney					No	No	No	No	No		No QC data
+Hs 926.T		NA		Unmatched	kidney	kidney					No	No	No	No	No		No QC data
+KMRC-3		1333011		Unmatched	kidney	kidney					No	No	No	No	No		No QC data
+IMR-90		NA		Unmatched	lung	lung_normal					No	No	No	No	No		No QC data
+IMR-90-40		NA		Unmatched	lung	lung_normal					No	No	No	No	No		No QC data
+MRC-9		NA		Unmatched	lung	lung_normal					No	No	No	No	No		No QC data
+OUS-11		NA		Unmatched	lung	lung_normal					No	No	No	No	No		No QC data
+SVts-8		NA		Unmatched	lung	lung_normal					No	No	No	No	No		No QC data
+WI 38		NA		Unmatched	lung	lung_normal					No	No	No	No	No		No QC data
+WI-38 VA13 sub 2 RA		NA		Unmatched	lung	lung_normal					No	No	No	No	No		No QC data
+WI-38-40		NA		Unmatched	lung	lung_normal					No	No	No	No	No		No QC data
+NCI-H1819		1330970		Unmatched	lung_NSCLC	lung_NSCLC_adenocarcinoma					No	No	No	No	No		No QC data. Not commercially available - No longer supplied by ATCC
+NCI-H676B		1330976		Unmatched	lung_NSCLC	lung_NSCLC_adenocarcinoma					No	No	No	No	No		No QC data
+NCI-H920		1330978		Unmatched	lung_NSCLC	lung_NSCLC_adenocarcinoma					No	No	No	No	No		No QC data
+NCI-H969		1331056		Unmatched	lung_NSCLC	lung_NSCLC_adenocarcinoma					No	No	No	No	No		No QC data. Lost cell line
+RERF-LC-Ad2		1298536		Unmatched	lung_NSCLC	lung_NSCLC_adenocarcinoma					No	No	No	No	No		No QC data
+NCI-H2106		908479		Unmatched	lung_NSCLC	lung_NSCLC_not specified					No	No	No	No	No		Growth pattern
+NCI-H1404		1330969		Unmatched	lung_NSCLC	lung_NSCLC_papillary					No	No	No	No	Yes		No QC data
+NCI-H157		911847		Unmatched	lung_NSCLC	lung_NSCLC_squamous_cell_carcinoma					No	No	No	No	No		Passes QC. However - Cross-contaminated line Ð discontinued by ATCC - the seed stocks for CRL-5802 (NCI-H157) and  CRL-5860 (NCI-H1264) and NCI-H1339 show similar STR profiles. Only NCI-H157 in set!
+NCI-H1385		1330965		Unmatched	lung_NSCLC	lung_NSCLC_squamous_cell_carcinoma					No	No	No	No	Yes		No QC data
+SK-MES		1299058		Unmatched	lung_NSCLC	lung_NSCLC_squamous_cell_carcinoma					No	No	No	No	No		No QC data. No longer stocked by HPACC
+Hs 417.Lu		NA		Unmatched	lung	Lung_other					No	No	No	No	No		No QC data
+Hs 573.T		NA		Unmatched	lung	Lung_other					No	No	No	No	No		No QC data
+LT		1330937		Unmatched	lung	Lung_other					No	No	No	No	No		No QC data. Not commercially available
+NL20		NA		Unmatched	lung	Lung_other					No	No	No	No	No		No QC data
+NL20-TA		NA		Unmatched	lung	Lung_other					No	No	No	No	No		No QC data
+STC-1		1299060		Unmatched	lung_SCLC	lung_small_cell_carcinoma					No	No	No	No	No		Does not match orginal version - no published STR. Not commercially available
+NCI-H1238		1331052		Unmatched	lung_SCLC	lung_small_cell_carcinoma					No	No	No	No	No		Difficult to grow
+NCI-H1173		687999		Unmatched	lung_SCLC	lung_small_cell_carcinoma					No	No	No	No	No		Matches NCI-H711
+NCI-H1284		753598		Unmatched	lung_SCLC	lung_small_cell_carcinoma					No	No	No	No	No		Consistantly fails STR assay
+NCI-H1184		688000		Unmatched	lung_SCLC	lung_small_cell_carcinoma					No	No	No	No	No		Does not match its normal control 
+COR-L24		1322211		Unmatched	lung_SCLC	lung_small_cell_carcinoma					No	No	No	No	No		No QC data
+COR-L47		753544		Unmatched	lung_SCLC	lung_small_cell_carcinoma					No	No	No	No	No		No QC data
+COR-L96CAR		971776		Unmatched	lung_SCLC	lung_small_cell_carcinoma					No	No	No	No	No		Requires expansion/no QC data
+DMS-153		687984		Unmatched	lung_SCLC	lung_small_cell_carcinoma					No	No	No	No	Yes		No QC data
+DMS454		1297445		Unmatched	lung_SCLC	lung_small_cell_carcinoma					No	No	No	No	No		No QC data
+DMS-92		1322214		Unmatched	lung_SCLC	lung_small_cell_carcinoma					No	No	No	No	No		No QC data
+KHM-3S		1240165		Unmatched	lung_SCLC	lung_small_cell_carcinoma					No	No	No	No	No		No QC data
+NCI-H1522		908464		Unmatched	lung_SCLC	lung_small_cell_carcinoma					No	No	No	No	Yes		No QC data
+NCI-H1618		753601		Unmatched	lung_SCLC	lung_small_cell_carcinoma					No	No	No	No	Yes		No QC data
+NCI-H1672		1331053		Unmatched	lung_SCLC	lung_small_cell_carcinoma					No	No	No	No	No		No QC data. Lost cell line
+NCI-H1926		908477		Unmatched	lung_SCLC	lung_small_cell_carcinoma					No	No	No	No	Yes		No QC data
+NCI-H1930		924245		Unmatched	lung_SCLC	lung_small_cell_carcinoma					No	No	No	No	No		No QC data
+NCI-H1994		NA		Unmatched	lung_SCLC	lung_small_cell_carcinoma					No	No	No	No	No		No QC data
+NCI-H2059		753603		Unmatched	lung_SCLC	lung_small_cell_carcinoma					No	No	No	No	No		No QC data. Lost cell line, Not commercially available - no longer supplied by ATCC
+NCI-H2107		924246		Unmatched	lung_SCLC	lung_small_cell_carcinoma					No	No	No	No	Yes		No QC data
+NCI-H2108		1331054		Unmatched	lung_SCLC	lung_small_cell_carcinoma					No	No	No	No	No		Growth pattern
+NCI-H2198		NA		Unmatched	lung_SCLC	lung_small_cell_carcinoma					No	No	No	No	No		No QC data
+NCI-H220		1330974		Unmatched	lung_SCLC	lung_small_cell_carcinoma					No	No	No	No	Yes		No QC data
+NCI-H2286		1298355		Unmatched	lung_SCLC	lung_small_cell_carcinoma					No	Yes	Yes	No	Yes		Passes QC. Poor DNA Quality
+NCI-H2330		688019		Unmatched	lung_SCLC	lung_small_cell_carcinoma					No	No	No	No	No		No QC data
+NCI-H711		910709		Unmatched	lung_SCLC	lung_small_cell_carcinoma					No	No	No	No	No		No QC data
+NCI-H719		924242		Unmatched	lung_SCLC	lung_small_cell_carcinoma					No	No	No	No	Yes		No QC data
+NCI-H735		NA		Unmatched	lung_SCLC	lung_small_cell_carcinoma					No	No	No	No	No		No QC data
+NCI-H774		924243		Unmatched	lung_SCLC	lung_small_cell_carcinoma					No	No	No	No	No		No QC data
+NCI-H865		1330977		Unmatched	lung_SCLC	lung_small_cell_carcinoma					No	No	No	No	Yes		No QC data
+NCI-N417		688033		Unmatched	lung_SCLC	lung_small_cell_carcinoma					No	No	No	No	No		No QC data
+SCLC-21H		753611		Unmatched	lung_SCLC	lung_small_cell_carcinoma					No	No	No	No	Yes		No QC data
+H2596		1240133		Unmatched	lung	mesothelioma					No	No	No	No	Yes		Not commercially available
+H2691		1290811		Unmatched	lung	mesothelioma					No	No	No	No	No		Not commercially available
+D-397MG		946371		Unmatched	nervous_system	glioma					No	No	No	No	No		No QC data
+D-538MG		946376		Unmatched	nervous_system	glioma					No	No	No	No	No		No QC data
+IPTP-98		NA		Unmatched	nervous_system	glioma					No	No	No	No	No		No QC data
+D-341MED		946378		Unmatched	nervous_system	medulloblastoma					No	No	No	No	No		No QC data
+D-384MED		946379		Unmatched	nervous_system	medulloblastoma					No	No	No	No	No		No QC data
+D-458MED		946381		Unmatched	nervous_system	medulloblastoma					No	No	No	No	No		No QC data
+D-556MED		946380		Unmatched	nervous_system	medulloblastoma					No	No	No	No	No		No QC data
+WERI-Rb-1		909782		Unmatched	nervous_system	nervous_system_other					No	No	No	No	No		Passes QC
+KP-N-S19s		907315		Unmatched	neuroblastoma	neuroblastoma					No	No	No	Yes	No		No QC data
+NB4-DH		908161		Unmatched	neuroblastoma	neuroblastoma					No	No	No	No	No		Obtained from Darren Hargreaves??
+NH-6		925344		Unmatched	neuroblastoma	neuroblastoma					No	No	No	No	No		No QC data
+HE8935		1303902		Unmatched	not_specified	not_specified					No	No	No	No	No		Not commercially available
+TE-206-T		909766		Unmatched	not_specified	not_specified					No	No	No	No	No		No QC data
+1108-MP2		1287377		Unmatched	pancreas	pancreas					No	No	No	No	No		Not commercially available
+609MP9		1287707		Unmatched	pancreas	pancreas					No	No	No	No	No		Not commercially available
+617-MP17		1287708		Unmatched	pancreas	pancreas					No	No	No	No	No		Not commercially available
+722-MP14		1287879		Unmatched	pancreas	pancreas					No	No	No	No	No		Not commercially available
+950MP11		1287880		Unmatched	pancreas	pancreas					No	No	No	No	No		Not commercially available
+950-MP5		1287881		Unmatched	pancreas	pancreas					No	No	No	No	No		Not commercially available
+A13A		1287939		Unmatched	pancreas	pancreas					No	No	No	No	No		Not commercially available
+41228		1287938		Unmatched	pancreas	pancreas					No	No	No	No	No		Not commercially available
+A6L		1290718		Unmatched	pancreas	pancreas					No	No	No	No	No		Not commercially available
+PANC-02-13		1330989		Unmatched	pancreas	pancreas					No	No	No	No	No		No QC data
+PA-TU-8988S		1298527		Unmatched	pancreas	pancreas					No	No	No	No	No		No QC data
+XPA-1		1299082		Unmatched	pancreas	pancreas					No	No	No	No	No		No QC data
+XPA-3		1299083		Unmatched	pancreas	pancreas					No	No	No	No	No		No QC data
+XPA-4		1299084		Unmatched	pancreas	pancreas					No	No	No	No	No		No QC data
+BU-ML		1290727		Unmatched	skin	melanoma					No	No	No	No	No		Not commercially available
+Hs 600.T		NA		Unmatched	skin	melanoma					No	No	No	No	No		No QC data
+Hs 834.T		NA		Unmatched	skin	melanoma					No	No	No	No	No		No QC data
+Hs 839.T		NA		Unmatched	skin	melanoma					No	No	No	No	No		No QC data
+Hs 852.T		NA		Unmatched	skin	melanoma					No	No	No	No	No		No QC data
+Hs 895.T		NA		Unmatched	skin	melanoma					No	No	No	No	No		No QC data
+Hs 906(A).T		NA		Unmatched	skin	melanoma					No	No	No	No	No		No QC data
+Hs 908.T		NA		Unmatched	skin	melanoma					No	No	No	No	No		No QC data
+Hs 936.T		NA		Unmatched	skin	melanoma					No	No	No	No	No		No QC data
+K1		1298158		Unmatched	skin	melanoma					No	No	No	No	Yes		No QC data. Not commercially available
+K11		1333005		Unmatched	skin	melanoma					No	No	No	No	No		No QC data. Not commercially available
+K19		1298159		Unmatched	skin	melanoma					No	No	No	No	Yes		No QC data. Not commercially available
+K23		1333006		Unmatched	skin	melanoma					No	No	No	No	No		No QC data. Not commercially available. Poor growth
+K25		1333009		Unmatched	skin	melanoma					No	No	No	No	No		No QC data. Not commercially available
+K4		1298161		Unmatched	skin	melanoma					No	No	No	No	Yes		No QC data. Not commercially available
+K8		1298162		Unmatched	skin	melanoma					No	No	No	No	Yes		No QC data. Not commercially available
+Luise		1333013		Unmatched	skin	melanoma					No	No	No	No	No		No QC data. Not commercially available - Poor growth
+Malme-3M		905953		Unmatched	skin	melanoma					No	No	No	Yes	No		No QC data. Poor Growth, unable to obtain good quality DNA sample
+MGH-BA-1		1298237		Unmatched	skin	melanoma					No	No	No	No	No		No QC data. Not commercially available
+MGH-BO-1		1240175		Unmatched	skin	melanoma					No	No	No	No	No		No QC data. Not commercially available
+MGH-MC-1		1240176		Unmatched	skin	melanoma					No	No	No	No	No		No QC data. Not commercially available
+MGH-PO-1		1240177		Unmatched	skin	melanoma					No	No	No	No	No		No QC data. Not commercially available
+MGH-QU-1		1298239		Unmatched	skin	melanoma					No	No	No	No	No		No QC data. Not commercially available
+MGH-ST-1		1298240		Unmatched	skin	melanoma					No	No	No	No	No		No QC data. Not commercially available
+MGH-SW-1		1298241		Unmatched	skin	melanoma					No	No	No	No	No		No QC data. Not commercially available
+MGH-TH-1		1298242		Unmatched	skin	melanoma					No	No	No	No	No		No QC data. Not commercially available
+MM455		1298345		Unmatched	skin	melanoma					No	No	No	No	No		No QC data. Not commercially available
+MM608		1298346		Unmatched	skin	melanoma					No	No	No	No	No		No QC data. Not commercially available
+NAE		1240180		Unmatched	skin	melanoma					No	No	No	No	No		No QC data. Not commercially available
+SK-MEL-119		1299054		Unmatched	skin	melanoma					No	No	No	No	No		No QC data. Not commercially available
+SK-MEL-131		1299055		Unmatched	skin	melanoma					No	No	No	No	No		No QC data. Not commercially available
+SK-MEL-37		1240214		Unmatched	skin	melanoma					No	No	No	No	No		No QC data. Not commercially available
+SK-MEL-63		1299057		Unmatched	skin	melanoma					No	No	No	No	No		No QC data. Not commercially available
+UACC903		1299072		Unmatched	skin	melanoma					No	No	No	No	No		No QC data. Not commercially available
+WM1158		1299077		Unmatched	skin	melanoma					No	No	No	No	Yes		No QC data. Not commercially available
+WM164		1299079		Unmatched	skin	melanoma					No	No	No	No	No		No QC data. Not commercially available
+WM239A		1240225		Unmatched	skin	melanoma					No	No	No	No	Yes		No QC data. Not commercially available
+WM902B		1240227		Unmatched	skin	melanoma					No	No	No	No	Yes		No QC data. Not commercially available
+MGH-MCC-1		1298238		Unmatched	skin	Merkel_cell_carcinoma					No	No	No	No	No		No QC data. Not commercially available
+MKL-1-subclone-2		1333014		Unmatched	skin	Merkel_cell_carcinoma					No	No	No	No	Yes		No QC data. Not commercially available
+MKL-2		1333015		Unmatched	skin	Merkel_cell_carcinoma					No	No	No	No	Yes		No QC data. Not commercially available
+T95-45D		1333026		Unmatched	skin	Merkel_cell_carcinoma					No	No	No	No	No		No QC data. Not commercially available
+UISO-MCC-1		1299074		Unmatched	skin	Merkel_cell_carcinoma					No	No	No	No	Yes		No QC data. Not commercially available
+SCCH-196		1240211		Unmatched	soft_tissue	soft_tissue_other					No	No	Yes	Yes	No		Passes QC. Poor Growth
+MTC-SK		1330956		Unmatched	thyroid	thyroid					No	No	No	No	No		No QC data. Not commercially available
+Nthy-ori 3-1		NA		Unmatched	thyroid	thyroid					No	No	No	No	No		No QC data
+Hs 172.T		NA		Unmatched	urogenital_system	Bladder					No	No	No	No	No		No QC data
+Hs 195.T		NA		Unmatched	urogenital_system	Bladder					No	No	No	No	No		No QC data
+Hs 228.T		NA		Unmatched	urogenital_system	Bladder					No	No	No	No	No		No QC data
+BOKU		753536		Unmatched	urogenital_system	cervix					No	Yes	Yes	Yes	Yes		Requires final QC
+NCC16-P11		NA		Unmatched	urogenital_system	cervix					No	No	No	No	No		No QC data
+NCE 16IIA		NA		Unmatched	urogenital_system	cervix					No	No	No	No	No		No QC data
+OVMANA		1333023		Unmatched	urogenital_system	ovary					No	No	No	No	No		Contaminated cell line - ???
+RTSG		909705		Unmatched	urogenital_system	ovary					No	No	No	No	No		Passes QC. Cross-contaminated with SNG-II (as per JHSF - line discontinued), SNG-II not in set
+MDAH-2774		911846		Unmatched	urogenital_system	ovary					No	No	No	No	No		No QC data
+OV-1063		NA		Unmatched	urogenital_system	ovary					No	No	No	No	No		No QC data
+OVCA432		1480366		Unmatched	urogenital_system	ovary					No	No	No	No	Yes		No QC data
+RMG-II		1331057		Unmatched	urogenital_system	ovary					No	No	No	No	No		Growth pattern
+MDA-PCa-2b		1330940		Unmatched	urogenital_system	prostate					No	No	No	No	No		No QC data
+RWPE2-W99		1331028		Unmatched	urogenital_system	prostate					No	No	Yes	Yes	No		Derived from RWPE-2?? (transformed epithilia line)
+WPE1-NA22		NA		Unmatched	urogenital_system	prostate					No	No	No	No	No		No QC data
+WPE1-NB11		NA		Unmatched	urogenital_system	prostate					No	No	No	No	No		No QC data
+WPE1-NB14		NA		Unmatched	urogenital_system	prostate					No	No	No	No	No		No QC data
+WPE1-NB26		NA		Unmatched	urogenital_system	prostate					No	No	No	No	No		No QC data
+PNT1A		NA		Unmatched	urogenital_system	prostate_normal					No	No	No	No	No		No QC data
+PNT2		1330992		Unmatched	urogenital_system	prostate_normal					No	No	No	No	No		No QC data
+ITO-II		924164		Unmatched	urogenital_system	testis					No	No	No	No	No		No QC data
+NEC14		1330979		Unmatched	urogenital_system	testis					No	No	No	No	No		No QC data
+Tera-1		1331043		Unmatched	urogenital_system	testis					No	No	No	No	Yes		No QC data
+U-CH1		1503374	CGP_CCL5228743	Unmatched	bone	bone_other					No	Yes	No	No	Yes		Growth pattern
