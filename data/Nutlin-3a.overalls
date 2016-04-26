@@ -1,96 +1,96 @@
+Input	-1.94	RB1	#Sensitive CLs	#Mutated	4
+Input	-1.94	RB1	#Sensitive CLs	#Not Mutated	217
+Input	-1.94	RB1	#Resistant CLs	#Mutated	70
+Input	-1.94	RB1	#Resistant CLs	#Not Mutated	545
+Input	-2.89	TP53	#Sensitive CLs	#Mutated	45
+Input	-2.89	TP53	#Sensitive CLs	#Not Mutated	176
+Input	-2.89	TP53	#Resistant CLs	#Mutated	505
+Input	-2.89	TP53	#Resistant CLs	#Not Mutated	110
+Input	0.81	MAGI2	#Sensitive CLs	#Mutated	4
+Input	0.81	MAGI2	#Sensitive CLs	#Not Mutated	217
+Input	0.81	MAGI2	#Resistant CLs	#Mutated	5
+Input	0.81	MAGI2	#Resistant CLs	#Not Mutated	610
+Input	-0.33	a(MET)	#Sensitive CLs	#Mutated	13
+Input	-0.33	a(MET)	#Sensitive CLs	#Not Mutated	208
+Input	-0.33	a(MET)	#Resistant CLs	#Mutated	49
+Input	-0.33	a(MET)	#Resistant CLs	#Not Mutated	566
+Input	1.76	CTNNB1	#Sensitive CLs	#Mutated	12
+Input	1.76	CTNNB1	#Sensitive CLs	#Not Mutated	209
+Input	1.76	CTNNB1	#Resistant CLs	#Mutated	6
+Input	1.76	CTNNB1	#Resistant CLs	#Not Mutated	609
+Input	0.63	F8	#Sensitive CLs	#Mutated	6
+Input	0.63	F8	#Sensitive CLs	#Not Mutated	215
+Input	0.63	F8	#Resistant CLs	#Mutated	9
+Input	0.63	F8	#Resistant CLs	#Not Mutated	606
 Input	0	MLL-AFF1	#Sensitive CLs	#Mutated	2
 Input	0	MLL-AFF1	#Sensitive CLs	#Not Mutated	219
 Input	0	MLL-AFF1	#Resistant CLs	#Mutated	0
 Input	0	MLL-AFF1	#Resistant CLs	#Not Mutated	615
-Input	0.40	d(CHD3,GPS2,TP53)	#Sensitive CLs	#Mutated	13
-Input	0.40	d(CHD3,GPS2,TP53)	#Sensitive CLs	#Not Mutated	208
-Input	0.40	d(CHD3,GPS2,TP53)	#Resistant CLs	#Mutated	84
-Input	0.40	d(CHD3,GPS2,TP53)	#Resistant CLs	#Not Mutated	531
-Input	5.83	CTNNB1	#Sensitive CLs	#Mutated	12
-Input	5.83	CTNNB1	#Sensitive CLs	#Not Mutated	209
-Input	5.83	CTNNB1	#Resistant CLs	#Mutated	6
-Input	5.83	CTNNB1	#Resistant CLs	#Not Mutated	609
-Input	0.72	a(MET)	#Sensitive CLs	#Mutated	13
-Input	0.72	a(MET)	#Sensitive CLs	#Not Mutated	208
-Input	0.72	a(MET)	#Resistant CLs	#Mutated	49
-Input	0.72	a(MET)	#Resistant CLs	#Not Mutated	566
-Input	0.18	a(MCM3)	#Sensitive CLs	#Mutated	3
-Input	0.18	a(MCM3)	#Sensitive CLs	#Not Mutated	218
-Input	0.18	a(MCM3)	#Resistant CLs	#Mutated	44
-Input	0.18	a(MCM3)	#Resistant CLs	#Not Mutated	571
-Input	5.65	GATA3	#Sensitive CLs	#Mutated	4
-Input	5.65	GATA3	#Sensitive CLs	#Not Mutated	217
-Input	5.65	GATA3	#Resistant CLs	#Mutated	2
-Input	5.65	GATA3	#Resistant CLs	#Not Mutated	613
-Input	0.17	d(CUL3)	#Sensitive CLs	#Mutated	1
-Input	0.17	d(CUL3)	#Sensitive CLs	#Not Mutated	220
-Input	0.17	d(CUL3)	#Resistant CLs	#Mutated	16
-Input	0.17	d(CUL3)	#Resistant CLs	#Not Mutated	599
-Input	2.25	MAGI2	#Sensitive CLs	#Mutated	4
-Input	2.25	MAGI2	#Sensitive CLs	#Not Mutated	217
-Input	2.25	MAGI2	#Resistant CLs	#Mutated	5
-Input	2.25	MAGI2	#Resistant CLs	#Not Mutated	610
-Input	0.06	TP53	#Sensitive CLs	#Mutated	45
-Input	0.06	TP53	#Sensitive CLs	#Not Mutated	176
-Input	0.06	TP53	#Resistant CLs	#Mutated	505
-Input	0.06	TP53	#Resistant CLs	#Not Mutated	110
-Input	0.14	RB1	#Sensitive CLs	#Mutated	4
-Input	0.14	RB1	#Sensitive CLs	#Not Mutated	217
-Input	0.14	RB1	#Resistant CLs	#Mutated	70
-Input	0.14	RB1	#Resistant CLs	#Not Mutated	545
-Input	1.88	F8	#Sensitive CLs	#Mutated	6
-Input	1.88	F8	#Sensitive CLs	#Not Mutated	215
-Input	1.88	F8	#Resistant CLs	#Mutated	9
-Input	1.88	F8	#Resistant CLs	#Not Mutated	606
-Tissue	0.97	bone	#Sensitive CLs	#Origin	7
-Tissue	0.97	bone	#Sensitive CLs	#Not Origin	214
-Tissue	0.97	bone	#Resistant CLs	#Origin	20
-Tissue	0.97	bone	#Resistant CLs	#Not Origin	595
-Tissue	0.45	breast	#Sensitive CLs	#Origin	5
-Tissue	0.45	breast	#Sensitive CLs	#Not Origin	216
-Tissue	0.45	breast	#Resistant CLs	#Origin	30
-Tissue	0.45	breast	#Resistant CLs	#Not Origin	585
-Tissue	0.31	lung	#Sensitive CLs	#Origin	11
-Tissue	0.31	lung	#Sensitive CLs	#Not Origin	210
-Tissue	0.31	lung	#Resistant CLs	#Origin	88
-Tissue	0.31	lung	#Resistant CLs	#Not Origin	527
-Tissue	1.12	kidney	#Sensitive CLs	#Origin	4
-Tissue	1.12	kidney	#Sensitive CLs	#Not Origin	217
-Tissue	1.12	kidney	#Resistant CLs	#Origin	10
-Tissue	1.12	kidney	#Resistant CLs	#Not Origin	605
-Tissue	3.02	blood	#Sensitive CLs	#Origin	49
-Tissue	3.02	blood	#Sensitive CLs	#Not Origin	172
-Tissue	3.02	blood	#Resistant CLs	#Origin	53
-Tissue	3.02	blood	#Resistant CLs	#Not Origin	562
-Tissue	2.83	soft_tissue	#Sensitive CLs	#Origin	6
-Tissue	2.83	soft_tissue	#Sensitive CLs	#Not Origin	215
-Tissue	2.83	soft_tissue	#Resistant CLs	#Origin	6
-Tissue	2.83	soft_tissue	#Resistant CLs	#Not Origin	609
-Tissue	0.68	urogenital_system	#Sensitive CLs	#Origin	12
-Tissue	0.68	urogenital_system	#Sensitive CLs	#Not Origin	209
-Tissue	0.68	urogenital_system	#Resistant CLs	#Origin	48
-Tissue	0.68	urogenital_system	#Resistant CLs	#Not Origin	567
-Tissue	2.23	nervous_system	#Sensitive CLs	#Origin	29
-Tissue	2.23	nervous_system	#Sensitive CLs	#Not Origin	192
-Tissue	2.23	nervous_system	#Resistant CLs	#Origin	39
-Tissue	2.23	nervous_system	#Resistant CLs	#Not Origin	576
-Tissue	0	NA	#Sensitive CLs	#Origin	0
-Tissue	0	NA	#Sensitive CLs	#Not Origin	221
-Tissue	0	NA	#Resistant CLs	#Origin	0
-Tissue	0	NA	#Resistant CLs	#Not Origin	615
-Tissue	0.76	digestive_system	#Sensitive CLs	#Origin	12
-Tissue	0.76	digestive_system	#Sensitive CLs	#Not Origin	209
-Tissue	0.76	digestive_system	#Resistant CLs	#Origin	43
-Tissue	0.76	digestive_system	#Resistant CLs	#Not Origin	572
-Tissue	3.50	skin	#Sensitive CLs	#Origin	20
-Tissue	3.50	skin	#Sensitive CLs	#Not Origin	201
-Tissue	3.50	skin	#Resistant CLs	#Origin	17
-Tissue	3.50	skin	#Resistant CLs	#Not Origin	598
-Tissue	0.24	aero_digestive_tract	#Sensitive CLs	#Origin	3
-Tissue	0.24	aero_digestive_tract	#Sensitive CLs	#Not Origin	218
-Tissue	0.24	aero_digestive_tract	#Resistant CLs	#Origin	34
-Tissue	0.24	aero_digestive_tract	#Resistant CLs	#Not Origin	581
-Tissue	0.69	thyroid	#Sensitive CLs	#Origin	2
-Tissue	0.69	thyroid	#Sensitive CLs	#Not Origin	219
-Tissue	0.69	thyroid	#Resistant CLs	#Origin	8
-Tissue	0.69	thyroid	#Resistant CLs	#Not Origin	607
+Input	1.73	GATA3	#Sensitive CLs	#Mutated	4
+Input	1.73	GATA3	#Sensitive CLs	#Not Mutated	217
+Input	1.73	GATA3	#Resistant CLs	#Mutated	2
+Input	1.73	GATA3	#Resistant CLs	#Not Mutated	613
+Input	-0.93	d(CHD3,GPS2,TP53)	#Sensitive CLs	#Mutated	13
+Input	-0.93	d(CHD3,GPS2,TP53)	#Sensitive CLs	#Not Mutated	208
+Input	-0.93	d(CHD3,GPS2,TP53)	#Resistant CLs	#Mutated	84
+Input	-0.93	d(CHD3,GPS2,TP53)	#Resistant CLs	#Not Mutated	531
+Input	-1.72	a(MCM3)	#Sensitive CLs	#Mutated	3
+Input	-1.72	a(MCM3)	#Sensitive CLs	#Not Mutated	218
+Input	-1.72	a(MCM3)	#Resistant CLs	#Mutated	44
+Input	-1.72	a(MCM3)	#Resistant CLs	#Not Mutated	571
+Input	-1.77	d(CUL3)	#Sensitive CLs	#Mutated	1
+Input	-1.77	d(CUL3)	#Sensitive CLs	#Not Mutated	220
+Input	-1.77	d(CUL3)	#Resistant CLs	#Mutated	16
+Input	-1.77	d(CUL3)	#Resistant CLs	#Not Mutated	599
+Tissue	0	NA	#Sensitive CLs	NA	0
+Tissue	0	NA	#Sensitive CLs	Others	221
+Tissue	0	NA	#Resistant CLs	NA	0
+Tissue	0	NA	#Resistant CLs	Others	615
+Tissue	-1.45	aero_digestive_tract	#Sensitive CLs	aero_digestive_tract	3
+Tissue	-1.45	aero_digestive_tract	#Sensitive CLs	Others	218
+Tissue	-1.45	aero_digestive_tract	#Resistant CLs	aero_digestive_tract	34
+Tissue	-1.45	aero_digestive_tract	#Resistant CLs	Others	581
+Tissue	-0.03	bone	#Sensitive CLs	bone	7
+Tissue	-0.03	bone	#Sensitive CLs	Others	214
+Tissue	-0.03	bone	#Resistant CLs	bone	20
+Tissue	-0.03	bone	#Resistant CLs	Others	595
+Tissue	-0.80	breast	#Sensitive CLs	breast	5
+Tissue	-0.80	breast	#Sensitive CLs	Others	216
+Tissue	-0.80	breast	#Resistant CLs	breast	30
+Tissue	-0.80	breast	#Resistant CLs	Others	585
+Tissue	-0.39	urogenital_system	#Sensitive CLs	urogenital_system	12
+Tissue	-0.39	urogenital_system	#Sensitive CLs	Others	209
+Tissue	-0.39	urogenital_system	#Resistant CLs	urogenital_system	48
+Tissue	-0.39	urogenital_system	#Resistant CLs	Others	567
+Tissue	1.04	soft_tissue	#Sensitive CLs	soft_tissue	6
+Tissue	1.04	soft_tissue	#Sensitive CLs	Others	215
+Tissue	1.04	soft_tissue	#Resistant CLs	soft_tissue	6
+Tissue	1.04	soft_tissue	#Resistant CLs	Others	609
+Tissue	-0.37	thyroid	#Sensitive CLs	thyroid	2
+Tissue	-0.37	thyroid	#Sensitive CLs	Others	219
+Tissue	-0.37	thyroid	#Resistant CLs	thyroid	8
+Tissue	-0.37	thyroid	#Resistant CLs	Others	607
+Tissue	1.25	skin	#Sensitive CLs	skin	20
+Tissue	1.25	skin	#Sensitive CLs	Others	201
+Tissue	1.25	skin	#Resistant CLs	skin	17
+Tissue	1.25	skin	#Resistant CLs	Others	598
+Tissue	-1.16	lung	#Sensitive CLs	lung	11
+Tissue	-1.16	lung	#Sensitive CLs	Others	210
+Tissue	-1.16	lung	#Resistant CLs	lung	88
+Tissue	-1.16	lung	#Resistant CLs	Others	527
+Tissue	-0.27	digestive_system	#Sensitive CLs	digestive_system	12
+Tissue	-0.27	digestive_system	#Sensitive CLs	Others	209
+Tissue	-0.27	digestive_system	#Resistant CLs	digestive_system	43
+Tissue	-0.27	digestive_system	#Resistant CLs	Others	572
+Tissue	0.11	kidney	#Sensitive CLs	kidney	4
+Tissue	0.11	kidney	#Sensitive CLs	Others	217
+Tissue	0.11	kidney	#Resistant CLs	kidney	10
+Tissue	0.11	kidney	#Resistant CLs	Others	605
+Tissue	0.80	nervous_system	#Sensitive CLs	nervous_system	29
+Tissue	0.80	nervous_system	#Sensitive CLs	Others	192
+Tissue	0.80	nervous_system	#Resistant CLs	nervous_system	39
+Tissue	0.80	nervous_system	#Resistant CLs	Others	576
+Tissue	1.11	blood	#Sensitive CLs	blood	49
+Tissue	1.11	blood	#Sensitive CLs	Others	172
+Tissue	1.11	blood	#Resistant CLs	blood	53
+Tissue	1.11	blood	#Resistant CLs	Others	562

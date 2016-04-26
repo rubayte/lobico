@@ -69,3 +69,6 @@
   shape-rendering: crispEdges;
 }
 
+.dot {
+  stroke: #000;
+}
