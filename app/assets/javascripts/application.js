@@ -20,6 +20,7 @@
 //= require d3.v3.min
 //= require box
 //= require dimple.v2.1.6.min
+//= require d3plus.min
 //= require spin.min
 //= require_tree .
 

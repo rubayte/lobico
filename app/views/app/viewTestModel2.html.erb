@@ -67,13 +67,19 @@
 	  													</div>									  						
 								  					</div>
 								  					<div class="row">
-				  										<div align="center">
-				  											<p>
-				  												Specificity = TN/(FP+TN)</br>
-				  												Precision = TP/(TP + FP)</br>
-																Recall = TP/(TP + FN)
-				  											</p>
-	  													</div>								  						
+														<div class="col-md-4">
+			  												Specificity = TN/(FP+TN)
+														</div>	
+														<div class="col-md-4">
+			  												Precision = TP/(TP + FP)
+														</div>	
+														<div class="col-md-4">
+															Recall = TP/(TP + FN)
+														</div>	
+								  					</div>
+								  					<div class="row">
+								  						<div id="modelSingleBox" align="center" style="height: 250px;">
+								  						</div>	
 								  					</div>
   												</div>
 								  			</div>	
@@ -256,18 +262,18 @@
 					var res_total = 0,sen_total = 0;
 					todata.forEach(function(item){
 						console.log(item.OM);
-						if (item.OM != "Others" && item.SR == "#Resistant CLs")
+						if (item.OM != "Others" && item.SR.indexOf("Resistant") > -1)
 						{
 							tissue_res_prect = parseInt(item.Count);
 							res_total +=  parseInt(item.Count);
-						}else if (item.OM == "Others" && item.SR == "#Resistant CLs")
+						}else if (item.OM == "Others" && item.SR.indexOf("Resistant") > -1)
 						{
 							res_total +=  parseInt(item.Count);
-						}else if (item.OM != "Others" && item.SR == "#Sensitive CLs")
+						}else if (item.OM != "Others" && item.SR.indexOf("Sensitive") > -1)
 						{
 							tissue_sen_prect = parseInt(item.Count);
 							sen_total +=  parseInt(item.Count);
-						}else if (item.OM == "Others" && item.SR == "#Sensitive CLs")
+						}else if (item.OM == "Others" && item.SR.indexOf("Sensitive") > -1)
 						{
 							sen_total +=  parseInt(item.Count);
 						}
@@ -309,7 +315,7 @@
 			        	.append("rect")
         			  	.attr("x", x)
           			  	.attr("y", y)
-          				.attr("width", width + 50)
+          				.attr("width", width + 60)
           				.attr("height", height + 30)
           				.attr("rx", 5)
           				.attr("ry", 5)
@@ -322,17 +328,38 @@
 				          .append("text")
 				          .attr("x", x + 20)
 				          .attr("y", y + 20)
-				          .text("Tissue: " + e.xValue + ", log(OddsRatio): " + odrValue)
+				          .text("log2(OddsRatio): " + odrValue)
 				          .style("font-family", "sans-serif")
-				          .style("font-size", 12)
-				          .style("font-weight", "bold");
+				          .style("font-size", 12);
+				          //.style("font-weight", "bold");
+				          //.style("fill", stroke);
+			        
+           			popup
+				          .append("text")
+				          .attr("x", x + (width/4) + 20)
+				          .attr("y", y + height + 20)
+				          .text(e.xValue +" " + originSenPercentage)
+				          .style("font-family", "sans-serif")
+				          .style("font-size", 10);
+				          //.style("font-weight", "bold");
+				          //.style("fill", stroke);
+
+           			popup
+				          .append("text")
+				          .attr("x", x + (width*3/4) + 10)
+				          .attr("y", y + height + 20)
+				          .text(e.xValue + " " + originResPercentage)
+				          .style("font-family", "sans-serif")
+				          .style("font-size", 10);
+				          //.style("font-weight", "bold");
 				          //.style("fill", stroke);
 			        
 			        // Create a new mini chart 
 			        tipChart = new dimple.chart(svg,  todata);
 			        tipChart.setBounds(x + 60, y + 30, width - 30, height - 40);
 			        var tx = tipChart.addCategoryAxis("x", "SR");
-			        var ty = tipChart.addCategoryAxis("y", "OM");				
+			        var ty = tipChart.addCategoryAxis("y", "OM");
+			        tx.addOrderRule("xSR", true);				
 			        var popUpSeries = tipChart.addSeries("Count", dimple.plot.bar);
 			        popUpSeries.barGap = 0;
 					
@@ -362,27 +389,7 @@
 								// Make it a little transparent to tone down the black
 								//.style("opacity", 0.6)
 								// Format the number
-								.text(data.aggField[0]);
-							if (data.x == "#Resistant CLs" && data.y != "Others"){
-								popup.append("text")
-									.attr("x", rect.x + rect.width / 2)
-									.attr("y", rect.y + rect.height / 2 + 20)
-									.style("text-anchor", "middle")
-									.style("font-size", "14px")
-									.style("font-weight", "bold")
-									.style("font-family", "sans-serif")
-									.text("(" + originResPercentage + ")");
-							}
-							if (data.x == "#Sensitive CLs" && data.y != "Others"){
-								popup.append("text")
-									.attr("x", rect.x + rect.width / 2)
-									.attr("y", rect.y + rect.height / 2 + 20)
-									.style("text-anchor", "middle")
-									.style("font-size", "14px")
-									.style("font-weight", "bold")
-									.style("font-family", "sans-serif")
-									.text("(" + originSenPercentage + ")");
-							}	
+								.text(data.aggField[0]);	
 						}
 					};
 					
@@ -431,18 +438,18 @@
 					var res_total = 0,sen_total = 0;
 					modata.forEach(function(item){
 						console.log(item.OM);
-						if (item.OM == "#Mutated" && item.SR == "#Resistant CLs")
+						if (item.OM == "#Mutated" && item.SR.indexOf("Resistant") > -1)
 						{
 							mutated_res_prect = parseInt(item.Count);
 							res_total +=  parseInt(item.Count);
-						}else if (item.OM == "#Not Mutated" && item.SR == "#Resistant CLs")
+						}else if (item.OM == "#WT" && item.SR.indexOf("Resistant") > -1)
 						{
 							res_total +=  parseInt(item.Count);
-						}else if (item.OM == "#Mutated" && item.SR == "#Sensitive CLs")
+						}else if (item.OM == "#Mutated" && item.SR.indexOf("Sensitive") > -1)
 						{
 							mutated_sen_prect = parseInt(item.Count);
 							sen_total +=  parseInt(item.Count);
-						}else if (item.OM == "#Not Mutated" && item.SR == "#Sensitive CLs")
+						}else if (item.OM == "#WT" && item.SR.indexOf("Sensitive") > -1)
 						{
 							sen_total +=  parseInt(item.Count);
 						}
@@ -483,7 +490,7 @@
         			  	.attr("x", x)
           			  	.attr("y", y)
           				.attr("width", width + 50)
-          				.attr("height", height + 30)
+          				.attr("height", height + 50)
           				.attr("rx", 5)
           				.attr("ry", 5)
           				.style("fill", popupFillColor)
@@ -494,17 +501,48 @@
         			popup
 				          .append("text")
 				          .attr("x", x + 20)
-				          .attr("y", y + 20)
-				          .text("Input:  " + e.xValue + ", log(OddsRatio): " + odrValue)
+				          .attr("y", y + 10)
+				          .text("Input:  " + e.xValue )
 				          .style("font-family", "sans-serif")
-				          .style("font-size", 12)
-				          .style("font-weight", "bold");
+				          .style("font-size", 12);
+				          //.style("font-weight", "bold");
+
+        			popup
+				          .append("text")
+				          .attr("x", x + 20)
+				          .attr("y", y + 25)
+				          .text("log(OddsRatio): " + odrValue)
+				          .style("font-family", "sans-serif")
+				          .style("font-size", 12);
+				          //.style("font-weight", "bold");
+
+           			popup
+				          .append("text")
+				          .attr("x", x + (width/4) + 10)
+				          .attr("y", y + height + 20)
+				          .text("Mutated " + mutatedSenPercentage)
+				          .style("font-family", "sans-serif")
+				          .style("font-size", 10);
+				          //.style("font-weight", "bold");
+				          //.style("fill", stroke);
+
+           			popup
+				          .append("text")
+				          .attr("x", x + (width*3/4))
+				          .attr("y", y + height + 20)
+				          .text("Mutated " + mutatedResPercentage)
+				          .style("font-family", "sans-serif")
+				          .style("font-size", 10);
+				          //.style("font-weight", "bold");
+				          //.style("fill", stroke);
 			        
 			        // Create a new mini chart of Unit Sales over Months
 			        tipChart = new dimple.chart(svg,  modata);
-			        tipChart.setBounds(x + 70, y + 30, width - 30, height - 40);
+			        tipChart.setBounds(x + 60, y + 30, width - 30, height - 40);
 			        var tx = tipChart.addCategoryAxis("x", "SR");
-			        var ty = tipChart.addCategoryAxis("y", "OM");				
+			        var ty = tipChart.addCategoryAxis("y", "OM");
+			        ty.addOrderRule("OM", true);
+			        tx.addOrderRule("xSR", true);				
 			        var popUpSeries = tipChart.addSeries("Count", dimple.plot.bar);
 			        popUpSeries.barGap = 0;
 					
@@ -733,7 +771,7 @@
 					.style("font-family", "sans-serif")
 					.style("font-weight", "bold")
 					.style("font-size", "12px")	
-					.text("Specificity");
+					.text("Specificity = TN/(FP+TN)");
 					
 			}else if(i == 2)
 			{
@@ -1260,7 +1298,32 @@
 			.style("font-size", "10px")
 			.text("Predictions");
 	
+  //draw data as points
+  svg.selectAll("circle")
+     .data(data[1])     
+     .enter()
+     .append("circle")
+     .attr("r", 2.5)
+     .attr("class", "point")     
+     .attr("cx", function(d) {
+      return random_jitter();
+     })
+     .attr("cy", function(d) { return y(d.value); }); 
+     //.attr("cx", function(d) {
+     // return xScale(d.value);   
+     //});
+     //.append("title")
+     //.text(function(d) {
+     // return "Date: " + d.date + "; value: " + d.value;
+     //}); 
 
+	function random_jitter() {
+	  if (Math.round(Math.random() * 1) == 0)
+	    var seed = -5;
+	  else
+	    var seed = 5; 
+	  return Math.floor((Math.random() * seed) + 1);
+	}
 						
 	// Returns a function to compute the interquartile range.
 	function iqr(k) {
@@ -1291,7 +1354,7 @@
 		var paper = new joint.dia.Paper({
 			el: $('#modelCircuitPlot'),
 			model: graph,
-			width: pixelsW, height: 300, gridSize: 5,
+			width: pixelsW, height: 200, gridSize: 5,
 			snapLinks: true,
 			linkPinning: false,
 			interactive: false,
@@ -1322,7 +1385,7 @@
 		});
 
 		// zoom the viewport
-		var zoom = 1.5;
+		var zoom = 1.25;
 		if (pixelsW < 500)
 		{
 			zoom = 1;
@@ -1550,4 +1613,38 @@
 		});						
 	}
 			
+</script>
+
+<script type="text/javascript">
+	
+
+	var data = <%= @histData.html_safe %>;
+	//var data = <%= @boxData.html_safe %>;
+	
+	//var data = [
+	//	{"logIC50": 1.0, "Number_of_Cell_lines":"11", "Classification": 1},
+	//	{"logIC50": 5.6, "Number_of_Cell_lines":"8", "Classification": 2}
+	//];
+	//console.log(data);
+	//  var data = [
+    //{year: 1991, "name":"alpha", value: 15},
+    //{year: 1992, "name":"alpha", value: 34},
+    //{year: 1991, "name":"alpha2", value: 17},
+    //{year: 1992, "name":"alpha2", value: 65}
+  //];
+  	var visualization = d3plus.viz()
+		.container("#modelSingleBox")
+	    .data(data)
+	    .type("box")
+	    .id("logIC50")
+	    .x("Classification")
+	    .y("logIC50")
+	    .size("logIC50")
+	    .ui([{ 
+	        "label": "Visualization Type",
+	        "method": "type", 
+	        "value": ["scatter","box"]
+	    }])
+	    .draw();
+	    
 </script>

@@ -162,7 +162,7 @@ class Datafile
       end
     end
     histContents = histContents[1..-1]
-    histData = histContents.split("\t").each_slice(3).map{|s| {logIC50: s[0], Number_of_Cell_lines: s[1], Classification: s[2]} }.to_json
+    histData = histContents.split("\t").each_slice(3).map{|s| {logIC50: s[0].to_f, Number_of_Cell_lines: s[1], Classification: s[2]} }.to_json
 
     modelContents = ""
     File.open(Rails.root.join('data','outfile.models')) do |fl|
@@ -218,7 +218,7 @@ class Datafile
       end
     end
     overallContents = overallContents[1..-1]
-    overallData = overallContents.split("\t").each_slice(6).map{|s| {Param: s[0], OddsRatio: s[1], InputType: s[2], SR: s[3], OM: s[4], Count: s[5]}}.to_json
+    overallData = overallContents.split("\t").each_slice(7).map{|s| {Param: s[0], OddsRatio: s[1], InputType: s[2], xSR: s[3], SR: s[4], OM: s[5], Count: s[6]}}.to_json
 
     
     return models,histData,modelData,boxData,heatmapData,overallData,models2,modelNameData
