@@ -193,8 +193,8 @@ class Datafile
     end
     modelNames = modelNames[1..-1]
     boxContents = boxContents[1..-1]
-    #boxData = boxContents.split("\t").each_slice(3).map{|s| {Model: s[0], Q1: s[1], Q2: s[2]}}.to_json
-    boxData = boxContents.split("\t").each_slice(16).map{|s| {Q1: s[0], Q2: s[1], Q3: s[2],Q4: s[3], Q5: s[4], Q6: s[5], Q7: s[6], Q8: s[7], Q9: s[8], Q10: s[9], Q11: s[10], Q12: s[11],Q13: s[12], Q14: s[13], Q15: s[14], Q16: s[15]}}.to_json
+    boxData = boxContents.split("\t").each_slice(4).map{|s| {Model: s[0], predictedClassification: s[1], Cellline: s[2], logIC50: s[3].to_f}}.to_json
+    #boxData = boxContents.split("\t").each_slice(16).map{|s| {Q1: s[0], Q2: s[1], Q3: s[2],Q4: s[3], Q5: s[4], Q6: s[5], Q7: s[6], Q8: s[7], Q9: s[8], Q10: s[9], Q11: s[10], Q12: s[11],Q13: s[12], Q14: s[13], Q15: s[14], Q16: s[15]}}.to_json
     modelNameData = modelNames.split("\t").each_slice(16).map{|s| {Q1: s[0], Q2: s[1], Q3: s[2],Q4: s[3], Q5: s[4], Q6: s[5], Q7: s[6], Q8: s[7], Q9: s[8], Q10: s[9], Q11: s[10], Q12: s[11],Q13: s[12], Q14: s[13], Q15: s[14], Q16: s[15]}}.to_json
 
     heatmapContents = ""

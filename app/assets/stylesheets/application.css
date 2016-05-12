@@ -10,8 +10,9 @@
  *
  *= require_self
  *= require bootstrap.min
- *= require joint.min 
  *= require datatables.min
+ *= require joint.min 
+ *= require d3_exploding_boxplot 
  *= require_tree .
  */
 
@@ -29,46 +30,4 @@
     border-color: #D8D8D8;
     background-color: #E3F6CE;
     border-radius: 5px;
-}
-
-
-.box {
-  font: 10px verdana;
-}
-
-.box line,
-.box rect,
-.box circle {
-  fill: #81BEF7;
-  stroke: #000;
-  stroke-width: 1.5px;
-}
-
-.box .center {
-  stroke-dasharray: 3,3;
-}
-
-.box .outlier {
-  fill: none;
-  stroke: #FA5858;
-}
-.axis {
-  font: 12px sans-serif;
-}
- 
-.axis path,
-.axis line {
-  fill: none;
-  stroke: #000;
-  shape-rendering: crispEdges;
-}
- 
-.x.axis path { 
-  fill: none;
-  stroke: #000;
-  shape-rendering: crispEdges;
-}
-
-.dot {
-  stroke: #000;
 }

@@ -11,16 +11,16 @@
 // GO AFTER THE REQUIRES BELOW.
 //
 //= require jquery
-//= require jquery_ujs
 //= require bootstrap.min
+//= require datatables.min
 //= require lodash.min
 //= require backbone-min
-//= require joint.min.js
-//= require datatables.min
-//= require d3.v3.min
-//= require box
+//= require joint.min
+//= require d3
+//= require d3-tip
+//= require d3_exploding_boxplot
 //= require dimple.v2.1.6.min
-//= require d3plus.min
-//= require spin.min
+//= require box
 //= require_tree .
+
 

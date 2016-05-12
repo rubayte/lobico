@@ -66,6 +66,7 @@
 				  										<div id="modelPlot">
 	  													</div>									  						
 								  					</div>
+								  					<!--
 								  					<div class="row">
 														<div class="col-md-4">
 			  												Specificity = TN/(FP+TN)
@@ -77,7 +78,12 @@
 															Recall = TP/(TP + FN)
 														</div>	
 								  					</div>
+								  					-->
 								  					<div class="row">
+						  								<div class="alert alert-warning alert-dismissible" role="alert">
+															<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+															<p align="center">Click on the box plots to view the scatter plot and double click to reverse!</p>
+														</div>								  						
 								  						<div id="modelSingleBox" align="center" style="height: 250px;">
 								  						</div>	
 								  					</div>
@@ -101,6 +107,10 @@
 										<div align="center">
 			  								<div id="modelOverallBoxPlot" align="center">
   											</div>
+  											<div class="alert alert-warning alert-dismissible" role="alert">
+												<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+												<p align="center">Click on the box plots to view the scatter plot and double click to reverse!</p>
+											</div>
   										</div>	
   									</div>
 								</div>
@@ -644,7 +654,7 @@
 </script>
 
 
-<!-- mnodel plot -->
+<!-- model plot -->
 <script type="text/javascript">
 
 	$(document).ready(function(){
@@ -676,7 +686,12 @@
 		}
 		
 		// call model circuit diagram plot fuinction
-		plotModelCircuitDiagram(data[0].MD);				
+		plotModelCircuitDiagram(data[0].MD);
+		//console.log('checking data[0]');
+		//console.log(data[0]);				
+		
+		//call model single boxplot diagram plot function
+		plotModelSingleBoxplot("#modelSingleBox",data[0].Model,true,200,200,true,"NA");	
 						
 		var width = $("#modelPlot").width();
  		var height = 150;
@@ -806,7 +821,7 @@
 					.style("font-family", "sans-serif")
 					.style("font-weight", "bold")
 					.style("font-size", "12px")	
-					.text("Precision");				
+					.text("Precision = TP/(TP + FP)");				
 			}else if(i == 3)
 			{
 				// draw the specificty ring chart
@@ -840,7 +855,7 @@
 					.style("font-family", "sans-serif")
 					.style("font-weight", "bold")
 					.style("font-size", "12px")	
-					.text("Recall");					
+					.text("Recall = TP/(TP + FN)");					
 			}else{
 				
 			}
@@ -1147,200 +1162,6 @@
 	
 </script>
 
-<!-- IC50 boxplots -->
-<script type="text/javascript">
-
-	var bdata = <%= @boxData.html_safe %>;
-	var mndata = <%= @mnData.html_safe %>;
-	//console.log(bdata);
-	
-	var pixelsW = $("#modelOverallBoxPlot").width();
-	var pixelsH = 550;
-
-	var margin = {top: 5, right: 70, bottom: 195, left: 30};
-	var width = pixelsW - margin.left - margin.right;
-	var height = pixelsH - margin.bottom - margin.top;   		
-	
-	var labels = true; // show the text labels beside individual boxplots?
-	var min = -2,//Infinity,
-		max = 8;//-Infinity;
-			    	
-	var btempdata = bdata; //dimple.filterData(bdata,"Model","Model1");
-	var keys = Object.keys(bdata);
-
-	var data = [];
-	for (i = 0; i < 16; i++)
-	{
-		data[i] = [];
-		mndata.forEach(function(m){
-			var mnkeys = Object.keys(m);
-			data[i][0] = m[mnkeys[i]]; //"modelPred_" + i;
-		});
-		//data[i][0] = "modelPred_" + i;
-		data[i][1] = [];
-		btempdata.forEach(function(x) {
-			var keys = Object.keys(x);
-			//for(var key in keys){
-			if (x[keys[i]] != "NA")
-			{
-				data[i][1].push(x[keys[i]]);	
-			}
-			//}
-		});
-	}
-	//console.log(data[2][1]);
-	//console.log(data[4][1]);
-	//console.log(data[5][1]);
-	
-	//data[1] = [];		
-	// add here the header of the csv file
-	//data[0][0] = "PS";
-	//data[1][0] = "PR";
-				
-	//data[0][1] = [];
-	//data[1][1] = [];		
-  		
-	//btempdata.forEach(function(x) {
-		//console.log(x);
-		
-	//		var v1 = Math.floor(x.Q1),
-	//		v2 = Math.floor(x.Q2);
-			//console.log(v1);
-			//console.log(v2);
-	//		if (x.Q1 != "NA" ){
-	//			data[0][1].push(v1);								
-	//		}
-	//		if (x.Q2 != "NA" ){
-	//			data[1][1].push(v2);								
-	//		}
-
-			//var rowMax = Math.max(v1, v2);
-			//var rowMin = Math.min(v1, v2);
-			//if (rowMax > max) max = rowMax;
-			//if (rowMin < min) min = rowMin;		
-					 
-	//});
-	
-	//console.log(data[0][1]);
-	//console.log("asd");
-	//console.log(data[1][1]);
-		
-	var chart = d3.box()
-		.whiskers(iqr(1.5))
-		.width(width)
-		.height(height)	
-		.domain([min, max])
-		.showLabels(labels);
-
-	var svg = d3.select("#modelOverallBoxPlot").append("svg")
-		.attr("width", width + margin.left + margin.right)
-		.attr("height", height + margin.bottom + margin.top)
-		.attr("class", "box")    
-		.append("g")
-		.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
-						
-	// the x-axis
-	var x = d3.scale.ordinal()	   
-		.domain( data.map(function(d) { return d[0] } ) )	    
-		.rangeRoundBands([0, width], 0.8, 0.2); 		
-
-	var xAxis = d3.svg.axis()
-		.scale(x)
-		.orient("bottom");
-						
-	// the y-axis
-	var y = d3.scale.linear()
-		.domain([min, max])
-		.range([height + margin.top, 0 + margin.top]);
-				
-	var yAxis = d3.svg.axis()
-		.scale(y)
-		.orient("left");
-					
-	// draw the boxplots	
-	svg.selectAll(".box")	   
-	  	.data(data)
-		.enter().append("g")
-			.attr("transform", function(d) { return "translate(" +  x(d[0])  + "," + margin.top + ")"; } )
-		.call(chart.width(x.rangeBand())); 
-      		
-	// draw y axis only for the first boxplot
-	svg.append("g")
-		.attr("class", "y axis")
-		.call(yAxis)
-		.append("text") // and text1
-		.attr("transform", "rotate(-90)")
-		.attr("y", -50)
-		.attr("x", -( height / 2))
-		.attr("dy", ".71em")
-		.style("text-anchor", "end")
-		.style("font-size", "10px") 
-		.text("logIC50s");			      		
-	
-		
-	
-	// draw x axis	
-	svg.append("g")
-		.attr("class", "x axis")
-		.attr("transform", "translate(0," + (height  + margin.top) + ")")
-		.call(xAxis)
-		.selectAll("text")
-			.style("font-size", "10px")
-			.attr("y", 0)
-    		.attr("x", 0)
-			.attr("transform", "translate(0,10) rotate(45)")
-			.style("text-anchor", "start")
-		.append("text")             // text label for the x axis
-			.attr("x", (width / 2) )
-			.attr("y",  10 )
-			.attr("dy", ".71em")
-			.style("text-anchor", "middle")
-			.style("font-size", "10px")
-			.text("Predictions");
-	
-  //draw data as points
-  svg.selectAll("circle")
-     .data(data[1])     
-     .enter()
-     .append("circle")
-     .attr("r", 2.5)
-     .attr("class", "point")     
-     .attr("cx", function(d) {
-      return random_jitter();
-     })
-     .attr("cy", function(d) { return y(d.value); }); 
-     //.attr("cx", function(d) {
-     // return xScale(d.value);   
-     //});
-     //.append("title")
-     //.text(function(d) {
-     // return "Date: " + d.date + "; value: " + d.value;
-     //}); 
-
-	function random_jitter() {
-	  if (Math.round(Math.random() * 1) == 0)
-	    var seed = -5;
-	  else
-	    var seed = 5; 
-	  return Math.floor((Math.random() * seed) + 1);
-	}
-						
-	// Returns a function to compute the interquartile range.
-	function iqr(k) {
-		  return function(d, i) {
-		    var q1 = d.quartiles[0],
-		        q3 = d.quartiles[2],
-		        iqr = (q3 - q1) * k,
-		        i = -1,
-		        j = d.length;
-		    while (d[++i] < q1 - iqr);
-		    while (d[--j] > q3 + iqr);
-		    return [i, j];
-		 };
-	}
-	
-</script>
-
 
 <!-- model circuit plot -->
 <script type="text/javascript">
@@ -1615,36 +1436,90 @@
 			
 </script>
 
+<!-- model single boxplot -->
 <script type="text/javascript">
-	
 
-	var data = <%= @histData.html_safe %>;
-	//var data = <%= @boxData.html_safe %>;
+	function plotModelSingleBoxplot(div,model,remove,width,height,showY,plotTitle){
+		
+		var width; // = $("#modelSingleBox").width();
+		if (remove){
+			d3.select(div).select("svg").remove();
+			width = $(div).width();			
+		}else{
+			width = width;
+		}
+		
+		var bdata = <%= @boxData.html_safe %>;
+		console.log(bdata);
+		
+		var height = height;
 	
-	//var data = [
-	//	{"logIC50": 1.0, "Number_of_Cell_lines":"11", "Classification": 1},
-	//	{"logIC50": 5.6, "Number_of_Cell_lines":"8", "Classification": 2}
-	//];
-	//console.log(data);
-	//  var data = [
-    //{year: 1991, "name":"alpha", value: 15},
-    //{year: 1992, "name":"alpha", value: 34},
-    //{year: 1991, "name":"alpha2", value: 17},
-    //{year: 1992, "name":"alpha2", value: 65}
-  //];
-  	var visualization = d3plus.viz()
-		.container("#modelSingleBox")
-	    .data(data)
-	    .type("box")
-	    .id("logIC50")
-	    .x("Classification")
-	    .y("logIC50")
-	    .size("logIC50")
-	    .ui([{ 
-	        "label": "Visualization Type",
-	        "method": "type", 
-	        "value": ["scatter","box"]
-	    }])
-	    .draw();
+		//generate random data
+		var data = dimple.filterData(bdata,"Model",[model]);
+		console.log(data);
+		//var boxResistant = dimple.filterData(data,"Q2");
+		
+		//var box1 = d3.range(100).map(d3.random.normal(Math.random()*100,5))
+		//			.map(function(d,i){return {v:d,g:'box1',t:'pt 1'+i}});
+		//var box2 = d3.range(100).map(d3.random.normal(Math.random()*100,30))
+		//			.map(function(d,i){return {v:d,g:'box2',t:'pt 2'+i}});
+		//var box3 = d3.range(100).map(function(){return Math.random()*100})
+		//			.map(function(d,i){return {v:d,g:'box3',t:'pt 3'+i}});
+		// with outliers
+		//var box4 = d3.range(80).map(d3.random.normal(50,5))
+		//		  .concat(d3.range(20).map(d3.random.normal(50,25)))
+		//		  .map(function(d,i){return {v:d,g:'box4',t:'pt 4'+i}});
+	
+		//var data = box1.concat(box4).concat(box3).concat(box2);
+		//data = boxSensitive.concat(boxResistant);
+		//console.log(data);
+				
+		// chart(data,aes)
+		// aesthetic :
+		// y : point's value on y axis
+		// group : how to group data on x axis
+		// color : color of the point / boxplot
+		// label : displayed text in toolbox
+		chart = d3.exploding_boxplot(data,{y:'logIC50',group:'predictedClassification',color:'predictedClassification',label:'Cellline'},width,height,'single',showY,plotTitle);
+		
+		//call chart on a div
+		chart(div);
+	}
 	    
+</script>
+
+
+<!-- IC50 boxplots -->
+<script type="text/javascript">
+
+	var bdata = <%= @boxData.html_safe %>;
+	var mndata = <%= @modelData.html_safe %>;
+	console.log("mndata");
+	//console.log(mndata);
+	
+	mndata = dimple.filterData(mndata,"Count",["TP"]);
+	
+	
+	var pixelsW = $("#modelOverallBoxPlot").width();
+	var pixelsH = 550;
+	var divid = "#modelOverallBoxPlot";
+
+	var width = (pixelsW/8) - 10;
+	var height = pixelsH;
+	
+	for (i = 1; i < 9; i++)
+	{
+		var showY = false;
+		var model = "Model" + i;
+		if (i == 1){
+			showY = true;
+		}
+		
+		var mdesc = dimple.filterData(mndata,"Model",[model]);
+		//console.log(mdesc[0].MD);		
+		//data = dimple.filterData(bdata,"Model",model);
+		plotModelSingleBoxplot(divid,model,false,width,height,showY,mdesc[0].MD);
+	}
+
+	
 </script>
