@@ -1,4 +1,4 @@
-source 'https://rubygems.org'
+source 'http://rubygems.org'
 
 gem 'rails', '3.2.11'
 #gem 'bootstrap-sass', '~> 3.2.0'
@@ -12,6 +12,7 @@ gem 'jquery-ui-rails'
 gem 'jquery-rails'
 gem 'jquery-datatables-rails'
 gem 'libv8', '3.16.14.1'
+gem 'rake', '11.1.2'
 
 # Gems used only for assets and not required
 # in production environments by default.

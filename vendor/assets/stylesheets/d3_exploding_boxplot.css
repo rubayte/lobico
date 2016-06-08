@@ -28,6 +28,11 @@ line.d3-exploding-boxplot.vline{
   stroke-dasharray:5,5;
 }
 
+line.d3-exploding-boxplot.cline{
+  stroke-dasharray:5,5;
+  stroke: #000;
+}
+
 .d3-exploding-boxplot.tip{
   font: normal 13px 'Lato', 'Open sans', sans-serif;
   line-height: 1;

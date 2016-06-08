@@ -62,6 +62,7 @@ class Datafile
     drug = nil
     cvelt = nil
     cvegt = nil
+    st = nil
     if params[:cancerType] != "Cancer Type"
       cancer = params[:cancerType]
     end
@@ -73,9 +74,13 @@ class Datafile
     end  
     if params[:cvegt] != ""
       cvegt = params[:cvegt]
-    end  
+    end 
+    if params[:msearch] != "" or params[:msearch] != nil
+      st = params[:msearch]
+    end 
        
     models = Hash.new()
+    modelsST = Hash.new()
     cancers = Hash.new()
     drugs = Hash.new()
     fileToRead = Rails.root.join('data','res.tsv')
@@ -91,11 +96,20 @@ class Datafile
            if (drug == temp[1] or drug == nil)
              if (cvelt == nil or  temp[8].to_f < cvelt.to_f)
                if (cvegt == nil or cvegt.to_f < temp[8].to_f)
-                 if (models.has_key?(key))
-                   models[key] = models[key] + "#" + values
+                 if(st and (st == temp[0] or st == temp[1]))
+                   if (modelsST.has_key?(key))
+                     modelsST[key] = modelsST[key] + "#" + values
+                   else
+                     modelsST[key] =  values
+                   end
                  else
-                   models[key] =  values
+                   if (models.has_key?(key))
+                     models[key] = models[key] + "#" + values
+                   else
+                     models[key] =  values
+                   end
                  end
+                 ## end if st    
                end
              end
            end  
@@ -104,6 +118,10 @@ class Datafile
          end  
         #end
       end
+    end
+    
+    if (st)
+      models = modelsST
     end
     
     return models,cancers.keys,drugs.keys

@@ -1,21 +1,203 @@
     <div class="container-fluid">
 
+	<div class="row">
+		<div class="col-md-1">
+		</div>			
+		<div class="col-md-10">
+			<div align="center" class="index-section-hr">
+				<div class="row">
+					<h1>LOBICO</h1>
+    		    	<p class="lead">
+  	    			LOBICO (Logic Optimization
+					for Binary Input to Continuous Output) is a computational approach that infers small
+					and easily interpretable logic models of binary input features that explain a binarized
+					continuous output variable. <%= link_to 'Read more!', "#"%> 
+       				</p>       				
+       			</div>
+       			<div class='row'>
+       				<div class="index-section">	
+	       			<div class="form-inline">
+				    	<div class="form-group">
+							<%= form_tag({:controller => 'app', :action => 'browseByModels'},:multipart => true) do -%>
+								<div id="main-search" align="left">
+									<input type="text"  class="typeahead" name="msearch" id="msearch" placeholder="e.g. Cancers, Drugs, Genes">									
+								</div>
+								<br/>
+								<div align="center">
+										<button type="submit" class="btn btn-success">
+    										<span class="glyphicon glyphicon-search" aria-hidden="true"></span> &nbsp;Search Models
+    									</button>
+    							</div>
+									
+	    					<% end -%>
+						</div>
+    				</div>
+    				</div>
+    			</div>		
+   			</div>
+		</div>
+		<div class="col-md-1"></div>	
+	</div>
+	
+	
+	<div class="row">
+		<div class="col-md-1"></div>
+		<div class="col-md-10"><hr class="index-hr"></div>
+		<div class="col-md-1"></div>
+	</div>	
 
-      <!-- Jumbotron-->
-      <div class="jumbotron">
-        <h1>LOBICO</h1>
-        <p class="lead">
-        	LOBICO (Logic Optimization
-			for Binary Input to Continuous Output) is a computational approach that infers small
-			and easily interpretable logic models of binary input features that explain a binarized
-			continuous output variable. Although the continuous output variable is binarized prior to
-			optimization, the continuous information is retained to find the optimal logic model.
-			LOBICO is formulated as an integer programming problem, which enables rapid
-			computation on large datasets. Moreover, LOBICO implements the ability to uncover logic
-			models around predefined operating points in terms of sensitivity and specificity.
-        </p>	
-       	<p><a class="btn btn-lg btn-success" href="browseByModels" role="button">Browse Best Models</a></p>
-      </div>
+	<div class="row">
+		<div class="col-md-4">
+			<div align="center" class="index-section">
+				<div class="caption">
+					<h3>DataSets</h3>
+				    <p>Browse all the data sets and subsequent models that are currently present in LOBICO web-app.</p>
+				    <p><a href="#" class="btn btn-primary" role="button">Browse</a>
+  				</div>
+  			</div>	
+		</div>
+		<div class="col-md-4">
+			<div align="center" class="index-section">
+				<div class="caption">
+					<h3>LOBICO Best Models</h3>
+				    <p>See all the LOBICO best models across all cancer types and for all drugs.</p>
+			   	 	<p><a href="browseByModels" class="btn btn-primary" role="button">Browse</a>
+  				</div>
+  			</div>	
+		</div>
+		<div class="col-md-4">
+			<div align="center" class="index-section">
+				<div class="caption">
+					<h3>Upload Data to Visualize</h3>
+				    <p>Upload data files created by running the LOBICO package to visualize the results.</p>
+				    <p><a href="#" class="btn btn-primary" role="button">Upload</a>
+  				</div>
+			</div>
+		</div>
+		<!--<div class="col-md-3">
+			<div align="center" class="index-section">
+				<div class="caption">
+					<h3>LOBICO Package Download</h3>
+				    <p>Browse all the data sets and subsequent models that are currently present in LOBICO web-app.</p>
+				    <p><a href="#" class="btn btn-primary" role="button">Download</a>
+  				</div>
+  			</div>	
+		</div>
+		-->
+	</div>	
+
+	<div class="row">
+		<div class="col-md-1"></div>			
+		<div class="col-md-10">
+			<hr class="index-hr">
+			<p align="center" class="index-section-p">
+				<img  src="assets/nki.png" alt="" width="180" height="100"></br>
+           		<font size="2">&copy; <%= link_to "Netherlands Cancer Institute - NKI", "http://www.nki.nl", :target => "_blank" %></font>
+          	</p>	
+		</div>
+		<div class="col-md-1"></div>			
+	</div>	
 
 	</div>
 	
+
+		
+
+<script type="text/javascript">
+
+var cancers = <%= @cancers.html_safe %>;
+var drugs = <%= @drugs.html_safe %>;
+
+
+// constructs the suggestion engine
+var cancer_suggestions = new Bloodhound({
+  datumTokenizer: Bloodhound.tokenizers.whitespace,
+  queryTokenizer: Bloodhound.tokenizers.whitespace,
+  // `states` is an array of state names defined in "The Basics"
+  local: cancers
+});
+
+var drugs_suggestions = new Bloodhound({
+  datumTokenizer: Bloodhound.tokenizers.whitespace,
+  queryTokenizer: Bloodhound.tokenizers.whitespace,
+  // `states` is an array of state names defined in "The Basics"
+  local: drugs
+});
+
+// $('#main-search .typeahead').typeahead({
+//  hint: true,
+//  highlight: true,
+//  minLength: 1
+//},
+//{
+//  name: 'cancers',
+ // source: cancer_suggestions
+// });
+
+$('#main-search .typeahead').typeahead({
+  highlight: true
+},
+{
+  name: 'cancers',
+  //display: 'cancers',
+  source: cancer_suggestions,
+  templates: {
+    header: '<h3 class="league-name">Cancers</h3>'
+  }
+},
+{
+  name: 'drugs',
+  //display: 'drugs',
+  source: drugs_suggestions,
+  templates: {
+    header: '<h3 class="league-name">Drugs</h3>'
+  }
+});
+	
+</script>
+
+<script type="text/javascript">
+
+	//var width = $("#indexPagePlot").width();
+ 	var width = 500;
+ 	console.log(width);
+ 	var height = 250;
+ 	var svg = dimple.newSvg("#indexPagePlot", width, height);
+	
+	var data = [
+		{'Stats':'Genes','StatsValues':'1.5K'},
+		{'Stats':'Cancers','StatsValues':'20'},
+		{'Stats':'Models','StatsValues':'5K'},
+    	{'Stats':'Drugs','StatsValues':'10K'},
+	]; 
+	  	
+	// Set the bounds for the charts
+	var row = 1,
+		col = 3,
+		top = 30,
+		left = 5,
+		inMarg = 10,
+		width = width/4 - 10,
+		height = height - 50,
+		totalWidth = parseFloat(svg.attr("width"));		
+	
+	for (i = 0; i<1; i++)
+	{
+		// draw the specificty ring chart
+		tempData = dimple.filterData(data,"Stats","Genes");
+		console.log(tempData);
+		//var val = Math.round(((tempData[0].StatsValues * 100)*100)/100) + "%";
+		var myChart = new dimple.chart(svg, tempData);
+						myChart.setBounds(
+			left + (col * (width + inMarg)),
+			top + (row * (height + inMarg)),
+			width,
+			height);
+		myChart.addMeasureAxis("p", "Stats");
+		var ring = myChart.addSeries("StatsValues", dimple.plot.pie);
+   		ring.innerRadius = "75%";
+   		myChart.draw();
+
+	}
+	
+</script>

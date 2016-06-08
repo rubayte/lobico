@@ -36,8 +36,13 @@
                 -->
               </ul>
             </li>
+            <!--
             <li><a href="viewTestModel">Nutlin-3a Plot</a></li>
-            <li><a href="viewTestModel2">Nutlin-3a Plot2</a></li>
+                        <li><a href="viewTestlot">Nutlin-3a Plot2</a></li>
+            -->
+            <li>
+ 				<%= link_to 'Nutlin-3a Plot'.html_safe,  {:controller => "app", :action => "viewTestModel2", :cancer => "PANCAN" , :drug => "Nutlin-3a" } %>
+            </li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
           	<li><a href="#">About</a></li>

@@ -21,6 +21,9 @@
 //= require d3_exploding_boxplot
 //= require dimple.v2.1.6.min
 //= require box
+//= require bloodhound
+//= require typeahead.jquery
+//= require typeahead.bundle.min
 //= require_tree .
 
 

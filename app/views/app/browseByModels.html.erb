@@ -31,7 +31,7 @@
     							<button type="submit" class="btn btn-primary">
     								<span class="glyphicon glyphicon-filter" aria-hidden="true"></span>Filter
     							</button>
-	    						 &nbsp; <a class="btn btn-danger" href="browseAllModels"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span>Clear Filter(s)</a>
+	    						 &nbsp; <a class="btn btn-danger" href="browseByModels"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span>Clear Filter(s)</a>
 							<% end -%>
 						</div>
     				</div>
@@ -48,39 +48,60 @@
     			<h3 class="panel-title"><b>LOBICO Best Models</b></h3>
   			</div>
   			<div class="panel-body">
-   	 			<div align="center">
-	    			<table id="modelsTable" class="table table-striped">
-	    				<thead>
-	    	    			<tr>
-	    	    				<th>Best CV model</th>
-	    	    				<th>Single model</th>
-	    	    				<th>Details</th>
-	    	    				<th>View model</th>
-	    	    			</tr>
-	    	    		</thead>
-	    	    		<tbody>
-	    	    			<% @modelsHash.each do |model,values|-%>
-	    	    				<tr>
-	    	    				<% smodel,cvmodel = model.split(";") -%>
-	    	    					<td><%= cvmodel %></td>
-	    	    					<td><%= smodel %></td>	    					
-	    	    					<td>
-	    	    						<% items = values.split("#") -%>
-	    	    						<% items.each do |item| -%>
-	    	    							<% vals = item.split(";") -%>
-	    	    							<div>
-    											Cancer:<b><%= vals[0] %></b> &nbsp; Drug:<b><%= vals[1] %></b> &nbsp; CV Error:<font color="red"><%= vals[5] %></font>		
-	    	    							</div>
-	    	    						<% end -%>
-	    	    					</td>
-	    	    					<td>
-	    	    						<%= link_to '<span class="glyphicon glyphicon-eye-open" area-hiddne="true"></span> View'.html_safe,  {:controller => "app", :action => "viewModel", :singleModel => smodel , :cvModel => cvmodel } %>
-	    	    					</td>		
-	    	    				</tr>
-	    	    			<% end -%>
-	    	    		</tbody>
-	    			</table>	
-    			</div>
+  				<% if @modelsHash.keys.length == 0 %>
+  					<div align="center">
+ 	   					<div class="alert alert-danger alert-dismissible" role="alert">
+							<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+							No results found with search term : <b><%= @searchTerm %></b>
+							&nbsp; <a class="btn btn-info" href="browseByModels">View best LOBICO models.</a>
+						</div>
+					</div>
+   	 			<% else -%>
+ 	   				
+	  				<div align="center">
+   		 				<% if @searchTerm != "" and @searchTerm != nil -%>
+ 	   					<div class="alert alert-success alert-dismissible" role="alert">
+							<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+							Showing results with search term : <b><%= @searchTerm %></b>
+						</div>
+    					<% end -%>	
+  					</div>	
+	   	 			<div align="center">
+		    			<table id="modelsTable" class="table table-striped">
+		    				<thead>
+		    	    			<tr>
+		    	    				<th>Best CV model</th>
+		    	    				<th>Single model</th>
+		    	    				<th>Cancer</th>
+		    	    				<th>Drug</th>
+		    	    				<th>CV Error</th>
+		    	    				<th>Action(s)</th>
+		    	    			</tr>
+		    	    		</thead>
+		    	    		<tbody>
+		    	    			<% @modelsHash.each do |model,values|-%>
+		    	    				<% smodel,cvmodel = model.split(";") -%>
+	   	    						<% items = values.split("#") -%>
+	   	    						<% items.each do |item| -%>
+		    							<% vals = item.split(";") -%>
+		    							<tr>
+			   								<td><%= cvmodel %></td>	    	    							
+		       						    	<td><%= smodel %></td>	    					
+	    									<td><%= vals[0] %></td> 
+	    									<td><%= vals[1] %></td> 
+	    									<td> <%= vals[5] %></td> 	
+	    									<td>
+	    										<div align="rihgt">	
+			    	   								<%= link_to '<span class="glyphicon glyphicon-triangle-right" area-hiddne="true"></span> View'.html_safe,  {:controller => "app", :action => "viewTestModel2", :cancer => vals[0] , :drug => vals[1] }, :class => "btn btn-xs btn-success" %>
+		       									</div>
+		       								</td>
+		       							</tr>	
+		    	  						<% end -%>
+		    	    			<% end -%>
+		    	    		</tbody>
+		    			</table>	
+	    			</div>
+	    		<% end -%>	
   			</div>
 		</div>
     	

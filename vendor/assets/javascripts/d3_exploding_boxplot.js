@@ -192,11 +192,15 @@ function(d3,d3tip)
 	}
 
 	if (plotTitle != "NA"){
+		var fillColor = "blue";
+		if (plotTitle.indexOf("F8") > -1){
+			fillColor = "#01DF3A";
+		}
 		var tempTitle = "";
-		if (plotTitle.length > 26)
+		if (plotTitle.length > 20)
 		{
 			tempTitle = "Model: "  + plotTitle;
-			plotTitle = plotTitle.substring(0,20) + "...";
+			plotTitle = plotTitle.substring(0,15) + " ...";
 		}else{
 			tempTitle = "Model: "  + plotTitle;
 		}
@@ -209,7 +213,7 @@ function(d3,d3tip)
         	    .style("text-anchor", "left")
         	    .style("font-size","12px")
         	    .style("font-weight","bold")
-				.style("fill","blue")
+				.style("fill",fillColor)
 				.text(plotTitle)
 					.append("svg:title")
 					.text(tempTitle)
@@ -280,6 +284,8 @@ function(d3,d3tip)
 			s.append('line').attr('class','d3-exploding-boxplot max line hline')
 			//max vline
 			s.append('line').attr('class','d3-exploding-boxplot line max vline')
+			//cutoff line
+			s.append('line').attr('class','d3-exploding-boxplot line cutoff cline')
 		};
 		var draw_boxplot = function(s){
 			//box
@@ -319,6 +325,13 @@ function(d3,d3tip)
 						.attr('x2',xscale.rangeBand()*0.5)
 						.attr('y1',function(d){return yscale(d.quartiles[2])})
 						.attr('y2',function(d){return yscale(Math.max(d.max,d.quartiles[2]))})
+			// cutoff line
+			s.select('line.cutoff.cline')
+						.attr('x1',xscale.rangeBand()*0)
+						.attr('x2',xscale.rangeBand()*1)
+						.attr('y1',function(d){return yscale(2.6)})
+						.attr('y2',function(d){return yscale(2.6)})
+						
 		};
 		var hide_boxplot =  function(g,i)
 		{
@@ -334,6 +347,7 @@ function(d3,d3tip)
 						.attr('x2',xscale.rangeBand()*0.5)
 						.attr('y1',function(d){return yscale(d.quartiles[1])})
 						.attr('y2',function(d){return yscale(d.quartiles[1])})
+		
 		};
 		var explode_boxplot = function(elem,g){
 			d3.select(elem).select('g.box').transition()
@@ -357,6 +371,7 @@ function(d3,d3tip)
 							return 300+300*Math.random()
 						})
 						.call(draw_jitter)
+
 		};
 		var implode_boxplot = function(elem,g){
 			container.selectAll('.normal-points')
