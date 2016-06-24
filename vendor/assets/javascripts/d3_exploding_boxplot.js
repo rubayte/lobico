@@ -56,7 +56,7 @@ function(d3,d3tip)
     return box_data
   }
 
-  var exploding_boxplot = function(data,aes,w,h,type,showy,plotTitle)
+  var exploding_boxplot = function(data,aes,w,h,type,showy,plotTitle,bestmodel,cutoffValue)
   {
     //defaults
     var iqr = 1.5
@@ -193,16 +193,25 @@ function(d3,d3tip)
 
 	if (plotTitle != "NA"){
 		var fillColor = "blue";
-		if (plotTitle.indexOf("F8") > -1){
+		//if (plotTitle.indexOf("F8") > -1){
+		if (bestmodel){
 			fillColor = "#01DF3A";
 		}
 		var tempTitle = "";
 		if (plotTitle.length > 20)
 		{
-			tempTitle = "Model: "  + plotTitle;
+			if (bestmodel){
+				tempTitle = "Best Model: "  + plotTitle;
+			}else{
+				tempTitle = "Model: "  + plotTitle;				
+			}
 			plotTitle = plotTitle.substring(0,15) + " ...";
 		}else{
-			tempTitle = "Model: "  + plotTitle;
+			if (bestmodel){
+				tempTitle = "Best Model: "  + plotTitle;
+			}else{
+				tempTitle = "Model: "  + plotTitle;				
+			}
 		}
 		container.append('g')
 			.append("text")
@@ -219,9 +228,9 @@ function(d3,d3tip)
 					.text(tempTitle)
 	}
 
-			container = container.insert('g','.axis')
+	container = container.insert('g','.axis');
 
-      draw()
+    draw();
     };
 		var create_jitter = function(g,i) {
  			d3.select(this).append('g')
@@ -329,8 +338,8 @@ function(d3,d3tip)
 			s.select('line.cutoff.cline')
 						.attr('x1',xscale.rangeBand()*0)
 						.attr('x2',xscale.rangeBand()*1)
-						.attr('y1',function(d){return yscale(2.6)})
-						.attr('y2',function(d){return yscale(2.6)})
+						.attr('y1',function(d){return yscale(cutoffValue)})
+						.attr('y2',function(d){return yscale(cutoffValue)})
 						
 		};
 		var hide_boxplot =  function(g,i)

@@ -1,0 +1,32 @@
+Model1	¬d(LARP4B)  & d(SYNCRIP,ZNF292)  & ¬d(RPL22)  & ¬d17p13.2 	TP	34	Specificity	0.811
+Model1	¬d(LARP4B)  & d(SYNCRIP,ZNF292)  & ¬d(RPL22)  & ¬d17p13.2 	TN	232	Precision	0.386
+Model1	¬d(LARP4B)  & d(SYNCRIP,ZNF292)  & ¬d(RPL22)  & ¬d17p13.2 	FP	54	Recall	0.500
+Model1	¬d(LARP4B)  & d(SYNCRIP,ZNF292)  & ¬d(RPL22)  & ¬d17p13.2 	FN	34	NA	0
+Model7	d(SYNCRIP,ZNF292)  & ¬dXp11.3 	TP	25	Specificity	0.804
+Model7	d(SYNCRIP,ZNF292)  & ¬dXp11.3 	TN	230	Precision	0.309
+Model7	d(SYNCRIP,ZNF292)  & ¬dXp11.3 	FP	56	Recall	0.368
+Model7	d(SYNCRIP,ZNF292)  & ¬dXp11.3 	FN	43	NA	0
+Model5	PI3K_only-UP 	TP	6	Specificity	0.997
+Model5	PI3K_only-UP 	TN	285	Precision	0.857
+Model5	PI3K_only-UP 	FP	1	Recall	0.088
+Model5	PI3K_only-UP 	FN	62	NA	0
+Model2	ASPM  | PI3K_only-UP  | PI3K_only-DOWN 	TP	15	Specificity	0.962
+Model2	ASPM  | PI3K_only-UP  | PI3K_only-DOWN 	TN	275	Precision	0.577
+Model2	ASPM  | PI3K_only-UP  | PI3K_only-DOWN 	FP	11	Recall	0.221
+Model2	ASPM  | PI3K_only-UP  | PI3K_only-DOWN 	FN	53	NA	0
+Model4	PI3K_only-UP  | PI3K_only-DOWN 	TP	12	Specificity	0.983
+Model4	PI3K_only-UP  | PI3K_only-DOWN 	TN	281	Precision	0.706
+Model4	PI3K_only-UP  | PI3K_only-DOWN 	FP	5	Recall	0.176
+Model4	PI3K_only-UP  | PI3K_only-DOWN 	FN	56	NA	0
+Model3	d(SYNCRIP,ZNF292)  & ¬dXp11.3   |  ¬dXq22.3  & PI3K_only-UP 	TP	29	Specificity	0.804
+Model3	d(SYNCRIP,ZNF292)  & ¬dXp11.3   |  ¬dXq22.3  & PI3K_only-UP 	TN	230	Precision	0.341
+Model3	d(SYNCRIP,ZNF292)  & ¬dXp11.3   |  ¬dXq22.3  & PI3K_only-UP 	FP	56	Recall	0.426
+Model3	d(SYNCRIP,ZNF292)  & ¬dXp11.3   |  ¬dXq22.3  & PI3K_only-UP 	FN	39	NA	0
+Model8	ASPM  | d(BMPR1A,FAS,PTEN)  | d(EXT2)  | PI3K_only-UP 	TP	26	Specificity	0.822
+Model8	ASPM  | d(BMPR1A,FAS,PTEN)  | d(EXT2)  | PI3K_only-UP 	TN	235	Precision	0.338
+Model8	ASPM  | d(BMPR1A,FAS,PTEN)  | d(EXT2)  | PI3K_only-UP 	FP	51	Recall	0.382
+Model8	ASPM  | d(BMPR1A,FAS,PTEN)  | d(EXT2)  | PI3K_only-UP 	FN	42	NA	0
+Model6	¬a(MYC)  & d(SYNCRIP,ZNF292)  & ¬d(CHD3,GPS2,TP53) 	TP	31	Specificity	0.801
+Model6	¬a(MYC)  & d(SYNCRIP,ZNF292)  & ¬d(CHD3,GPS2,TP53) 	TN	229	Precision	0.352
+Model6	¬a(MYC)  & d(SYNCRIP,ZNF292)  & ¬d(CHD3,GPS2,TP53) 	FP	57	Recall	0.456
+Model6	¬a(MYC)  & d(SYNCRIP,ZNF292)  & ¬d(CHD3,GPS2,TP53) 	FN	37	NA	0

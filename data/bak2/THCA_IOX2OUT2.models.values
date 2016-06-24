@@ -1,0 +1,8 @@
+Model 3101	NF2  | SMARCA4  | TGFB-UP 	 0.5
+Model 2101	NF2  | TGFB-UP 	 0.5
+Model 1401	¬d(FANCG,PAX5)  & ¬BRAF  & ¬NF1  & ¬H2O2-UP 	 0.64932
+Model 1301	¬d(FANCG,PAX5)  & ¬NF1  & NF2 	 0.64932
+Model 4101	NF2  | SMARCA4  | TGFB-UP  | PI3K_only-DOWN 	 0.5
+Model 1101	NF2 	 0.5
+Model 2201	TGFB-UP   |  NF2 	 0.5
+Model 1201	¬NRAS  & NF2 	 0.5

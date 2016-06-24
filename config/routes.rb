@@ -9,10 +9,12 @@ Lobico::Application.routes.draw do
   match "indexDrugsJson", :to => 'app#indexDrugsJson'
   match "browseByCancerGenes", :to => 'app#browseByCancerGenes'
   match "browseByModels", :to => 'app#browseByModels'
+  match "browseByDatasets", :to => 'app#browseByDatasets'
   match "browseAllModels", :to => 'app#browseAllModels'
   match "viewTestModel", :to => 'app#viewTestModel'
   match "viewTestModel2", :to => 'app#viewTestModel2'
   match "viewTestlot", :to => "app#viewTestlot"
+  match "viewModel", :to => "app#viewModel"
   
   # Sample of regular route:
   #   match 'products/:id' => 'catalog#view'

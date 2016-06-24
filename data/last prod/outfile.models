@@ -26,7 +26,7 @@ Model5	TP53  & a(MCM3) 	TP	175	Specificity	0.839
 Model5	TP53  & a(MCM3) 	TN	516	Precision	0.639
 Model5	TP53  & a(MCM3) 	FP	99	Recall	0.792
 Model5	TP53  & a(MCM3) 	FN	46	NA	0
-Model8	TP53 	TP	176	Specificity	0.821
-Model8	TP53 	TN	505	Precision	0.615
-Model8	TP53 	FP	110	Recall	0.796
-Model8	TP53 	FN	45	NA	0
+Model8	¬TP53 	TP	176	Specificity	0.821
+Model8	¬TP53 	TN	505	Precision	0.615
+Model8	¬TP53 	FP	110	Recall	0.796
+Model8	¬TP53 	FN	45	NA	0

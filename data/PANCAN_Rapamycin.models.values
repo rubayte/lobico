@@ -1,0 +1,8 @@
+Model 1101	PI3K_only-UP 	 0.43294
+Model 2201	d(SYNCRIP,ZNF292)  & ¬dXp11.3   |  ¬dXq22.3  & PI3K_only-UP 	 0.43391
+Model 4101	ASPM  | d(BMPR1A,FAS,PTEN)  | d(EXT2)  | PI3K_only-UP 	 0.50575
+Model 2101	PI3K_only-UP  | PI3K_only-DOWN 	 0.45277
+Model 3101	ASPM  | PI3K_only-UP  | PI3K_only-DOWN 	 0.48111
+Model 1401	¬d(LARP4B)  & d(SYNCRIP,ZNF292)  & ¬d(RPL22)  & ¬d17p13.2 	 0.40445
+Model 1301	¬a(MYC)  & d(SYNCRIP,ZNF292)  & ¬d(CHD3,GPS2,TP53) 	 0.44911
+Model 1201	d(SYNCRIP,ZNF292)  & ¬dXp11.3 	 0.44347

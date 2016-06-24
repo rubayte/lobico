@@ -1,0 +1,58 @@
+
+    <div class="container-fluid">
+    	
+    	<div class="panel panel-default">
+			<div class="panel-heading">
+    			<h3 class="panel-title"><b>LOBICO DataSets</b></h3>
+  			</div>
+  			<div class="panel-body">
+  				<% if @datasets.keys.length == 0 %>
+  					<div align="center">
+ 	   					<div class="alert alert-danger alert-dismissible" role="alert">
+							<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+							No datset(s) found!
+						</div>
+					</div>
+   	 			<% else -%>
+	   	 			<div align="center">
+		    			<table id="datasetsTable" class="table table-striped">
+		    				<thead>
+		    	    			<tr>
+		    	    				<th>DataSet</th>
+		    	    				<th><div align="center">Number of Cancer Types</div></th>
+		    	    				<th><div align="center">Number of Drugs</div></th>
+		    	    				<th>Description</th>
+		    	    				<th><div align="center">Action(s)</div></th>
+		    	    			</tr>
+		    	    		</thead>
+		    	    		<tbody>
+		    					<tr>
+			   						<td><strong>GDSC</strong></td>	    	    							
+									<td><div align="center">19</div></td>	
+		       						<td><div align="center">255</div></td>    					
+	    							<td>GDSC Dataset.</td> 
+	    							<td>
+	    								<div align="center">	
+			    	   						<%= link_to '<span class="glyphicon glyphicon-triangle-right" area-hiddne="true"></span> View Models'.html_safe,  {:controller => "app", :action => "browseByModels", :dataset => 'GDSC' }, :class => "btn btn-xs btn-success" %>
+		       							</div>
+		       						</td>
+		       					</tr>
+		    	    		</tbody>
+		    			</table>	
+	    			</div>
+	    		<% end -%>	
+  			</div>
+		</div>
+    	
+    </div>	
+
+	
+<script type="text/javascript">
+
+	$(document).ready(function(){
+		$('#datasetsTable').DataTable({
+			paging: true
+		});
+	});
+
+</script>

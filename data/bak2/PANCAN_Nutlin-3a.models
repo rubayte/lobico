@@ -1,0 +1,32 @@
+Model6	¬RB1  & ¬TP53  & ¬a(F8,HCFC1,RPL10)  & ¬d(CUL3) 	TP	177	Specificity	0.858
+Model6	¬RB1  & ¬TP53  & ¬a(F8,HCFC1,RPL10)  & ¬d(CUL3) 	TN	518	Precision	0.673
+Model6	¬RB1  & ¬TP53  & ¬a(F8,HCFC1,RPL10)  & ¬d(CUL3) 	FP	86	Recall	0.763
+Model6	¬RB1  & ¬TP53  & ¬a(F8,HCFC1,RPL10)  & ¬d(CUL3) 	FN	55	NA	0
+Model2	¬TP53 	TP	179	Specificity	0.823
+Model2	¬TP53 	TN	497	Precision	0.626
+Model2	¬TP53 	FP	107	Recall	0.772
+Model2	¬TP53 	FN	53	NA	0
+Model7	SMAD4  & a11q13.2   |  ¬TP53  & ¬a(F8,HCFC1,RPL10) 	TP	181	Specificity	0.831
+Model7	SMAD4  & a11q13.2   |  ¬TP53  & ¬a(F8,HCFC1,RPL10) 	TN	502	Precision	0.640
+Model7	SMAD4  & a11q13.2   |  ¬TP53  & ¬a(F8,HCFC1,RPL10) 	FP	102	Recall	0.780
+Model7	SMAD4  & a11q13.2   |  ¬TP53  & ¬a(F8,HCFC1,RPL10) 	FN	51	NA	0
+Model8	¬RB1  & ¬TP53 	TP	178	Specificity	0.838
+Model8	¬RB1  & ¬TP53 	TN	506	Precision	0.645
+Model8	¬RB1  & ¬TP53 	FP	98	Recall	0.767
+Model8	¬RB1  & ¬TP53 	FN	54	NA	0
+Model3	¬RB1  & ¬TP53  & ¬a(PABPC1,UBR5) 	TP	175	Specificity	0.858
+Model3	¬RB1  & ¬TP53  & ¬a(PABPC1,UBR5) 	TN	518	Precision	0.670
+Model3	¬RB1  & ¬TP53  & ¬a(PABPC1,UBR5) 	FP	86	Recall	0.754
+Model3	¬RB1  & ¬TP53  & ¬a(PABPC1,UBR5) 	FN	57	NA	0
+Model1	CTNNB1  | ¬TP53 	TP	183	Specificity	0.816
+Model1	CTNNB1  | ¬TP53 	TN	493	Precision	0.622
+Model1	CTNNB1  | ¬TP53 	FP	111	Recall	0.789
+Model1	CTNNB1  | ¬TP53 	FN	49	NA	0
+Model5	CTNNB1  | GATA3  | ¬TP53 	TP	184	Specificity	0.813
+Model5	CTNNB1  | GATA3  | ¬TP53 	TN	491	Precision	0.620
+Model5	CTNNB1  | GATA3  | ¬TP53 	FP	113	Recall	0.793
+Model5	CTNNB1  | GATA3  | ¬TP53 	FN	48	NA	0
+Model4	CTNNB1  | GATA3  | MTOR  | ¬TP53 	TP	185	Specificity	0.808
+Model4	CTNNB1  | GATA3  | MTOR  | ¬TP53 	TN	488	Precision	0.615
+Model4	CTNNB1  | GATA3  | MTOR  | ¬TP53 	FP	116	Recall	0.797
+Model4	CTNNB1  | GATA3  | MTOR  | ¬TP53 	FN	47	NA	0

@@ -26,8 +26,9 @@
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Browse<span class="caret"></span></a>
               <ul class="dropdown-menu">
+                <li><a href="browseByDatasets">Browse DataSets</a></li>
+                <li role="separator" class="divider"></li>
                 <li><a href="browseByModels">Browse Best Models</a></li>
-                <li><a href="browseAllModels">Browse All Models</a></li>
                 <!--
                 <li role="separator" class="divider"></li>
                 <li class="dropdown-header">Nav header</li>
@@ -39,10 +40,11 @@
             <!--
             <li><a href="viewTestModel">Nutlin-3a Plot</a></li>
                         <li><a href="viewTestlot">Nutlin-3a Plot2</a></li>
-            -->
+            
             <li>
  				<%= link_to 'Nutlin-3a Plot'.html_safe,  {:controller => "app", :action => "viewTestModel2", :cancer => "PANCAN" , :drug => "Nutlin-3a" } %>
             </li>
+            -->
           </ul>
           <ul class="nav navbar-nav navbar-right">
           	<li><a href="#">About</a></li>

@@ -1,0 +1,1906 @@
+		PTEN	d19p12	d(FANCG,PAX5)	CREBBP	KRAS	BRAF	NF1	NRAS	NF2	CDKN2A	EP300	PIK3CA	SMARCA4	d13q14.2	H2O2-UP	IL-1-UP	TGFB-UP	PI3K_only-DOWN	TGFB-DOWN	Wnt-DOWN 
+																					 
+Model 1101	NF2 	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+CV error: 0.5	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.217	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1111	TGFB-UP 	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.2242	NaN	NaN	NaN 
+																					 
+Model 1121	NF2 	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.25999	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1131	NF2 	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.25259	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1141	NF2 	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.29976	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1151	NF2 	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.25086	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1201	昧RAS  & NF2 	0	0	0	0	0	0	0	-1	1	0	0	0	0	0	0	0	0	0	0	0 
+CV error: 0.5	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	0.19404	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1202	NF2 	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.217	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1203	昧F1  & NF2 	0	0	0	0	0	0	-1	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	0.070996	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1204	星TEN  & NF2 	-1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.17998	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1205	查19p12  & NF2 	0	-1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	0.14138	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1206	查(FANCG,PAX5)  & NF2 	0	0	-1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	0.048391	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1207	NF2  & 柱nt-DOWN 	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	-1 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.16666	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0 
+																					 
+Model 1208	NF2  & 查13q14.2 	0	0	0	0	0	0	0	0	1	0	0	0	0	-1	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.14138	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1209	NF2  & 昤MARCA4 	0	0	0	0	0	0	0	0	1	0	0	0	-1	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.29689	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 12010	NF2  & 斫2O2-UP 	0	0	0	0	0	0	0	0	1	0	0	0	0	0	-1	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.17213	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 12011	NF2  & 拴DKN2A 	0	0	0	0	0	0	0	0	1	-1	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.16666	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 12012	NF2  & 星IK3CA 	0	0	0	0	0	0	0	0	1	0	0	-1	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.20839	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 12013	NF2  & 施L-1-UP 	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	-1	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.10628	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN 
+																					 
+Model 12014	NF2  & 曷GFB-UP 	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	-1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.37781	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN 
+																					 
+Model 12015	NF2  & 星I3K_only-DOWN 	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	-1	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.25037	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN 
+																					 
+Model 1211	星TEN  & TGFB-UP 	-1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.38346	NaN	NaN	NaN 
+																					 
+Model 1212	TGFB-UP 	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.2242	NaN	NaN	NaN 
+																					 
+Model 1213	昧RAS  & TGFB-UP 	0	0	0	0	0	0	0	-1	0	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.40306	NaN	NaN	NaN 
+																					 
+Model 1214	昤MARCA4  & TGFB-UP 	0	0	0	0	0	0	0	0	0	0	0	0	-1	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	0.54646	NaN	NaN	NaN 
+																					 
+Model 1215	拴REBBP  & TGFB-UP 	0	0	0	-1	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.54646	NaN	NaN	NaN 
+																					 
+Model 1216	昧F1  & TGFB-UP 	0	0	0	0	0	0	-1	0	0	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.23152	NaN	NaN	NaN 
+																					 
+Model 1217	查19p12  & TGFB-UP 	0	-1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.32965	NaN	NaN	NaN 
+																					 
+Model 1218	查(FANCG,PAX5)  & TGFB-UP 	0	0	-1	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.2	NaN	NaN	NaN 
+																					 
+Model 1219	拾RAF  & TGFB-UP 	0	0	0	0	0	-1	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.4278	NaN	NaN	NaN 
+																					 
+Model 12110	施L-1-UP  & TGFB-UP 	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	0.28071	NaN	NaN	NaN 
+																					 
+Model 12111	拴DKN2A  & TGFB-UP 	0	0	0	0	0	0	0	0	0	-1	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	0.3649	NaN	NaN	NaN 
+																					 
+Model 12112	挂P300  & TGFB-UP 	0	0	0	0	0	0	0	0	0	0	-1	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	0.54646	NaN	NaN	NaN 
+																					 
+Model 12113	星IK3CA  & TGFB-UP 	0	0	0	0	0	0	0	0	0	0	0	-1	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	0.42308	NaN	NaN	NaN 
+																					 
+Model 12114	查13q14.2  & TGFB-UP 	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	0.32965	NaN	NaN	NaN 
+																					 
+Model 12115	斫2O2-UP  & TGFB-UP 	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	0.37252	NaN	NaN	NaN 
+																					 
+Model 12116	TGFB-UP  & 星I3K_only-DOWN 	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	-1	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.4816	0	NaN	NaN 
+																					 
+Model 12117	TGFB-UP  & 柱nt-DOWN 	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	-1 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.3649	NaN	NaN	0 
+																					 
+Model 1221	NF2 	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.25999	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1222	查19p12  & NF2 	0	-1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	0.16273	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1223	星TEN  & NF2 	-1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.20897	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1224	昧RAS  & NF2 	0	0	0	0	0	0	0	-1	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	0.22582	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1225	查(FANCG,PAX5)  & NF2 	0	0	-1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	0.05132	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1226	NF2  & 星IK3CA 	0	0	0	0	0	0	0	0	1	0	0	-1	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.24301	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1227	昧F1  & NF2 	0	0	0	0	0	0	-1	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	0.078403	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1228	NF2  & 斫2O2-UP 	0	0	0	0	0	0	0	0	1	0	0	0	0	0	-1	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.19957	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1229	NF2  & 查13q14.2 	0	0	0	0	0	0	0	0	1	0	0	0	0	-1	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.16273	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 12210	NF2  & 施L-1-UP 	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	-1	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.16273	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN 
+																					 
+Model 12211	NF2  & 曷GFB-UP 	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	-1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.44599	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN 
+																					 
+Model 12212	NF2  & 星I3K_only-DOWN 	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	-1	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.2933	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN 
+																					 
+Model 1231	NF2 	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.25259	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1232	星TEN  & NF2 	-1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.066317	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1233	昧F1  & NF2 	0	0	0	0	0	0	-1	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	0.027482	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1234	查(FANCG,PAX5)  & NF2 	0	0	-1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	0.00117	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1235	NF2  & 昤MARCA4 	0	0	0	0	0	0	0	0	1	0	0	0	-1	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.2024	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1236	NF2  & 星IK3CA 	0	0	0	0	0	0	0	0	1	0	0	-1	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.09939	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1237	NF2  & 斫2O2-UP 	0	0	0	0	0	0	0	0	1	0	0	0	0	0	-1	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.05718	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1238	昧RAS  & NF2 	0	0	0	0	0	0	0	-1	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	0.14825	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1239	NF2  & 施L-1-UP 	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	-1	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.068555	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN 
+																					 
+Model 12310	NF2  & 拴DKN2A 	0	0	0	0	0	0	0	0	1	-1	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.050817	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 12311	NF2  & 曷GFB-UP 	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	-1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.29659	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN 
+																					 
+Model 12312	NF2  & 星I3K_only-DOWN 	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	-1	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.14825	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN 
+																					 
+Model 12313	NF2  & 柱nt-DOWN 	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	-1 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.050817	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0 
+																					 
+Model 1241	NF2 	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.29976	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1242	NF2  & 昤MARCA4 	0	0	0	0	0	0	0	0	1	0	0	0	-1	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.47302	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1243	查19p12  & NF2 	0	-1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	0.25821	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1244	星TEN  & NF2 	-1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.40875	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1245	NF2  & 查13q14.2 	0	0	0	0	0	0	0	0	1	0	0	0	0	-1	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.25821	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1246	查(FANCG,PAX5)  & NF2 	0	0	-1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	0.12976	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1247	昧F1  & NF2 	0	0	0	0	0	0	-1	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	0.25821	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1248	昧RAS  & NF2 	0	0	0	0	0	0	0	-1	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	0.33095	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1249	NF2  & 拴DKN2A 	0	0	0	0	0	0	0	0	1	-1	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.29313	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 12410	NF2  & 星IK3CA 	0	0	0	0	0	0	0	0	1	0	0	-1	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.35078	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 12411	NF2  & 施L-1-UP 	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	-1	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.20973	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN 
+																					 
+Model 12412	NF2  & 星I3K_only-DOWN 	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	-1	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.40875	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN 
+																					 
+Model 12413	NF2  & 柱nt-DOWN 	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	-1 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.29313	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0 
+																					 
+Model 1251	NF2 	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.25086	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1252	昧RAS  & NF2 	0	0	0	0	0	0	0	-1	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	0.10686	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1253	昧F1  & NF2 	0	0	0	0	0	0	-1	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	0.0031875	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1254	查(FANCG,PAX5)  & NF2 	0	0	-1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	0.084557	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1255	查19p12  & NF2 	0	-1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	0.084557	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1256	NF2  & 昤MARCA4 	0	0	0	0	0	0	0	0	1	0	0	0	-1	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.26432	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1257	星TEN  & NF2 	-1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.090606	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1258	NF2  & 斫2O2-UP 	0	0	0	0	0	0	0	0	1	0	0	0	0	0	-1	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.1201	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1259	NF2  & 拴DKN2A 	0	0	0	0	0	0	0	0	1	-1	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.11378	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 12510	NF2  & 查13q14.2 	0	0	0	0	0	0	0	0	1	0	0	0	0	-1	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.084557	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 12511	NF2  & 施L-1-UP 	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	-1	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.043979	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN 
+																					 
+Model 12512	NF2  & 曷GFB-UP 	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	-1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.35787	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN 
+																					 
+Model 12513	NF2  & 柱nt-DOWN 	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	-1 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.11378	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0 
+																					 
+Model 1301	查(FANCG,PAX5)  & 昧F1  & NF2 	0	0	-1	0	0	0	-1	0	1	0	0	0	0	0	0	0	0	0	0	0 
+CV error: 0.64932	Feature Importance Scores:	NaN	NaN	0	NaN	NaN	NaN	0	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1302	昧RAS  & NF2  & 斫2O2-UP 	0	0	0	0	0	0	0	-1	1	0	0	0	0	0	-1	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	0.14916	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1303	查(FANCG,PAX5)  & NF2 	0	0	-1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	0.048391	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1304	NF2 	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.217	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1305	昧F1  & NF2  & 斫2O2-UP 	0	0	0	0	0	0	-1	0	1	0	0	0	0	0	-1	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	0.026123	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1306	昧F1  & NF2 	0	0	0	0	0	0	-1	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	0.070996	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1307	昧F1  & 昧RAS  & NF2 	0	0	0	0	0	0	-1	-1	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	0	0	0.048031	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1308	昧RAS  & NF2 	0	0	0	0	0	0	0	-1	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	0.19404	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1309	NF2  & 斫2O2-UP 	0	0	0	0	0	0	0	0	1	0	0	0	0	0	-1	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.17213	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13010	昧RAS  & NF2  & 昤MARCA4 	0	0	0	0	0	0	0	-1	1	0	0	0	-1	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	0.27392	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13011	星TEN  & 昧RAS  & NF2 	-1	0	0	0	0	0	0	-1	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	0	NaN	NaN	NaN	NaN	NaN	NaN	0	0.12365	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13012	NF2  & 昤MARCA4  & 施L-1-UP 	0	0	0	0	0	0	0	0	1	0	0	0	-1	0	0	-1	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.18617	NaN	NaN	NaN	0	NaN	NaN	0	NaN	NaN	NaN	NaN 
+																					 
+Model 13013	NF2  & 施L-1-UP 	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	-1	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.10628	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN 
+																					 
+Model 13014	星TEN  & 昧F1  & NF2 	-1	0	0	0	0	0	-1	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	0	NaN	NaN	NaN	NaN	NaN	0	NaN	0.10436	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13015	星TEN  & 查19p12  & NF2 	-1	-1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	0	0	NaN	NaN	NaN	NaN	NaN	NaN	0.10436	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13016	星TEN  & NF2  & 斫2O2-UP 	-1	0	0	0	0	0	0	0	1	0	0	0	0	0	-1	0	0	0	0	0 
+	Feature Importance Scores:	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.13511	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13017	NF2  & 查13q14.2  & 斫2O2-UP 	0	0	0	0	0	0	0	0	1	0	0	0	0	-1	-1	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.09651	NaN	NaN	NaN	NaN	0	0	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13018	星TEN  & 查(FANCG,PAX5)  & NF2 	-1	0	-1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	0	NaN	0	NaN	NaN	NaN	NaN	NaN	0.011367	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13019	查19p12  & 昧RAS  & NF2 	0	-1	0	0	0	0	0	-1	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	NaN	NaN	NaN	NaN	NaN	0	0.11842	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13020	查19p12  & 查(FANCG,PAX5)  & NF2 	0	-1	-1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	0	NaN	NaN	NaN	NaN	NaN	0.048391	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13021	查(FANCG,PAX5)  & 昧RAS  & NF2 	0	0	-1	0	0	0	0	-1	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	0	NaN	NaN	NaN	NaN	0	0.025426	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13022	NF2  & 拴DKN2A 	0	0	0	0	0	0	0	0	1	-1	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.16666	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13023	查19p12  & NF2 	0	-1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	0.14138	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13024	查(FANCG,PAX5)  & NF2  & 斫2O2-UP 	0	0	-1	0	0	0	0	0	1	0	0	0	0	0	-1	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	0.0035176	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13025	星TEN  & NF2 	-1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.17998	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13026	昧F1  & NF2  & 拴DKN2A 	0	0	0	0	0	0	-1	0	1	-1	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	0.020656	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1311	TGFB-UP 	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.2242	NaN	NaN	NaN 
+																					 
+Model 1312	查(FANCG,PAX5)  & 昧RAS  & TGFB-UP 	0	0	-1	0	0	0	0	-1	0	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	0	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.16798	NaN	NaN	NaN 
+																					 
+Model 1313	昧F1  & 昧RAS  & TGFB-UP 	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	0	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.1995	NaN	NaN	NaN 
+																					 
+Model 1314	昧F1  & TGFB-UP 	0	0	0	0	0	0	-1	0	0	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.23152	NaN	NaN	NaN 
+																					 
+Model 1315	星TEN  & 昧F1  & TGFB-UP 	-1	0	0	0	0	0	-1	0	0	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	0	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.27803	NaN	NaN	NaN 
+																					 
+Model 1316	昧RAS  & 斫2O2-UP  & TGFB-UP 	0	0	0	0	0	0	0	-1	0	0	0	0	0	0	-1	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	0.3405	NaN	NaN	NaN 
+																					 
+Model 1317	昧RAS  & TGFB-UP 	0	0	0	0	0	0	0	-1	0	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.40306	NaN	NaN	NaN 
+																					 
+Model 1318	昤MARCA4  & TGFB-UP 	0	0	0	0	0	0	0	0	0	0	0	0	-1	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	0.54646	NaN	NaN	NaN 
+																					 
+Model 1319	拴REBBP  & 昧RAS  & TGFB-UP 	0	0	0	-1	0	0	0	-1	0	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.51444	NaN	NaN	NaN 
+																					 
+Model 13110	昧F1  & 斫2O2-UP  & TGFB-UP 	0	0	0	0	0	0	-1	0	0	0	0	0	0	0	-1	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	0.16895	NaN	NaN	NaN 
+																					 
+Model 13111	昧F1  & 施L-1-UP  & TGFB-UP 	0	0	0	0	0	0	-1	0	0	0	0	0	0	0	0	-1	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	0.18258	NaN	NaN	NaN 
+																					 
+Model 13112	施L-1-UP  & TGFB-UP 	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	0.28071	NaN	NaN	NaN 
+																					 
+Model 13113	查(FANCG,PAX5)  & TGFB-UP 	0	0	-1	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.2	NaN	NaN	NaN 
+																					 
+Model 13114	查(FANCG,PAX5)  & 斫2O2-UP  & TGFB-UP 	0	0	-1	0	0	0	0	0	0	0	0	0	0	0	-1	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	0.13744	NaN	NaN	NaN 
+																					 
+Model 13115	斫2O2-UP  & TGFB-UP 	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	0.37252	NaN	NaN	NaN 
+																					 
+Model 13116	星TEN  & 拴REBBP  & TGFB-UP 	-1	0	0	-1	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	0	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.49484	NaN	NaN	NaN 
+																					 
+Model 13117	查(FANCG,PAX5)  & 昧F1  & TGFB-UP 	0	0	-1	0	0	0	-1	0	0	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	0	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.10186	NaN	NaN	NaN 
+																					 
+Model 13118	挂P300  & TGFB-UP 	0	0	0	0	0	0	0	0	0	0	-1	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	0.54646	NaN	NaN	NaN 
+																					 
+Model 13119	星TEN  & TGFB-UP 	-1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.38346	NaN	NaN	NaN 
+																					 
+Model 13120	星TEN  & 查19p12  & TGFB-UP 	-1	-1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	0	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.27803	NaN	NaN	NaN 
+																					 
+Model 13121	拴REBBP  & 斫2O2-UP  & TGFB-UP 	0	0	0	-1	0	0	0	0	0	0	0	0	0	0	-1	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	0.48389	NaN	NaN	NaN 
+																					 
+Model 13122	星TEN  & 斫2O2-UP  & TGFB-UP 	-1	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	0	1	0	0	0 
+	Feature Importance Scores:	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	0.3209	NaN	NaN	NaN 
+																					 
+Model 13123	拴DKN2A  & 查13q14.2  & TGFB-UP 	0	0	0	0	0	0	0	0	0	-1	0	0	0	-1	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	0	NaN	NaN	0.25947	NaN	NaN	NaN 
+																					 
+Model 13124	星TEN  & 拾RAF  & TGFB-UP 	-1	0	0	0	0	-1	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	0	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.37618	NaN	NaN	NaN 
+																					 
+Model 13125	拾RAF  & 昧RAS  & TGFB-UP 	0	0	0	0	0	-1	0	-1	0	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	0	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.39578	NaN	NaN	NaN 
+																					 
+Model 13126	拾RAF  & TGFB-UP 	0	0	0	0	0	-1	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.4278	NaN	NaN	NaN 
+																					 
+Model 1321	昧F1  & NF2  & 斫2O2-UP 	0	0	0	0	0	0	-1	0	1	0	0	0	0	0	-1	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	0.024641	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1322	NF2 	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.25999	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1323	昧F1  & NF2 	0	0	0	0	0	0	-1	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	0.078403	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1324	NF2  & 斫2O2-UP 	0	0	0	0	0	0	0	0	1	0	0	0	0	0	-1	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.19957	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1325	查19p12  & NF2  & 斫2O2-UP 	0	-1	0	0	0	0	0	0	1	0	0	0	0	0	-1	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	0.10897	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1326	查(FANCG,PAX5)  & NF2 	0	0	-1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	0.05132	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1327	查(FANCG,PAX5)  & 昧F1  & NF2 	0	0	-1	0	0	0	-1	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	0	NaN	NaN	NaN	0	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1328	星TEN  & NF2  & 斫2O2-UP 	-1	0	0	0	0	0	0	0	1	0	0	0	0	0	-1	0	0	0	0	0 
+	Feature Importance Scores:	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.15521	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1329	查(FANCG,PAX5)  & NF2  & 斫2O2-UP 	0	0	-1	0	0	0	0	0	1	0	0	0	0	0	-1	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13210	昧F1  & 昧RAS  & NF2 	0	0	0	0	0	0	-1	-1	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	0	0	0.050888	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13211	查19p12  & NF2 	0	-1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	0.16273	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13212	昧RAS  & NF2  & 斫2O2-UP 	0	0	0	0	0	0	0	-1	1	0	0	0	0	0	-1	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	0.17205	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13213	昧RAS  & NF2 	0	0	0	0	0	0	0	-1	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	0.22582	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13214	星TEN  & 昧RAS  & NF2 	-1	0	0	0	0	0	0	-1	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	0	NaN	NaN	NaN	NaN	NaN	NaN	0	0.14149	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13215	星TEN  & 昧F1  & NF2 	-1	0	0	0	0	0	-1	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	0	NaN	NaN	NaN	NaN	NaN	0	NaN	0.11837	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13216	查(FANCG,PAX5)  & 昧RAS  & NF2 	0	0	-1	0	0	0	0	-1	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	0	NaN	NaN	NaN	NaN	0	0.023806	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13217	查19p12  & 昧RAS  & NF2 	0	-1	0	0	0	0	0	-1	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	NaN	NaN	NaN	NaN	NaN	0	0.13522	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13218	查19p12  & 查(FANCG,PAX5)  & NF2 	0	-1	-1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	0	NaN	NaN	NaN	NaN	NaN	0.05132	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13219	星TEN  & 查19p12  & NF2 	-1	-1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	0	0	NaN	NaN	NaN	NaN	NaN	NaN	0.11837	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13220	星TEN  & 查(FANCG,PAX5)  & NF2 	-1	0	-1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	0	NaN	0	NaN	NaN	NaN	NaN	NaN	0.0069629	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13221	查19p12  & 昧F1  & NF2 	0	-1	0	0	0	0	-1	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	NaN	NaN	NaN	NaN	0	NaN	0.078403	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13222	查19p12  & NF2  & 星IK3CA 	0	-1	0	0	0	0	0	0	1	0	0	-1	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	0.15242	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13223	星TEN  & NF2  & 星IK3CA 	-1	0	0	0	0	0	0	0	1	0	0	-1	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.19866	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13224	星TEN  & NF2  & 查13q14.2 	-1	0	0	0	0	0	0	0	1	0	0	0	0	-1	0	0	0	0	0	0 
+	Feature Importance Scores:	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.11837	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13225	星TEN  & NF2 	-1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.20897	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13226	星TEN  & NF2  & 施L-1-UP 	-1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	-1	0	0	0	0 
+	Feature Importance Scores:	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.11837	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN 
+																					 
+Model 1331	查(FANCG,PAX5)  & 拾RAF  & 昧F1 	0	0	-1	0	0	-1	-1	0	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	0.10824	NaN	NaN	0	0.08193	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1332	查(FANCG,PAX5)  & 拾RAF  & 斫2O2-UP 	0	0	-1	0	0	-1	0	0	0	0	0	0	0	0	-1	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	0.10824	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.052233	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1341	NF2 	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.29976	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1342	NF2  & 查13q14.2  & 施L-1-UP 	0	0	0	0	0	0	0	0	1	0	0	0	0	-1	0	-1	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.20973	NaN	NaN	NaN	NaN	0	NaN	0	NaN	NaN	NaN	NaN 
+																					 
+Model 1343	星TEN  & NF2 	-1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.40875	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1344	昧F1  & NF2 	0	0	0	0	0	0	-1	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	0.25821	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1345	星TEN  & 查19p12  & NF2 	-1	-1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	0	0	NaN	NaN	NaN	NaN	NaN	NaN	0.3043	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1346	查19p12  & 查(FANCG,PAX5)  & NF2 	0	-1	-1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	0	NaN	NaN	NaN	NaN	NaN	0.12976	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1347	星TEN  & 查(FANCG,PAX5)  & NF2 	-1	0	-1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	0	NaN	0	NaN	NaN	NaN	NaN	NaN	0.17584	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1348	星TEN  & 昧F1  & NF2 	-1	0	0	0	0	0	-1	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	0	NaN	NaN	NaN	NaN	NaN	0	NaN	0.3043	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1349	星TEN  & 昧RAS  & NF2 	-1	0	0	0	0	0	0	-1	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	0	NaN	NaN	NaN	NaN	NaN	NaN	0	0.33095	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13410	星TEN  & NF2  & 拴DKN2A 	-1	0	0	0	0	0	0	0	1	-1	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.33922	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13411	星TEN  & NF2  & 星IK3CA 	-1	0	0	0	0	0	0	0	1	0	0	-1	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.39686	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13412	星TEN  & NF2  & 昤MARCA4 	-1	0	0	0	0	0	0	0	1	0	0	0	-1	0	0	0	0	0	0	0 
+	Feature Importance Scores:	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.5191	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13413	星TEN  & NF2  & 查13q14.2 	-1	0	0	0	0	0	0	0	1	0	0	0	0	-1	0	0	0	0	0	0 
+	Feature Importance Scores:	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.3043	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13414	星TEN  & NF2  & 施L-1-UP 	-1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	-1	0	0	0	0 
+	Feature Importance Scores:	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.25581	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN 
+																					 
+Model 13415	星TEN  & NF2  & 星I3K_only-DOWN 	-1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	-1	0	0 
+	Feature Importance Scores:	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.40875	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN 
+																					 
+Model 13416	星TEN  & NF2  & 柱nt-DOWN 	-1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	-1 
+	Feature Importance Scores:	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.33922	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0 
+																					 
+Model 13417	查19p12  & NF2 	0	-1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	0.25821	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13418	查(FANCG,PAX5)  & NF2 	0	0	-1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	0.12976	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13419	查(FANCG,PAX5)  & 昧F1  & NF2 	0	0	-1	0	0	0	-1	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	0	NaN	NaN	NaN	0	NaN	0.12976	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13420	查(FANCG,PAX5)  & 昧RAS  & NF2 	0	0	-1	0	0	0	0	-1	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	0	NaN	NaN	NaN	NaN	0	0.098035	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13421	查(FANCG,PAX5)  & NF2  & 拴DKN2A 	0	0	-1	0	0	0	0	0	1	-1	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	0.060221	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13422	查19p12  & 昧F1  & NF2 	0	-1	0	0	0	0	-1	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	NaN	NaN	NaN	NaN	0	NaN	0.25821	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13423	查19p12  & 昧RAS  & NF2 	0	-1	0	0	0	0	0	-1	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	NaN	NaN	NaN	NaN	NaN	0	0.22649	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13424	查19p12  & NF2  & 拴DKN2A 	0	-1	0	0	0	0	0	0	1	-1	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	0.18867	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13425	查19p12  & NF2  & 星IK3CA 	0	-1	0	0	0	0	0	0	1	0	0	-1	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	0.24632	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13426	查19p12  & NF2  & 昤MARCA4 	0	-1	0	0	0	0	0	0	1	0	0	0	-1	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	0.36856	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1351	拾RAF  & 昧F1  & 昧RAS 	0	0	0	0	0	-1	-1	-1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	0	0.16879	0.065117	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1352	NF2 	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.25086	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1353	昧F1  & NF2 	0	0	0	0	0	0	-1	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	0.0031875	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1354	昧RAS  & NF2 	0	0	0	0	0	0	0	-1	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	0.10686	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1355	昧F1  & 昧RAS  & NF2 	0	0	0	0	0	0	-1	-1	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	0	0	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1356	查(FANCG,PAX5)  & 昧RAS  & NF2 	0	0	-1	0	0	0	0	-1	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	0	NaN	NaN	NaN	NaN	0	0.019439	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1357	NF2  & 斫2O2-UP 	0	0	0	0	0	0	0	0	1	0	0	0	0	0	-1	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.1201	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1358	昧F1  & NF2  & 斫2O2-UP 	0	0	0	0	0	0	-1	0	1	0	0	0	0	0	-1	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	0	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1359	昧RAS  & NF2  & 斫2O2-UP 	0	0	0	0	0	0	0	-1	1	0	0	0	0	0	-1	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	0.054983	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13510	昧RAS  & NF2  & 查13q14.2 	0	0	0	0	0	0	0	-1	1	0	0	0	0	-1	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	0.019439	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13511	查(FANCG,PAX5)  & NF2  & 昤MARCA4 	0	0	-1	0	0	0	0	0	1	0	0	0	-1	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	0.17691	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13512	昧RAS  & NF2  & 昤MARCA4 	0	0	0	0	0	0	0	-1	1	0	0	0	-1	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	0.19921	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13513	NF2  & 拴DKN2A 	0	0	0	0	0	0	0	0	1	-1	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.11378	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13514	NF2  & 昤MARCA4  & 查13q14.2 	0	0	0	0	0	0	0	0	1	0	0	0	-1	-1	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.17691	NaN	NaN	NaN	0	0	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13515	星TEN  & NF2  & 斫2O2-UP 	-1	0	0	0	0	0	0	0	1	0	0	0	0	0	-1	0	0	0	0	0 
+	Feature Importance Scores:	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.038731	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13516	NF2  & 柱nt-DOWN 	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	-1 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.11378	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0 
+																					 
+Model 13517	查19p12  & NF2  & 斫2O2-UP 	0	-1	0	0	0	0	0	0	1	0	0	0	0	0	-1	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	0.032682	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13518	查(FANCG,PAX5)  & NF2  & 斫2O2-UP 	0	0	-1	0	0	0	0	0	1	0	0	0	0	0	-1	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	0.032682	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13519	NF2  & 拴DKN2A  & 斫2O2-UP 	0	0	0	0	0	0	0	0	1	-1	0	0	0	0	-1	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.061906	0	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13520	NF2  & 昤MARCA4  & 斫2O2-UP 	0	0	0	0	0	0	0	0	1	0	0	0	-1	0	-1	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.21245	NaN	NaN	NaN	0	NaN	0	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13521	NF2  & 查13q14.2  & 斫2O2-UP 	0	0	0	0	0	0	0	0	1	0	0	0	0	-1	-1	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.032682	NaN	NaN	NaN	NaN	0	0	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13522	NF2  & 斫2O2-UP  & 施L-1-UP 	0	0	0	0	0	0	0	0	1	0	0	0	0	0	-1	-1	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	0	0	NaN	NaN	NaN	NaN 
+																					 
+Model 13523	NF2  & 斫2O2-UP  & 曷GFB-UP 	0	0	0	0	0	0	0	0	1	0	0	0	0	0	-1	0	-1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.30599	NaN	NaN	NaN	NaN	NaN	0	NaN	0	NaN	NaN	NaN 
+																					 
+Model 13524	NF2  & 斫2O2-UP  & 柱nt-DOWN 	0	0	0	0	0	0	0	0	1	0	0	0	0	0	-1	0	0	0	0	-1 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.061906	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	0 
+																					 
+Model 13525	NF2  & 拴DKN2A  & 施L-1-UP 	0	0	0	0	0	0	0	0	1	-1	0	0	0	0	0	-1	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	0	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN 
+																					 
+Model 13526	拾RAF  & 昧F1  & 斫2O2-UP 	0	0	0	0	0	-1	-1	0	0	0	0	0	0	0	-1	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	0	0.16879	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.051875	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1401	查(FANCG,PAX5)  & 拾RAF  & 昧F1  & 斫2O2-UP 	0	0	-1	0	0	-1	-1	0	0	0	0	0	0	0	-1	0	0	0	0	0 
+CV error: 0.64932	Feature Importance Scores:	NaN	NaN	0.092992	NaN	NaN	0	0.070387	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.044874	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1402	查(FANCG,PAX5)  & 拾RAF  & 昧F1  & 昧RAS 	0	0	-1	0	0	-1	-1	-1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	0.092992	NaN	NaN	0	0.070387	0.022966	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1403	星TEN  & 查(FANCG,PAX5)  & 拾RAF  & 昧RAS 	-1	0	-1	0	0	-1	0	-1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	0.070387	NaN	0.16861	NaN	NaN	0	NaN	0.056329	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1411	昧F1  & 拴DKN2A  & 斫2O2-UP  & TGFB-UP 	0	0	0	0	0	0	-1	0	0	-1	0	0	0	0	-1	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	0	NaN	NaN	NaN	NaN	0	NaN	0.098767	NaN	NaN	NaN 
+																					 
+Model 1412	昧F1  & TGFB-UP 	0	0	0	0	0	0	-1	0	0	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.23152	NaN	NaN	NaN 
+																					 
+Model 1413	昧F1  & 拴DKN2A  & TGFB-UP 	0	0	0	0	0	0	-1	0	0	-1	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	0.16133	NaN	NaN	NaN 
+																					 
+Model 1414	TGFB-UP 	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.2242	NaN	NaN	NaN 
+																					 
+Model 1415	查(FANCG,PAX5)  & 拾RAF  & 昧F1  & TGFB-UP 	0	0	-1	0	0	-1	-1	0	0	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	0	NaN	NaN	0	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.094582	NaN	NaN	NaN 
+																					 
+Model 1416	拴DKN2A  & TGFB-UP 	0	0	0	0	0	0	0	0	0	-1	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	0.3649	NaN	NaN	NaN 
+																					 
+Model 1417	星TEN  & 拾RAF  & 昧RAS  & TGFB-UP 	-1	0	0	0	0	-1	0	-1	0	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	0	NaN	NaN	NaN	NaN	0	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.29765	NaN	NaN	NaN 
+																					 
+Model 1418	星TEN  & 拾RAF  & 斫2O2-UP  & TGFB-UP 	-1	0	0	0	0	-1	0	0	0	0	0	0	0	0	-1	0	1	0	0	0 
+	Feature Importance Scores:	0	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	0.31362	NaN	NaN	NaN 
+																					 
+Model 1419	斫2O2-UP  & TGFB-UP 	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	0.37252	NaN	NaN	NaN 
+																					 
+Model 14110	星TEN  & 拾RAF  & TGFB-UP 	-1	0	0	0	0	-1	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	0	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.37618	NaN	NaN	NaN 
+																					 
+Model 14111	星TEN  & TGFB-UP 	-1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.38346	NaN	NaN	NaN 
+																					 
+Model 14112	拾RAF  & 昧F1  & 昤MARCA4  & TGFB-UP 	0	0	0	0	0	-1	-1	0	0	0	0	0	-1	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	0	0	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	0.22423	NaN	NaN	NaN 
+																					 
+Model 14113	查(FANCG,PAX5)  & 昧F1  & 斫2O2-UP  & TGFB-UP 	0	0	-1	0	0	0	-1	0	0	0	0	0	0	0	-1	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	0	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	0.039301	NaN	NaN	NaN 
+																					 
+Model 14114	拾RAF  & 昧F1  & 斫2O2-UP  & TGFB-UP 	0	0	0	0	0	-1	-1	0	0	0	0	0	0	0	-1	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	0	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	0.16167	NaN	NaN	NaN 
+																					 
+Model 14115	查(FANCG,PAX5)  & 施L-1-UP  & TGFB-UP  & 柱nt-DOWN 	0	0	-1	0	0	0	0	0	0	0	0	0	0	0	0	-1	1	0	0	-1 
+	Feature Importance Scores:	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	0.080876	NaN	NaN	0 
+																					 
+Model 14116	星TEN  & 查(FANCG,PAX5)  & 拾RAF  & TGFB-UP 	-1	0	-1	0	0	-1	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	0	NaN	0	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.1411	NaN	NaN	NaN 
+																					 
+Model 14117	拾RAF  & TGFB-UP 	0	0	0	0	0	-1	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.4278	NaN	NaN	NaN 
+																					 
+Model 14118	查(FANCG,PAX5)  & TGFB-UP 	0	0	-1	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.2	NaN	NaN	NaN 
+																					 
+Model 14119	昧F1  & 斫2O2-UP  & TGFB-UP 	0	0	0	0	0	0	-1	0	0	0	0	0	0	0	-1	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	0.16895	NaN	NaN	NaN 
+																					 
+Model 14120	星IK3CA  & 施L-1-UP  & TGFB-UP  & 柱nt-DOWN 	0	0	0	0	0	0	0	0	0	0	0	-1	0	0	0	-1	1	0	0	-1 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	0	0.19852	NaN	NaN	0 
+																					 
+Model 14121	查(FANCG,PAX5)  & 昧RAS  & 拴DKN2A  & TGFB-UP 	0	0	-1	0	0	0	0	-1	0	-1	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	0	NaN	NaN	NaN	NaN	0	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	0.097795	NaN	NaN	NaN 
+																					 
+Model 14122	星TEN  & 查(FANCG,PAX5)  & 昧RAS  & TGFB-UP 	-1	0	-1	0	0	0	0	-1	0	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	0	NaN	0	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.069845	NaN	NaN	NaN 
+																					 
+Model 14123	昧RAS  & TGFB-UP 	0	0	0	0	0	0	0	-1	0	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.40306	NaN	NaN	NaN 
+																					 
+Model 14124	拾RAF  & 昧F1  & 挂P300  & TGFB-UP 	0	0	0	0	0	-1	-1	0	0	0	-1	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	0	0	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	0.22423	NaN	NaN	NaN 
+																					 
+Model 14125	昧F1  & 挂P300  & 施L-1-UP  & TGFB-UP 	0	0	0	0	0	0	-1	0	0	0	-1	0	0	0	0	-1	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	0	0.29395	NaN	NaN	NaN 
+																					 
+Model 14126	昧RAS  & 斫2O2-UP  & 施L-1-UP  & TGFB-UP 	0	0	0	0	0	0	0	-1	0	0	0	0	0	0	-1	-1	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	0	0	0.18613	NaN	NaN	NaN 
+																					 
+Model 1421	查(FANCG,PAX5)  & 拾RAF  & 昧F1  & 斫2O2-UP 	0	0	-1	0	0	-1	-1	0	0	0	0	0	0	0	-1	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	0.11141	NaN	NaN	0	0.084329	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.053762	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1422	查(FANCG,PAX5)  & 拾RAF  & 昧F1  & 昧RAS 	0	0	-1	0	0	-1	-1	-1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	0.11141	NaN	NaN	0	0.084329	0.027514	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1423	星TEN  & 查(FANCG,PAX5)  & 拾RAF  & 昧RAS 	-1	0	-1	0	0	-1	0	-1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	0.084329	NaN	0.20201	NaN	NaN	0	NaN	0.067486	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1431	查(FANCG,PAX5)  & 拾RAF  & 昧F1  & 斫2O2-UP 	0	0	-1	0	0	-1	-1	0	0	0	0	0	0	0	-1	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	0.10824	NaN	NaN	0	0.08193	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.052233	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1441	NF2 	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.29976	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1442	NF2  & 查13q14.2 	0	0	0	0	0	0	0	0	1	0	0	0	0	-1	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.25821	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1443	查(FANCG,PAX5)  & 昧F1  & NF2  & 查13q14.2 	0	0	-1	0	0	0	-1	0	1	0	0	0	0	-1	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	0	NaN	NaN	NaN	0	NaN	0.12976	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1444	星TEN  & 昧RAS  & NF2 	-1	0	0	0	0	0	0	-1	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	0	NaN	NaN	NaN	NaN	NaN	NaN	0	0.33095	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1445	查19p12  & NF2 	0	-1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	0.25821	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1446	NF2  & 昤MARCA4 	0	0	0	0	0	0	0	0	1	0	0	0	-1	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.47302	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1447	查(FANCG,PAX5)  & 昧F1  & NF2 	0	0	-1	0	0	0	-1	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	0	NaN	NaN	NaN	0	NaN	0.12976	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1448	星TEN  & NF2 	-1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.40875	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1449	星TEN  & 查19p12  & NF2 	-1	-1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	0	0	NaN	NaN	NaN	NaN	NaN	NaN	0.3043	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 14410	查19p12  & 查(FANCG,PAX5)  & NF2 	0	-1	-1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	0	NaN	NaN	NaN	NaN	NaN	0.12976	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 14411	星TEN  & 查19p12  & 查(FANCG,PAX5)  & NF2 	-1	-1	-1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	0	0	0	NaN	NaN	NaN	NaN	NaN	0.17584	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 14412	查(FANCG,PAX5)  & NF2 	0	0	-1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	0.12976	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 14413	查19p12  & 昧F1  & NF2 	0	-1	0	0	0	0	-1	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	NaN	NaN	NaN	NaN	0	NaN	0.25821	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 14414	查19p12  & 昧F1  & 昧RAS  & NF2 	0	-1	0	0	0	0	-1	-1	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	NaN	NaN	NaN	NaN	0	0	0.22649	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 14415	查19p12  & 昧RAS  & NF2 	0	-1	0	0	0	0	0	-1	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	NaN	NaN	NaN	NaN	NaN	0	0.22649	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 14416	查19p12  & 昧RAS  & NF2  & 拴DKN2A 	0	-1	0	0	0	0	0	-1	1	-1	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	NaN	NaN	NaN	NaN	NaN	0	0.15695	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 14417	查19p12  & NF2  & 拴DKN2A 	0	-1	0	0	0	0	0	0	1	-1	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	0.18867	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 14418	查19p12  & 昧F1  & NF2  & 拴DKN2A 	0	-1	0	0	0	0	-1	0	1	-1	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	NaN	NaN	NaN	NaN	0	NaN	0.18867	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 14419	查19p12  & 昧F1  & NF2  & 星IK3CA 	0	-1	0	0	0	0	-1	0	1	0	0	-1	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	NaN	NaN	NaN	NaN	0	NaN	0.24632	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 14420	查19p12  & 昧F1  & NF2  & 昤MARCA4 	0	-1	0	0	0	0	-1	0	1	0	0	0	-1	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	NaN	NaN	NaN	NaN	0	NaN	0.36856	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 14421	查19p12  & 昧F1  & NF2  & 查13q14.2 	0	-1	0	0	0	0	-1	0	1	0	0	0	0	-1	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	NaN	NaN	NaN	NaN	0	NaN	0.25821	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 14422	查19p12  & 昧F1  & NF2  & 施L-1-UP 	0	-1	0	0	0	0	-1	0	1	0	0	0	0	0	0	-1	0	0	0	0 
+	Feature Importance Scores:	NaN	0	NaN	NaN	NaN	NaN	0	NaN	0.20973	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN 
+																					 
+Model 14423	查19p12  & 昧F1  & NF2  & 星I3K_only-DOWN 	0	-1	0	0	0	0	-1	0	1	0	0	0	0	0	0	0	0	-1	0	0 
+	Feature Importance Scores:	NaN	0	NaN	NaN	NaN	NaN	0	NaN	0.3043	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN 
+																					 
+Model 14424	查19p12  & 昧F1  & NF2  & 柱nt-DOWN 	0	-1	0	0	0	0	-1	0	1	0	0	0	0	0	0	0	0	0	0	-1 
+	Feature Importance Scores:	NaN	0	NaN	NaN	NaN	NaN	0	NaN	0.18867	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0 
+																					 
+Model 14425	查19p12  & NF2  & 星IK3CA 	0	-1	0	0	0	0	0	0	1	0	0	-1	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	0.24632	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 14426	查19p12  & NF2  & 星IK3CA  & 昤MARCA4 	0	-1	0	0	0	0	0	0	1	0	0	-1	-1	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	0.35667	NaN	NaN	0	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1451	拾RAF  & 昧F1  & 昧RAS  & 斫2O2-UP 	0	0	0	0	0	-1	-1	-1	0	0	0	0	0	0	-1	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	0	0.16879	0.065117	NaN	NaN	NaN	NaN	NaN	NaN	0.051875	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 2101	NF2  | TGFB-UP 	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	0	0	0 
+CV error: 0.5	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.217	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.16081	NaN	NaN	NaN 
+																					 
+Model 2102	CREBBP  | TGFB-UP 	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.18816	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.16081	NaN	NaN	NaN 
+																					 
+Model 2103	EP300  | TGFB-UP 	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.18816	NaN	NaN	NaN	NaN	NaN	0.16081	NaN	NaN	NaN 
+																					 
+Model 2111	SMARCA4  | TGFB-UP 	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.11138	NaN	NaN	NaN	0.2242	NaN	NaN	NaN 
+																					 
+Model 2112	EP300  | TGFB-UP 	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.11138	NaN	NaN	NaN	NaN	NaN	0.2242	NaN	NaN	NaN 
+																					 
+Model 2113	CREBBP  | TGFB-UP 	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.11138	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.2242	NaN	NaN	NaN 
+																					 
+Model 2121	NF2  | TGFB-UP 	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.25999	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.19266	NaN	NaN	NaN 
+																					 
+Model 2131	NF2  | TGFB-UP 	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.25259	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.18718	NaN	NaN	NaN 
+																					 
+Model 2132	CREBBP  | TGFB-UP 	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.21901	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.18718	NaN	NaN	NaN 
+																					 
+Model 2133	EP300  | TGFB-UP 	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.21901	NaN	NaN	NaN	NaN	NaN	0.18718	NaN	NaN	NaN 
+																					 
+Model 2141	NF2  | SMARCA4 	0	0	0	0	0	0	0	0	1	0	0	0	1	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.29976	NaN	NaN	NaN	0.11035	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 2142	CREBBP  | NF2 	0	0	0	1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.11035	NaN	NaN	NaN	NaN	0.1502	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 2143	NF2  | EP300 	0	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.1502	NaN	0.11035	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 2151	NF2  | TGFB-UP 	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.25086	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.18589	NaN	NaN	NaN 
+																					 
+Model 2152	CREBBP  | TGFB-UP 	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.21751	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.18589	NaN	NaN	NaN 
+																					 
+Model 2153	EP300  | TGFB-UP 	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.21751	NaN	NaN	NaN	NaN	NaN	0.18589	NaN	NaN	NaN 
+																					 
+Model 2201	TGFB-UP   |  NF2 	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+		0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+CV error: 0.5	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.217	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.16081	NaN	NaN	NaN 
+																					 
+Model 2202	TGFB-UP  & 曷GFB-DOWN   |  EP300 	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	-1	0 
+		0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.18816	NaN	NaN	NaN	NaN	NaN	0.16081	NaN	0	NaN 
+																					 
+Model 2203	NF2  & 柱nt-DOWN   |  TGFB-UP 	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	-1 
+		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.217	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.16081	NaN	NaN	0 
+																					 
+Model 2204	TGFB-UP  & 曷GFB-DOWN   |  NF2 	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	-1	0 
+		0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.217	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.16081	NaN	0	NaN 
+																					 
+Model 2205	星TEN  & TGFB-UP   |  NF2 	-1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+		0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.217	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.16081	NaN	NaN	NaN 
+																					 
+Model 2206	TGFB-UP   |  查(FANCG,PAX5)  & NF2 	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+		0	0	-1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	0.2092	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.16081	NaN	NaN	NaN 
+																					 
+Model 2207	NF2   |  TGFB-UP 	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.217	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.16081	NaN	NaN	NaN 
+																					 
+Model 2208	NF2   |  查19p12  & TGFB-UP 	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+		0	-1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	0.217	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.16081	NaN	NaN	NaN 
+																					 
+Model 2209	TGFB-UP   |  EP300 	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+		0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.18816	NaN	NaN	NaN	NaN	NaN	0.16081	NaN	NaN	NaN 
+																					 
+Model 22010	TGFB-UP   |  昧RAS  & NF2 	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+		0	0	0	0	0	0	0	-1	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	0.217	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.16081	NaN	NaN	NaN 
+																					 
+Model 22011	拾RAF  & TGFB-UP   |  查19p12  & NF2 	0	0	0	0	0	-1	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+		0	-1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	NaN	NaN	NaN	0	NaN	NaN	0.217	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.16081	NaN	NaN	NaN 
+																					 
+Model 22012	拾RAF  & TGFB-UP   |  NF2 	0	0	0	0	0	-1	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+		0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	0.217	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.16081	NaN	NaN	NaN 
+																					 
+Model 22013	NF2   |  挂P300  & TGFB-UP 	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	0	0	0	0	0	0	-1	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.217	NaN	0	NaN	NaN	NaN	NaN	NaN	0.16081	NaN	NaN	NaN 
+																					 
+Model 22014	挂P300  & TGFB-UP   |  NF2 	0	0	0	0	0	0	0	0	0	0	-1	0	0	0	0	0	1	0	0	0 
+		0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.217	NaN	0	NaN	NaN	NaN	NaN	NaN	0.16081	NaN	NaN	NaN 
+																					 
+Model 22015	NF2   |  春RAS  & TGFB-UP 	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	-1	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	0.217	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.16081	NaN	NaN	NaN 
+																					 
+Model 22016	拴REBBP  & TGFB-UP   |  NF2 	0	0	0	-1	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+		0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	0.217	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.16081	NaN	NaN	NaN 
+																					 
+Model 22017	星IK3CA  & TGFB-UP   |  NF2 	0	0	0	0	0	0	0	0	0	0	0	-1	0	0	0	0	1	0	0	0 
+		0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.217	NaN	NaN	0	NaN	NaN	NaN	NaN	0.16081	NaN	NaN	NaN 
+																					 
+Model 22018	星IK3CA  & TGFB-UP   |  星TEN  & NF2 	0	0	0	0	0	0	0	0	0	0	0	-1	0	0	0	0	1	0	0	0 
+		-1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.217	NaN	NaN	0	NaN	NaN	NaN	NaN	0.16081	NaN	NaN	NaN 
+																					 
+Model 22019	TGFB-UP   |  CREBBP 	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+		0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.18816	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.16081	NaN	NaN	NaN 
+																					 
+Model 22020	NF2   |  拾RAF  & TGFB-UP 	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	0	-1	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	0.217	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.16081	NaN	NaN	NaN 
+																					 
+Model 22021	星TEN  & NF2   |  拾RAF  & TGFB-UP 	-1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	0	-1	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	0	NaN	NaN	NaN	NaN	0	NaN	NaN	0.217	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.16081	NaN	NaN	NaN 
+																					 
+Model 22022	查19p12  & TGFB-UP   |  NF2 	0	-1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+		0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	0.217	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.16081	NaN	NaN	NaN 
+																					 
+Model 22023	拴DKN2A  & TGFB-UP   |  星TEN  & NF2 	0	0	0	0	0	0	0	0	0	-1	0	0	0	0	0	0	1	0	0	0 
+		-1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.217	0	NaN	NaN	NaN	NaN	NaN	NaN	0.16081	NaN	NaN	NaN 
+																					 
+Model 22024	查(FANCG,PAX5)  & TGFB-UP   |  NF2 	0	0	-1	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+		0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	0.217	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.16081	NaN	NaN	NaN 
+																					 
+Model 22025	星TEN  & NF2   |  星TEN  & TGFB-UP 	-1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+		-1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.217	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.16081	NaN	NaN	NaN 
+																					 
+Model 22026	NF2   |  星TEN  & TGFB-UP 	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+		-1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.217	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.16081	NaN	NaN	NaN 
+																					 
+Model 2211	SMARCA4   |  TGFB-UP  & 柱nt-DOWN 	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0 
+		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	-1 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.11138	NaN	NaN	NaN	0.2242	NaN	NaN	0 
+																					 
+Model 2212	SMARCA4   |  TGFB-UP 	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0 
+		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.11138	NaN	NaN	NaN	0.2242	NaN	NaN	NaN 
+																					 
+Model 2213	CREBBP   |  TGFB-UP 	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.11138	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.2242	NaN	NaN	NaN 
+																					 
+Model 2214	CREBBP   |  查(FANCG,PAX5)  & TGFB-UP 	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	-1	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	0	0.11138	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.2242	NaN	NaN	NaN 
+																					 
+Model 2215	CREBBP   |  查19p12  & TGFB-UP 	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0 
+		0	-1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	0	NaN	0.11138	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.2242	NaN	NaN	NaN 
+																					 
+Model 2216	查19p12  & CREBBP   |  拴DKN2A  & TGFB-UP 	0	-1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	0	0	0	0	0	-1	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	0	NaN	0.11138	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	0.2242	NaN	NaN	NaN 
+																					 
+Model 2217	昧RAS  & TGFB-UP   |  CREBBP  & BRAF 	0	0	0	0	0	0	0	-1	0	0	0	0	0	0	0	0	1	0	0	0 
+		0	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.11138	NaN	0	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.2242	NaN	NaN	NaN 
+																					 
+Model 2218	昧RAS  & TGFB-UP   |  BRAF  & EP300 	0	0	0	0	0	0	0	-1	0	0	0	0	0	0	0	0	1	0	0	0 
+		0	0	0	0	0	1	0	0	0	0	1	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	0	NaN	0	NaN	NaN	0.11138	NaN	NaN	NaN	NaN	NaN	0.2242	NaN	NaN	NaN 
+																					 
+Model 2219	查19p12  & TGFB-UP   |  查(FANCG,PAX5)  & EP300 	0	-1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+		0	0	-1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.11138	NaN	NaN	NaN	NaN	NaN	0.2242	NaN	NaN	NaN 
+																					 
+Model 22110	CREBBP  & 昧RAS   |  TGFB-UP 	0	0	0	1	0	0	0	-1	0	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.11138	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.2242	NaN	NaN	NaN 
+																					 
+Model 22111	TGFB-UP   |  CREBBP  & BRAF 	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+		0	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.11138	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.2242	NaN	NaN	NaN 
+																					 
+Model 22112	CREBBP   |  挂P300  & TGFB-UP 	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	0	0	0	0	0	0	-1	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.11138	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	0.2242	NaN	NaN	NaN 
+																					 
+Model 22113	TGFB-UP   |  星TEN  & CREBBP 	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+		-1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	0	NaN	NaN	0.11138	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.2242	NaN	NaN	NaN 
+																					 
+Model 22114	TGFB-UP   |  查(FANCG,PAX5)  & CREBBP 	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+		0	0	-1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	0	0.11138	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.2242	NaN	NaN	NaN 
+																					 
+Model 22115	TGFB-UP   |  EP300 	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+		0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.11138	NaN	NaN	NaN	NaN	NaN	0.2242	NaN	NaN	NaN 
+																					 
+Model 22116	TGFB-UP   |  CREBBP 	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+		0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.11138	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.2242	NaN	NaN	NaN 
+																					 
+Model 22117	CREBBP   |  拴DKN2A  & TGFB-UP 	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	0	0	0	0	0	-1	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.11138	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	0.2242	NaN	NaN	NaN 
+																					 
+Model 22118	TGFB-UP   |  CREBBP  & EP300 	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+		0	0	0	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	0.2242	NaN	NaN	NaN 
+																					 
+Model 22119	CREBBP   |  拴REBBP  & TGFB-UP 	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	-1	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.2242	NaN	NaN	NaN 
+																					 
+Model 22120	昧RAS  & TGFB-UP   |  CREBBP 	0	0	0	0	0	0	0	-1	0	0	0	0	0	0	0	0	1	0	0	0 
+		0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.11138	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.2242	NaN	NaN	NaN 
+																					 
+Model 22121	CREBBP  & BRAF   |  TGFB-UP 	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.11138	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.2242	NaN	NaN	NaN 
+																					 
+Model 22122	查19p12  & CREBBP   |  TGFB-UP 	0	-1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	0	NaN	0.11138	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.2242	NaN	NaN	NaN 
+																					 
+Model 22123	BRAF  & EP300   |  TGFB-UP  & 星I3K_only-DOWN 	0	0	0	0	0	1	0	0	0	0	1	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	-1	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	0.11138	NaN	NaN	NaN	NaN	NaN	0.2242	0	NaN	NaN 
+																					 
+Model 22124	拾RAF  & TGFB-UP   |  CREBBP  & 星I3K_only-DOWN 	0	0	0	0	0	-1	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+		0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.11138	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.2242	0	NaN	NaN 
+																					 
+Model 22125	拾RAF  & TGFB-UP   |  CREBBP 	0	0	0	0	0	-1	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+		0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.11138	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.2242	NaN	NaN	NaN 
+																					 
+Model 22126	拴DKN2A  & TGFB-UP   |  EP300 	0	0	0	0	0	0	0	0	0	-1	0	0	0	0	0	0	1	0	0	0 
+		0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	0.11138	NaN	NaN	NaN	NaN	NaN	0.2242	NaN	NaN	NaN 
+																					 
+Model 2221	TGFB-UP   |  NF2 	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+		0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.25999	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.19266	NaN	NaN	NaN 
+																					 
+Model 2222	昧RAS  & NF2   |  TGFB-UP 	0	0	0	0	0	0	0	-1	1	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	0.25999	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.19266	NaN	NaN	NaN 
+																					 
+Model 2223	昧RAS  & NF2   |  昧RAS  & TGFB-UP 	0	0	0	0	0	0	0	-1	1	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	0	0	0	-1	0	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	0.25999	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.19266	NaN	NaN	NaN 
+																					 
+Model 2224	查19p12  & TGFB-UP   |  NF2 	0	-1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+		0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	0.25999	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.19266	NaN	NaN	NaN 
+																					 
+Model 2225	昧RAS  & TGFB-UP   |  NF2 	0	0	0	0	0	0	0	-1	0	0	0	0	0	0	0	0	1	0	0	0 
+		0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	0.25999	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.19266	NaN	NaN	NaN 
+																					 
+Model 2226	TGFB-UP   |  查(FANCG,PAX5)  & NF2 	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+		0	0	-1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	0.24398	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.19266	NaN	NaN	NaN 
+																					 
+Model 2227	查13q14.2  & TGFB-UP   |  NF2 	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	0	0	1	0	0	0 
+		0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.25999	NaN	NaN	NaN	NaN	0	NaN	NaN	0.19266	NaN	NaN	NaN 
+																					 
+Model 2228	TGFB-UP   |  昧RAS  & NF2 	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+		0	0	0	0	0	0	0	-1	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	0.25999	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.19266	NaN	NaN	NaN 
+																					 
+Model 2229	星TEN  & TGFB-UP   |  NF2 	-1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+		0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.25999	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.19266	NaN	NaN	NaN 
+																					 
+Model 22210	施L-1-UP  & TGFB-UP   |  NF2 	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	1	0	0	0 
+		0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.25999	NaN	NaN	NaN	NaN	NaN	NaN	0	0.19266	NaN	NaN	NaN 
+																					 
+Model 22211	星TEN  & TGFB-UP   |  星TEN  & NF2 	-1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+		-1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.25999	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.19266	NaN	NaN	NaN 
+																					 
+Model 22212	昧F1  & TGFB-UP   |  昧F1  & NF2 	0	0	0	0	0	0	-1	0	0	0	0	0	0	0	0	0	1	0	0	0 
+		0	0	0	0	0	0	-1	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	0.25999	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.19266	NaN	NaN	NaN 
+																					 
+Model 22213	昧F1  & NF2   |  TGFB-UP 	0	0	0	0	0	0	-1	0	1	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	0.25999	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.19266	NaN	NaN	NaN 
+																					 
+Model 22214	NF2   |  星IK3CA  & TGFB-UP 	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	0	0	0	0	0	0	0	-1	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.25999	NaN	NaN	0	NaN	NaN	NaN	NaN	0.19266	NaN	NaN	NaN 
+																					 
+Model 22215	NF2   |  TGFB-UP 	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.25999	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.19266	NaN	NaN	NaN 
+																					 
+Model 22216	NF2   |  施L-1-UP  & TGFB-UP 	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.25999	NaN	NaN	NaN	NaN	NaN	NaN	0	0.19266	NaN	NaN	NaN 
+																					 
+Model 22217	TGFB-UP   |  星TEN  & NF2 	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+		-1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.25999	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.19266	NaN	NaN	NaN 
+																					 
+Model 22218	春RAS  & TGFB-UP   |  NF2 	0	0	0	0	-1	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+		0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	0.25999	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.19266	NaN	NaN	NaN 
+																					 
+Model 22219	NF2   |  查19p12  & TGFB-UP 	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+		0	-1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	0.25999	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.19266	NaN	NaN	NaN 
+																					 
+Model 22220	NF2   |  星TEN  & TGFB-UP 	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+		-1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.25999	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.19266	NaN	NaN	NaN 
+																					 
+Model 22221	NF2   |  查13q14.2  & TGFB-UP 	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	0	0	0	0	0	0	0	0	0	-1	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.25999	NaN	NaN	NaN	NaN	0	NaN	NaN	0.19266	NaN	NaN	NaN 
+																					 
+Model 22222	昧F1  & NF2   |  查19p12  & TGFB-UP 	0	0	0	0	0	0	-1	0	1	0	0	0	0	0	0	0	0	0	0	0 
+		0	-1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	0	NaN	NaN	NaN	NaN	0	NaN	0.25999	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.19266	NaN	NaN	NaN 
+																					 
+Model 22223	昧F1  & TGFB-UP   |  NF2 	0	0	0	0	0	0	-1	0	0	0	0	0	0	0	0	0	1	0	0	0 
+		0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	0.25999	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.19266	NaN	NaN	NaN 
+																					 
+Model 22224	TGFB-UP   |  查19p12  & NF2 	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+		0	-1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	0.25999	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.19266	NaN	NaN	NaN 
+																					 
+Model 22225	昧F2  & TGFB-UP   |  NF2 	0	0	0	0	0	0	0	0	-1	0	0	0	0	0	0	0	1	0	0	0 
+		0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.19266	NaN	NaN	NaN 
+																					 
+Model 22226	查19p12  & TGFB-UP   |  查(FANCG,PAX5)  & NF2 	0	-1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+		0	0	-1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	0	NaN	NaN	NaN	NaN	NaN	0.24398	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.19266	NaN	NaN	NaN 
+																					 
+Model 2231	NF2   |  TGFB-UP 	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.25259	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.18718	NaN	NaN	NaN 
+																					 
+Model 2232	CREBBP  & 曷GFB-UP   |  TGFB-UP 	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	-1	0	0	0 
+		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.21901	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN 
+																					 
+Model 2233	NF2   |  拾RAF  & TGFB-UP 	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	0	-1	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	0.25259	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.18718	NaN	NaN	NaN 
+																					 
+Model 2234	NF2   |  春RAS  & TGFB-UP 	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	-1	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	0.25259	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.18718	NaN	NaN	NaN 
+																					 
+Model 2235	NF2   |  星TEN  & TGFB-UP 	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+		-1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.25259	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.18718	NaN	NaN	NaN 
+																					 
+Model 2236	星TEN  & NF2   |  TGFB-UP 	-1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.25259	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.18718	NaN	NaN	NaN 
+																					 
+Model 2237	EP300   |  TGFB-UP 	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.21901	NaN	NaN	NaN	NaN	NaN	0.18718	NaN	NaN	NaN 
+																					 
+Model 2238	EP300   |  星TEN  & TGFB-UP 	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0 
+		-1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.21901	NaN	NaN	NaN	NaN	NaN	0.18718	NaN	NaN	NaN 
+																					 
+Model 2239	拾RAF  & TGFB-UP   |  NF2 	0	0	0	0	0	-1	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+		0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	0.25259	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.18718	NaN	NaN	NaN 
+																					 
+Model 22310	昧F1  & NF2   |  挂P300  & TGFB-UP 	0	0	0	0	0	0	-1	0	1	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	0	0	0	0	0	0	-1	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	0.21466	NaN	0	NaN	NaN	NaN	NaN	NaN	0.18718	NaN	NaN	NaN 
+																					 
+Model 22311	拴DKN2A  & EP300   |  拴REBBP  & TGFB-UP 	0	0	0	0	0	0	0	0	0	-1	1	0	0	0	0	0	0	0	0	0 
+		0	0	0	-1	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	0	0.20441	NaN	NaN	NaN	NaN	NaN	0.18718	NaN	NaN	NaN 
+																					 
+Model 22312	NF2  & 昤MARCA4   |  TGFB-UP 	0	0	0	0	0	0	0	0	1	0	0	0	-1	0	0	0	0	0	0	0 
+		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.25259	NaN	NaN	NaN	0	NaN	NaN	NaN	0.18718	NaN	NaN	NaN 
+																					 
+Model 22313	TGFB-UP   |  NF2 	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+		0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.25259	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.18718	NaN	NaN	NaN 
+																					 
+Model 22314	TGFB-UP   |  星TEN  & NF2 	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+		-1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.25259	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.18718	NaN	NaN	NaN 
+																					 
+Model 22315	NF2   |  挂P300  & TGFB-UP 	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	0	0	0	0	0	0	-1	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.25259	NaN	0	NaN	NaN	NaN	NaN	NaN	0.18718	NaN	NaN	NaN 
+																					 
+Model 22316	NF2   |  拴REBBP  & TGFB-UP 	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	-1	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	0.25259	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.18718	NaN	NaN	NaN 
+																					 
+Model 22317	拴DKN2A  & TGFB-UP   |  NF2 	0	0	0	0	0	0	0	0	0	-1	0	0	0	0	0	0	1	0	0	0 
+		0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.25259	0	NaN	NaN	NaN	NaN	NaN	NaN	0.18718	NaN	NaN	NaN 
+																					 
+Model 22318	星TEN  & TGFB-UP   |  NF2 	-1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+		0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.25259	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.18718	NaN	NaN	NaN 
+																					 
+Model 22319	挂P300  & TGFB-UP   |  NF2 	0	0	0	0	0	0	0	0	0	0	-1	0	0	0	0	0	1	0	0	0 
+		0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.25259	NaN	0	NaN	NaN	NaN	NaN	NaN	0.18718	NaN	NaN	NaN 
+																					 
+Model 22320	NF2   |  查(FANCG,PAX5)  & TGFB-UP 	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	-1	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	0.25259	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.18718	NaN	NaN	NaN 
+																					 
+Model 22321	NF2   |  昤MARCA4  & TGFB-UP 	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	0	0	0	0	0	0	0	0	-1	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.25259	NaN	NaN	NaN	0	NaN	NaN	NaN	0.18718	NaN	NaN	NaN 
+																					 
+Model 22322	昧RAS  & NF2   |  TGFB-UP 	0	0	0	0	0	0	0	-1	1	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	0.25259	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.18718	NaN	NaN	NaN 
+																					 
+Model 22323	TGFB-UP   |  EP300 	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+		0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.21901	NaN	NaN	NaN	NaN	NaN	0.18718	NaN	NaN	NaN 
+																					 
+Model 22324	查(FANCG,PAX5)  & NF2   |  拾RAF  & TGFB-UP 	0	0	-1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	0	-1	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	0	NaN	NaN	0	NaN	NaN	0.18835	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.18718	NaN	NaN	NaN 
+																					 
+Model 22325	星TEN  & NF2   |  拾RAF  & TGFB-UP 	-1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	0	-1	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	0	NaN	NaN	NaN	NaN	0	NaN	NaN	0.25259	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.18718	NaN	NaN	NaN 
+																					 
+Model 22326	EP300   |  昧F2  & TGFB-UP 	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	0	0	0	0	-1	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	0.21901	NaN	NaN	NaN	NaN	NaN	0.18718	NaN	NaN	NaN 
+																					 
+Model 2241	昧RAS  & EP300   |  NF2  & 查13q14.2 	0	0	0	0	0	0	0	-1	0	0	1	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	0	0	0	0	1	0	0	0	0	-1	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	0.1502	NaN	0.11035	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 2242	EP300  & 查13q14.2   |  NF2  & 曷GFB-DOWN 	0	0	0	0	0	0	0	0	0	0	1	0	0	-1	0	0	0	0	0	0 
+		0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	-1	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.1502	NaN	0.25991	NaN	NaN	0	NaN	NaN	NaN	NaN	0	NaN 
+																					 
+Model 2243	EP300  & 曷GFB-DOWN   |  NF2  & 查13q14.2 	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	-1	0 
+		0	0	0	0	0	0	0	0	1	0	0	0	0	-1	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.29976	NaN	0.11035	NaN	NaN	0	NaN	NaN	NaN	NaN	0	NaN 
+																					 
+Model 2244	EP300  & 曷GFB-DOWN   |  NF2 	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	-1	0 
+		0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.29976	NaN	0.11035	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN 
+																					 
+Model 2245	EP300   |  春RAS  & NF2 	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	-1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	0.1502	NaN	0.25991	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 2246	查19p12  & CREBBP   |  NF2 	0	-1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	NaN	0.11035	NaN	NaN	NaN	NaN	0.1502	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 2247	CREBBP   |  NF2 	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.11035	NaN	NaN	NaN	NaN	0.1502	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 2248	CREBBP  & 昧F2   |  星TEN  & NF2 	0	0	0	1	0	0	0	0	-1	0	0	0	0	0	0	0	0	0	0	0 
+		-1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	0	NaN	NaN	0.11035	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 2249	CREBBP   |  星TEN  & NF2 	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0 
+		-1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	0	NaN	NaN	0.11035	NaN	NaN	NaN	NaN	0.1502	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 22410	CREBBP   |  NF2  & 曷GFB-DOWN 	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	-1	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.25991	NaN	NaN	NaN	NaN	0.1502	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN 
+																					 
+Model 22411	CREBBP  & 曷GFB-DOWN   |  NF2 	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	0 
+		0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.11035	NaN	NaN	NaN	NaN	0.29976	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN 
+																					 
+Model 22412	EP300   |  NF2 	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.1502	NaN	0.11035	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 22413	CREBBP  & 春RAS   |  NF2 	0	0	0	1	-1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.11035	0	NaN	NaN	NaN	0.29976	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 22414	CREBBP  & 昧F2   |  NF2 	0	0	0	1	0	0	0	0	-1	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.11035	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 22415	CREBBP  & 昧F2   |  查(FANCG,PAX5)  & NF2 	0	0	0	1	0	0	0	0	-1	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	-1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	0	0.11035	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 22416	春RAS  & EP300   |  NF2 	0	0	0	0	-1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	0.29976	NaN	0.11035	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 22417	查(FANCG,PAX5)  & CREBBP   |  春RAS  & NF2 	0	0	-1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	-1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	0	0.24011	0	NaN	NaN	NaN	0.1502	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 22418	CREBBP   |  春RAS  & NF2 	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	-1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.25991	0	NaN	NaN	NaN	0.1502	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 22419	CREBBP   |  查(FANCG,PAX5)  & NF2 	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	-1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	0	0.11035	NaN	NaN	NaN	NaN	0.1502	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 22420	CREBBP   |  拴REBBP  & NF2 	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	-1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	0.1502	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 22421	NF2   |  SMARCA4  & 查13q14.2 	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	0	0	0	0	0	0	0	0	1	-1	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.29976	NaN	NaN	NaN	0.11035	0	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 22422	CREBBP   |  NF2  & 挂P300 	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	0	0	0	0	1	0	-1	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.25991	NaN	NaN	NaN	NaN	0.1502	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 22423	CREBBP   |  BRAF  & NF2 	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.25991	NaN	0	NaN	NaN	0.1502	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 22424	CREBBP   |  NF2  & 查13q14.2 	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	0	0	0	0	1	0	0	0	0	-1	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.11035	NaN	NaN	NaN	NaN	0.1502	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 22425	CREBBP  & 昧RAS   |  BRAF  & NF2 	0	0	0	1	0	0	0	-1	0	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.25991	NaN	0	NaN	0	0.1502	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 22426	NF2   |  CREBBP  & SMARCA4 	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	0.29976	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 2251	NF2   |  拾RAF  & TGFB-UP 	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	0	-1	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	0.25086	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.18589	NaN	NaN	NaN 
+																					 
+Model 2252	昧RAS  & NF2   |  TGFB-UP 	0	0	0	0	0	0	0	-1	1	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	0.25086	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.18589	NaN	NaN	NaN 
+																					 
+Model 2253	NF2   |  TGFB-UP 	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.25086	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.18589	NaN	NaN	NaN 
+																					 
+Model 2254	NF2   |  查19p12  & TGFB-UP 	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+		0	-1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	0.25086	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.18589	NaN	NaN	NaN 
+																					 
+Model 2255	NF2  & 查13q14.2   |  查13q14.2  & TGFB-UP 	0	0	0	0	0	0	0	0	1	0	0	0	0	-1	0	0	0	0	0	0 
+		0	0	0	0	0	0	0	0	0	0	0	0	0	-1	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.25086	NaN	NaN	NaN	NaN	0	NaN	NaN	0.18589	NaN	NaN	NaN 
+																					 
+Model 2256	NF2  & 查13q14.2   |  TGFB-UP 	0	0	0	0	0	0	0	0	1	0	0	0	0	-1	0	0	0	0	0	0 
+		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.25086	NaN	NaN	NaN	NaN	0	NaN	NaN	0.18589	NaN	NaN	NaN 
+																					 
+Model 2257	NF2  & 曷GFB-UP   |  TGFB-UP  & 曷GFB-DOWN 	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	-1	0	0	0 
+		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	-1	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.25086	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	0	NaN 
+																					 
+Model 2258	NF2   |  拴REBBP  & TGFB-UP 	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	-1	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	0.25086	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.18589	NaN	NaN	NaN 
+																					 
+Model 2259	NF2   |  星TEN  & TGFB-UP 	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+		-1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.25086	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.18589	NaN	NaN	NaN 
+																					 
+Model 22510	NF2   |  查(FANCG,PAX5)  & TGFB-UP 	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	-1	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	0.25086	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.18589	NaN	NaN	NaN 
+																					 
+Model 22511	昧F1  & NF2   |  TGFB-UP 	0	0	0	0	0	0	-1	0	1	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	0.18908	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.18589	NaN	NaN	NaN 
+																					 
+Model 22512	NF2   |  挂P300  & TGFB-UP 	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	0	0	0	0	0	0	-1	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.25086	NaN	0	NaN	NaN	NaN	NaN	NaN	0.18589	NaN	NaN	NaN 
+																					 
+Model 22513	拾RAF  & TGFB-UP   |  NF2 	0	0	0	0	0	-1	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+		0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	0.25086	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.18589	NaN	NaN	NaN 
+																					 
+Model 22514	星TEN  & TGFB-UP   |  NF2 	-1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+		0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.25086	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.18589	NaN	NaN	NaN 
+																					 
+Model 22515	TGFB-UP   |  NF2 	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+		0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.25086	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.18589	NaN	NaN	NaN 
+																					 
+Model 22516	TGFB-UP  & 曷GFB-DOWN   |  昧RAS  & EP300 	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	-1	0 
+		0	0	0	0	0	0	0	-1	0	0	1	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	0.21751	NaN	NaN	NaN	NaN	NaN	0.18589	NaN	0	NaN 
+																					 
+Model 22517	TGFB-UP  & 曷GFB-DOWN   |  昧RAS  & NF2 	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	-1	0 
+		0	0	0	0	0	0	0	-1	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	0.25086	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.18589	NaN	0	NaN 
+																					 
+Model 22518	TGFB-UP  & 曷GFB-DOWN   |  NF2 	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	-1	0 
+		0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.25086	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.18589	NaN	0	NaN 
+																					 
+Model 22519	TGFB-UP   |  昧F1  & NF2 	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+		0	0	0	0	0	0	-1	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	0.18908	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.18589	NaN	NaN	NaN 
+																					 
+Model 22520	TGFB-UP  & 曷GFB-DOWN   |  查19p12  & NF2 	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	-1	0 
+		0	-1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	0.25086	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.18589	NaN	0	NaN 
+																					 
+Model 22521	春RAS  & TGFB-UP   |  NF2 	0	0	0	0	-1	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+		0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	0.25086	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.18589	NaN	NaN	NaN 
+																					 
+Model 22522	TGFB-UP   |  NF2  & 拴DKN2A 	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+		0	0	0	0	0	0	0	0	1	-1	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.25086	0	NaN	NaN	NaN	NaN	NaN	NaN	0.18589	NaN	NaN	NaN 
+																					 
+Model 22523	TGFB-UP   |  查19p12  & NF2 	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+		0	-1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	0.25086	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.18589	NaN	NaN	NaN 
+																					 
+Model 22524	查19p12  & NF2   |  查13q14.2  & TGFB-UP 	0	-1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	0	0	0	0	0	0	0	0	0	-1	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	0.25086	NaN	NaN	NaN	NaN	0	NaN	NaN	0.18589	NaN	NaN	NaN 
+																					 
+Model 22525	EP300   |  TGFB-UP 	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.21751	NaN	NaN	NaN	NaN	NaN	0.18589	NaN	NaN	NaN 
+																					 
+Model 22526	星TEN  & NF2   |  拾RAF  & TGFB-UP 	-1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	0	-1	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	0	NaN	NaN	NaN	NaN	0	NaN	NaN	0.25086	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.18589	NaN	NaN	NaN 
+																					 
+Model 3101	NF2  | SMARCA4  | TGFB-UP 	0	0	0	0	0	0	0	0	1	0	0	0	1	0	0	0	1	0	0	0 
+CV error: 0.5	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.217	NaN	NaN	NaN	0.079885	NaN	NaN	NaN	0.16081	NaN	NaN	NaN 
+																					 
+Model 3102	CREBBP  | NF2  | TGFB-UP 	0	0	0	1	0	0	0	0	1	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.079885	NaN	NaN	NaN	NaN	0.10873	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.16081	NaN	NaN	NaN 
+																					 
+Model 3103	NF2  | EP300  | TGFB-UP 	0	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.10873	NaN	0.079885	NaN	NaN	NaN	NaN	NaN	0.16081	NaN	NaN	NaN 
+																					 
+Model 3111	SMARCA4  | TGFB-UP  | PI3K_only-DOWN 	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	1	1	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.11138	NaN	NaN	NaN	0.2242	0.046515	NaN	NaN 
+																					 
+Model 3112	EP300  | TGFB-UP  | PI3K_only-DOWN 	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	1	1	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.11138	NaN	NaN	NaN	NaN	NaN	0.2242	0.046515	NaN	NaN 
+																					 
+Model 3113	CREBBP  | TGFB-UP  | PI3K_only-DOWN 	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.11138	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.2242	0.046515	NaN	NaN 
+																					 
+Model 3121	NF2  | TGFB-UP  | PI3K_only-DOWN 	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	1	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.25999	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.19266	0.039971	NaN	NaN 
+																					 
+Model 3122	KRAS  | NF2  | TGFB-UP 	0	0	0	0	1	0	0	0	1	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	0.13027	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.19266	NaN	NaN	NaN 
+																					 
+Model 3123	NF2  | EP300  | TGFB-UP 	0	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.13027	NaN	0	NaN	NaN	NaN	NaN	NaN	0.19266	NaN	NaN	NaN 
+																					 
+Model 3124	NF2  | TGFB-UP 	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.25999	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.19266	NaN	NaN	NaN 
+																					 
+Model 3125	NF2  | TGFB-UP  | TGFB-DOWN 	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	0	1	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.13027	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.19266	NaN	0	NaN 
+																					 
+Model 3126	CREBBP  | NF2  | TGFB-UP 	0	0	0	1	0	0	0	0	1	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	0.13027	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.19266	NaN	NaN	NaN 
+																					 
+Model 3131	NF2  | SMARCA4  | TGFB-UP 	0	0	0	0	0	0	0	0	1	0	0	0	1	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.25259	NaN	NaN	NaN	0.092986	NaN	NaN	NaN	0.18718	NaN	NaN	NaN 
+																					 
+Model 3132	CREBBP  | NF2  | TGFB-UP 	0	0	0	1	0	0	0	0	1	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.092986	NaN	NaN	NaN	NaN	0.12657	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.18718	NaN	NaN	NaN 
+																					 
+Model 3133	NF2  | EP300  | TGFB-UP 	0	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.12657	NaN	0.092986	NaN	NaN	NaN	NaN	NaN	0.18718	NaN	NaN	NaN 
+																					 
+Model 3141	NF2  | SMARCA4  | PI3K_only-DOWN 	0	0	0	0	0	0	0	0	1	0	0	0	1	0	0	0	0	1	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.29976	NaN	NaN	NaN	0.11035	NaN	NaN	NaN	NaN	0.046086	NaN	NaN 
+																					 
+Model 3142	PTEN  | NF2  | EP300 	1	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	0.046086	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.1502	NaN	0.11035	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 3143	PTEN  | NF2  | SMARCA4 	1	0	0	0	0	0	0	0	1	0	0	0	1	0	0	0	0	0	0	0 
+	Feature Importance Scores:	0.046086	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.29976	NaN	NaN	NaN	0.11035	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 3144	PTEN  | CREBBP  | NF2 	1	0	0	1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	0.046086	NaN	NaN	0.11035	NaN	NaN	NaN	NaN	0.1502	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 3145	CREBBP  | NF2  | PI3K_only-DOWN 	0	0	0	1	0	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.11035	NaN	NaN	NaN	NaN	0.1502	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.046086	NaN	NaN 
+																					 
+Model 3146	NF2  | EP300  | PI3K_only-DOWN 	0	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0	0	1	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.1502	NaN	0.11035	NaN	NaN	NaN	NaN	NaN	NaN	0.046086	NaN	NaN 
+																					 
+Model 3151	NF2  | SMARCA4  | TGFB-UP 	0	0	0	0	0	0	0	0	1	0	0	0	1	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.25086	NaN	NaN	NaN	0.092349	NaN	NaN	NaN	0.18589	NaN	NaN	NaN 
+																					 
+Model 3152	CREBBP  | NF2  | TGFB-UP 	0	0	0	1	0	0	0	0	1	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.092349	NaN	NaN	NaN	NaN	0.1257	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.18589	NaN	NaN	NaN 
+																					 
+Model 3153	NF2  | EP300  | TGFB-UP 	0	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.1257	NaN	0.092349	NaN	NaN	NaN	NaN	NaN	0.18589	NaN	NaN	NaN 
+																					 
+Model 4101	NF2  | SMARCA4  | TGFB-UP  | PI3K_only-DOWN 	0	0	0	0	0	0	0	0	1	0	0	0	1	0	0	0	1	1	0	0 
+CV error: 0.5	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.217	NaN	NaN	NaN	0.079885	NaN	NaN	NaN	0.16081	0.033363	NaN	NaN 
+																					 
+Model 4102	CREBBP  | NF2  | TGFB-UP  | PI3K_only-DOWN 	0	0	0	1	0	0	0	0	1	0	0	0	0	0	0	0	1	1	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.079885	NaN	NaN	NaN	NaN	0.10873	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.16081	0.033363	NaN	NaN 
+																					 
+Model 4103	CREBBP  | KRAS  | NF2  | TGFB-UP 	0	0	0	1	1	0	0	0	1	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.079885	0	NaN	NaN	NaN	0.10873	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.16081	NaN	NaN	NaN 
+																					 
+Model 4104	KRAS  | NF2  | SMARCA4  | TGFB-UP 	0	0	0	0	1	0	0	0	1	0	0	0	1	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	0.10873	NaN	NaN	NaN	0.079885	NaN	NaN	NaN	0.16081	NaN	NaN	NaN 
+																					 
+Model 4105	KRAS  | NF2  | EP300  | TGFB-UP 	0	0	0	0	1	0	0	0	1	0	1	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	0.10873	NaN	0.079885	NaN	NaN	NaN	NaN	NaN	0.16081	NaN	NaN	NaN 
+																					 
+Model 4106	CREBBP  | NF2  | EP300  | TGFB-UP 	0	0	0	1	0	0	0	0	1	0	1	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	0.10873	NaN	0	NaN	NaN	NaN	NaN	NaN	0.16081	NaN	NaN	NaN 
+																					 
+Model 4107	CREBBP  | NF2  | PIK3CA  | TGFB-UP 	0	0	0	1	0	0	0	0	1	0	0	1	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.079885	NaN	NaN	NaN	NaN	0.10873	NaN	NaN	0	NaN	NaN	NaN	NaN	0.16081	NaN	NaN	NaN 
+																					 
+Model 4108	CREBBP  | NF2  | SMARCA4  | TGFB-UP 	0	0	0	1	0	0	0	0	1	0	0	0	1	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	0.10873	NaN	NaN	NaN	0	NaN	NaN	NaN	0.16081	NaN	NaN	NaN 
+																					 
+Model 4109	CREBBP  | NF2  | TGFB-UP 	0	0	0	1	0	0	0	0	1	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.079885	NaN	NaN	NaN	NaN	0.10873	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.16081	NaN	NaN	NaN 
+																					 
+Model 41010	CREBBP  | NF2  | TGFB-UP  | TGFB-DOWN 	0	0	0	1	0	0	0	0	1	0	0	0	0	0	0	0	1	0	1	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.079885	NaN	NaN	NaN	NaN	0.10873	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.16081	NaN	0	NaN 
+																					 
+Model 41011	NF2  | EP300  | TGFB-UP  | PI3K_only-DOWN 	0	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0	1	1	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.10873	NaN	0.079885	NaN	NaN	NaN	NaN	NaN	0.16081	0.033363	NaN	NaN 
+																					 
+Model 41012	NF2  | EP300  | PIK3CA  | TGFB-UP 	0	0	0	0	0	0	0	0	1	0	1	1	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.10873	NaN	0.079885	0	NaN	NaN	NaN	NaN	0.16081	NaN	NaN	NaN 
+																					 
+Model 41013	NF2  | PIK3CA  | SMARCA4  | TGFB-UP 	0	0	0	0	0	0	0	0	1	0	0	1	1	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.217	NaN	NaN	0	0.079885	NaN	NaN	NaN	0.16081	NaN	NaN	NaN 
+																					 
+Model 41014	NF2  | EP300  | SMARCA4  | TGFB-UP 	0	0	0	0	0	0	0	0	1	0	1	0	1	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.10873	NaN	0	NaN	0	NaN	NaN	NaN	0.16081	NaN	NaN	NaN 
+																					 
+Model 41015	NF2  | EP300  | TGFB-UP 	0	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.10873	NaN	0.079885	NaN	NaN	NaN	NaN	NaN	0.16081	NaN	NaN	NaN 
+																					 
+Model 41016	NF2  | EP300  | TGFB-UP  | TGFB-DOWN 	0	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0	1	0	1	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.10873	NaN	0.079885	NaN	NaN	NaN	NaN	NaN	0.16081	NaN	0	NaN 
+																					 
+Model 41017	NF2  | SMARCA4  | TGFB-UP 	0	0	0	0	0	0	0	0	1	0	0	0	1	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.217	NaN	NaN	NaN	0.079885	NaN	NaN	NaN	0.16081	NaN	NaN	NaN 
+																					 
+Model 41018	NF2  | SMARCA4  | TGFB-UP  | TGFB-DOWN 	0	0	0	0	0	0	0	0	1	0	0	0	1	0	0	0	1	0	1	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.10873	NaN	NaN	NaN	0.079885	NaN	NaN	NaN	0.16081	NaN	0	NaN 
+																					 
+Model 4111	SMARCA4  | TGFB-UP  | PI3K_only-DOWN 	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	1	1	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.11138	NaN	NaN	NaN	0.2242	0.046515	NaN	NaN 
+																					 
+Model 4112	CREBBP  | TGFB-UP  | PI3K_only-DOWN 	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.11138	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.2242	0.046515	NaN	NaN 
+																					 
+Model 4113	EP300  | TGFB-UP  | PI3K_only-DOWN 	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	1	1	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.11138	NaN	NaN	NaN	NaN	NaN	0.2242	0.046515	NaN	NaN 
+																					 
+Model 4114	CREBBP  | EP300  | TGFB-UP  | PI3K_only-DOWN 	0	0	0	1	0	0	0	0	0	0	1	0	0	0	0	0	1	1	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	0.2242	0.046515	NaN	NaN 
+																					 
+Model 4115	CREBBP  | PIK3CA  | TGFB-UP  | PI3K_only-DOWN 	0	0	0	1	0	0	0	0	0	0	0	1	0	0	0	0	1	1	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.11138	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	0.2242	0.046515	NaN	NaN 
+																					 
+Model 4116	CREBBP  | SMARCA4  | TGFB-UP  | PI3K_only-DOWN 	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	1	1	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	0.2242	0.046515	NaN	NaN 
+																					 
+Model 4117	EP300  | PIK3CA  | TGFB-UP  | PI3K_only-DOWN 	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	1	1	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.11138	0	NaN	NaN	NaN	NaN	0.2242	0.046515	NaN	NaN 
+																					 
+Model 4118	PIK3CA  | SMARCA4  | TGFB-UP  | PI3K_only-DOWN 	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	1	1	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	0.11138	NaN	NaN	NaN	0.2242	0.046515	NaN	NaN 
+																					 
+Model 4119	EP300  | SMARCA4  | TGFB-UP  | PI3K_only-DOWN 	0	0	0	0	0	0	0	0	0	0	1	0	1	0	0	0	1	1	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	0	NaN	NaN	NaN	0.2242	0.046515	NaN	NaN 
+																					 
+Model 4121	NF2  | TGFB-UP  | PI3K_only-DOWN 	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	1	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.25999	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.19266	0.039971	NaN	NaN 
+																					 
+Model 4122	CREBBP  | KRAS  | NF2  | TGFB-UP 	0	0	0	1	1	0	0	0	1	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	0	NaN	NaN	NaN	0.13027	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.19266	NaN	NaN	NaN 
+																					 
+Model 4123	KRAS  | NF2  | TGFB-UP  | PI3K_only-DOWN 	0	0	0	0	1	0	0	0	1	0	0	0	0	0	0	0	1	1	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	0.13027	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.19266	0.039971	NaN	NaN 
+																					 
+Model 4124	KRAS  | NF2  | EP300  | TGFB-UP 	0	0	0	0	1	0	0	0	1	0	1	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	0.13027	NaN	0	NaN	NaN	NaN	NaN	NaN	0.19266	NaN	NaN	NaN 
+																					 
+Model 4125	CREBBP  | NF2  | EP300  | TGFB-UP 	0	0	0	1	0	0	0	0	1	0	1	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	0.13027	NaN	0	NaN	NaN	NaN	NaN	NaN	0.19266	NaN	NaN	NaN 
+																					 
+Model 4126	CREBBP  | NF2  | TGFB-UP 	0	0	0	1	0	0	0	0	1	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	0.13027	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.19266	NaN	NaN	NaN 
+																					 
+Model 4127	CREBBP  | NF2  | TGFB-UP  | TGFB-DOWN 	0	0	0	1	0	0	0	0	1	0	0	0	0	0	0	0	1	0	1	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	0.13027	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.19266	NaN	0	NaN 
+																					 
+Model 4128	NF2  | PIK3CA  | TGFB-UP  | PI3K_only-DOWN 	0	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0	1	1	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.25999	NaN	NaN	0	NaN	NaN	NaN	NaN	0.19266	0.039971	NaN	NaN 
+																					 
+Model 4129	NF2  | TGFB-UP 	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.25999	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.19266	NaN	NaN	NaN 
+																					 
+Model 41210	NF2  | TGFB-UP  | TGFB-DOWN 	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	0	1	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.13027	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.19266	NaN	0	NaN 
+																					 
+Model 41211	NF2  | TGFB-UP  | PI3K_only-DOWN  | TGFB-DOWN 	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	1	1	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.13027	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.19266	0.039971	0	NaN 
+																					 
+Model 41212	NF2  | EP300  | TGFB-UP  | PI3K_only-DOWN 	0	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0	1	1	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.13027	NaN	0	NaN	NaN	NaN	NaN	NaN	0.19266	0.039971	NaN	NaN 
+																					 
+Model 41213	NF2  | EP300  | TGFB-UP 	0	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.13027	NaN	0	NaN	NaN	NaN	NaN	NaN	0.19266	NaN	NaN	NaN 
+																					 
+Model 41214	NF2  | EP300  | TGFB-UP  | TGFB-DOWN 	0	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0	1	0	1	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.13027	NaN	0	NaN	NaN	NaN	NaN	NaN	0.19266	NaN	0	NaN 
+																					 
+Model 41215	KRAS  | NF2  | TGFB-UP 	0	0	0	0	1	0	0	0	1	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	0.13027	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.19266	NaN	NaN	NaN 
+																					 
+Model 41216	KRAS  | NF2  | TGFB-UP  | TGFB-DOWN 	0	0	0	0	1	0	0	0	1	0	0	0	0	0	0	0	1	0	1	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	0.13027	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.19266	NaN	0	NaN 
+																					 
+Model 41217	CREBBP  | NF2  | TGFB-UP  | PI3K_only-DOWN 	0	0	0	1	0	0	0	0	1	0	0	0	0	0	0	0	1	1	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	0.13027	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.19266	0.039971	NaN	NaN 
+																					 
+Model 4131	NF2  | SMARCA4  | TGFB-UP  | PI3K_only-DOWN 	0	0	0	0	0	0	0	0	1	0	0	0	1	0	0	0	1	1	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.25259	NaN	NaN	NaN	0.092986	NaN	NaN	NaN	0.18718	0.038835	NaN	NaN 
+																					 
+Model 4132	CREBBP  | NRAS  | NF2  | TGFB-UP 	0	0	0	1	0	0	0	1	1	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.092986	NaN	NaN	NaN	0.038835	0.12657	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.18718	NaN	NaN	NaN 
+																					 
+Model 4133	CREBBP  | NF2  | TGFB-UP  | PI3K_only-DOWN 	0	0	0	1	0	0	0	0	1	0	0	0	0	0	0	0	1	1	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.092986	NaN	NaN	NaN	NaN	0.12657	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.18718	0.038835	NaN	NaN 
+																					 
+Model 4134	CREBBP  | KRAS  | NF2  | TGFB-UP 	0	0	0	1	1	0	0	0	1	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.092986	0	NaN	NaN	NaN	0.12657	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.18718	NaN	NaN	NaN 
+																					 
+Model 4135	NRAS  | NF2  | SMARCA4  | TGFB-UP 	0	0	0	0	0	0	0	1	1	0	0	0	1	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.038835	0.25259	NaN	NaN	NaN	0.092986	NaN	NaN	NaN	0.18718	NaN	NaN	NaN 
+																					 
+Model 4136	NF2  | EP300  | TGFB-UP  | PI3K_only-DOWN 	0	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0	1	1	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.12657	NaN	0.092986	NaN	NaN	NaN	NaN	NaN	0.18718	0.038835	NaN	NaN 
+																					 
+Model 4137	NF2  | EP300  | PIK3CA  | TGFB-UP 	0	0	0	0	0	0	0	0	1	0	1	1	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.12657	NaN	0.092986	0	NaN	NaN	NaN	NaN	0.18718	NaN	NaN	NaN 
+																					 
+Model 4138	NF2  | EP300  | SMARCA4  | TGFB-UP 	0	0	0	0	0	0	0	0	1	0	1	0	1	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.12657	NaN	0	NaN	0	NaN	NaN	NaN	0.18718	NaN	NaN	NaN 
+																					 
+Model 4139	NF2  | EP300  | TGFB-UP 	0	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.12657	NaN	0.092986	NaN	NaN	NaN	NaN	NaN	0.18718	NaN	NaN	NaN 
+																					 
+Model 41310	NF2  | EP300  | TGFB-UP  | TGFB-DOWN 	0	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0	1	0	1	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.12657	NaN	0.092986	NaN	NaN	NaN	NaN	NaN	0.18718	NaN	0	NaN 
+																					 
+Model 41311	KRAS  | NF2  | SMARCA4  | TGFB-UP 	0	0	0	0	1	0	0	0	1	0	0	0	1	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	0.12657	NaN	NaN	NaN	0.092986	NaN	NaN	NaN	0.18718	NaN	NaN	NaN 
+																					 
+Model 41312	KRAS  | NF2  | EP300  | TGFB-UP 	0	0	0	0	1	0	0	0	1	0	1	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	0.12657	NaN	0.092986	NaN	NaN	NaN	NaN	NaN	0.18718	NaN	NaN	NaN 
+																					 
+Model 41313	NRAS  | NF2  | EP300  | TGFB-UP 	0	0	0	0	0	0	0	1	1	0	1	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.038835	0.12657	NaN	0.092986	NaN	NaN	NaN	NaN	NaN	0.18718	NaN	NaN	NaN 
+																					 
+Model 41314	CREBBP  | NF2  | EP300  | TGFB-UP 	0	0	0	1	0	0	0	0	1	0	1	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	0.12657	NaN	0	NaN	NaN	NaN	NaN	NaN	0.18718	NaN	NaN	NaN 
+																					 
+Model 41315	CREBBP  | NF2  | PIK3CA  | TGFB-UP 	0	0	0	1	0	0	0	0	1	0	0	1	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.092986	NaN	NaN	NaN	NaN	0.12657	NaN	NaN	0	NaN	NaN	NaN	NaN	0.18718	NaN	NaN	NaN 
+																					 
+Model 41316	CREBBP  | NF2  | SMARCA4  | TGFB-UP 	0	0	0	1	0	0	0	0	1	0	0	0	1	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	0.12657	NaN	NaN	NaN	0	NaN	NaN	NaN	0.18718	NaN	NaN	NaN 
+																					 
+Model 41317	CREBBP  | NF2  | TGFB-UP 	0	0	0	1	0	0	0	0	1	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.092986	NaN	NaN	NaN	NaN	0.12657	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.18718	NaN	NaN	NaN 
+																					 
+Model 41318	CREBBP  | NF2  | TGFB-UP  | TGFB-DOWN 	0	0	0	1	0	0	0	0	1	0	0	0	0	0	0	0	1	0	1	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.092986	NaN	NaN	NaN	NaN	0.12657	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.18718	NaN	0	NaN 
+																					 
+Model 41319	NF2  | SMARCA4  | TGFB-UP 	0	0	0	0	0	0	0	0	1	0	0	0	1	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.25259	NaN	NaN	NaN	0.092986	NaN	NaN	NaN	0.18718	NaN	NaN	NaN 
+																					 
+Model 41320	NF2  | SMARCA4  | TGFB-UP  | TGFB-DOWN 	0	0	0	0	0	0	0	0	1	0	0	0	1	0	0	0	1	0	1	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.12657	NaN	NaN	NaN	0.092986	NaN	NaN	NaN	0.18718	NaN	0	NaN 
+																					 
+Model 41321	NF2  | PIK3CA  | SMARCA4  | TGFB-UP 	0	0	0	0	0	0	0	0	1	0	0	1	1	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.25259	NaN	NaN	0	0.092986	NaN	NaN	NaN	0.18718	NaN	NaN	NaN 
+																					 
+Model 4141	NF2  | SMARCA4  | PI3K_only-DOWN 	0	0	0	0	0	0	0	0	1	0	0	0	1	0	0	0	0	1	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.29976	NaN	NaN	NaN	0.11035	NaN	NaN	NaN	NaN	0.046086	NaN	NaN 
+																					 
+Model 4142	PTEN  | NF2  | EP300 	1	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	0.046086	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.1502	NaN	0.11035	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 4143	PTEN  | NF2  | SMARCA4 	1	0	0	0	0	0	0	0	1	0	0	0	1	0	0	0	0	0	0	0 
+	Feature Importance Scores:	0.046086	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.29976	NaN	NaN	NaN	0.11035	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 4144	PTEN  | CREBBP  | NF2 	1	0	0	1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	0.046086	NaN	NaN	0.11035	NaN	NaN	NaN	NaN	0.1502	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 4145	PTEN  | CREBBP  | KRAS  | NF2 	1	0	0	1	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	0.046086	NaN	NaN	0.11035	0	NaN	NaN	NaN	0.1502	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 4146	PTEN  | KRAS  | NF2  | SMARCA4 	1	0	0	0	1	0	0	0	1	0	0	0	1	0	0	0	0	0	0	0 
+	Feature Importance Scores:	0.046086	NaN	NaN	NaN	0	NaN	NaN	NaN	0.1502	NaN	NaN	NaN	0.11035	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 4147	CREBBP  | NF2  | PI3K_only-DOWN 	0	0	0	1	0	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.11035	NaN	NaN	NaN	NaN	0.1502	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.046086	NaN	NaN 
+																					 
+Model 4148	CREBBP  | KRAS  | NF2  | PI3K_only-DOWN 	0	0	0	1	1	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.11035	0	NaN	NaN	NaN	0.1502	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.046086	NaN	NaN 
+																					 
+Model 4149	NF2  | EP300  | PI3K_only-DOWN 	0	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0	0	1	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.1502	NaN	0.11035	NaN	NaN	NaN	NaN	NaN	NaN	0.046086	NaN	NaN 
+																					 
+Model 41410	NF2  | EP300  | PIK3CA  | PI3K_only-DOWN 	0	0	0	0	0	0	0	0	1	0	1	1	0	0	0	0	0	1	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.1502	NaN	0.11035	0	NaN	NaN	NaN	NaN	NaN	0.046086	NaN	NaN 
+																					 
+Model 41411	NF2  | EP300  | SMARCA4  | PI3K_only-DOWN 	0	0	0	0	0	0	0	0	1	0	1	0	1	0	0	0	0	1	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.1502	NaN	0	NaN	0	NaN	NaN	NaN	NaN	0.046086	NaN	NaN 
+																					 
+Model 41412	NF2  | PIK3CA  | SMARCA4  | PI3K_only-DOWN 	0	0	0	0	0	0	0	0	1	0	0	1	1	0	0	0	0	1	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.29976	NaN	NaN	0	0.11035	NaN	NaN	NaN	NaN	0.046086	NaN	NaN 
+																					 
+Model 41413	NF2  | SMARCA4  | PI3K_only-DOWN  | TGFB-DOWN 	0	0	0	0	0	0	0	0	1	0	0	0	1	0	0	0	0	1	1	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.1502	NaN	NaN	NaN	0.11035	NaN	NaN	NaN	NaN	0.046086	0	NaN 
+																					 
+Model 41414	PTEN  | KRAS  | NF2  | EP300 	1	0	0	0	1	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	0.046086	NaN	NaN	NaN	0	NaN	NaN	NaN	0.1502	NaN	0.11035	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 41415	KRAS  | NF2  | SMARCA4  | PI3K_only-DOWN 	0	0	0	0	1	0	0	0	1	0	0	0	1	0	0	0	0	1	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	0.1502	NaN	NaN	NaN	0.11035	NaN	NaN	NaN	NaN	0.046086	NaN	NaN 
+																					 
+Model 41416	KRAS  | NF2  | EP300  | PI3K_only-DOWN 	0	0	0	0	1	0	0	0	1	0	1	0	0	0	0	0	0	1	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	0.1502	NaN	0.11035	NaN	NaN	NaN	NaN	NaN	NaN	0.046086	NaN	NaN 
+																					 
+Model 41417	NF2  | EP300  | PI3K_only-DOWN  | TGFB-DOWN 	0	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0	0	1	1	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.1502	NaN	0.11035	NaN	NaN	NaN	NaN	NaN	NaN	0.046086	0	NaN 
+																					 
+Model 41418	CREBBP  | NF2  | EP300  | PI3K_only-DOWN 	0	0	0	1	0	0	0	0	1	0	1	0	0	0	0	0	0	1	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	0.1502	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	0.046086	NaN	NaN 
+																					 
+Model 41419	CREBBP  | NF2  | SMARCA4  | PI3K_only-DOWN 	0	0	0	1	0	0	0	0	1	0	0	0	1	0	0	0	0	1	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	0.1502	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	0.046086	NaN	NaN 
+																					 
+Model 41420	CREBBP  | NF2  | PIK3CA  | PI3K_only-DOWN 	0	0	0	1	0	0	0	0	1	0	0	1	0	0	0	0	0	1	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.11035	NaN	NaN	NaN	NaN	0.1502	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	0.046086	NaN	NaN 
+																					 
+Model 41421	CREBBP  | NF2  | PI3K_only-DOWN  | TGFB-DOWN 	0	0	0	1	0	0	0	0	1	0	0	0	0	0	0	0	0	1	1	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.11035	NaN	NaN	NaN	NaN	0.1502	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.046086	0	NaN 
+																					 
+Model 41422	PTEN  | CREBBP  | NF2  | EP300 	1	0	0	1	0	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	0.046086	NaN	NaN	0	NaN	NaN	NaN	NaN	0.1502	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 41423	PTEN  | CREBBP  | NF2  | PIK3CA 	1	0	0	1	0	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	0.046086	NaN	NaN	0.11035	NaN	NaN	NaN	NaN	0.1502	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 41424	PTEN  | CREBBP  | NF2  | SMARCA4 	1	0	0	1	0	0	0	0	1	0	0	0	1	0	0	0	0	0	0	0 
+	Feature Importance Scores:	0.046086	NaN	NaN	0	NaN	NaN	NaN	NaN	0.1502	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 41425	PTEN  | CREBBP  | NF2  | PI3K_only-DOWN 	1	0	0	1	0	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0 
+	Feature Importance Scores:	0	NaN	NaN	0.11035	NaN	NaN	NaN	NaN	0.1502	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN 
+																					 
+Model 41426	PTEN  | CREBBP  | NF2  | TGFB-DOWN 	1	0	0	1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	1	0 
+	Feature Importance Scores:	0.046086	NaN	NaN	0.11035	NaN	NaN	NaN	NaN	0.1502	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN 
+																					 
+Model 4151	NF2  | SMARCA4  | TGFB-UP 	0	0	0	0	0	0	0	0	1	0	0	0	1	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.25086	NaN	NaN	NaN	0.092349	NaN	NaN	NaN	0.18589	NaN	NaN	NaN 
+																					 
+Model 4152	CREBBP  | NF2  | TGFB-UP 	0	0	0	1	0	0	0	0	1	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.092349	NaN	NaN	NaN	NaN	0.1257	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.18589	NaN	NaN	NaN 
+																					 
+Model 4153	CREBBP  | KRAS  | NF2  | TGFB-UP 	0	0	0	1	1	0	0	0	1	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.092349	0	NaN	NaN	NaN	0.1257	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.18589	NaN	NaN	NaN 
+																					 
+Model 4154	KRAS  | NF2  | SMARCA4  | TGFB-UP 	0	0	0	0	1	0	0	0	1	0	0	0	1	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	0.1257	NaN	NaN	NaN	0.092349	NaN	NaN	NaN	0.18589	NaN	NaN	NaN 
+																					 
+Model 4155	KRAS  | NF2  | EP300  | TGFB-UP 	0	0	0	0	1	0	0	0	1	0	1	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	0.1257	NaN	0.092349	NaN	NaN	NaN	NaN	NaN	0.18589	NaN	NaN	NaN 
+																					 
+Model 4156	CREBBP  | NF2  | EP300  | TGFB-UP 	0	0	0	1	0	0	0	0	1	0	1	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	0.1257	NaN	0	NaN	NaN	NaN	NaN	NaN	0.18589	NaN	NaN	NaN 
+																					 
+Model 4157	CREBBP  | NF2  | SMARCA4  | TGFB-UP 	0	0	0	1	0	0	0	0	1	0	0	0	1	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	0.1257	NaN	NaN	NaN	0	NaN	NaN	NaN	0.18589	NaN	NaN	NaN 
+																					 
+Model 4158	CREBBP  | NF2  | H2O2-UP  | TGFB-UP 	0	0	0	1	0	0	0	0	1	0	0	0	0	0	1	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.092349	NaN	NaN	NaN	NaN	0.1257	NaN	NaN	NaN	NaN	NaN	0	NaN	0.18589	NaN	NaN	NaN 
+																					 
+Model 4159	NF2  | EP300  | TGFB-UP 	0	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.1257	NaN	0.092349	NaN	NaN	NaN	NaN	NaN	0.18589	NaN	NaN	NaN 
+																					 
+Model 41510	NF2  | EP300  | SMARCA4  | TGFB-UP 	0	0	0	0	0	0	0	0	1	0	1	0	1	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.1257	NaN	0	NaN	0	NaN	NaN	NaN	0.18589	NaN	NaN	NaN 
+																					 
+Model 41511	NF2  | EP300  | H2O2-UP  | TGFB-UP 	0	0	0	0	0	0	0	0	1	0	1	0	0	0	1	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.1257	NaN	0.092349	NaN	NaN	NaN	0	NaN	0.18589	NaN	NaN	NaN 
+																					 
+Model 41512	NF2  | EP300  | TGFB-UP  | TGFB-DOWN 	0	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0	1	0	1	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.1257	NaN	0.092349	NaN	NaN	NaN	NaN	NaN	0.18589	NaN	0	NaN 
+																					 
+Model 41513	NF2  | SMARCA4  | H2O2-UP  | TGFB-UP 	0	0	0	0	0	0	0	0	1	0	0	0	1	0	1	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.25086	NaN	NaN	NaN	0.092349	NaN	0	NaN	0.18589	NaN	NaN	NaN 
+																					 
+Model 41514	NF2  | SMARCA4  | TGFB-UP  | TGFB-DOWN 	0	0	0	0	0	0	0	0	1	0	0	0	1	0	0	0	1	0	1	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.1257	NaN	NaN	NaN	0.092349	NaN	NaN	NaN	0.18589	NaN	0	NaN 
+																					 
+Model 41515	CREBBP  | NF2  | TGFB-UP  | TGFB-DOWN 	0	0	0	1	0	0	0	0	1	0	0	0	0	0	0	0	1	0	1	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.092349	NaN	NaN	NaN	NaN	0.1257	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.18589	NaN	0	NaN 

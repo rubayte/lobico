@@ -16,6 +16,10 @@ class AppController < ApplicationController
     render json: @drugs
   end
 
+  def browseByDatasets
+    @datasets = Hash.new()
+    @datasets['fake'] = 1
+  end
 
   def browseByModels
     @searchTerm = nil
@@ -23,8 +27,12 @@ class AppController < ApplicationController
     @cvegt = nil
     @cancerSelected = ""
     @drugSelected = ""
+    @datasetSelected = ""
     if (params[:msearch] and params[:msearch] != "")
       @searchTerm = params[:msearch]
+    end
+    if (params[:dataset] and params[:dataset] != "DataSet")
+      @datasetSelected = params[:dataset]
     end
     if (params[:cancerType] and params[:cancerType] != "Cancer Type")
       @cancerSelected = params[:cancerType]
@@ -38,7 +46,10 @@ class AppController < ApplicationController
     if (params[:cvegt] and params[:cvegt] != "")
       @cvegt = params[:cvegt]
     end
-    (@modelsHash,@cancers,@drugs) = Datafile.getBestModels(params)
+    (@modelsHash,@cancers,@drugs,@datasets) = Datafile.getBestModels(params)
+    @cancers.unshift("Cancer Type")
+    @drugs.unshift("Drug")
+    @datasets.unshift("DataSet")
   end
   
   def viewModel
@@ -67,6 +78,15 @@ class AppController < ApplicationController
     @drug = params[:drug]#"Nutlin-3a"
     @cancer = params[:cancer]
     (@models,@histData,@modelData,@boxData,@heatmapData,@overallData,@models2,@mnData) = Datafile.getModelByCancerDrug(params[:cancer],params[:drug])
+    @singleModel = "Single Model"
+    @cvModel = "CV Model"
+  end
+  
+  def viewModel
+    @drug = params[:drug]
+    @cancer = params[:cancer]
+    @ds = params[:dataset]
+    (@models,@histData,@modelData,@boxData,@heatmapData,@overallData,@models2,@mnData,@totalCelllines,@highestPredCounts,@cutoffIC50,@oct,@oci,@hhp) = Datafile.getModelByCancerDrug(params[:cancer],params[:drug])
     @singleModel = "Single Model"
     @cvModel = "CV Model"
   end

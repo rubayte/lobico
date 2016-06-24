@@ -1,0 +1,884 @@
+KYM-1	ASPM		soft_tissue	Origin
+KYM-1	d(LARP4B)		soft_tissue	Origin
+KYM-1	d(BMPR1A,FAS,PTEN)		soft_tissue	Origin
+KYM-1	d(EXT2)	Mutated	soft_tissue	Origin
+KYM-1	a(MYC)		soft_tissue	Origin
+KYM-1	d(SYNCRIP,ZNF292)	Mutated	soft_tissue	Origin
+KYM-1	d(RPL22)		soft_tissue	Origin
+KYM-1	d17p13.2		soft_tissue	Origin
+KYM-1	d(CHD3,GPS2,TP53)		soft_tissue	Origin
+KYM-1	dXp11.3	Mutated	soft_tissue	Origin
+KYM-1	dXq22.3	Mutated	soft_tissue	Origin
+KYM-1	PI3K_only-UP		soft_tissue	Origin
+KYM-1	PI3K_only-DOWN	Mutated	soft_tissue	Origin
+SUP-B15	ASPM		leukemia	Origin
+SUP-B15	d(LARP4B)		leukemia	Origin
+SUP-B15	d(BMPR1A,FAS,PTEN)		leukemia	Origin
+SUP-B15	d(EXT2)		leukemia	Origin
+SUP-B15	a(MYC)		leukemia	Origin
+SUP-B15	d(SYNCRIP,ZNF292)		leukemia	Origin
+SUP-B15	d(RPL22)		leukemia	Origin
+SUP-B15	d17p13.2		leukemia	Origin
+SUP-B15	d(CHD3,GPS2,TP53)		leukemia	Origin
+SUP-B15	dXp11.3	Mutated	leukemia	Origin
+SUP-B15	dXq22.3	Mutated	leukemia	Origin
+SUP-B15	PI3K_only-UP		leukemia	Origin
+SUP-B15	PI3K_only-DOWN	Mutated	leukemia	Origin
+GA-10	ASPM		lymphoma	Origin
+GA-10	d(LARP4B)		lymphoma	Origin
+GA-10	d(BMPR1A,FAS,PTEN)		lymphoma	Origin
+GA-10	d(EXT2)	Mutated	lymphoma	Origin
+GA-10	a(MYC)		lymphoma	Origin
+GA-10	d(SYNCRIP,ZNF292)	Mutated	lymphoma	Origin
+GA-10	d(RPL22)		lymphoma	Origin
+GA-10	d17p13.2		lymphoma	Origin
+GA-10	d(CHD3,GPS2,TP53)		lymphoma	Origin
+GA-10	dXp11.3		lymphoma	Origin
+GA-10	dXq22.3		lymphoma	Origin
+GA-10	PI3K_only-UP		lymphoma	Origin
+GA-10	PI3K_only-DOWN		lymphoma	Origin
+KARPAS-231	ASPM		leukemia	Origin
+KARPAS-231	d(LARP4B)	Mutated	leukemia	Origin
+KARPAS-231	d(BMPR1A,FAS,PTEN)		leukemia	Origin
+KARPAS-231	d(EXT2)		leukemia	Origin
+KARPAS-231	a(MYC)		leukemia	Origin
+KARPAS-231	d(SYNCRIP,ZNF292)		leukemia	Origin
+KARPAS-231	d(RPL22)		leukemia	Origin
+KARPAS-231	d17p13.2	Mutated	leukemia	Origin
+KARPAS-231	d(CHD3,GPS2,TP53)	Mutated	leukemia	Origin
+KARPAS-231	dXp11.3		leukemia	Origin
+KARPAS-231	dXq22.3		leukemia	Origin
+KARPAS-231	PI3K_only-UP		leukemia	Origin
+KARPAS-231	PI3K_only-DOWN		leukemia	Origin
+KARPAS-620	ASPM		myeloma	Origin
+KARPAS-620	d(LARP4B)		myeloma	Origin
+KARPAS-620	d(BMPR1A,FAS,PTEN)		myeloma	Origin
+KARPAS-620	d(EXT2)		myeloma	Origin
+KARPAS-620	a(MYC)		myeloma	Origin
+KARPAS-620	d(SYNCRIP,ZNF292)	Mutated	myeloma	Origin
+KARPAS-620	d(RPL22)		myeloma	Origin
+KARPAS-620	d17p13.2		myeloma	Origin
+KARPAS-620	d(CHD3,GPS2,TP53)		myeloma	Origin
+KARPAS-620	dXp11.3		myeloma	Origin
+KARPAS-620	dXq22.3		myeloma	Origin
+KARPAS-620	PI3K_only-UP		myeloma	Origin
+KARPAS-620	PI3K_only-DOWN		myeloma	Origin
+KOPN-8	ASPM		leukemia	Origin
+KOPN-8	d(LARP4B)		leukemia	Origin
+KOPN-8	d(BMPR1A,FAS,PTEN)		leukemia	Origin
+KOPN-8	d(EXT2)		leukemia	Origin
+KOPN-8	a(MYC)		leukemia	Origin
+KOPN-8	d(SYNCRIP,ZNF292)	Mutated	leukemia	Origin
+KOPN-8	d(RPL22)		leukemia	Origin
+KOPN-8	d17p13.2		leukemia	Origin
+KOPN-8	d(CHD3,GPS2,TP53)		leukemia	Origin
+KOPN-8	dXp11.3		leukemia	Origin
+KOPN-8	dXq22.3		leukemia	Origin
+KOPN-8	PI3K_only-UP		leukemia	Origin
+KOPN-8	PI3K_only-DOWN		leukemia	Origin
+MOLP-8	ASPM		myeloma	Origin
+MOLP-8	d(LARP4B)		myeloma	Origin
+MOLP-8	d(BMPR1A,FAS,PTEN)	Mutated	myeloma	Origin
+MOLP-8	d(EXT2)		myeloma	Origin
+MOLP-8	a(MYC)		myeloma	Origin
+MOLP-8	d(SYNCRIP,ZNF292)	Mutated	myeloma	Origin
+MOLP-8	d(RPL22)		myeloma	Origin
+MOLP-8	d17p13.2		myeloma	Origin
+MOLP-8	d(CHD3,GPS2,TP53)		myeloma	Origin
+MOLP-8	dXp11.3	Mutated	myeloma	Origin
+MOLP-8	dXq22.3	Mutated	myeloma	Origin
+MOLP-8	PI3K_only-UP		myeloma	Origin
+MOLP-8	PI3K_only-DOWN		myeloma	Origin
+SLVL	ASPM		lymphoma	Origin
+SLVL	d(LARP4B)		lymphoma	Origin
+SLVL	d(BMPR1A,FAS,PTEN)		lymphoma	Origin
+SLVL	d(EXT2)		lymphoma	Origin
+SLVL	a(MYC)		lymphoma	Origin
+SLVL	d(SYNCRIP,ZNF292)	Mutated	lymphoma	Origin
+SLVL	d(RPL22)		lymphoma	Origin
+SLVL	d17p13.2		lymphoma	Origin
+SLVL	d(CHD3,GPS2,TP53)		lymphoma	Origin
+SLVL	dXp11.3		lymphoma	Origin
+SLVL	dXq22.3		lymphoma	Origin
+SLVL	PI3K_only-UP		lymphoma	Origin
+SLVL	PI3K_only-DOWN		lymphoma	Origin
+SU-DHL-16	ASPM		lymphoma	Origin
+SU-DHL-16	d(LARP4B)		lymphoma	Origin
+SU-DHL-16	d(BMPR1A,FAS,PTEN)		lymphoma	Origin
+SU-DHL-16	d(EXT2)		lymphoma	Origin
+SU-DHL-16	a(MYC)		lymphoma	Origin
+SU-DHL-16	d(SYNCRIP,ZNF292)		lymphoma	Origin
+SU-DHL-16	d(RPL22)	Mutated	lymphoma	Origin
+SU-DHL-16	d17p13.2	Mutated	lymphoma	Origin
+SU-DHL-16	d(CHD3,GPS2,TP53)	Mutated	lymphoma	Origin
+SU-DHL-16	dXp11.3		lymphoma	Origin
+SU-DHL-16	dXq22.3		lymphoma	Origin
+SU-DHL-16	PI3K_only-UP		lymphoma	Origin
+SU-DHL-16	PI3K_only-DOWN		lymphoma	Origin
+SU-DHL-4	ASPM		lymphoma	Origin
+SU-DHL-4	d(LARP4B)		lymphoma	Origin
+SU-DHL-4	d(BMPR1A,FAS,PTEN)		lymphoma	Origin
+SU-DHL-4	d(EXT2)		lymphoma	Origin
+SU-DHL-4	a(MYC)		lymphoma	Origin
+SU-DHL-4	d(SYNCRIP,ZNF292)		lymphoma	Origin
+SU-DHL-4	d(RPL22)	Mutated	lymphoma	Origin
+SU-DHL-4	d17p13.2		lymphoma	Origin
+SU-DHL-4	d(CHD3,GPS2,TP53)		lymphoma	Origin
+SU-DHL-4	dXp11.3	Mutated	lymphoma	Origin
+SU-DHL-4	dXq22.3	Mutated	lymphoma	Origin
+SU-DHL-4	PI3K_only-UP		lymphoma	Origin
+SU-DHL-4	PI3K_only-DOWN		lymphoma	Origin
+SU-DHL-6	ASPM		lymphoma	Origin
+SU-DHL-6	d(LARP4B)		lymphoma	Origin
+SU-DHL-6	d(BMPR1A,FAS,PTEN)		lymphoma	Origin
+SU-DHL-6	d(EXT2)		lymphoma	Origin
+SU-DHL-6	a(MYC)		lymphoma	Origin
+SU-DHL-6	d(SYNCRIP,ZNF292)		lymphoma	Origin
+SU-DHL-6	d(RPL22)	Mutated	lymphoma	Origin
+SU-DHL-6	d17p13.2		lymphoma	Origin
+SU-DHL-6	d(CHD3,GPS2,TP53)		lymphoma	Origin
+SU-DHL-6	dXp11.3	Mutated	lymphoma	Origin
+SU-DHL-6	dXq22.3	Mutated	lymphoma	Origin
+SU-DHL-6	PI3K_only-UP		lymphoma	Origin
+SU-DHL-6	PI3K_only-DOWN		lymphoma	Origin
+NCI-H720	ASPM		lung	Origin
+NCI-H720	d(LARP4B)		lung	Origin
+NCI-H720	d(BMPR1A,FAS,PTEN)		lung	Origin
+NCI-H720	d(EXT2)		lung	Origin
+NCI-H720	a(MYC)		lung	Origin
+NCI-H720	d(SYNCRIP,ZNF292)		lung	Origin
+NCI-H720	d(RPL22)	Mutated	lung	Origin
+NCI-H720	d17p13.2	Mutated	lung	Origin
+NCI-H720	d(CHD3,GPS2,TP53)	Mutated	lung	Origin
+NCI-H720	dXp11.3	Mutated	lung	Origin
+NCI-H720	dXq22.3	Mutated	lung	Origin
+NCI-H720	PI3K_only-UP		lung	Origin
+NCI-H720	PI3K_only-DOWN		lung	Origin
+VA-ES-BJ	ASPM		soft_tissue	Origin
+VA-ES-BJ	d(LARP4B)		soft_tissue	Origin
+VA-ES-BJ	d(BMPR1A,FAS,PTEN)		soft_tissue	Origin
+VA-ES-BJ	d(EXT2)		soft_tissue	Origin
+VA-ES-BJ	a(MYC)		soft_tissue	Origin
+VA-ES-BJ	d(SYNCRIP,ZNF292)	Mutated	soft_tissue	Origin
+VA-ES-BJ	d(RPL22)		soft_tissue	Origin
+VA-ES-BJ	d17p13.2		soft_tissue	Origin
+VA-ES-BJ	d(CHD3,GPS2,TP53)		soft_tissue	Origin
+VA-ES-BJ	dXp11.3		soft_tissue	Origin
+VA-ES-BJ	dXq22.3		soft_tissue	Origin
+VA-ES-BJ	PI3K_only-UP		soft_tissue	Origin
+VA-ES-BJ	PI3K_only-DOWN		soft_tissue	Origin
+NCI-H1355	ASPM		lung	Origin
+NCI-H1355	d(LARP4B)		lung	Origin
+NCI-H1355	d(BMPR1A,FAS,PTEN)		lung	Origin
+NCI-H1355	d(EXT2)	Mutated	lung	Origin
+NCI-H1355	a(MYC)		lung	Origin
+NCI-H1355	d(SYNCRIP,ZNF292)	Mutated	lung	Origin
+NCI-H1355	d(RPL22)		lung	Origin
+NCI-H1355	d17p13.2		lung	Origin
+NCI-H1355	d(CHD3,GPS2,TP53)		lung	Origin
+NCI-H1355	dXp11.3		lung	Origin
+NCI-H1355	dXq22.3	Mutated	lung	Origin
+NCI-H1355	PI3K_only-UP		lung	Origin
+NCI-H1355	PI3K_only-DOWN		lung	Origin
+IST-SL2	ASPM		lung	Origin
+IST-SL2	d(LARP4B)		lung	Origin
+IST-SL2	d(BMPR1A,FAS,PTEN)	Mutated	lung	Origin
+IST-SL2	d(EXT2)		lung	Origin
+IST-SL2	a(MYC)		lung	Origin
+IST-SL2	d(SYNCRIP,ZNF292)		lung	Origin
+IST-SL2	d(RPL22)	Mutated	lung	Origin
+IST-SL2	d17p13.2	Mutated	lung	Origin
+IST-SL2	d(CHD3,GPS2,TP53)	Mutated	lung	Origin
+IST-SL2	dXp11.3	Mutated	lung	Origin
+IST-SL2	dXq22.3	Mutated	lung	Origin
+IST-SL2	PI3K_only-UP		lung	Origin
+IST-SL2	PI3K_only-DOWN		lung	Origin
+LB1047-RCC	ASPM		kidney	Origin
+LB1047-RCC	d(LARP4B)		kidney	Origin
+LB1047-RCC	d(BMPR1A,FAS,PTEN)		kidney	Origin
+LB1047-RCC	d(EXT2)		kidney	Origin
+LB1047-RCC	a(MYC)		kidney	Origin
+LB1047-RCC	d(SYNCRIP,ZNF292)		kidney	Origin
+LB1047-RCC	d(RPL22)		kidney	Origin
+LB1047-RCC	d17p13.2		kidney	Origin
+LB1047-RCC	d(CHD3,GPS2,TP53)		kidney	Origin
+LB1047-RCC	dXp11.3		kidney	Origin
+LB1047-RCC	dXq22.3		kidney	Origin
+LB1047-RCC	PI3K_only-UP		kidney	Origin
+LB1047-RCC	PI3K_only-DOWN		kidney	Origin
+TE-15	ASPM		aero_digestive_tract	Origin
+TE-15	d(LARP4B)		aero_digestive_tract	Origin
+TE-15	d(BMPR1A,FAS,PTEN)		aero_digestive_tract	Origin
+TE-15	d(EXT2)	Mutated	aero_digestive_tract	Origin
+TE-15	a(MYC)		aero_digestive_tract	Origin
+TE-15	d(SYNCRIP,ZNF292)		aero_digestive_tract	Origin
+TE-15	d(RPL22)		aero_digestive_tract	Origin
+TE-15	d17p13.2		aero_digestive_tract	Origin
+TE-15	d(CHD3,GPS2,TP53)		aero_digestive_tract	Origin
+TE-15	dXp11.3	Mutated	aero_digestive_tract	Origin
+TE-15	dXq22.3		aero_digestive_tract	Origin
+TE-15	PI3K_only-UP		aero_digestive_tract	Origin
+TE-15	PI3K_only-DOWN		aero_digestive_tract	Origin
+CCRF-CEM	ASPM		blood	Origin
+CCRF-CEM	d(LARP4B)		blood	Origin
+CCRF-CEM	d(BMPR1A,FAS,PTEN)	Mutated	blood	Origin
+CCRF-CEM	d(EXT2)		blood	Origin
+CCRF-CEM	a(MYC)		blood	Origin
+CCRF-CEM	d(SYNCRIP,ZNF292)		blood	Origin
+CCRF-CEM	d(RPL22)	Mutated	blood	Origin
+CCRF-CEM	d17p13.2		blood	Origin
+CCRF-CEM	d(CHD3,GPS2,TP53)		blood	Origin
+CCRF-CEM	dXp11.3		blood	Origin
+CCRF-CEM	dXq22.3		blood	Origin
+CCRF-CEM	PI3K_only-UP		blood	Origin
+CCRF-CEM	PI3K_only-DOWN		blood	Origin
+RPMI-8226	ASPM		blood	Origin
+RPMI-8226	d(LARP4B)		blood	Origin
+RPMI-8226	d(BMPR1A,FAS,PTEN)		blood	Origin
+RPMI-8226	d(EXT2)		blood	Origin
+RPMI-8226	a(MYC)		blood	Origin
+RPMI-8226	d(SYNCRIP,ZNF292)	Mutated	blood	Origin
+RPMI-8226	d(RPL22)		blood	Origin
+RPMI-8226	d17p13.2		blood	Origin
+RPMI-8226	d(CHD3,GPS2,TP53)		blood	Origin
+RPMI-8226	dXp11.3		blood	Origin
+RPMI-8226	dXq22.3		blood	Origin
+RPMI-8226	PI3K_only-UP		blood	Origin
+RPMI-8226	PI3K_only-DOWN		blood	Origin
+SR	ASPM		blood	Origin
+SR	d(LARP4B)		blood	Origin
+SR	d(BMPR1A,FAS,PTEN)		blood	Origin
+SR	d(EXT2)		blood	Origin
+SR	a(MYC)		blood	Origin
+SR	d(SYNCRIP,ZNF292)		blood	Origin
+SR	d(RPL22)		blood	Origin
+SR	d17p13.2		blood	Origin
+SR	d(CHD3,GPS2,TP53)		blood	Origin
+SR	dXp11.3	Mutated	blood	Origin
+SR	dXq22.3	Mutated	blood	Origin
+SR	PI3K_only-UP		blood	Origin
+SR	PI3K_only-DOWN		blood	Origin
+SF539	ASPM		nervous_system	Origin
+SF539	d(LARP4B)		nervous_system	Origin
+SF539	d(BMPR1A,FAS,PTEN)	Mutated	nervous_system	Origin
+SF539	d(EXT2)		nervous_system	Origin
+SF539	a(MYC)		nervous_system	Origin
+SF539	d(SYNCRIP,ZNF292)		nervous_system	Origin
+SF539	d(RPL22)		nervous_system	Origin
+SF539	d17p13.2		nervous_system	Origin
+SF539	d(CHD3,GPS2,TP53)		nervous_system	Origin
+SF539	dXp11.3	Mutated	nervous_system	Origin
+SF539	dXq22.3		nervous_system	Origin
+SF539	PI3K_only-UP		nervous_system	Origin
+SF539	PI3K_only-DOWN	Mutated	nervous_system	Origin
+OVCAR-4	ASPM		urogenital_system	Origin
+OVCAR-4	d(LARP4B)		urogenital_system	Origin
+OVCAR-4	d(BMPR1A,FAS,PTEN)		urogenital_system	Origin
+OVCAR-4	d(EXT2)		urogenital_system	Origin
+OVCAR-4	a(MYC)	Mutated	urogenital_system	Origin
+OVCAR-4	d(SYNCRIP,ZNF292)		urogenital_system	Origin
+OVCAR-4	d(RPL22)		urogenital_system	Origin
+OVCAR-4	d17p13.2		urogenital_system	Origin
+OVCAR-4	d(CHD3,GPS2,TP53)		urogenital_system	Origin
+OVCAR-4	dXp11.3		urogenital_system	Origin
+OVCAR-4	dXq22.3		urogenital_system	Origin
+OVCAR-4	PI3K_only-UP	Mutated	urogenital_system	Origin
+OVCAR-4	PI3K_only-DOWN		urogenital_system	Origin
+Becker	ASPM		nervous_system	Origin
+Becker	d(LARP4B)		nervous_system	Origin
+Becker	d(BMPR1A,FAS,PTEN)	Mutated	nervous_system	Origin
+Becker	d(EXT2)		nervous_system	Origin
+Becker	a(MYC)		nervous_system	Origin
+Becker	d(SYNCRIP,ZNF292)		nervous_system	Origin
+Becker	d(RPL22)		nervous_system	Origin
+Becker	d17p13.2		nervous_system	Origin
+Becker	d(CHD3,GPS2,TP53)		nervous_system	Origin
+Becker	dXp11.3		nervous_system	Origin
+Becker	dXq22.3		nervous_system	Origin
+Becker	PI3K_only-UP		nervous_system	Origin
+Becker	PI3K_only-DOWN		nervous_system	Origin
+BE-13	ASPM		blood	Origin
+BE-13	d(LARP4B)		blood	Origin
+BE-13	d(BMPR1A,FAS,PTEN)		blood	Origin
+BE-13	d(EXT2)		blood	Origin
+BE-13	a(MYC)		blood	Origin
+BE-13	d(SYNCRIP,ZNF292)	Mutated	blood	Origin
+BE-13	d(RPL22)		blood	Origin
+BE-13	d17p13.2		blood	Origin
+BE-13	d(CHD3,GPS2,TP53)		blood	Origin
+BE-13	dXp11.3		blood	Origin
+BE-13	dXq22.3		blood	Origin
+BE-13	PI3K_only-UP		blood	Origin
+BE-13	PI3K_only-DOWN		blood	Origin
+697	ASPM	Mutated	blood	Origin
+697	d(LARP4B)		blood	Origin
+697	d(BMPR1A,FAS,PTEN)		blood	Origin
+697	d(EXT2)		blood	Origin
+697	a(MYC)		blood	Origin
+697	d(SYNCRIP,ZNF292)	Mutated	blood	Origin
+697	d(RPL22)		blood	Origin
+697	d17p13.2		blood	Origin
+697	d(CHD3,GPS2,TP53)		blood	Origin
+697	dXp11.3	Mutated	blood	Origin
+697	dXq22.3	Mutated	blood	Origin
+697	PI3K_only-UP		blood	Origin
+697	PI3K_only-DOWN		blood	Origin
+Daudi	ASPM		blood	Origin
+Daudi	d(LARP4B)		blood	Origin
+Daudi	d(BMPR1A,FAS,PTEN)		blood	Origin
+Daudi	d(EXT2)		blood	Origin
+Daudi	a(MYC)		blood	Origin
+Daudi	d(SYNCRIP,ZNF292)		blood	Origin
+Daudi	d(RPL22)		blood	Origin
+Daudi	d17p13.2		blood	Origin
+Daudi	d(CHD3,GPS2,TP53)		blood	Origin
+Daudi	dXp11.3		blood	Origin
+Daudi	dXq22.3		blood	Origin
+Daudi	PI3K_only-UP		blood	Origin
+Daudi	PI3K_only-DOWN		blood	Origin
+DEL	ASPM		blood	Origin
+DEL	d(LARP4B)		blood	Origin
+DEL	d(BMPR1A,FAS,PTEN)		blood	Origin
+DEL	d(EXT2)		blood	Origin
+DEL	a(MYC)		blood	Origin
+DEL	d(SYNCRIP,ZNF292)	Mutated	blood	Origin
+DEL	d(RPL22)		blood	Origin
+DEL	d17p13.2		blood	Origin
+DEL	d(CHD3,GPS2,TP53)		blood	Origin
+DEL	dXp11.3		blood	Origin
+DEL	dXq22.3		blood	Origin
+DEL	PI3K_only-UP		blood	Origin
+DEL	PI3K_only-DOWN		blood	Origin
+EB-3	ASPM		blood	Origin
+EB-3	d(LARP4B)		blood	Origin
+EB-3	d(BMPR1A,FAS,PTEN)		blood	Origin
+EB-3	d(EXT2)		blood	Origin
+EB-3	a(MYC)		blood	Origin
+EB-3	d(SYNCRIP,ZNF292)		blood	Origin
+EB-3	d(RPL22)		blood	Origin
+EB-3	d17p13.2		blood	Origin
+EB-3	d(CHD3,GPS2,TP53)		blood	Origin
+EB-3	dXp11.3	Mutated	blood	Origin
+EB-3	dXq22.3	Mutated	blood	Origin
+EB-3	PI3K_only-UP		blood	Origin
+EB-3	PI3K_only-DOWN	Mutated	blood	Origin
+ETK-1	ASPM		digestive_system	Origin
+ETK-1	d(LARP4B)		digestive_system	Origin
+ETK-1	d(BMPR1A,FAS,PTEN)		digestive_system	Origin
+ETK-1	d(EXT2)		digestive_system	Origin
+ETK-1	a(MYC)	Mutated	digestive_system	Origin
+ETK-1	d(SYNCRIP,ZNF292)		digestive_system	Origin
+ETK-1	d(RPL22)		digestive_system	Origin
+ETK-1	d17p13.2		digestive_system	Origin
+ETK-1	d(CHD3,GPS2,TP53)		digestive_system	Origin
+ETK-1	dXp11.3		digestive_system	Origin
+ETK-1	dXq22.3		digestive_system	Origin
+ETK-1	PI3K_only-UP	Mutated	digestive_system	Origin
+ETK-1	PI3K_only-DOWN		digestive_system	Origin
+HEL	ASPM		blood	Origin
+HEL	d(LARP4B)		blood	Origin
+HEL	d(BMPR1A,FAS,PTEN)		blood	Origin
+HEL	d(EXT2)		blood	Origin
+HEL	a(MYC)		blood	Origin
+HEL	d(SYNCRIP,ZNF292)		blood	Origin
+HEL	d(RPL22)		blood	Origin
+HEL	d17p13.2		blood	Origin
+HEL	d(CHD3,GPS2,TP53)		blood	Origin
+HEL	dXp11.3	Mutated	blood	Origin
+HEL	dXq22.3	Mutated	blood	Origin
+HEL	PI3K_only-UP		blood	Origin
+HEL	PI3K_only-DOWN		blood	Origin
+HH	ASPM		blood	Origin
+HH	d(LARP4B)		blood	Origin
+HH	d(BMPR1A,FAS,PTEN)	Mutated	blood	Origin
+HH	d(EXT2)		blood	Origin
+HH	a(MYC)		blood	Origin
+HH	d(SYNCRIP,ZNF292)	Mutated	blood	Origin
+HH	d(RPL22)		blood	Origin
+HH	d17p13.2		blood	Origin
+HH	d(CHD3,GPS2,TP53)	Mutated	blood	Origin
+HH	dXp11.3	Mutated	blood	Origin
+HH	dXq22.3	Mutated	blood	Origin
+HH	PI3K_only-UP		blood	Origin
+HH	PI3K_only-DOWN		blood	Origin
+JiyoyeP-2003	ASPM		blood	Origin
+JiyoyeP-2003	d(LARP4B)		blood	Origin
+JiyoyeP-2003	d(BMPR1A,FAS,PTEN)		blood	Origin
+JiyoyeP-2003	d(EXT2)		blood	Origin
+JiyoyeP-2003	a(MYC)		blood	Origin
+JiyoyeP-2003	d(SYNCRIP,ZNF292)		blood	Origin
+JiyoyeP-2003	d(RPL22)		blood	Origin
+JiyoyeP-2003	d17p13.2		blood	Origin
+JiyoyeP-2003	d(CHD3,GPS2,TP53)		blood	Origin
+JiyoyeP-2003	dXp11.3	Mutated	blood	Origin
+JiyoyeP-2003	dXq22.3	Mutated	blood	Origin
+JiyoyeP-2003	PI3K_only-UP		blood	Origin
+JiyoyeP-2003	PI3K_only-DOWN		blood	Origin
+KALS-1	ASPM		nervous_system	Origin
+KALS-1	d(LARP4B)		nervous_system	Origin
+KALS-1	d(BMPR1A,FAS,PTEN)		nervous_system	Origin
+KALS-1	d(EXT2)		nervous_system	Origin
+KALS-1	a(MYC)		nervous_system	Origin
+KALS-1	d(SYNCRIP,ZNF292)	Mutated	nervous_system	Origin
+KALS-1	d(RPL22)		nervous_system	Origin
+KALS-1	d17p13.2		nervous_system	Origin
+KALS-1	d(CHD3,GPS2,TP53)		nervous_system	Origin
+KALS-1	dXp11.3		nervous_system	Origin
+KALS-1	dXq22.3		nervous_system	Origin
+KALS-1	PI3K_only-UP		nervous_system	Origin
+KALS-1	PI3K_only-DOWN		nervous_system	Origin
+KARPAS-422	ASPM		blood	Origin
+KARPAS-422	d(LARP4B)		blood	Origin
+KARPAS-422	d(BMPR1A,FAS,PTEN)	Mutated	blood	Origin
+KARPAS-422	d(EXT2)		blood	Origin
+KARPAS-422	a(MYC)		blood	Origin
+KARPAS-422	d(SYNCRIP,ZNF292)	Mutated	blood	Origin
+KARPAS-422	d(RPL22)		blood	Origin
+KARPAS-422	d17p13.2		blood	Origin
+KARPAS-422	d(CHD3,GPS2,TP53)		blood	Origin
+KARPAS-422	dXp11.3		blood	Origin
+KARPAS-422	dXq22.3		blood	Origin
+KARPAS-422	PI3K_only-UP		blood	Origin
+KARPAS-422	PI3K_only-DOWN		blood	Origin
+KE-37	ASPM		blood	Origin
+KE-37	d(LARP4B)		blood	Origin
+KE-37	d(BMPR1A,FAS,PTEN)	Mutated	blood	Origin
+KE-37	d(EXT2)		blood	Origin
+KE-37	a(MYC)		blood	Origin
+KE-37	d(SYNCRIP,ZNF292)		blood	Origin
+KE-37	d(RPL22)		blood	Origin
+KE-37	d17p13.2		blood	Origin
+KE-37	d(CHD3,GPS2,TP53)		blood	Origin
+KE-37	dXp11.3	Mutated	blood	Origin
+KE-37	dXq22.3	Mutated	blood	Origin
+KE-37	PI3K_only-UP		blood	Origin
+KE-37	PI3K_only-DOWN		blood	Origin
+KINGS-1	ASPM		nervous_system	Origin
+KINGS-1	d(LARP4B)		nervous_system	Origin
+KINGS-1	d(BMPR1A,FAS,PTEN)	Mutated	nervous_system	Origin
+KINGS-1	d(EXT2)		nervous_system	Origin
+KINGS-1	a(MYC)		nervous_system	Origin
+KINGS-1	d(SYNCRIP,ZNF292)	Mutated	nervous_system	Origin
+KINGS-1	d(RPL22)		nervous_system	Origin
+KINGS-1	d17p13.2		nervous_system	Origin
+KINGS-1	d(CHD3,GPS2,TP53)		nervous_system	Origin
+KINGS-1	dXp11.3	Mutated	nervous_system	Origin
+KINGS-1	dXq22.3	Mutated	nervous_system	Origin
+KINGS-1	PI3K_only-UP		nervous_system	Origin
+KINGS-1	PI3K_only-DOWN		nervous_system	Origin
+KU812	ASPM		blood	Origin
+KU812	d(LARP4B)		blood	Origin
+KU812	d(BMPR1A,FAS,PTEN)		blood	Origin
+KU812	d(EXT2)		blood	Origin
+KU812	a(MYC)		blood	Origin
+KU812	d(SYNCRIP,ZNF292)	Mutated	blood	Origin
+KU812	d(RPL22)		blood	Origin
+KU812	d17p13.2		blood	Origin
+KU812	d(CHD3,GPS2,TP53)		blood	Origin
+KU812	dXp11.3	Mutated	blood	Origin
+KU812	dXq22.3	Mutated	blood	Origin
+KU812	PI3K_only-UP		blood	Origin
+KU812	PI3K_only-DOWN		blood	Origin
+KS-1	ASPM		nervous_system	Origin
+KS-1	d(LARP4B)		nervous_system	Origin
+KS-1	d(BMPR1A,FAS,PTEN)		nervous_system	Origin
+KS-1	d(EXT2)		nervous_system	Origin
+KS-1	a(MYC)		nervous_system	Origin
+KS-1	d(SYNCRIP,ZNF292)	Mutated	nervous_system	Origin
+KS-1	d(RPL22)		nervous_system	Origin
+KS-1	d17p13.2		nervous_system	Origin
+KS-1	d(CHD3,GPS2,TP53)		nervous_system	Origin
+KS-1	dXp11.3		nervous_system	Origin
+KS-1	dXq22.3		nervous_system	Origin
+KS-1	PI3K_only-UP		nervous_system	Origin
+KS-1	PI3K_only-DOWN		nervous_system	Origin
+LC-2-ad	ASPM		lung	Origin
+LC-2-ad	d(LARP4B)	Mutated	lung	Origin
+LC-2-ad	d(BMPR1A,FAS,PTEN)		lung	Origin
+LC-2-ad	d(EXT2)		lung	Origin
+LC-2-ad	a(MYC)	Mutated	lung	Origin
+LC-2-ad	d(SYNCRIP,ZNF292)	Mutated	lung	Origin
+LC-2-ad	d(RPL22)		lung	Origin
+LC-2-ad	d17p13.2	Mutated	lung	Origin
+LC-2-ad	d(CHD3,GPS2,TP53)	Mutated	lung	Origin
+LC-2-ad	dXp11.3		lung	Origin
+LC-2-ad	dXq22.3		lung	Origin
+LC-2-ad	PI3K_only-UP		lung	Origin
+LC-2-ad	PI3K_only-DOWN		lung	Origin
+LC4-1	ASPM		blood	Origin
+LC4-1	d(LARP4B)		blood	Origin
+LC4-1	d(BMPR1A,FAS,PTEN)		blood	Origin
+LC4-1	d(EXT2)		blood	Origin
+LC4-1	a(MYC)		blood	Origin
+LC4-1	d(SYNCRIP,ZNF292)	Mutated	blood	Origin
+LC4-1	d(RPL22)		blood	Origin
+LC4-1	d17p13.2		blood	Origin
+LC4-1	d(CHD3,GPS2,TP53)		blood	Origin
+LC4-1	dXp11.3		blood	Origin
+LC4-1	dXq22.3		blood	Origin
+LC4-1	PI3K_only-UP		blood	Origin
+LC4-1	PI3K_only-DOWN		blood	Origin
+MC116	ASPM		blood	Origin
+MC116	d(LARP4B)		blood	Origin
+MC116	d(BMPR1A,FAS,PTEN)		blood	Origin
+MC116	d(EXT2)		blood	Origin
+MC116	a(MYC)		blood	Origin
+MC116	d(SYNCRIP,ZNF292)	Mutated	blood	Origin
+MC116	d(RPL22)		blood	Origin
+MC116	d17p13.2		blood	Origin
+MC116	d(CHD3,GPS2,TP53)		blood	Origin
+MC116	dXp11.3	Mutated	blood	Origin
+MC116	dXq22.3	Mutated	blood	Origin
+MC116	PI3K_only-UP		blood	Origin
+MC116	PI3K_only-DOWN		blood	Origin
+MHH-PREB-1	ASPM		blood	Origin
+MHH-PREB-1	d(LARP4B)		blood	Origin
+MHH-PREB-1	d(BMPR1A,FAS,PTEN)		blood	Origin
+MHH-PREB-1	d(EXT2)		blood	Origin
+MHH-PREB-1	a(MYC)		blood	Origin
+MHH-PREB-1	d(SYNCRIP,ZNF292)		blood	Origin
+MHH-PREB-1	d(RPL22)		blood	Origin
+MHH-PREB-1	d17p13.2		blood	Origin
+MHH-PREB-1	d(CHD3,GPS2,TP53)		blood	Origin
+MHH-PREB-1	dXp11.3	Mutated	blood	Origin
+MHH-PREB-1	dXq22.3	Mutated	blood	Origin
+MHH-PREB-1	PI3K_only-UP		blood	Origin
+MHH-PREB-1	PI3K_only-DOWN		blood	Origin
+MRK-nu-1	ASPM		breast	Origin
+MRK-nu-1	d(LARP4B)		breast	Origin
+MRK-nu-1	d(BMPR1A,FAS,PTEN)		breast	Origin
+MRK-nu-1	d(EXT2)		breast	Origin
+MRK-nu-1	a(MYC)	Mutated	breast	Origin
+MRK-nu-1	d(SYNCRIP,ZNF292)		breast	Origin
+MRK-nu-1	d(RPL22)		breast	Origin
+MRK-nu-1	d17p13.2		breast	Origin
+MRK-nu-1	d(CHD3,GPS2,TP53)		breast	Origin
+MRK-nu-1	dXp11.3		breast	Origin
+MRK-nu-1	dXq22.3		breast	Origin
+MRK-nu-1	PI3K_only-UP	Mutated	breast	Origin
+MRK-nu-1	PI3K_only-DOWN		breast	Origin
+no-11	ASPM		nervous_system	Origin
+no-11	d(LARP4B)		nervous_system	Origin
+no-11	d(BMPR1A,FAS,PTEN)		nervous_system	Origin
+no-11	d(EXT2)		nervous_system	Origin
+no-11	a(MYC)		nervous_system	Origin
+no-11	d(SYNCRIP,ZNF292)	Mutated	nervous_system	Origin
+no-11	d(RPL22)		nervous_system	Origin
+no-11	d17p13.2		nervous_system	Origin
+no-11	d(CHD3,GPS2,TP53)		nervous_system	Origin
+no-11	dXp11.3		nervous_system	Origin
+no-11	dXq22.3		nervous_system	Origin
+no-11	PI3K_only-UP		nervous_system	Origin
+no-11	PI3K_only-DOWN		nervous_system	Origin
+NTERA-2 cl.D1	ASPM		NA	NA
+NTERA-2 cl.D1	d(LARP4B)		NA	NA
+NTERA-2 cl.D1	d(BMPR1A,FAS,PTEN)		NA	NA
+NTERA-2 cl.D1	d(EXT2)		NA	NA
+NTERA-2 cl.D1	a(MYC)		NA	NA
+NTERA-2 cl.D1	d(SYNCRIP,ZNF292)		NA	NA
+NTERA-2 cl.D1	d(RPL22)	Mutated	NA	NA
+NTERA-2 cl.D1	d17p13.2		NA	NA
+NTERA-2 cl.D1	d(CHD3,GPS2,TP53)		NA	NA
+NTERA-2 cl.D1	dXp11.3		NA	NA
+NTERA-2 cl.D1	dXq22.3		NA	NA
+NTERA-2 cl.D1	PI3K_only-UP		NA	NA
+NTERA-2 cl.D1	PI3K_only-DOWN		NA	NA
+OPM-2	ASPM		blood	Origin
+OPM-2	d(LARP4B)		blood	Origin
+OPM-2	d(BMPR1A,FAS,PTEN)	Mutated	blood	Origin
+OPM-2	d(EXT2)		blood	Origin
+OPM-2	a(MYC)		blood	Origin
+OPM-2	d(SYNCRIP,ZNF292)		blood	Origin
+OPM-2	d(RPL22)		blood	Origin
+OPM-2	d17p13.2		blood	Origin
+OPM-2	d(CHD3,GPS2,TP53)		blood	Origin
+OPM-2	dXp11.3		blood	Origin
+OPM-2	dXq22.3		blood	Origin
+OPM-2	PI3K_only-UP		blood	Origin
+OPM-2	PI3K_only-DOWN		blood	Origin
+OCUB-M	ASPM		breast	Origin
+OCUB-M	d(LARP4B)		breast	Origin
+OCUB-M	d(BMPR1A,FAS,PTEN)		breast	Origin
+OCUB-M	d(EXT2)		breast	Origin
+OCUB-M	a(MYC)	Mutated	breast	Origin
+OCUB-M	d(SYNCRIP,ZNF292)	Mutated	breast	Origin
+OCUB-M	d(RPL22)		breast	Origin
+OCUB-M	d17p13.2		breast	Origin
+OCUB-M	d(CHD3,GPS2,TP53)		breast	Origin
+OCUB-M	dXp11.3		breast	Origin
+OCUB-M	dXq22.3		breast	Origin
+OCUB-M	PI3K_only-UP	Mutated	breast	Origin
+OCUB-M	PI3K_only-DOWN		breast	Origin
+RPMI-6666	ASPM		blood	Origin
+RPMI-6666	d(LARP4B)		blood	Origin
+RPMI-6666	d(BMPR1A,FAS,PTEN)		blood	Origin
+RPMI-6666	d(EXT2)		blood	Origin
+RPMI-6666	a(MYC)		blood	Origin
+RPMI-6666	d(SYNCRIP,ZNF292)		blood	Origin
+RPMI-6666	d(RPL22)		blood	Origin
+RPMI-6666	d17p13.2		blood	Origin
+RPMI-6666	d(CHD3,GPS2,TP53)		blood	Origin
+RPMI-6666	dXp11.3	Mutated	blood	Origin
+RPMI-6666	dXq22.3	Mutated	blood	Origin
+RPMI-6666	PI3K_only-UP		blood	Origin
+RPMI-6666	PI3K_only-DOWN		blood	Origin
+RPMI-8402	ASPM		blood	Origin
+RPMI-8402	d(LARP4B)		blood	Origin
+RPMI-8402	d(BMPR1A,FAS,PTEN)		blood	Origin
+RPMI-8402	d(EXT2)		blood	Origin
+RPMI-8402	a(MYC)		blood	Origin
+RPMI-8402	d(SYNCRIP,ZNF292)		blood	Origin
+RPMI-8402	d(RPL22)		blood	Origin
+RPMI-8402	d17p13.2		blood	Origin
+RPMI-8402	d(CHD3,GPS2,TP53)		blood	Origin
+RPMI-8402	dXp11.3		blood	Origin
+RPMI-8402	dXq22.3		blood	Origin
+RPMI-8402	PI3K_only-UP		blood	Origin
+RPMI-8402	PI3K_only-DOWN		blood	Origin
+SH-4	ASPM		skin	Origin
+SH-4	d(LARP4B)		skin	Origin
+SH-4	d(BMPR1A,FAS,PTEN)		skin	Origin
+SH-4	d(EXT2)		skin	Origin
+SH-4	a(MYC)		skin	Origin
+SH-4	d(SYNCRIP,ZNF292)	Mutated	skin	Origin
+SH-4	d(RPL22)		skin	Origin
+SH-4	d17p13.2		skin	Origin
+SH-4	d(CHD3,GPS2,TP53)		skin	Origin
+SH-4	dXp11.3		skin	Origin
+SH-4	dXq22.3	Mutated	skin	Origin
+SH-4	PI3K_only-UP		skin	Origin
+SH-4	PI3K_only-DOWN		skin	Origin
+SIG-M5	ASPM		blood	Origin
+SIG-M5	d(LARP4B)		blood	Origin
+SIG-M5	d(BMPR1A,FAS,PTEN)		blood	Origin
+SIG-M5	d(EXT2)		blood	Origin
+SIG-M5	a(MYC)		blood	Origin
+SIG-M5	d(SYNCRIP,ZNF292)	Mutated	blood	Origin
+SIG-M5	d(RPL22)		blood	Origin
+SIG-M5	d17p13.2		blood	Origin
+SIG-M5	d(CHD3,GPS2,TP53)		blood	Origin
+SIG-M5	dXp11.3		blood	Origin
+SIG-M5	dXq22.3		blood	Origin
+SIG-M5	PI3K_only-UP		blood	Origin
+SIG-M5	PI3K_only-DOWN		blood	Origin
+SK-LMS-1	ASPM		soft_tissue	Origin
+SK-LMS-1	d(LARP4B)		soft_tissue	Origin
+SK-LMS-1	d(BMPR1A,FAS,PTEN)		soft_tissue	Origin
+SK-LMS-1	d(EXT2)		soft_tissue	Origin
+SK-LMS-1	a(MYC)		soft_tissue	Origin
+SK-LMS-1	d(SYNCRIP,ZNF292)		soft_tissue	Origin
+SK-LMS-1	d(RPL22)		soft_tissue	Origin
+SK-LMS-1	d17p13.2		soft_tissue	Origin
+SK-LMS-1	d(CHD3,GPS2,TP53)		soft_tissue	Origin
+SK-LMS-1	dXp11.3	Mutated	soft_tissue	Origin
+SK-LMS-1	dXq22.3		soft_tissue	Origin
+SK-LMS-1	PI3K_only-UP		soft_tissue	Origin
+SK-LMS-1	PI3K_only-DOWN	Mutated	soft_tissue	Origin
+SK-PN-DW	ASPM		bone	Origin
+SK-PN-DW	d(LARP4B)		bone	Origin
+SK-PN-DW	d(BMPR1A,FAS,PTEN)	Mutated	bone	Origin
+SK-PN-DW	d(EXT2)	Mutated	bone	Origin
+SK-PN-DW	a(MYC)	Mutated	bone	Origin
+SK-PN-DW	d(SYNCRIP,ZNF292)	Mutated	bone	Origin
+SK-PN-DW	d(RPL22)		bone	Origin
+SK-PN-DW	d17p13.2	Mutated	bone	Origin
+SK-PN-DW	d(CHD3,GPS2,TP53)	Mutated	bone	Origin
+SK-PN-DW	dXp11.3	Mutated	bone	Origin
+SK-PN-DW	dXq22.3	Mutated	bone	Origin
+SK-PN-DW	PI3K_only-UP		bone	Origin
+SK-PN-DW	PI3K_only-DOWN		bone	Origin
+SW872	ASPM		soft_tissue	Origin
+SW872	d(LARP4B)		soft_tissue	Origin
+SW872	d(BMPR1A,FAS,PTEN)	Mutated	soft_tissue	Origin
+SW872	d(EXT2)		soft_tissue	Origin
+SW872	a(MYC)		soft_tissue	Origin
+SW872	d(SYNCRIP,ZNF292)		soft_tissue	Origin
+SW872	d(RPL22)		soft_tissue	Origin
+SW872	d17p13.2		soft_tissue	Origin
+SW872	d(CHD3,GPS2,TP53)		soft_tissue	Origin
+SW872	dXp11.3		soft_tissue	Origin
+SW872	dXq22.3		soft_tissue	Origin
+SW872	PI3K_only-UP		soft_tissue	Origin
+SW872	PI3K_only-DOWN		soft_tissue	Origin
+TGBC1TKB	ASPM		digestive_system	Origin
+TGBC1TKB	d(LARP4B)		digestive_system	Origin
+TGBC1TKB	d(BMPR1A,FAS,PTEN)	Mutated	digestive_system	Origin
+TGBC1TKB	d(EXT2)		digestive_system	Origin
+TGBC1TKB	a(MYC)		digestive_system	Origin
+TGBC1TKB	d(SYNCRIP,ZNF292)	Mutated	digestive_system	Origin
+TGBC1TKB	d(RPL22)		digestive_system	Origin
+TGBC1TKB	d17p13.2		digestive_system	Origin
+TGBC1TKB	d(CHD3,GPS2,TP53)		digestive_system	Origin
+TGBC1TKB	dXp11.3		digestive_system	Origin
+TGBC1TKB	dXq22.3		digestive_system	Origin
+TGBC1TKB	PI3K_only-UP	Mutated	digestive_system	Origin
+TGBC1TKB	PI3K_only-DOWN		digestive_system	Origin
+Ramos-2G6-4C10	ASPM		blood	Origin
+Ramos-2G6-4C10	d(LARP4B)		blood	Origin
+Ramos-2G6-4C10	d(BMPR1A,FAS,PTEN)		blood	Origin
+Ramos-2G6-4C10	d(EXT2)		blood	Origin
+Ramos-2G6-4C10	a(MYC)		blood	Origin
+Ramos-2G6-4C10	d(SYNCRIP,ZNF292)		blood	Origin
+Ramos-2G6-4C10	d(RPL22)		blood	Origin
+Ramos-2G6-4C10	d17p13.2	Mutated	blood	Origin
+Ramos-2G6-4C10	d(CHD3,GPS2,TP53)	Mutated	blood	Origin
+Ramos-2G6-4C10	dXp11.3	Mutated	blood	Origin
+Ramos-2G6-4C10	dXq22.3	Mutated	blood	Origin
+Ramos-2G6-4C10	PI3K_only-UP		blood	Origin
+Ramos-2G6-4C10	PI3K_only-DOWN		blood	Origin
+QIMR-WIL	ASPM		blood	Origin
+QIMR-WIL	d(LARP4B)		blood	Origin
+QIMR-WIL	d(BMPR1A,FAS,PTEN)		blood	Origin
+QIMR-WIL	d(EXT2)		blood	Origin
+QIMR-WIL	a(MYC)		blood	Origin
+QIMR-WIL	d(SYNCRIP,ZNF292)	Mutated	blood	Origin
+QIMR-WIL	d(RPL22)		blood	Origin
+QIMR-WIL	d17p13.2		blood	Origin
+QIMR-WIL	d(CHD3,GPS2,TP53)		blood	Origin
+QIMR-WIL	dXp11.3		blood	Origin
+QIMR-WIL	dXq22.3		blood	Origin
+QIMR-WIL	PI3K_only-UP		blood	Origin
+QIMR-WIL	PI3K_only-DOWN		blood	Origin
+CESS	ASPM		blood	Origin
+CESS	d(LARP4B)		blood	Origin
+CESS	d(BMPR1A,FAS,PTEN)		blood	Origin
+CESS	d(EXT2)		blood	Origin
+CESS	a(MYC)		blood	Origin
+CESS	d(SYNCRIP,ZNF292)	Mutated	blood	Origin
+CESS	d(RPL22)		blood	Origin
+CESS	d17p13.2		blood	Origin
+CESS	d(CHD3,GPS2,TP53)		blood	Origin
+CESS	dXp11.3	Mutated	blood	Origin
+CESS	dXq22.3	Mutated	blood	Origin
+CESS	PI3K_only-UP		blood	Origin
+CESS	PI3K_only-DOWN	Mutated	blood	Origin
+TGBC24TKB	ASPM		digestive_system	Origin
+TGBC24TKB	d(LARP4B)		digestive_system	Origin
+TGBC24TKB	d(BMPR1A,FAS,PTEN)		digestive_system	Origin
+TGBC24TKB	d(EXT2)	Mutated	digestive_system	Origin
+TGBC24TKB	a(MYC)		digestive_system	Origin
+TGBC24TKB	d(SYNCRIP,ZNF292)	Mutated	digestive_system	Origin
+TGBC24TKB	d(RPL22)		digestive_system	Origin
+TGBC24TKB	d17p13.2		digestive_system	Origin
+TGBC24TKB	d(CHD3,GPS2,TP53)		digestive_system	Origin
+TGBC24TKB	dXp11.3	Mutated	digestive_system	Origin
+TGBC24TKB	dXq22.3	Mutated	digestive_system	Origin
+TGBC24TKB	PI3K_only-UP		digestive_system	Origin
+TGBC24TKB	PI3K_only-DOWN		digestive_system	Origin
+SNU-C1	ASPM		digestive_system	Origin
+SNU-C1	d(LARP4B)		digestive_system	Origin
+SNU-C1	d(BMPR1A,FAS,PTEN)		digestive_system	Origin
+SNU-C1	d(EXT2)		digestive_system	Origin
+SNU-C1	a(MYC)		digestive_system	Origin
+SNU-C1	d(SYNCRIP,ZNF292)		digestive_system	Origin
+SNU-C1	d(RPL22)		digestive_system	Origin
+SNU-C1	d17p13.2		digestive_system	Origin
+SNU-C1	d(CHD3,GPS2,TP53)		digestive_system	Origin
+SNU-C1	dXp11.3	Mutated	digestive_system	Origin
+SNU-C1	dXq22.3		digestive_system	Origin
+SNU-C1	PI3K_only-UP	Mutated	digestive_system	Origin
+SNU-C1	PI3K_only-DOWN		digestive_system	Origin
+A4-Fuk	ASPM		blood	Origin
+A4-Fuk	d(LARP4B)		blood	Origin
+A4-Fuk	d(BMPR1A,FAS,PTEN)		blood	Origin
+A4-Fuk	d(EXT2)		blood	Origin
+A4-Fuk	a(MYC)		blood	Origin
+A4-Fuk	d(SYNCRIP,ZNF292)	Mutated	blood	Origin
+A4-Fuk	d(RPL22)		blood	Origin
+A4-Fuk	d17p13.2		blood	Origin
+A4-Fuk	d(CHD3,GPS2,TP53)		blood	Origin
+A4-Fuk	dXp11.3		blood	Origin
+A4-Fuk	dXq22.3		blood	Origin
+A4-Fuk	PI3K_only-UP		blood	Origin
+A4-Fuk	PI3K_only-DOWN		blood	Origin
+A3-KAW	ASPM		blood	Origin
+A3-KAW	d(LARP4B)		blood	Origin
+A3-KAW	d(BMPR1A,FAS,PTEN)		blood	Origin
+A3-KAW	d(EXT2)		blood	Origin
+A3-KAW	a(MYC)		blood	Origin
+A3-KAW	d(SYNCRIP,ZNF292)	Mutated	blood	Origin
+A3-KAW	d(RPL22)		blood	Origin
+A3-KAW	d17p13.2		blood	Origin
+A3-KAW	d(CHD3,GPS2,TP53)		blood	Origin
+A3-KAW	dXp11.3		blood	Origin
+A3-KAW	dXq22.3	Mutated	blood	Origin
+A3-KAW	PI3K_only-UP		blood	Origin
+A3-KAW	PI3K_only-DOWN		blood	Origin
+NOS-1	ASPM		bone	Origin
+NOS-1	d(LARP4B)		bone	Origin
+NOS-1	d(BMPR1A,FAS,PTEN)		bone	Origin
+NOS-1	d(EXT2)		bone	Origin
+NOS-1	a(MYC)		bone	Origin
+NOS-1	d(SYNCRIP,ZNF292)	Mutated	bone	Origin
+NOS-1	d(RPL22)		bone	Origin
+NOS-1	d17p13.2		bone	Origin
+NOS-1	d(CHD3,GPS2,TP53)		bone	Origin
+NOS-1	dXp11.3		bone	Origin
+NOS-1	dXq22.3	Mutated	bone	Origin
+NOS-1	PI3K_only-UP		bone	Origin
+NOS-1	PI3K_only-DOWN		bone	Origin
+RL95-2	ASPM	Mutated	urogenital_system	Origin
+RL95-2	d(LARP4B)		urogenital_system	Origin
+RL95-2	d(BMPR1A,FAS,PTEN)		urogenital_system	Origin
+RL95-2	d(EXT2)		urogenital_system	Origin
+RL95-2	a(MYC)		urogenital_system	Origin
+RL95-2	d(SYNCRIP,ZNF292)	Mutated	urogenital_system	Origin
+RL95-2	d(RPL22)		urogenital_system	Origin
+RL95-2	d17p13.2		urogenital_system	Origin
+RL95-2	d(CHD3,GPS2,TP53)		urogenital_system	Origin
+RL95-2	dXp11.3		urogenital_system	Origin
+RL95-2	dXq22.3		urogenital_system	Origin
+RL95-2	PI3K_only-UP		urogenital_system	Origin
+RL95-2	PI3K_only-DOWN		urogenital_system	Origin
+TE-6	ASPM		aero_digestive_tract	Origin
+TE-6	d(LARP4B)		aero_digestive_tract	Origin
+TE-6	d(BMPR1A,FAS,PTEN)		aero_digestive_tract	Origin
+TE-6	d(EXT2)		aero_digestive_tract	Origin
+TE-6	a(MYC)		aero_digestive_tract	Origin
+TE-6	d(SYNCRIP,ZNF292)		aero_digestive_tract	Origin
+TE-6	d(RPL22)		aero_digestive_tract	Origin
+TE-6	d17p13.2		aero_digestive_tract	Origin
+TE-6	d(CHD3,GPS2,TP53)		aero_digestive_tract	Origin
+TE-6	dXp11.3	Mutated	aero_digestive_tract	Origin
+TE-6	dXq22.3	Mutated	aero_digestive_tract	Origin
+TE-6	PI3K_only-UP		aero_digestive_tract	Origin
+TE-6	PI3K_only-DOWN		aero_digestive_tract	Origin
+ES4	ASPM	Mutated	bone	Origin
+ES4	d(LARP4B)		bone	Origin
+ES4	d(BMPR1A,FAS,PTEN)		bone	Origin
+ES4	d(EXT2)		bone	Origin
+ES4	a(MYC)		bone	Origin
+ES4	d(SYNCRIP,ZNF292)		bone	Origin
+ES4	d(RPL22)		bone	Origin
+ES4	d17p13.2		bone	Origin
+ES4	d(CHD3,GPS2,TP53)		bone	Origin
+ES4	dXp11.3	Mutated	bone	Origin
+ES4	dXq22.3	Mutated	bone	Origin
+ES4	PI3K_only-UP		bone	Origin
+ES4	PI3K_only-DOWN		bone	Origin
+EW-1	ASPM		bone	Origin
+EW-1	d(LARP4B)		bone	Origin
+EW-1	d(BMPR1A,FAS,PTEN)		bone	Origin
+EW-1	d(EXT2)		bone	Origin
+EW-1	a(MYC)	Mutated	bone	Origin
+EW-1	d(SYNCRIP,ZNF292)	Mutated	bone	Origin
+EW-1	d(RPL22)		bone	Origin
+EW-1	d17p13.2		bone	Origin
+EW-1	d(CHD3,GPS2,TP53)	Mutated	bone	Origin
+EW-1	dXp11.3	Mutated	bone	Origin
+EW-1	dXq22.3	Mutated	bone	Origin
+EW-1	PI3K_only-UP		bone	Origin
+EW-1	PI3K_only-DOWN		bone	Origin
+NB13	ASPM		nervous_system	Origin
+NB13	d(LARP4B)		nervous_system	Origin
+NB13	d(BMPR1A,FAS,PTEN)		nervous_system	Origin
+NB13	d(EXT2)		nervous_system	Origin
+NB13	a(MYC)		nervous_system	Origin
+NB13	d(SYNCRIP,ZNF292)	Mutated	nervous_system	Origin
+NB13	d(RPL22)		nervous_system	Origin
+NB13	d17p13.2		nervous_system	Origin
+NB13	d(CHD3,GPS2,TP53)		nervous_system	Origin
+NB13	dXp11.3		nervous_system	Origin
+NB13	dXq22.3		nervous_system	Origin
+NB13	PI3K_only-UP		nervous_system	Origin
+NB13	PI3K_only-DOWN		nervous_system	Origin

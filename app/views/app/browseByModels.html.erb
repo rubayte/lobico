@@ -9,6 +9,7 @@
    	 				<div class="form-inline">
 		    			<div class="form-group">
 				    		<%= form_tag({:controller => 'app', :action => 'browseByModels'},:multipart => true) do -%>
+					    		Dataset: <%= select_tag "dataset", options_for_select(@datasets,@datasetSelected), :class => 'form-control' %> &nbsp;
 								Cancer: <%= select_tag "cancerType", options_for_select(@cancers,@cancerSelected), :class => 'form-control' %> &nbsp;
 								Drug: <%= select_tag "drug", options_for_select(@drugs,@drugSelected), :class => 'form-control' %> &nbsp;
 	    						<div class="input-group">
@@ -52,8 +53,8 @@
   					<div align="center">
  	   					<div class="alert alert-danger alert-dismissible" role="alert">
 							<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-							No results found with search term : <b><%= @searchTerm %></b>
-							&nbsp; <a class="btn btn-info" href="browseByModels">View best LOBICO models.</a>
+							No results found! <b><%= @searchTerm %></b>
+							&nbsp; <a class="btn btn-info" href="browseByModels">View Best LOBICO Models.</a>
 						</div>
 					</div>
    	 			<% else -%>
@@ -72,6 +73,7 @@
 		    	    			<tr>
 		    	    				<th>Best CV model</th>
 		    	    				<th>Single model</th>
+		    	    				<th>DataSet</th>
 		    	    				<th>Cancer</th>
 		    	    				<th>Drug</th>
 		    	    				<th>CV Error</th>
@@ -86,13 +88,14 @@
 		    							<% vals = item.split(";") -%>
 		    							<tr>
 			   								<td><%= cvmodel %></td>	    	    							
-		       						    	<td><%= smodel %></td>	    					
+		       						    	<td><%= smodel %></td>	
+		       						    	<td> <%= vals[7] %></td>    					
 	    									<td><%= vals[0] %></td> 
 	    									<td><%= vals[1] %></td> 
-	    									<td> <%= vals[5] %></td> 	
+	    									<td> <%= vals[5] %></td>
 	    									<td>
 	    										<div align="rihgt">	
-			    	   								<%= link_to '<span class="glyphicon glyphicon-triangle-right" area-hiddne="true"></span> View'.html_safe,  {:controller => "app", :action => "viewTestModel2", :cancer => vals[0] , :drug => vals[1] }, :class => "btn btn-xs btn-success" %>
+			    	   								<%= link_to '<span class="glyphicon glyphicon-triangle-right" area-hiddne="true"></span> View'.html_safe,  {:controller => "app", :action => "viewModel", :cancer => vals[0] , :drug => vals[1], :dataset => vals[7] }, :class => "btn btn-xs btn-success" %>
 		       									</div>
 		       								</td>
 		       							</tr>	
