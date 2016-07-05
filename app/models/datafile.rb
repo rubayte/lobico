@@ -60,6 +60,7 @@ class Datafile
     
     cancer = nil
     drug = nil
+    drugid = nil
     dataset = nil
     cvelt = nil
     cvegt = nil
@@ -82,6 +83,9 @@ class Datafile
     if params[:msearch] != "" or params[:msearch] != nil
       st = params[:msearch]
     end 
+    if params[:drugid] != "" or params[:drugid] != nil or params[:drugid] != "NA"
+      drugid = params[:drugid]
+    end
        
     models = Hash.new()
     modelsST = Hash.new()
@@ -97,28 +101,30 @@ class Datafile
          drugs[temp[1]] = 1
          datasets[temp[10]] = 1
          key = temp[6] + ";" + temp[7]
-         values = temp[0] + ";" + temp[1] + ";" + temp[2] + ";" + temp[3] + ";" + temp[5] + "/" + temp[4] + ";" + temp[8] + ";" + temp[9] + ";" + temp[10]
+         values = temp[0] + ";" + temp[1] + ";" + temp[2] + ";" + temp[3] + ";" + temp[5] + "/" + temp[4] + ";" + temp[8] + ";" + temp[9] + ";" + temp[10] + ";" + temp[11]
          if (dataset == temp[10] or dataset == nil)
            if (cancer == temp[0] or cancer == nil)
              if (drug == temp[1] or drug == nil)
-               if (cvelt == nil or  temp[8].to_f < cvelt.to_f)
-                 if (cvegt == nil or cvegt.to_f < temp[8].to_f)
-                   if(st and (st == temp[0] or st == temp[1]))
-                     if (modelsST.has_key?(key))
-                       modelsST[key] = modelsST[key] + "#" + values
+              if (drugid == temp[11] or drugid == nil)
+                 if (cvelt == nil or  temp[8].to_f < cvelt.to_f)
+                   if (cvegt == nil or cvegt.to_f < temp[8].to_f)
+                     if(st and (st == temp[0] or st == temp[1]))
+                       if (modelsST.has_key?(key))
+                         modelsST[key] = modelsST[key] + "#" + values
+                       else
+                         modelsST[key] =  values
+                       end
                      else
-                       modelsST[key] =  values
+                       if (models.has_key?(key))
+                         models[key] = models[key] + "#" + values
+                       else
+                         models[key] =  values
+                       end
                      end
-                   else
-                     if (models.has_key?(key))
-                       models[key] = models[key] + "#" + values
-                     else
-                       models[key] =  values
-                     end
+                     ## end if st    
                    end
-                   ## end if st    
                  end
-               end
+              end
              end  
            end
          else
