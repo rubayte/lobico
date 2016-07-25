@@ -1,0 +1,2556 @@
+		PTEN	d19p12	d(FANCG,PAX5)	CREBBP	KRAS	BRAF	NF1	NRAS	NF2	CDKN2A	EP300	PIK3CA	SMARCA4	d13q14.2	H2O2-UP	IL-1-UP	TGFB-UP	PI3K_only-DOWN	TGFB-DOWN	Wnt-DOWN 
+																					 
+Model 1101	NRAS 	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+CV error: 0.5	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.27768	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1111	NF2 	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.22059	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1121	NF2 	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.2752	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1131	NRAS 	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.41277	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1141	NRAS 	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.29238	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1151	NRAS 	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.30387	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1201	NRAS 	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+CV error: 0.5	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.27768	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1202	¬KRAS  & NRAS 	0	0	0	0	-1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	0	NaN	NaN	0.24901	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1203	NRAS  & ¬EP300 	0	0	0	0	0	0	0	1	0	0	-1	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.26205	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1204	¬d(FANCG,PAX5)  & NRAS 	0	0	-1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	0	NaN	NaN	NaN	NaN	0.18824	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1205	¬NF1  & NRAS 	0	0	0	0	0	0	-1	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	0	0.15895	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1206	¬d19p12  & NRAS 	0	-1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	NaN	NaN	NaN	NaN	NaN	0.27814	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1207	NRAS  & ¬d13q14.2 	0	0	0	0	0	0	0	1	0	0	0	0	0	-1	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.27814	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1208	¬BRAF  & NRAS 	0	0	0	0	0	-1	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	0	NaN	0.31769	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1209	¬CREBBP  & NRAS 	0	0	0	-1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	NaN	NaN	NaN	0.26205	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 12010	NRAS  & ¬TGFB-DOWN 	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	-1	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.24901	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN 
+																					 
+Model 12011	NRAS  & ¬TGFB-UP 	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	-1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.27861	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN 
+																					 
+Model 12012	NRAS  & ¬H2O2-UP 	0	0	0	0	0	0	0	1	0	0	0	0	0	0	-1	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.19635	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 12013	NRAS  & ¬NF2 	0	0	0	0	0	0	0	1	-1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.4569	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 12014	NRAS  & ¬CDKN2A 	0	0	0	0	0	0	0	1	0	-1	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.24124	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 12015	NRAS  & ¬PIK3CA 	0	0	0	0	0	0	0	1	0	0	0	-1	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.18695	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 12016	NRAS  & ¬SMARCA4 	0	0	0	0	0	0	0	1	0	0	0	0	-1	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.29072	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 12017	NRAS  & ¬IL-1-UP 	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	-1	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.27421	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN 
+																					 
+Model 12018	NRAS  & ¬Wnt-DOWN 	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	-1 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.24124	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0 
+																					 
+Model 1211	¬KRAS  & NF2 	0	0	0	0	-1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	0.035279	NaN	NaN	NaN	0.36168	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1212	NF2  & ¬EP300 	0	0	0	0	0	0	0	0	1	0	-1	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.36168	NaN	0.035279	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1213	NF2  & ¬TGFB-DOWN 	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	-1	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.36168	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.035279	NaN 
+																					 
+Model 1214	¬CREBBP  & NF2 	0	0	0	-1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.035279	NaN	NaN	NaN	NaN	0.36168	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1215	BRAF  & NF2 	0	0	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	0.035279	NaN	NaN	0.17783	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1221	¬KRAS  & NF2 	0	0	0	0	-1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	0.044013	NaN	NaN	NaN	0.16857	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1222	¬CREBBP  & NF2 	0	0	0	-1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.044013	NaN	NaN	NaN	NaN	0.18859	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1223	NF2  & ¬TGFB-DOWN 	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	-1	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.16857	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.044013	NaN 
+																					 
+Model 1224	NF2  & ¬EP300 	0	0	0	0	0	0	0	0	1	0	-1	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.18859	NaN	0.044013	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1225	BRAF  & NF2 	0	0	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	0.044013	NaN	NaN	0.25778	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1231	NRAS 	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.41277	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1232	NRAS  & ¬H2O2-UP 	0	0	0	0	0	0	0	1	0	0	0	0	0	0	-1	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.42343	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1233	¬CREBBP  & NRAS 	0	0	0	-1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	NaN	NaN	NaN	0.5637	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1234	¬d19p12  & NRAS 	0	-1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	NaN	NaN	NaN	NaN	NaN	0.54501	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1235	¬BRAF  & NRAS 	0	0	0	0	0	-1	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	0	NaN	0.42963	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1236	¬d(FANCG,PAX5)  & NRAS 	0	0	-1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	0	NaN	NaN	NaN	NaN	0.41137	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1237	¬NF1  & NRAS 	0	0	0	0	0	0	-1	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	0	0.36783	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1238	NRAS  & ¬CDKN2A 	0	0	0	0	0	0	0	1	0	-1	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.49017	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1239	NRAS  & ¬EP300 	0	0	0	0	0	0	0	1	0	0	-1	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.5637	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 12310	NRAS  & ¬SMARCA4 	0	0	0	0	0	0	0	1	0	0	0	0	-1	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.5637	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 12311	NRAS  & ¬d13q14.2 	0	0	0	0	0	0	0	1	0	0	0	0	0	-1	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.54501	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 12312	NRAS  & ¬IL-1-UP 	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	-1	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.53917	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN 
+																					 
+Model 12313	NRAS  & ¬TGFB-UP 	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	-1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.54571	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN 
+																					 
+Model 12314	NRAS  & ¬Wnt-DOWN 	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	-1 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.49017	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0 
+																					 
+Model 1241	NRAS 	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.29238	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1242	¬KRAS  & NRAS 	0	0	0	0	-1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	0	NaN	NaN	0.21021	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1243	¬NF1  & NRAS 	0	0	0	0	0	0	-1	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	0	0.11489	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1244	¬CREBBP  & NRAS 	0	0	0	-1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	NaN	NaN	NaN	0.22394	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1245	¬BRAF  & NRAS 	0	0	0	0	0	-1	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	0	NaN	0.335	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1246	NRAS  & ¬IL-1-UP 	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	-1	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.23626	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN 
+																					 
+Model 1247	¬d(FANCG,PAX5)  & NRAS 	0	0	-1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	0	NaN	NaN	NaN	NaN	0.14573	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1248	NRAS  & ¬H2O2-UP 	0	0	0	0	0	0	0	1	0	0	0	0	0	0	-1	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.15476	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1249	NRAS  & ¬NF2 	0	0	0	0	0	0	0	1	-1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.42911	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 12410	NRAS  & ¬CDKN2A 	0	0	0	0	0	0	0	1	0	-1	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.20203	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 12411	NRAS  & ¬EP300 	0	0	0	0	0	0	0	1	0	0	-1	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.22394	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 12412	NRAS  & ¬PIK3CA 	0	0	0	0	0	0	0	1	0	0	0	-1	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.14486	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 12413	NRAS  & ¬SMARCA4 	0	0	0	0	0	0	0	1	0	0	0	0	-1	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.25412	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 12414	NRAS  & ¬TGFB-UP 	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	-1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.24138	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN 
+																					 
+Model 12415	NRAS  & ¬TGFB-DOWN 	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	-1	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.21021	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN 
+																					 
+Model 12416	NRAS  & ¬Wnt-DOWN 	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	-1 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.20203	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0 
+																					 
+Model 1251	NRAS 	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.30387	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1252	¬d19p12  & NRAS 	0	-1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	NaN	NaN	NaN	NaN	NaN	0.2121	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1253	NRAS  & ¬EP300 	0	0	0	0	0	0	0	1	0	0	-1	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.1945	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1254	¬BRAF  & NRAS 	0	0	0	0	0	-1	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	0	NaN	0.25967	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1255	¬d(FANCG,PAX5)  & NRAS 	0	0	-1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	0	NaN	NaN	NaN	NaN	0.11372	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1256	¬CREBBP  & NRAS 	0	0	0	-1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	NaN	NaN	NaN	0.1945	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1257	¬KRAS  & NRAS 	0	0	0	0	-1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	0	NaN	NaN	0.18023	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1258	¬NF1  & NRAS 	0	0	0	0	0	0	-1	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	0	0.081668	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1259	NRAS  & ¬NF2 	0	0	0	0	0	0	0	1	-1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.40773	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 12510	NRAS  & ¬CDKN2A 	0	0	0	0	0	0	0	1	0	-1	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.17173	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 12511	NRAS  & ¬PIK3CA 	0	0	0	0	0	0	0	1	0	0	0	-1	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.11231	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 12512	NRAS  & ¬SMARCA4 	0	0	0	0	0	0	0	1	0	0	0	0	-1	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.22586	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 12513	NRAS  & ¬d13q14.2 	0	0	0	0	0	0	0	1	0	0	0	0	0	-1	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.2121	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 12514	NRAS  & ¬IL-1-UP 	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	-1	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.2121	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN 
+																					 
+Model 12515	NRAS  & ¬TGFB-DOWN 	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	-1	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.18023	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN 
+																					 
+Model 12516	NRAS  & ¬Wnt-DOWN 	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	-1 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.17173	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0 
+																					 
+Model 1301	NRAS 	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+CV error: 0.5	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.27768	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1302	¬d(FANCG,PAX5)  & NRAS  & ¬H2O2-UP 	0	0	-1	0	0	0	0	1	0	0	0	0	0	0	-1	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	0	NaN	NaN	NaN	NaN	0.10691	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1303	¬NF1  & NRAS 	0	0	0	0	0	0	-1	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	0	0.15895	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1304	NRAS  & ¬H2O2-UP  & ¬TGFB-DOWN 	0	0	0	0	0	0	0	1	0	0	0	0	0	0	-1	0	0	0	-1	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.16768	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	0	NaN 
+																					 
+Model 1305	NRAS  & ¬TGFB-DOWN 	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	-1	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.24901	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN 
+																					 
+Model 1306	¬BRAF  & NRAS  & ¬TGFB-DOWN 	0	0	0	0	0	-1	0	1	0	0	0	0	0	0	0	0	0	0	-1	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	0	NaN	0.28902	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN 
+																					 
+Model 1307	¬KRAS  & ¬NF1  & NRAS 	0	0	0	0	-1	0	-1	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	0	NaN	0	0.13028	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1308	¬NF1  & NRAS  & ¬H2O2-UP 	0	0	0	0	0	0	-1	1	0	0	0	0	0	0	-1	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	0	0.077619	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1309	¬CREBBP  & ¬NF1  & NRAS 	0	0	0	-1	0	0	-1	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	NaN	NaN	0	0.14332	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13010	¬BRAF  & NRAS  & ¬H2O2-UP 	0	0	0	0	0	-1	0	1	0	0	0	0	0	0	-1	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	0	NaN	0.23636	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13011	¬BRAF  & NRAS 	0	0	0	0	0	-1	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	0	NaN	0.31769	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13012	NRAS  & ¬H2O2-UP 	0	0	0	0	0	0	0	1	0	0	0	0	0	0	-1	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.19635	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13013	¬NF1  & NRAS  & ¬EP300 	0	0	0	0	0	0	-1	1	0	0	-1	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	0	0.14332	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13014	¬KRAS  & ¬BRAF  & NRAS 	0	0	0	0	-1	-1	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	0	0	NaN	0.28902	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13015	¬d19p12  & ¬BRAF  & NRAS 	0	-1	0	0	0	-1	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	NaN	NaN	NaN	0	NaN	0.31815	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13016	¬d19p12  & ¬d(FANCG,PAX5)  & NRAS 	0	-1	-1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	0	NaN	NaN	NaN	NaN	0.18824	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13017	¬d(FANCG,PAX5)  & ¬BRAF  & NRAS 	0	0	-1	0	0	-1	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	0	NaN	NaN	0	NaN	0.22825	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13018	¬d(FANCG,PAX5)  & ¬CREBBP  & NRAS 	0	0	-1	-1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	0	0	NaN	NaN	NaN	0.17261	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13019	¬d(FANCG,PAX5)  & ¬KRAS  & NRAS 	0	0	-1	0	-1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	0	NaN	0	NaN	NaN	0.15957	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13020	¬d(FANCG,PAX5)  & ¬NF1  & NRAS 	0	0	-1	0	0	0	-1	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	0	NaN	NaN	NaN	0	0.069049	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13021	¬CREBBP  & ¬BRAF  & NRAS 	0	0	0	-1	0	-1	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	NaN	0	NaN	0.28902	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13022	¬KRAS  & NRAS  & ¬H2O2-UP 	0	0	0	0	-1	0	0	1	0	0	0	0	0	0	-1	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	0	NaN	NaN	0.16768	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13023	¬KRAS  & NRAS  & ¬NF2 	0	0	0	0	-1	0	0	1	-1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	0	NaN	NaN	0.4569	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13024	¬CREBBP  & ¬KRAS  & NRAS 	0	0	0	-1	-1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	0	NaN	NaN	0.26205	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13025	¬CREBBP  & NRAS  & ¬H2O2-UP 	0	0	0	-1	0	0	0	1	0	0	0	0	0	0	-1	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	NaN	NaN	NaN	0.18072	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13026	¬BRAF  & ¬NF1  & NRAS 	0	0	0	0	0	-1	-1	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	0	0	0.19896	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1311	¬KRAS  & NF2 	0	0	0	0	-1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	0.035279	NaN	NaN	NaN	0.36168	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1312	¬KRAS  & NF2  & ¬d13q14.2 	0	0	0	0	-1	0	0	0	1	0	0	0	0	-1	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	0.035279	NaN	NaN	NaN	0.36225	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1313	NF2  & ¬EP300  & ¬d13q14.2 	0	0	0	0	0	0	0	0	1	0	-1	0	0	-1	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.36225	NaN	0.035279	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1314	¬CREBBP  & NF2 	0	0	0	-1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.035279	NaN	NaN	NaN	NaN	0.36168	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1315	¬PTEN  & ¬CREBBP  & NF2 	-1	0	0	-1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	0	NaN	NaN	0.035279	NaN	NaN	NaN	NaN	0.38686	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1316	¬CREBBP  & ¬KRAS  & NF2 	0	0	0	-1	-1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	0	NaN	NaN	NaN	0.36168	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1317	¬KRAS  & NF2  & ¬EP300 	0	0	0	0	-1	0	0	0	1	0	-1	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	0.36168	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1318	NF2  & ¬EP300 	0	0	0	0	0	0	0	0	1	0	-1	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.36168	NaN	0.035279	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1319	¬CREBBP  & NF2  & ¬EP300 	0	0	0	-1	0	0	0	0	1	0	-1	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	0.36168	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13110	¬d(FANCG,PAX5)  & NF2  & ¬EP300 	0	0	-1	0	0	0	0	0	1	0	-1	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	0.2516	NaN	0.035279	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13111	¬PTEN  & NF2  & ¬EP300 	-1	0	0	0	0	0	0	0	1	0	-1	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.38686	NaN	0.035279	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13112	NF2  & ¬TGFB-DOWN 	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	-1	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.36168	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.035279	NaN 
+																					 
+Model 13113	NF2  & ¬PIK3CA  & ¬TGFB-DOWN 	0	0	0	0	0	0	0	0	1	0	0	-1	0	0	0	0	0	0	-1	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.25002	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	0.035279	NaN 
+																					 
+Model 13114	¬KRAS  & NF2  & ¬PIK3CA 	0	0	0	0	-1	0	0	0	1	0	0	-1	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	0.035279	NaN	NaN	NaN	0.25002	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13115	¬CREBBP  & NF2  & ¬PIK3CA 	0	0	0	-1	0	0	0	0	1	0	0	-1	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.035279	NaN	NaN	NaN	NaN	0.25002	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13116	¬KRAS  & NF2  & ¬TGFB-DOWN 	0	0	0	0	-1	0	0	0	1	0	0	0	0	0	0	0	0	0	-1	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	0.36168	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN 
+																					 
+Model 13117	¬CREBBP  & NF2  & ¬TGFB-DOWN 	0	0	0	-1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	-1	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	0.36168	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN 
+																					 
+Model 13118	¬PTEN  & ¬KRAS  & NF2 	-1	0	0	0	-1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	0	NaN	NaN	NaN	0.035279	NaN	NaN	NaN	0.38686	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13119	¬d19p12  & ¬KRAS  & NF2 	0	-1	0	0	-1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	NaN	NaN	0.035279	NaN	NaN	NaN	0.36225	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13120	¬d19p12  & ¬CREBBP  & NF2 	0	-1	0	-1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	NaN	0.035279	NaN	NaN	NaN	NaN	0.36225	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13121	¬d19p12  & NF2  & ¬EP300 	0	-1	0	0	0	0	0	0	1	0	-1	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	0.36225	NaN	0.035279	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13122	¬d19p12  & BRAF  & NF2 	0	-1	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	NaN	NaN	NaN	0.035279	NaN	NaN	0.17783	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13123	¬PTEN  & BRAF  & NF2 	-1	0	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	0	NaN	NaN	NaN	NaN	0.035279	NaN	NaN	0.17783	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13124	¬PTEN  & NF2  & ¬TGFB-DOWN 	-1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	-1	0 
+	Feature Importance Scores:	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.38686	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.035279	NaN 
+																					 
+Model 13125	¬d(FANCG,PAX5)  & ¬KRAS  & NF2 	0	0	-1	0	-1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	0	NaN	0.035279	NaN	NaN	NaN	0.2516	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13126	¬CREBBP  & BRAF  & NF2 	0	0	0	-1	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	NaN	0	NaN	NaN	0.17783	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1321	¬KRAS  & NF2 	0	0	0	0	-1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	0.044013	NaN	NaN	NaN	0.16857	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1322	¬CREBBP  & NF2 	0	0	0	-1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.044013	NaN	NaN	NaN	NaN	0.18859	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1323	NF2  & ¬TGFB-DOWN 	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	-1	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.16857	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.044013	NaN 
+																					 
+Model 1324	¬CREBBP  & ¬KRAS  & NF2 	0	0	0	-1	-1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	0	NaN	NaN	NaN	0.18859	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1325	¬CREBBP  & NF2  & ¬TGFB-DOWN 	0	0	0	-1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	-1	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	0.18859	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN 
+																					 
+Model 1326	BRAF  & NF2 	0	0	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	0.044013	NaN	NaN	0.25778	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1327	¬KRAS  & BRAF  & NF2 	0	0	0	0	-1	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	0	0	NaN	NaN	0.25778	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1328	¬d(FANCG,PAX5)  & ¬CREBBP  & NF2 	0	0	-1	-1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	0	0.044013	NaN	NaN	NaN	NaN	0.18929	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1329	¬d19p12  & ¬CREBBP  & NF2 	0	-1	0	-1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	NaN	0.044013	NaN	NaN	NaN	NaN	0.18929	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13210	NF2  & ¬EP300 	0	0	0	0	0	0	0	0	1	0	-1	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.18859	NaN	0.044013	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13211	¬CREBBP  & NF2  & ¬EP300 	0	0	0	-1	0	0	0	0	1	0	-1	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	0.18859	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13212	¬CREBBP  & ¬NF1  & NF2 	0	0	0	-1	0	0	-1	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.044013	NaN	NaN	0	NaN	0.18929	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13213	¬d19p12  & ¬KRAS  & NF2 	0	-1	0	0	-1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	NaN	NaN	0.044013	NaN	NaN	NaN	0.16927	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13214	¬d19p12  & NF2  & ¬TGFB-DOWN 	0	-1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	-1	0 
+	Feature Importance Scores:	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	0.16927	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.044013	NaN 
+																					 
+Model 13215	¬d19p12  & BRAF  & NF2 	0	-1	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	NaN	NaN	NaN	0.044013	NaN	NaN	0.25778	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13216	¬d(FANCG,PAX5)  & ¬KRAS  & NF2 	0	0	-1	0	-1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	0	NaN	0.044013	NaN	NaN	NaN	0.16927	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13217	¬NF1  & NF2  & ¬TGFB-DOWN 	0	0	0	0	0	0	-1	0	1	0	0	0	0	0	0	0	0	0	-1	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	0.16927	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.044013	NaN 
+																					 
+Model 13218	¬NRAS  & NF2  & ¬TGFB-DOWN 	0	0	0	0	0	0	0	-1	1	0	0	0	0	0	0	0	0	0	-1	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	0.38051	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.044013	NaN 
+																					 
+Model 13219	¬CREBBP  & BRAF  & NF2 	0	0	0	-1	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	NaN	0	NaN	NaN	0.2778	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13220	BRAF  & ¬NF1  & NF2 	0	0	0	0	0	1	-1	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	0.044013	0	NaN	0.25778	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13221	NF2  & ¬CDKN2A  & ¬TGFB-DOWN 	0	0	0	0	0	0	0	0	1	-1	0	0	0	0	0	0	0	0	-1	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.11262	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.044013	NaN 
+																					 
+Model 13222	NF2  & ¬PIK3CA  & ¬TGFB-DOWN 	0	0	0	0	0	0	0	0	1	0	0	-1	0	0	0	0	0	0	-1	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.029259	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	0.044013	NaN 
+																					 
+Model 13223	NF2  & ¬CDKN2A  & ¬EP300 	0	0	0	0	0	0	0	0	1	-1	-1	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.13264	0	0.044013	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13224	NF2  & ¬EP300  & ¬PIK3CA 	0	0	0	0	0	0	0	0	1	0	-1	-1	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.049278	NaN	0.044013	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13225	¬KRAS  & ¬NF1  & NF2 	0	0	0	0	-1	0	-1	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	0.044013	NaN	0	NaN	0.16927	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13226	¬KRAS  & ¬NRAS  & NF2 	0	0	0	0	-1	0	0	-1	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	0.044013	NaN	NaN	0	0.38051	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1331	NRAS  & ¬CDKN2A  & ¬H2O2-UP 	0	0	0	0	0	0	0	1	0	-1	0	0	0	0	-1	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.36927	NaN	0	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1332	¬d(FANCG,PAX5)  & ¬BRAF  & NRAS 	0	0	-1	0	0	-1	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	0	NaN	NaN	0	NaN	0.29668	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1333	NRAS  & ¬CDKN2A 	0	0	0	0	0	0	0	1	0	-1	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.49017	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1334	NRAS 	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.41277	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1335	¬BRAF  & NRAS  & ¬EP300 	0	0	0	0	0	-1	0	1	0	0	-1	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	0	NaN	0.42963	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1336	¬BRAF  & ¬NF1  & NRAS 	0	0	0	0	0	-1	-1	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	0	0	0.25314	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1337	¬BRAF  & NRAS 	0	0	0	0	0	-1	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	0	NaN	0.42963	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1338	¬d(FANCG,PAX5)  & ¬NF1  & NRAS 	0	0	-1	0	0	0	-1	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	0	NaN	NaN	NaN	0	0.2342	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1339	¬BRAF  & NRAS  & ¬H2O2-UP 	0	0	0	0	0	-1	0	1	0	0	0	0	0	0	-1	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	0	NaN	0.30874	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13310	¬CREBBP  & ¬BRAF  & NRAS 	0	0	0	-1	0	-1	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	NaN	0	NaN	0.42963	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13311	¬NF1  & NRAS 	0	0	0	0	0	0	-1	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	0	0.36783	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13312	NRAS  & ¬H2O2-UP 	0	0	0	0	0	0	0	1	0	0	0	0	0	0	-1	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.42343	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13313	¬BRAF  & NRAS  & ¬CDKN2A 	0	0	0	0	0	-1	0	1	0	-1	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	0	NaN	0.42963	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13314	¬d19p12  & ¬BRAF  & NRAS 	0	-1	0	0	0	-1	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	NaN	NaN	NaN	0	NaN	0.43032	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13315	¬d19p12  & NRAS  & ¬CDKN2A 	0	-1	0	0	0	0	0	1	0	-1	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	NaN	NaN	NaN	NaN	NaN	0.49085	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13316	¬d19p12  & ¬d(FANCG,PAX5)  & NRAS 	0	-1	-1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	0	NaN	NaN	NaN	NaN	0.41137	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13317	¬d19p12  & ¬CREBBP  & NRAS 	0	-1	0	-1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	NaN	0	NaN	NaN	NaN	0.56439	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13318	¬d19p12  & ¬NF1  & NRAS 	0	-1	0	0	0	0	-1	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	NaN	NaN	NaN	NaN	0	0.36783	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13319	¬d19p12  & NRAS  & ¬H2O2-UP 	0	-1	0	0	0	0	0	1	0	0	0	0	0	0	-1	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	NaN	NaN	NaN	NaN	NaN	0.42411	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13320	¬d19p12  & NRAS  & ¬EP300 	0	-1	0	0	0	0	0	1	0	0	-1	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	NaN	NaN	NaN	NaN	NaN	0.56439	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13321	¬CREBBP  & ¬NF1  & NRAS 	0	0	0	-1	0	0	-1	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	NaN	NaN	0	0.38721	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13322	¬CREBBP  & NRAS  & ¬H2O2-UP 	0	0	0	-1	0	0	0	1	0	0	0	0	0	0	-1	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	NaN	NaN	NaN	0.44281	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13323	¬CREBBP  & NRAS  & ¬CDKN2A 	0	0	0	-1	0	0	0	1	0	-1	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	NaN	NaN	NaN	0.50955	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13324	¬CREBBP  & NRAS  & ¬EP300 	0	0	0	-1	0	0	0	1	0	0	-1	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	NaN	NaN	NaN	0.5637	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13325	¬CREBBP  & NRAS  & ¬SMARCA4 	0	0	0	-1	0	0	0	1	0	0	0	0	-1	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	NaN	NaN	NaN	0.5637	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13326	¬NF1  & NRAS  & ¬H2O2-UP 	0	0	0	0	0	0	-1	1	0	0	0	0	0	0	-1	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	0	0.24694	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1341	NRAS 	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.29238	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1342	¬NF1  & NRAS  & ¬CDKN2A 	0	0	0	0	0	0	-1	1	0	-1	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	0	0.076528	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1343	¬NF1  & NRAS 	0	0	0	0	0	0	-1	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	0	0.11489	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1344	¬CREBBP  & ¬NF1  & NRAS 	0	0	0	-1	0	0	-1	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	NaN	NaN	0	0.098438	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1345	NRAS  & ¬NF2  & ¬H2O2-UP 	0	0	0	0	0	0	0	1	-1	0	0	0	0	0	-1	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.34348	0	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1346	¬d(FANCG,PAX5)  & ¬NF1  & NRAS 	0	0	-1	0	0	0	-1	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	0	NaN	NaN	NaN	0	0.020232	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1347	NRAS  & ¬H2O2-UP 	0	0	0	0	0	0	0	1	0	0	0	0	0	0	-1	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.15476	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1348	¬NF1  & NRAS  & ¬H2O2-UP 	0	0	0	0	0	0	-1	1	0	0	0	0	0	0	-1	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	0	0.029256	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1349	¬NF1  & NRAS  & ¬TGFB-UP 	0	0	0	0	0	0	-1	1	0	0	0	0	0	0	0	0	-1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	0	0.11588	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN 
+																					 
+Model 13410	NRAS  & ¬TGFB-DOWN 	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	-1	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.21021	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN 
+																					 
+Model 13411	¬KRAS  & ¬NF1  & NRAS 	0	0	0	0	-1	0	-1	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	0	NaN	0	0.084709	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13412	¬CREBBP  & ¬BRAF  & NRAS 	0	0	0	-1	0	-1	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	NaN	0	NaN	0.30481	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13413	NRAS  & ¬CDKN2A  & ¬EP300 	0	0	0	0	0	0	0	1	0	-1	-1	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.18558	NaN	0	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13414	NRAS  & ¬H2O2-UP  & ¬TGFB-UP 	0	0	0	0	0	0	0	1	0	0	0	0	0	0	-1	0	-1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.15574	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	0	NaN	NaN	NaN 
+																					 
+Model 13415	¬d(FANCG,PAX5)  & ¬KRAS  & NRAS 	0	0	-1	0	-1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	0	NaN	0	NaN	NaN	0.11555	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13416	¬d(FANCG,PAX5)  & ¬CREBBP  & NRAS 	0	0	-1	-1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	0	0	NaN	NaN	NaN	0.12928	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13417	¬d(FANCG,PAX5)  & ¬BRAF  & NRAS 	0	0	-1	0	0	-1	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	0	NaN	NaN	0	NaN	0.24034	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13418	¬d(FANCG,PAX5)  & NRAS  & ¬H2O2-UP 	0	0	-1	0	0	0	0	1	0	0	0	0	0	0	-1	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	0	NaN	NaN	NaN	NaN	0.060098	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13419	¬CREBBP  & ¬KRAS  & NRAS 	0	0	0	-1	-1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	0	NaN	NaN	0.22394	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13420	¬CREBBP  & NRAS  & ¬H2O2-UP 	0	0	0	-1	0	0	0	1	0	0	0	0	0	0	-1	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	NaN	NaN	NaN	0.1383	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13421	¬CREBBP  & NRAS  & ¬NF2 	0	0	0	-1	0	0	0	1	-1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	NaN	NaN	NaN	0.44284	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13422	¬CREBBP  & NRAS  & ¬CDKN2A 	0	0	0	-1	0	0	0	1	0	-1	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	NaN	NaN	NaN	0.18558	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13423	¬CREBBP  & NRAS  & ¬EP300 	0	0	0	-1	0	0	0	1	0	0	-1	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	NaN	NaN	NaN	0.22394	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13424	¬CREBBP  & NRAS  & ¬PIK3CA 	0	0	0	-1	0	0	0	1	0	0	0	-1	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	NaN	NaN	NaN	0.12841	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13425	¬CREBBP  & NRAS  & ¬SMARCA4 	0	0	0	-1	0	0	0	1	0	0	0	0	-1	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	NaN	NaN	NaN	0.22394	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13426	¬CREBBP  & NRAS 	0	0	0	-1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	NaN	NaN	NaN	0.22394	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1351	NRAS 	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.30387	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1352	¬d(FANCG,PAX5)  & ¬NF1  & NRAS 	0	0	-1	0	0	0	-1	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	0	NaN	NaN	NaN	0	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1353	¬NF1  & NRAS 	0	0	0	0	0	0	-1	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	0	0.081668	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1354	¬BRAF  & ¬NF1  & NRAS 	0	0	0	0	0	-1	-1	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	0	0	0.12975	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1355	¬BRAF  & NRAS  & ¬NF2 	0	0	0	0	0	-1	0	1	-1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	0	NaN	0.22831	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1356	NRAS  & ¬NF2 	0	0	0	0	0	0	0	1	-1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.40773	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1357	¬d19p12  & NRAS  & ¬NF2 	0	-1	0	0	0	0	0	1	-1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	NaN	NaN	NaN	NaN	NaN	0.40823	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1358	¬d19p12  & NRAS 	0	-1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	NaN	NaN	NaN	NaN	NaN	0.2121	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1359	¬d19p12  & ¬d(FANCG,PAX5)  & NRAS 	0	-1	-1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	0	NaN	NaN	NaN	NaN	0.11372	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13510	¬d(FANCG,PAX5)  & ¬KRAS  & NRAS 	0	0	-1	0	-1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	0	NaN	0	NaN	NaN	0.082354	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13511	¬d(FANCG,PAX5)  & ¬BRAF  & NRAS 	0	0	-1	0	0	-1	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	0	NaN	NaN	0	NaN	0.1618	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13512	¬d(FANCG,PAX5)  & ¬CREBBP  & NRAS 	0	0	-1	-1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	0	0	NaN	NaN	NaN	0.096621	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13513	¬CREBBP  & NRAS 	0	0	0	-1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	NaN	NaN	NaN	0.1945	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13514	¬KRAS  & NRAS 	0	0	0	0	-1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	0	NaN	NaN	0.18023	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13515	¬KRAS  & ¬BRAF  & NRAS 	0	0	0	0	-1	-1	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	0	0	NaN	0.22831	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13516	¬KRAS  & ¬NF1  & NRAS 	0	0	0	0	-1	0	-1	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	0	NaN	0	0.0503	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13517	¬CREBBP  & ¬KRAS  & NRAS 	0	0	0	-1	-1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	0	NaN	NaN	0.1945	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13518	¬CREBBP  & ¬BRAF  & NRAS 	0	0	0	-1	0	-1	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	NaN	0	NaN	0.22831	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13519	¬CREBBP  & ¬NF1  & NRAS 	0	0	0	-1	0	0	-1	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	NaN	NaN	0	0.064568	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13520	¬CREBBP  & NRAS  & ¬NF2 	0	0	0	-1	0	0	0	1	-1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	NaN	NaN	NaN	0.42199	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13521	¬CREBBP  & NRAS  & ¬CDKN2A 	0	0	0	-1	0	0	0	1	0	-1	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	NaN	NaN	NaN	0.15463	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13522	¬KRAS  & NRAS  & ¬NF2 	0	0	0	0	-1	0	0	1	-1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	0	NaN	NaN	0.40773	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13523	¬BRAF  & NRAS 	0	0	0	0	0	-1	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	0	NaN	0.25967	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13524	¬BRAF  & NRAS  & ¬CDKN2A 	0	0	0	0	0	-1	0	1	0	-1	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	0	NaN	0.25967	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13525	¬BRAF  & NRAS  & ¬EP300 	0	0	0	0	0	-1	0	1	0	0	-1	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	0	NaN	0.22831	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 13526	¬BRAF  & NRAS  & ¬PIK3CA 	0	0	0	0	0	-1	0	1	0	0	0	-1	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	0	NaN	0.25967	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1401	¬KRAS  & NRAS  & ¬H2O2-UP 	0	0	0	0	-1	0	0	1	0	0	0	0	0	0	-1	0	0	0	0	0 
+CV error: 0.52866	Feature Importance Scores:	NaN	NaN	NaN	NaN	0	NaN	NaN	0.16768	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1402	¬d(FANCG,PAX5)  & ¬BRAF  & ¬NF1  & ¬H2O2-UP 	0	0	-1	0	0	-1	-1	0	0	0	0	0	0	0	-1	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	0.089899	NaN	NaN	0	0.11919	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.081328	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1403	NRAS  & ¬H2O2-UP 	0	0	0	0	0	0	0	1	0	0	0	0	0	0	-1	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.19635	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1404	NRAS 	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.27768	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1405	¬CREBBP  & ¬BRAF  & ¬NF1  & NRAS 	0	0	0	-1	0	-1	-1	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	NaN	0	0	0.17029	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1406	¬BRAF  & NRAS 	0	0	0	0	0	-1	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	0	NaN	0.31769	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1407	¬KRAS  & ¬BRAF  & ¬NF1  & NRAS 	0	0	0	0	-1	-1	-1	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	0	0	0	0.17029	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1408	¬KRAS  & ¬NF1  & NRAS 	0	0	0	0	-1	0	-1	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	0	NaN	0	0.13028	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1409	¬d(FANCG,PAX5)  & ¬CREBBP  & ¬NF1  & NRAS 	0	0	-1	-1	0	0	-1	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	0	0	NaN	NaN	0	0.053423	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 14010	¬KRAS  & NRAS 	0	0	0	0	-1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	0	NaN	NaN	0.24901	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 14011	¬NF1  & NRAS 	0	0	0	0	0	0	-1	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	0	0.15895	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 14012	¬d(FANCG,PAX5)  & ¬KRAS  & ¬BRAF  & NRAS 	0	0	-1	0	-1	-1	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	0	NaN	0	0	NaN	0.19958	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 14013	¬d(FANCG,PAX5)  & NRAS 	0	0	-1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	0	NaN	NaN	NaN	NaN	0.18824	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 14014	¬d(FANCG,PAX5)  & ¬NF1  & NRAS  & ¬H2O2-UP 	0	0	-1	0	0	0	-1	1	0	0	0	0	0	0	-1	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	0	NaN	NaN	NaN	0	0	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 14015	¬CREBBP  & ¬KRAS  & ¬BRAF  & NRAS 	0	0	0	-1	-1	-1	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	0	0	NaN	0.28902	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 14016	¬d(FANCG,PAX5)  & ¬NF1  & NRAS 	0	0	-1	0	0	0	-1	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	0	NaN	NaN	NaN	0	0.069049	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 14017	¬CREBBP  & NRAS 	0	0	0	-1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	NaN	NaN	NaN	0.26205	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 14018	¬d(FANCG,PAX5)  & ¬CREBBP  & NRAS 	0	0	-1	-1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	0	0	NaN	NaN	NaN	0.17261	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 14019	¬BRAF  & ¬NF1  & NRAS  & ¬TGFB-DOWN 	0	0	0	0	0	-1	-1	1	0	0	0	0	0	0	0	0	0	0	-1	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	0	0	0.17029	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN 
+																					 
+Model 14020	¬NF1  & NRAS  & ¬TGFB-UP  & ¬TGFB-DOWN 	0	0	0	0	0	0	-1	1	0	0	0	0	0	0	0	0	-1	0	-1	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	0	0.13122	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	0	NaN 
+																					 
+Model 14021	¬NF1  & NRAS  & ¬TGFB-DOWN 	0	0	0	0	0	0	-1	1	0	0	0	0	0	0	0	0	0	0	-1	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	0	0.13028	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN 
+																					 
+Model 14022	¬KRAS  & ¬NF1  & NRAS  & ¬NF2 	0	0	0	0	-1	0	-1	1	-1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	0	NaN	0	0.33817	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 14023	¬KRAS  & ¬BRAF  & NRAS  & ¬H2O2-UP 	0	0	0	0	-1	-1	0	1	0	0	0	0	0	0	-1	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	0	0	NaN	0.20769	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 14024	¬KRAS  & ¬NF1  & NRAS  & ¬EP300 	0	0	0	0	-1	0	-1	1	0	0	-1	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	0	NaN	0	0.14332	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 14025	¬d(FANCG,PAX5)  & ¬NF1  & NRAS  & ¬NF2 	0	0	-1	0	0	0	-1	1	-1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	0	NaN	NaN	NaN	0	0.24828	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 14026	¬d(FANCG,PAX5)  & ¬CREBBP  & NRAS  & ¬H2O2-UP 	0	0	-1	-1	0	0	0	1	0	0	0	0	0	0	-1	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	0	0	NaN	NaN	NaN	0.091284	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1411	¬KRAS  & NF2 	0	0	0	0	-1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	0.035279	NaN	NaN	NaN	0.36168	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1412	¬KRAS  & NF2  & ¬PI3K_only-DOWN 	0	0	0	0	-1	0	0	0	1	0	0	0	0	0	0	0	0	-1	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	0.035279	NaN	NaN	NaN	0.53355	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN 
+																					 
+Model 1413	¬CREBBP  & NF2  & ¬PI3K_only-DOWN 	0	0	0	-1	0	0	0	0	1	0	0	0	0	0	0	0	0	-1	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.035279	NaN	NaN	NaN	NaN	0.53355	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN 
+																					 
+Model 1414	¬CREBBP  & NF2 	0	0	0	-1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.035279	NaN	NaN	NaN	NaN	0.36168	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1415	¬CREBBP  & ¬KRAS  & NF2 	0	0	0	-1	-1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	0	NaN	NaN	NaN	0.36168	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1416	¬CREBBP  & ¬KRAS  & NF2  & ¬PI3K_only-DOWN 	0	0	0	-1	-1	0	0	0	1	0	0	0	0	0	0	0	0	-1	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	0	NaN	NaN	NaN	0.53355	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN 
+																					 
+Model 1417	¬CREBBP  & ¬KRAS  & NF2  & ¬EP300 	0	0	0	-1	-1	0	0	0	1	0	-1	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	0	NaN	NaN	NaN	0.36168	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1418	¬CREBBP  & NF2  & ¬TGFB-DOWN 	0	0	0	-1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	-1	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	0.36168	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN 
+																					 
+Model 1419	¬CREBBP  & ¬KRAS  & BRAF  & NF2 	0	0	0	-1	-1	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	0	0	NaN	NaN	0.17783	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 14110	¬CREBBP  & ¬KRAS  & NF2  & ¬TGFB-DOWN 	0	0	0	-1	-1	0	0	0	1	0	0	0	0	0	0	0	0	0	-1	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	0	NaN	NaN	NaN	0.36168	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN 
+																					 
+Model 14111	NF2  & ¬TGFB-DOWN 	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	-1	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.36168	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.035279	NaN 
+																					 
+Model 14112	¬KRAS  & NF2  & ¬TGFB-DOWN 	0	0	0	0	-1	0	0	0	1	0	0	0	0	0	0	0	0	0	-1	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	0.36168	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN 
+																					 
+Model 14113	¬CREBBP  & NF2  & ¬EP300  & ¬TGFB-DOWN 	0	0	0	-1	0	0	0	0	1	0	-1	0	0	0	0	0	0	0	-1	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	0.36168	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN 
+																					 
+Model 14114	¬PTEN  & ¬KRAS  & NF2 	-1	0	0	0	-1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	0	NaN	NaN	NaN	0.035279	NaN	NaN	NaN	0.38686	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 14115	¬d19p12  & ¬KRAS  & NF2 	0	-1	0	0	-1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	NaN	NaN	0.035279	NaN	NaN	NaN	0.36225	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 14116	¬d19p12  & ¬d(FANCG,PAX5)  & ¬KRAS  & NF2 	0	-1	-1	0	-1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	0	NaN	0.035279	NaN	NaN	NaN	0.2516	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 14117	¬d19p12  & ¬d(FANCG,PAX5)  & ¬CREBBP  & NF2 	0	-1	-1	-1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	0	0.035279	NaN	NaN	NaN	NaN	0.2516	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 14118	¬d19p12  & ¬CREBBP  & NF2 	0	-1	0	-1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	NaN	0.035279	NaN	NaN	NaN	NaN	0.36225	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 14119	¬d19p12  & ¬KRAS  & BRAF  & NF2 	0	-1	0	0	-1	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	NaN	NaN	0	0	NaN	NaN	0.17783	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 14120	¬d19p12  & NF2  & ¬EP300 	0	-1	0	0	0	0	0	0	1	0	-1	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	0.36225	NaN	0.035279	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 14121	¬d19p12  & BRAF  & NF2 	0	-1	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	NaN	NaN	NaN	0.035279	NaN	NaN	0.17783	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 14122	¬d19p12  & BRAF  & ¬NF1  & NF2 	0	-1	0	0	0	1	-1	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	NaN	NaN	NaN	0.035279	0	NaN	0.17783	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 14123	¬d19p12  & BRAF  & ¬NRAS  & NF2 	0	-1	0	0	0	1	0	-1	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	NaN	NaN	NaN	0.035279	NaN	0	0.17783	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 14124	¬d19p12  & ¬CREBBP  & ¬KRAS  & NF2 	0	-1	0	-1	-1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	NaN	0	0	NaN	NaN	NaN	0.36225	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 14125	¬d19p12  & BRAF  & NF2  & ¬EP300 	0	-1	0	0	0	1	0	0	1	0	-1	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	NaN	NaN	NaN	0	NaN	NaN	0.17783	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 14126	¬d19p12  & BRAF  & NF2  & ¬PIK3CA 	0	-1	0	0	0	1	0	0	1	0	0	-1	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	NaN	NaN	NaN	0.035279	NaN	NaN	0.066165	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1421	¬KRAS  & NF2 	0	0	0	0	-1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	0.044013	NaN	NaN	NaN	0.16857	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1422	¬CREBBP  & NF2 	0	0	0	-1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.044013	NaN	NaN	NaN	NaN	0.18859	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1423	NF2  & ¬TGFB-DOWN 	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	-1	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.16857	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.044013	NaN 
+																					 
+Model 1424	¬CREBBP  & ¬KRAS  & NF2 	0	0	0	-1	-1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	0	NaN	NaN	NaN	0.18859	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1425	¬CREBBP  & ¬KRAS  & NF2  & ¬TGFB-DOWN 	0	0	0	-1	-1	0	0	0	1	0	0	0	0	0	0	0	0	0	-1	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	0	NaN	NaN	NaN	0.18859	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN 
+																					 
+Model 1426	¬CREBBP  & NF2  & ¬TGFB-DOWN 	0	0	0	-1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	-1	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	0.18859	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN 
+																					 
+Model 1427	¬KRAS  & NF2  & ¬TGFB-DOWN 	0	0	0	0	-1	0	0	0	1	0	0	0	0	0	0	0	0	0	-1	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	0.16857	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN 
+																					 
+Model 1428	¬CREBBP  & NF2  & ¬EP300  & ¬TGFB-DOWN 	0	0	0	-1	0	0	0	0	1	0	-1	0	0	0	0	0	0	0	-1	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	0.18859	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN 
+																					 
+Model 1429	¬CREBBP  & ¬KRAS  & NF2  & ¬EP300 	0	0	0	-1	-1	0	0	0	1	0	-1	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	0	NaN	NaN	NaN	0.18859	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 14210	NF2  & ¬EP300 	0	0	0	0	0	0	0	0	1	0	-1	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.18859	NaN	0.044013	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 14211	¬KRAS  & NF2  & ¬EP300  & ¬TGFB-DOWN 	0	0	0	0	-1	0	0	0	1	0	-1	0	0	0	0	0	0	0	-1	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	0.18859	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN 
+																					 
+Model 14212	¬KRAS  & NF2  & ¬EP300 	0	0	0	0	-1	0	0	0	1	0	-1	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	0.18859	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 14213	NF2  & ¬EP300  & ¬TGFB-DOWN 	0	0	0	0	0	0	0	0	1	0	-1	0	0	0	0	0	0	0	-1	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.18859	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN 
+																					 
+Model 14214	¬CREBBP  & BRAF  & NF2  & ¬EP300 	0	0	0	-1	0	1	0	0	1	0	-1	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	NaN	0	NaN	NaN	0.2778	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 14215	BRAF  & NF2 	0	0	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	0.044013	NaN	NaN	0.25778	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 14216	¬d(FANCG,PAX5)  & ¬CREBBP  & NF2  & ¬EP300 	0	0	-1	-1	0	0	0	0	1	0	-1	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	0	0	NaN	NaN	NaN	NaN	0.18929	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 14217	BRAF  & NF2  & ¬EP300  & ¬TGFB-DOWN 	0	0	0	0	0	1	0	0	1	0	-1	0	0	0	0	0	0	0	-1	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	0.2778	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN 
+																					 
+Model 14218	¬CREBBP  & NF2  & ¬EP300 	0	0	0	-1	0	0	0	0	1	0	-1	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	0.18859	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 14219	¬d19p12  & ¬CREBBP  & NF2  & ¬EP300 	0	-1	0	-1	0	0	0	0	1	0	-1	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	NaN	0	NaN	NaN	NaN	NaN	0.18929	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 14220	¬KRAS  & BRAF  & NF2  & ¬EP300 	0	0	0	0	-1	1	0	0	1	0	-1	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	0	0	NaN	NaN	0.2778	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 14221	¬CREBBP  & ¬KRAS  & BRAF  & NF2 	0	0	0	-1	-1	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	0	0	NaN	NaN	0.2778	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 14222	¬CREBBP  & ¬KRAS  & NF2  & ¬SMARCA4 	0	0	0	-1	-1	0	0	0	1	0	0	0	-1	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	0	NaN	NaN	NaN	0.18859	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 14223	¬d19p12  & ¬KRAS  & NF2 	0	-1	0	0	-1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	NaN	NaN	0.044013	NaN	NaN	NaN	0.16927	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 14224	¬d(FANCG,PAX5)  & ¬KRAS  & NF2 	0	0	-1	0	-1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	0	NaN	0.044013	NaN	NaN	NaN	0.16927	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 14225	¬d(FANCG,PAX5)  & ¬CREBBP  & NF2 	0	0	-1	-1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	0	0.044013	NaN	NaN	NaN	NaN	0.18929	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 14226	¬d(FANCG,PAX5)  & ¬CREBBP  & ¬KRAS  & NF2 	0	0	-1	-1	-1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	0	0	0	NaN	NaN	NaN	0.18929	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1431	¬d(FANCG,PAX5)  & ¬BRAF  & ¬NF1  & ¬H2O2-UP 	0	0	-1	0	0	-1	-1	0	0	0	0	0	0	0	-1	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	0.13363	NaN	NaN	0.11469	0.17718	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.1209	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1432	¬BRAF  & NRAS  & ¬H2O2-UP 	0	0	0	0	0	-1	0	1	0	0	0	0	0	0	-1	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	0	NaN	0.30874	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1433	¬d(FANCG,PAX5)  & NRAS 	0	0	-1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	0	NaN	NaN	NaN	NaN	0.41137	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1434	¬d19p12  & ¬BRAF  & ¬NF1  & NRAS 	0	-1	0	0	0	-1	-1	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	NaN	NaN	NaN	0	0	0.25314	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1435	¬d19p12  & ¬d(FANCG,PAX5)  & ¬BRAF  & NRAS 	0	-1	-1	0	0	-1	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	0	NaN	NaN	0	NaN	0.29668	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1436	¬d19p12  & ¬CREBBP  & ¬BRAF  & NRAS 	0	-1	0	-1	0	-1	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	NaN	0	NaN	0	NaN	0.43032	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1437	¬d19p12  & ¬NF1  & NRAS  & ¬H2O2-UP 	0	-1	0	0	0	0	-1	1	0	0	0	0	0	0	-1	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	NaN	NaN	NaN	NaN	0	0.24694	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1438	¬d19p12  & NRAS  & ¬H2O2-UP 	0	-1	0	0	0	0	0	1	0	0	0	0	0	0	-1	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	NaN	NaN	NaN	NaN	NaN	0.42411	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1439	¬d19p12  & ¬NF1  & NRAS  & ¬CDKN2A 	0	-1	0	0	0	0	-1	1	0	-1	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	NaN	NaN	NaN	NaN	0	0.31367	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 14310	¬d19p12  & NRAS  & ¬CDKN2A  & ¬H2O2-UP 	0	-1	0	0	0	0	0	1	0	-1	0	0	0	0	-1	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	NaN	NaN	NaN	NaN	NaN	0.36995	NaN	0	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 14311	¬d19p12  & NRAS  & ¬EP300  & ¬H2O2-UP 	0	-1	0	0	0	0	0	1	0	0	-1	0	0	0	-1	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	NaN	NaN	NaN	NaN	NaN	0.44349	NaN	NaN	0	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 14312	¬d19p12  & ¬BRAF  & NRAS  & ¬H2O2-UP 	0	-1	0	0	0	-1	0	1	0	0	0	0	0	0	-1	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	NaN	NaN	NaN	0	NaN	0.30942	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 14313	¬d19p12  & NRAS  & ¬SMARCA4  & ¬H2O2-UP 	0	-1	0	0	0	0	0	1	0	0	0	0	-1	0	-1	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	NaN	NaN	NaN	NaN	NaN	0.44349	NaN	NaN	NaN	NaN	0	NaN	0	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 14314	¬d19p12  & NRAS  & ¬d13q14.2  & ¬H2O2-UP 	0	-1	0	0	0	0	0	1	0	0	0	0	0	-1	-1	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	NaN	NaN	NaN	NaN	NaN	0.42411	NaN	NaN	NaN	NaN	NaN	0	0	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 14315	¬d19p12  & NRAS  & ¬d13q14.2 	0	-1	0	0	0	0	0	1	0	0	0	0	0	-1	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	NaN	NaN	NaN	NaN	NaN	0.54501	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 14316	¬d19p12  & NRAS  & ¬d13q14.2  & ¬IL-1-UP 	0	-1	0	0	0	0	0	1	0	0	0	0	0	-1	0	-1	0	0	0	0 
+	Feature Importance Scores:	NaN	0	NaN	NaN	NaN	NaN	NaN	0.53917	NaN	NaN	NaN	NaN	NaN	0	NaN	0	NaN	NaN	NaN	NaN 
+																					 
+Model 14317	¬d19p12  & NRAS  & ¬SMARCA4  & ¬d13q14.2 	0	-1	0	0	0	0	0	1	0	0	0	0	-1	-1	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	NaN	NaN	NaN	NaN	NaN	0.56439	NaN	NaN	NaN	NaN	0	0	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 14318	¬d19p12  & NRAS  & ¬SMARCA4 	0	-1	0	0	0	0	0	1	0	0	0	0	-1	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	NaN	NaN	NaN	NaN	NaN	0.56439	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 14319	¬d19p12  & NRAS  & ¬d13q14.2  & ¬TGFB-UP 	0	-1	0	0	0	0	0	1	0	0	0	0	0	-1	0	0	-1	0	0	0 
+	Feature Importance Scores:	NaN	0	NaN	NaN	NaN	NaN	NaN	0.5464	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	0	NaN	NaN	NaN 
+																					 
+Model 14320	¬d19p12  & NRAS  & ¬d13q14.2  & ¬Wnt-DOWN 	0	-1	0	0	0	0	0	1	0	0	0	0	0	-1	0	0	0	0	0	-1 
+	Feature Importance Scores:	NaN	0	NaN	NaN	NaN	NaN	NaN	0.49085	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	0 
+																					 
+Model 14321	¬d19p12  & NRAS  & ¬CDKN2A  & ¬EP300 	0	-1	0	0	0	0	0	1	0	-1	-1	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	NaN	NaN	NaN	NaN	NaN	0.51023	NaN	0	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 14322	¬d19p12  & NRAS  & ¬CDKN2A  & ¬SMARCA4 	0	-1	0	0	0	0	0	1	0	-1	0	0	-1	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	NaN	NaN	NaN	NaN	NaN	0.51023	NaN	0	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 14323	¬d19p12  & ¬BRAF  & NRAS  & ¬CDKN2A 	0	-1	0	0	0	-1	0	1	0	-1	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	NaN	NaN	NaN	0	NaN	0.43032	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 14324	¬d19p12  & ¬BRAF  & NRAS  & ¬EP300 	0	-1	0	0	0	-1	0	1	0	0	-1	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	NaN	NaN	NaN	0	NaN	0.43032	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 14325	¬d19p12  & ¬BRAF  & NRAS  & ¬SMARCA4 	0	-1	0	0	0	-1	0	1	0	0	0	0	-1	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	NaN	NaN	NaN	0	NaN	0.43032	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 14326	¬d19p12  & ¬BRAF  & NRAS  & ¬d13q14.2 	0	-1	0	0	0	-1	0	1	0	0	0	0	0	-1	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	NaN	NaN	NaN	0	NaN	0.43032	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1441	¬KRAS  & NRAS  & ¬CDKN2A  & ¬IL-1-UP 	0	0	0	0	-1	0	0	1	0	-1	0	0	0	0	0	-1	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	0	NaN	NaN	0.16772	NaN	0	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN 
+																					 
+Model 1442	NRAS  & ¬CDKN2A  & ¬IL-1-UP 	0	0	0	0	0	0	0	1	0	-1	0	0	0	0	0	-1	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.1979	NaN	0	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN 
+																					 
+Model 1443	NRAS  & ¬IL-1-UP 	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	-1	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.23626	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN 
+																					 
+Model 1444	NRAS 	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.29238	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1445	NRAS  & ¬CDKN2A  & ¬EP300  & ¬PIK3CA 	0	0	0	0	0	0	0	1	0	-1	-1	-1	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.090045	NaN	0	0	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1446	NRAS  & ¬EP300 	0	0	0	0	0	0	0	1	0	0	-1	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.22394	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1447	NRAS  & ¬CDKN2A 	0	0	0	0	0	0	0	1	0	-1	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.20203	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1448	NRAS  & ¬SMARCA4 	0	0	0	0	0	0	0	1	0	0	0	0	-1	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.25412	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1449	¬NF1  & NRAS 	0	0	0	0	0	0	-1	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	0	0.11489	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 14410	¬CREBBP  & ¬NF1  & NRAS  & ¬H2O2-UP 	0	0	0	-1	0	0	-1	1	0	0	0	0	0	0	-1	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	NaN	NaN	0	0.012802	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 14411	¬d(FANCG,PAX5)  & NRAS  & ¬CDKN2A  & ¬TGFB-UP 	0	0	-1	0	0	0	0	1	0	-1	0	0	0	0	0	0	-1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	0	NaN	NaN	NaN	NaN	0.10835	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN 
+																					 
+Model 14412	¬CREBBP  & ¬NF1  & NRAS  & ¬NF2 	0	0	0	-1	0	0	-1	1	-1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	NaN	NaN	0	0.31734	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 14413	¬CREBBP  & ¬NF1  & NRAS 	0	0	0	-1	0	0	-1	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	NaN	NaN	0	0.098438	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 14414	¬CREBBP  & NRAS 	0	0	0	-1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	NaN	NaN	NaN	0.22394	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 14415	NRAS  & ¬CDKN2A  & ¬PIK3CA  & ¬IL-1-UP 	0	0	0	0	0	0	0	1	0	-1	0	-1	0	0	0	-1	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.10237	NaN	0	NaN	0	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN 
+																					 
+Model 14416	NRAS  & ¬PIK3CA  & ¬H2O2-UP  & ¬Wnt-DOWN 	0	0	0	0	0	0	0	1	0	0	0	-1	0	0	-1	0	0	0	0	-1 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.020863	NaN	NaN	NaN	0	NaN	NaN	0	NaN	NaN	NaN	NaN	0 
+																					 
+Model 14417	¬KRAS  & NRAS  & ¬TGFB-UP 	0	0	0	0	-1	0	0	1	0	0	0	0	0	0	0	0	-1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	0	NaN	NaN	0.21119	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN 
+																					 
+Model 14418	NRAS  & ¬CDKN2A  & ¬IL-1-UP  & ¬TGFB-UP 	0	0	0	0	0	0	0	1	0	-1	0	0	0	0	0	-1	-1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.19888	NaN	0	NaN	NaN	NaN	NaN	NaN	0	0	NaN	NaN	NaN 
+																					 
+Model 14419	¬NF1  & NRAS  & ¬PIK3CA  & ¬TGFB-UP 	0	0	0	0	0	0	-1	1	0	0	0	-1	0	0	0	0	-1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	0	0.020344	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN 
+																					 
+Model 14420	NRAS  & ¬TGFB-UP 	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	-1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.24138	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN 
+																					 
+Model 14421	¬d(FANCG,PAX5)  & ¬BRAF  & NRAS  & ¬H2O2-UP 	0	0	-1	0	0	-1	0	1	0	0	0	0	0	0	-1	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	0	NaN	NaN	0	NaN	0.1547	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 14422	¬BRAF  & NRAS 	0	0	0	0	0	-1	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	0	NaN	0.335	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 14423	¬d(FANCG,PAX5)  & ¬BRAF  & ¬NF1  & ¬H2O2-UP 	0	0	-1	0	0	-1	-1	0	0	0	0	0	0	0	-1	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	0.09466	NaN	NaN	0	0.1255	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.085635	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 14424	¬d(FANCG,PAX5)  & ¬NF1  & NRAS  & ¬H2O2-UP 	0	0	-1	0	0	0	-1	1	0	0	0	0	0	0	-1	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	0	NaN	NaN	NaN	0	0	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 14425	¬CREBBP  & ¬NF1  & NRAS  & ¬CDKN2A 	0	0	0	-1	0	0	-1	1	0	-1	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	NaN	NaN	0	0.060074	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 14426	¬KRAS  & NRAS 	0	0	0	0	-1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	0	NaN	NaN	0.21021	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1451	NRAS 	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.30387	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1452	¬d(FANCG,PAX5)  & ¬BRAF  & ¬NF1  & ¬NF2 	0	0	-1	0	0	-1	-1	0	-1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	0.098378	NaN	NaN	0.17942	0.13043	NaN	0.031368	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1453	¬d(FANCG,PAX5)  & ¬NF1  & NRAS 	0	0	-1	0	0	0	-1	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	0	NaN	NaN	NaN	0	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1454	¬d(FANCG,PAX5)  & ¬CREBBP  & ¬BRAF  & ¬NF1 	0	0	-1	-1	0	-1	-1	0	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	0.098378	0.031368	NaN	0	0.13043	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1455	¬d(FANCG,PAX5)  & NRAS 	0	0	-1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	0	NaN	NaN	NaN	NaN	0.11372	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1456	¬d(FANCG,PAX5)  & ¬CREBBP  & ¬NF1  & NRAS 	0	0	-1	-1	0	0	-1	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	0	0	NaN	NaN	0	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1457	¬CREBBP  & ¬NF1  & NRAS 	0	0	0	-1	0	0	-1	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	NaN	NaN	0	0.064568	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1458	¬d(FANCG,PAX5)  & ¬KRAS  & ¬BRAF  & ¬NF1 	0	0	-1	0	-1	-1	-1	0	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	0.098378	NaN	0.031368	0	0.13043	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 1459	¬NF1  & NRAS 	0	0	0	0	0	0	-1	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	0	0.081668	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 14510	¬d(FANCG,PAX5)  & ¬KRAS  & ¬NF1  & NRAS 	0	0	-1	0	-1	0	-1	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	0	NaN	0	NaN	0	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 14511	¬d(FANCG,PAX5)  & ¬BRAF  & ¬NF1  & ¬TGFB-DOWN 	0	0	-1	0	0	-1	-1	0	0	0	0	0	0	0	0	0	0	0	-1	0 
+	Feature Importance Scores:	NaN	NaN	0.098378	NaN	NaN	0	0.13043	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.031368	NaN 
+																					 
+Model 14512	¬BRAF  & NRAS  & ¬EP300 	0	0	0	0	0	-1	0	1	0	0	-1	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	0	NaN	0.22831	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 14513	¬BRAF  & NRAS 	0	0	0	0	0	-1	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	0	NaN	0.25967	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 14514	¬d(FANCG,PAX5)  & ¬KRAS  & ¬BRAF  & NRAS 	0	0	-1	0	-1	-1	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	0	NaN	0	0	NaN	0.13043	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 14515	¬d(FANCG,PAX5)  & ¬BRAF  & ¬NF1  & ¬EP300 	0	0	-1	0	0	-1	-1	0	0	0	-1	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	0.098378	NaN	NaN	0	0.13043	NaN	NaN	NaN	0.031368	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 14516	¬d19p12  & NRAS 	0	-1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	NaN	NaN	NaN	NaN	NaN	0.2121	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 14517	¬d19p12  & ¬d(FANCG,PAX5)  & ¬KRAS  & NRAS 	0	-1	-1	0	-1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	0	NaN	0	NaN	NaN	0.082354	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 14518	¬d19p12  & ¬d(FANCG,PAX5)  & ¬BRAF  & NRAS 	0	-1	-1	0	0	-1	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	0	NaN	NaN	0	NaN	0.1618	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 14519	¬d19p12  & ¬d(FANCG,PAX5)  & ¬CREBBP  & NRAS 	0	-1	-1	-1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	0	0	NaN	NaN	NaN	0.096621	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 14520	¬d19p12  & ¬d(FANCG,PAX5)  & ¬NF1  & NRAS 	0	-1	-1	0	0	0	-1	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	0	NaN	NaN	NaN	0	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 14521	¬d19p12  & ¬d(FANCG,PAX5)  & NRAS 	0	-1	-1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	0	NaN	NaN	NaN	NaN	0.11372	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 14522	¬d19p12  & ¬d(FANCG,PAX5)  & NRAS  & ¬NF2 	0	-1	-1	0	0	0	0	1	-1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	0	NaN	NaN	NaN	NaN	0.30985	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 14523	¬d19p12  & ¬d(FANCG,PAX5)  & NRAS  & ¬CDKN2A 	0	-1	-1	0	0	0	0	1	0	-1	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	0	NaN	NaN	NaN	NaN	0.073851	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 14524	¬d19p12  & ¬d(FANCG,PAX5)  & NRAS  & ¬EP300 	0	-1	-1	0	0	0	0	1	0	0	-1	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	0	NaN	NaN	NaN	NaN	0.096621	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 14525	¬CREBBP  & NRAS 	0	0	0	-1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	NaN	NaN	NaN	0.1945	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 14526	¬KRAS  & NRAS 	0	0	0	0	-1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	0	NaN	NaN	0.18023	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 2101	NRAS  | NF2 	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0 
+CV error: 0.36036	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.27768	0.17923	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 2111	NF2  | PI3K_only-DOWN 	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.22059	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.17187	NaN	NaN 
+																					 
+Model 2112	NRAS  | NF2 	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.17187	0.22059	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 2121	NRAS  | NF2 	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.21195	0.2752	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 2131	NRAS  | SMARCA4 	0	0	0	0	0	0	0	1	0	0	0	0	1	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.41277	NaN	NaN	NaN	NaN	0.019381	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 2132	NRAS  | EP300 	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.41277	NaN	NaN	0.019381	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 2133	CREBBP  | NRAS 	0	0	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.019381	NaN	NaN	NaN	0.41277	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 2134	d19p12  | NRAS 	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0.00068387	NaN	NaN	NaN	NaN	NaN	0.41277	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 2135	NRAS  | TGFB-UP 	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.41277	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.0013888	NaN	NaN	NaN 
+																					 
+Model 2136	NRAS  | d13q14.2 	0	0	0	0	0	0	0	1	0	0	0	0	0	1	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.41277	NaN	NaN	NaN	NaN	NaN	0.00068387	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 2137	NRAS  | IL-1-UP 	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.41277	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN 
+																					 
+Model 2138	NRAS 	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.41277	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 2139	NRAS  | PI3K_only-DOWN 	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	1	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.20519	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN 
+																					 
+Model 2141	NRAS  | NF2 	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.29238	0.18872	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 2151	NRAS  | NF2 	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.30387	0.19613	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 2201	¬BRAF  & NRAS   |  ¬KRAS  & NF2 	0	0	0	0	0	-1	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	-1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+CV error: 0.25099	Feature Importance Scores:	NaN	NaN	NaN	NaN	0.028664	0	NaN	0.27768	0.20789	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 2202	¬BRAF  & NRAS   |  NF2  & ¬TGFB-DOWN 	0	0	0	0	0	-1	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	-1	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	0	NaN	0.27768	0.20789	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.028664	NaN 
+																					 
+Model 2203	¬BRAF  & NRAS   |  ¬CREBBP  & NF2 	0	0	0	0	0	-1	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	-1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.028664	NaN	0	NaN	0.27768	0.20789	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 2204	NRAS   |  ¬CREBBP  & NF2 	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	-1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.028664	NaN	NaN	NaN	0.27768	0.20789	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 2205	NRAS   |  NF2  & ¬TGFB-DOWN 	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	-1	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.27768	0.20789	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.028664	NaN 
+																					 
+Model 2206	¬d19p12  & NRAS   |  NF2  & ¬TGFB-DOWN 	0	-1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	-1	0 
+	Feature Importance Scores:	NaN	0	NaN	NaN	NaN	NaN	NaN	0.27768	0.20789	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.028664	NaN 
+																					 
+Model 2207	NRAS   |  ¬KRAS  & NF2 	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	-1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	0.028664	NaN	NaN	0.27768	0.20789	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 2208	¬d19p12  & NRAS   |  ¬KRAS  & NF2 	0	-1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	-1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	NaN	NaN	0.028664	NaN	NaN	0.27768	0.20789	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 2209	¬d19p12  & NRAS   |  ¬CREBBP  & NF2 	0	-1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	-1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	NaN	0.028664	NaN	NaN	NaN	0.27768	0.20789	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 22010	NRAS   |  BRAF  & NF2 	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	0.028664	NaN	0.27768	0.16788	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 22011	NRAS   |  NF2  & ¬EP300 	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	0	0	0	0	1	0	-1	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.27768	0.20789	NaN	0.028664	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 22012	NRAS  & ¬TGFB-DOWN   |  ¬KRAS  & NF2 	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	-1	0 
+		0	0	0	0	-1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	0.028664	NaN	NaN	0.27768	0.20789	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN 
+																					 
+Model 22013	¬d(FANCG,PAX5)  & NRAS   |  ¬KRAS  & NF2 	0	0	-1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	-1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	0	NaN	0.028664	NaN	NaN	0.27768	0.20789	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 22014	¬NF1  & NRAS   |  ¬KRAS  & NF2 	0	0	0	0	0	0	-1	1	0	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	-1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	0.028664	NaN	0	0.27768	0.20789	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 22015	¬KRAS  & NRAS   |  ¬KRAS  & NF2 	0	0	0	0	-1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	-1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	0	NaN	NaN	0.27768	0.20789	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 22016	¬NF1  & NRAS   |  ¬CREBBP  & NF2 	0	0	0	0	0	0	-1	1	0	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	-1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.028664	NaN	NaN	0	0.27768	0.20789	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 22017	¬NF1  & NRAS   |  BRAF  & NF2 	0	0	0	0	0	0	-1	1	0	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	0.028664	0	0.27768	0.16788	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 22018	¬KRAS  & NRAS   |  ¬CREBBP  & NF2 	0	0	0	0	-1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	-1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.028664	0	NaN	NaN	0.27768	0.20789	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 22019	¬d(FANCG,PAX5)  & NRAS   |  ¬CREBBP  & NF2 	0	0	-1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	-1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	0	0.028664	NaN	NaN	NaN	0.27768	0.20789	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 22020	¬CREBBP  & NRAS   |  NF2  & ¬TGFB-DOWN 	0	0	0	-1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	-1	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	NaN	NaN	NaN	0.27768	0.20789	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.028664	NaN 
+																					 
+Model 22021	NRAS  & ¬TGFB-UP   |  ¬KRAS  & NF2 	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	-1	0	0	0 
+		0	0	0	0	-1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	0.028664	NaN	NaN	0.27768	0.20789	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN 
+																					 
+Model 22022	¬CREBBP  & NRAS   |  ¬KRAS  & NF2 	0	0	0	-1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	-1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	0.028664	NaN	NaN	0.27768	0.20789	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 22023	¬BRAF  & NRAS   |  NF2  & ¬EP300 	0	0	0	0	0	-1	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	0	0	0	0	1	0	-1	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	0	NaN	0.27768	0.20789	NaN	0.028664	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 22024	NF2  & ¬TGFB-DOWN   |  NRAS  & ¬IL-1-UP 	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	-1	0 
+		0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	-1	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.27768	0.20789	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	0.028664	NaN 
+																					 
+Model 22025	NF2  & ¬TGFB-DOWN   |  NRAS 	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	-1	0 
+		0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.27768	0.20789	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.028664	NaN 
+																					 
+Model 22026	¬KRAS  & NF2   |  NRAS 	0	0	0	0	-1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	0.028664	NaN	NaN	0.27768	0.20789	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 2211	BRAF  & NF2   |  NRAS 	0	0	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	0.035279	NaN	0.17187	0.17783	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 2212	¬NF1  & PI3K_only-DOWN   |  ¬NF1  & NF2 	0	0	0	0	0	0	-1	0	0	0	0	0	0	0	0	0	0	1	0	0 
+		0	0	0	0	0	0	-1	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	0.22059	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.17187	NaN	NaN 
+																					 
+Model 2213	PTEN  & ¬NF1   |  ¬NF1  & NF2 	1	0	0	0	0	0	-1	0	0	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	0	0	-1	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	0.17187	NaN	NaN	NaN	NaN	NaN	0	NaN	0.22059	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 2214	¬CREBBP  & NF2   |  NRAS 	0	0	0	-1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.035279	NaN	NaN	NaN	0.17187	0.25587	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 2215	¬CREBBP  & NRAS   |  NF2  & ¬TGFB-DOWN 	0	0	0	-1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	-1	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	NaN	NaN	NaN	0.17187	0.25587	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.035279	NaN 
+																					 
+Model 2216	NRAS   |  NF2  & ¬TGFB-DOWN 	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	-1	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.17187	0.25587	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.035279	NaN 
+																					 
+Model 2217	PTEN  & ¬NF1   |  NF2  & ¬TGFB-DOWN 	1	0	0	0	0	0	-1	0	0	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	-1	0 
+	Feature Importance Scores:	0.17187	NaN	NaN	NaN	NaN	NaN	0.1467	NaN	0.25587	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.035279	NaN 
+																					 
+Model 2218	PTEN  & PI3K_only-DOWN   |  NF2  & ¬TGFB-DOWN 	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0 
+		0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	-1	0 
+	Feature Importance Scores:	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.25587	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.1467	0.035279	NaN 
+																					 
+Model 2219	PTEN  & ¬NF1   |  ¬KRAS  & NF2 	1	0	0	0	0	0	-1	0	0	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	-1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	0.17187	NaN	NaN	NaN	0.035279	NaN	0.1467	NaN	0.25587	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 22110	BRAF  & NF2   |  PTEN  & NRAS 	0	0	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+		1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	0	NaN	NaN	NaN	NaN	0.035279	NaN	0.1467	0.17783	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 22111	¬KRAS  & NF2   |  PTEN  & NRAS 	0	0	0	0	-1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+		1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	0	NaN	NaN	NaN	0.035279	NaN	NaN	0.1467	0.25587	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 22112	¬CREBBP  & NF2   |  NRAS  & ¬EP300 	0	0	0	-1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	0	0	0	1	0	0	-1	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.035279	NaN	NaN	NaN	0.17187	0.25587	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 22113	¬KRAS  & NF2   |  ¬KRAS  & NRAS 	0	0	0	0	-1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	-1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	0	NaN	NaN	0.17187	0.25587	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 22114	PTEN  & PI3K_only-DOWN   |  ¬KRAS  & NF2 	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0 
+		0	0	0	0	-1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	0	NaN	NaN	NaN	0.035279	NaN	NaN	NaN	0.25587	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.1467	NaN	NaN 
+																					 
+Model 22115	¬CREBBP  & NF2   |  NRAS  & ¬TGFB-DOWN 	0	0	0	-1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	-1	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.035279	NaN	NaN	NaN	0.17187	0.25587	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN 
+																					 
+Model 22116	¬CREBBP  & NF2   |  PTEN  & ¬NF1 	0	0	0	-1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+		1	0	0	0	0	0	-1	0	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	0.17187	NaN	NaN	0.035279	NaN	NaN	0.1467	NaN	0.25587	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 22117	¬CREBBP  & NF2   |  ¬KRAS  & NRAS 	0	0	0	-1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	-1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.035279	0	NaN	NaN	0.17187	0.25587	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 22118	PTEN  & ¬NF1   |  ¬CREBBP  & NF2 	1	0	0	0	0	0	-1	0	0	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	-1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	0.17187	NaN	NaN	0.035279	NaN	NaN	0.1467	NaN	0.25587	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 22119	NF2  & ¬TGFB-DOWN   |  ¬KRAS  & NRAS 	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	-1	0 
+		0	0	0	0	-1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	0	NaN	NaN	0.17187	0.25587	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.035279	NaN 
+																					 
+Model 22120	¬CREBBP  & NF2   |  ¬d19p12  & NRAS 	0	0	0	-1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+		0	-1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	NaN	0.035279	NaN	NaN	NaN	0.17187	0.25587	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 22121	¬KRAS  & NF2   |  NRAS 	0	0	0	0	-1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	0.035279	NaN	NaN	0.17187	0.25587	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 22122	¬CREBBP  & PI3K_only-DOWN   |  ¬KRAS  & NF2 	0	0	0	-1	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0 
+		0	0	0	0	-1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	0.035279	NaN	NaN	NaN	0.25587	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.17187	NaN	NaN 
+																					 
+Model 22123	NRAS   |  ¬CREBBP  & NF2 	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	-1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.035279	NaN	NaN	NaN	0.17187	0.25587	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 22124	PTEN  & NRAS   |  NF2  & ¬EP300 	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	0	0	0	0	1	0	-1	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	0	NaN	NaN	NaN	NaN	NaN	NaN	0.1467	0.25587	NaN	0.035279	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 22125	NRAS   |  ¬KRAS  & NF2 	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	-1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	0.035279	NaN	NaN	0.17187	0.25587	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 22126	¬KRAS  & NF2   |  ¬CREBBP  & NRAS 	0	0	0	0	-1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	-1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	0.035279	NaN	NaN	0.17187	0.25587	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 2221	NF2  & ¬TGFB-DOWN   |  ¬BRAF  & NRAS 	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	-1	0 
+		0	0	0	0	0	-1	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	0	NaN	0.16675	0.31921	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.044013	NaN 
+																					 
+Model 2222	NF2  & ¬TGFB-DOWN   |  ¬BRAF  & ¬H2O2-UP 	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	-1	0 
+		0	0	0	0	0	-1	0	0	0	0	0	0	0	0	-1	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	0.17007	NaN	NaN	0.31921	NaN	NaN	NaN	NaN	NaN	0.12488	NaN	NaN	NaN	0	NaN 
+																					 
+Model 2223	¬BRAF  & ¬H2O2-UP   |  NF2  & ¬TGFB-DOWN 	0	0	0	0	0	-1	0	0	0	0	0	0	0	0	-1	0	0	0	0	0 
+		0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	-1	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	0.17007	NaN	NaN	0.31921	NaN	NaN	NaN	NaN	NaN	0.12488	NaN	NaN	NaN	0	NaN 
+																					 
+Model 2224	¬BRAF  & NRAS   |  NF2  & ¬TGFB-DOWN 	0	0	0	0	0	-1	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	-1	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	0	NaN	0.16675	0.31921	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.044013	NaN 
+																					 
+Model 2225	¬CREBBP  & NF2   |  ¬BRAF  & NRAS 	0	0	0	-1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	0	-1	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.044013	NaN	0	NaN	0.16675	0.31921	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 2226	¬KRAS  & NF2   |  ¬BRAF  & NRAS 	0	0	0	0	-1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	0	-1	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	0.044013	0	NaN	0.16675	0.31921	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 2227	¬KRAS  & NF2   |  NRAS 	0	0	0	0	-1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	0.044013	NaN	NaN	0.21195	0.31921	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 2228	¬CREBBP  & NF2   |  NRAS 	0	0	0	-1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.044013	NaN	NaN	NaN	0.21195	0.31921	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 2229	BRAF  & NF2   |  NRAS 	0	0	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	0.044013	NaN	0.21195	0.25778	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 22210	¬CREBBP  & NF2   |  ¬d19p12  & NRAS 	0	0	0	-1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+		0	-1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	NaN	0.044013	NaN	NaN	NaN	0.21195	0.31921	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 22211	NF2  & ¬TGFB-DOWN   |  NRAS 	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	-1	0 
+		0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.21195	0.31921	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.044013	NaN 
+																					 
+Model 22212	¬KRAS  & NF2   |  ¬CREBBP  & NRAS 	0	0	0	0	-1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	-1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	0.044013	NaN	NaN	0.21195	0.31921	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 22213	NF2  & ¬EP300   |  NRAS 	0	0	0	0	0	0	0	0	1	0	-1	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.21195	0.31921	NaN	0.044013	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 22214	BRAF  & NF2   |  ¬BRAF  & ¬H2O2-UP 	0	0	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	0	-1	0	0	0	0	0	0	0	0	-1	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	0.25778	NaN	NaN	NaN	NaN	NaN	0.12488	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 22215	BRAF  & NF2   |  ¬CREBBP  & NRAS 	0	0	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	-1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	NaN	0.044013	NaN	0.21195	0.25778	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 22216	BRAF  & NF2   |  NRAS  & ¬NF2 	0	0	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	0	0	0	1	-1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	0.044013	NaN	0.21195	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 22217	NF2  & ¬TGFB-DOWN   |  NRAS  & ¬NF2 	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	-1	0 
+		0	0	0	0	0	0	0	1	-1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.21195	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.044013	NaN 
+																					 
+Model 22218	NF2  & ¬TGFB-DOWN   |  ¬d(FANCG,PAX5)  & NRAS 	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	-1	0 
+		0	0	-1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	0	NaN	NaN	NaN	NaN	0.21195	0.31921	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.044013	NaN 
+																					 
+Model 22219	BRAF  & NF2   |  ¬BRAF  & NRAS 	0	0	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	0	-1	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	0	NaN	0.16675	0.25778	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 22220	¬CREBBP  & NF2   |  ¬CREBBP  & NRAS 	0	0	0	-1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	-1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	NaN	NaN	NaN	0.21195	0.31921	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 22221	¬KRAS  & NF2   |  ¬KRAS  & NRAS 	0	0	0	0	-1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	-1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	0	NaN	NaN	0.21195	0.31921	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 22222	¬KRAS  & NRAS   |  ¬KRAS  & NF2 	0	0	0	0	-1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	-1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	0	NaN	NaN	0.21195	0.31921	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 22223	¬KRAS  & NRAS   |  ¬CREBBP  & NF2 	0	0	0	0	-1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	-1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.044013	0	NaN	NaN	0.21195	0.31921	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 22224	NRAS  & ¬CDKN2A   |  ¬CREBBP  & NF2 	0	0	0	0	0	0	0	1	0	-1	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	-1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.044013	NaN	NaN	NaN	0.21195	0.31921	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 22225	¬CREBBP  & NRAS   |  NF2  & ¬H2O2-UP 	0	0	0	-1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	0	0	0	0	1	0	0	0	0	0	-1	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	NaN	NaN	NaN	0.21195	0.25563	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 22226	¬CREBBP  & NF2   |  ¬BRAF  & ¬H2O2-UP 	0	0	0	-1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	0	-1	0	0	0	0	0	0	0	0	-1	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	NaN	0.17007	NaN	NaN	0.31921	NaN	NaN	NaN	NaN	NaN	0.12488	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 2231	¬BRAF  & NRAS   |  EP300 	0	0	0	0	0	-1	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	0	NaN	0.41277	NaN	NaN	0.019381	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 2232	CDKN2A  & ¬Wnt-DOWN   |  NRAS 	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	-1 
+		0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.41277	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0 
+																					 
+Model 2233	NRAS  & ¬Wnt-DOWN   |  TGFB-UP 	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	-1 
+		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.41277	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.0013888	NaN	NaN	0 
+																					 
+Model 2234	CREBBP  & ¬d13q14.2   |  NRAS 	0	0	0	1	0	0	0	0	0	0	0	0	0	-1	0	0	0	0	0	0 
+		0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.019381	NaN	NaN	NaN	0.41277	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 2235	CREBBP  & ¬d13q14.2   |  ¬BRAF  & NRAS 	0	0	0	1	0	0	0	0	0	0	0	0	0	-1	0	0	0	0	0	0 
+		0	0	0	0	0	-1	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.019381	NaN	0	NaN	0.41277	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 2236	NRAS   |  EP300 	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.41277	NaN	NaN	0.019381	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 2237	¬CREBBP  & NRAS   |  CREBBP 	0	0	0	-1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	NaN	NaN	NaN	0.41277	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 2238	NRAS   |  CREBBP 	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.019381	NaN	NaN	NaN	0.41277	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 2239	NRAS   |  PTEN  & Wnt-DOWN 	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+		1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1 
+	Feature Importance Scores:	0	NaN	NaN	NaN	NaN	NaN	NaN	0.41277	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0 
+																					 
+Model 22310	NRAS   |  SMARCA4 	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.41277	NaN	NaN	NaN	NaN	0.019381	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 22311	d(FANCG,PAX5)  & NRAS   |  NRAS 	0	0	1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	0	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 22312	NRAS   |  CREBBP  & ¬TGFB-UP 	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	-1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.019381	NaN	NaN	NaN	0.41277	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN 
+																					 
+Model 22313	NRAS   |  TGFB-UP 	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.41277	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.0013888	NaN	NaN	NaN 
+																					 
+Model 22314	NRAS   |  d(FANCG,PAX5)  & TGFB-UP 	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	0	NaN	NaN	NaN	NaN	0.41277	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN 
+																					 
+Model 22315	NRAS   |  PTEN  & PI3K_only-DOWN 	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+		1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0 
+	Feature Importance Scores:	0	NaN	NaN	NaN	NaN	NaN	NaN	0.20519	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN 
+																					 
+Model 22316	d13q14.2  & TGFB-UP   |  NRAS 	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	0	0	0 
+		0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.41277	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	0	NaN	NaN	NaN 
+																					 
+Model 22317	d13q14.2  & ¬TGFB-UP   |  NRAS 	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	-1	0	0	0 
+		0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.41277	NaN	NaN	NaN	NaN	NaN	0.00068387	NaN	NaN	0	NaN	NaN	NaN 
+																					 
+Model 22318	EP300  & ¬TGFB-UP   |  NRAS 	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	-1	0	0	0 
+		0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.41277	NaN	NaN	0.019381	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN 
+																					 
+Model 22319	CREBBP   |  NRAS 	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.019381	NaN	NaN	NaN	0.41277	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 22320	¬PTEN  & CREBBP   |  NRAS 	-1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	0	NaN	NaN	0.019381	NaN	NaN	NaN	0.41277	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 22321	SMARCA4  & ¬H2O2-UP   |  NRAS 	0	0	0	0	0	0	0	0	0	0	0	0	1	0	-1	0	0	0	0	0 
+		0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.41277	NaN	NaN	NaN	NaN	0.019381	NaN	0	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 22322	PTEN  & Wnt-DOWN   |  NRAS 	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1 
+		0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	0	NaN	NaN	NaN	NaN	NaN	NaN	0.41277	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0 
+																					 
+Model 22323	CREBBP  & ¬NRAS   |  NRAS 	0	0	0	1	0	0	0	-1	0	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.019381	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 22324	¬NRAS  & EP300   |  NRAS 	0	0	0	0	0	0	0	-1	0	0	1	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	0.019381	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 22325	EP300   |  NRAS 	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.41277	NaN	NaN	0.019381	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 22326	CREBBP   |  ¬d19p12  & NRAS 	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0 
+		0	-1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	NaN	0.019381	NaN	NaN	NaN	0.41277	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 2241	NRAS   |  NF2  & ¬TGFB-DOWN 	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	-1	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.29238	0.2189	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.030182	NaN 
+																					 
+Model 2242	NRAS  & ¬TGFB-DOWN   |  ¬KRAS  & NF2 	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	-1	0 
+		0	0	0	0	-1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	0.030182	NaN	NaN	0.29238	0.2189	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN 
+																					 
+Model 2243	NRAS  & ¬TGFB-DOWN   |  BRAF  & NF2 	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	-1	0 
+		0	0	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	0.030182	NaN	0.29238	0.1243	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN 
+																					 
+Model 2244	NRAS   |  ¬CREBBP  & NF2 	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	-1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.030182	NaN	NaN	NaN	0.29238	0.2189	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 2245	NRAS  & ¬Wnt-DOWN   |  NF2  & ¬TGFB-DOWN 	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	-1 
+		0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	-1	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.29238	0.2189	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.030182	0 
+																					 
+Model 2246	NRAS  & ¬Wnt-DOWN   |  ¬CREBBP  & NF2 	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	-1 
+		0	0	0	-1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.030182	NaN	NaN	NaN	0.29238	0.2189	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0 
+																					 
+Model 2247	NRAS  & ¬Wnt-DOWN   |  ¬KRAS  & NF2 	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	-1 
+		0	0	0	0	-1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	0.030182	NaN	NaN	0.29238	0.2189	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0 
+																					 
+Model 2248	¬KRAS  & NRAS   |  NF2  & ¬EP300 	0	0	0	0	-1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	0	0	0	0	1	0	-1	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	0	NaN	NaN	0.29238	0.2189	NaN	0.030182	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 2249	NRAS   |  NF2  & ¬EP300 	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	0	0	0	0	1	0	-1	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.29238	0.2189	NaN	0.030182	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 22410	NRAS   |  ¬KRAS  & NF2 	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	-1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	0.030182	NaN	NaN	0.29238	0.2189	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 22411	¬CREBBP  & NRAS   |  ¬CREBBP  & NF2 	0	0	0	-1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	-1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	NaN	NaN	NaN	0.29238	0.2189	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 22412	¬CREBBP  & NRAS   |  ¬KRAS  & NF2 	0	0	0	-1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	-1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	0.030182	NaN	NaN	0.29238	0.2189	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 22413	¬KRAS  & NRAS   |  ¬KRAS  & NF2 	0	0	0	0	-1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	-1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	0	NaN	NaN	0.29238	0.2189	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 22414	NRAS  & ¬H2O2-UP   |  NF2  & ¬TGFB-DOWN 	0	0	0	0	0	0	0	1	0	0	0	0	0	0	-1	0	0	0	0	0 
+		0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	-1	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.29238	0.2189	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	0.030182	NaN 
+																					 
+Model 22415	¬CREBBP  & NRAS   |  NF2  & ¬EP300 	0	0	0	-1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	0	0	0	0	1	0	-1	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	NaN	NaN	NaN	0.29238	0.2189	NaN	0.030182	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 22416	NRAS   |  BRAF  & NF2 	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	0.030182	NaN	0.29238	0.1243	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 22417	¬d(FANCG,PAX5)  & NRAS   |  ¬CREBBP  & NF2 	0	0	-1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	-1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	0	0.030182	NaN	NaN	NaN	0.29238	0.2189	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 22418	¬d(FANCG,PAX5)  & NRAS   |  ¬KRAS  & NF2 	0	0	-1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	-1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	0	NaN	0.030182	NaN	NaN	0.29238	0.2189	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 22419	NRAS  & ¬NF2   |  ¬CREBBP  & NF2 	0	0	0	0	0	0	0	1	-1	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	-1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.030182	NaN	NaN	NaN	0.29238	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 22420	¬KRAS  & NRAS   |  ¬CREBBP  & NF2 	0	0	0	0	-1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	-1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.030182	0	NaN	NaN	0.29238	0.2189	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 22421	¬NF1  & NRAS   |  ¬KRAS  & NF2 	0	0	0	0	0	0	-1	1	0	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	-1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	0.030182	NaN	0	0.29238	0.2189	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 22422	¬KRAS  & NF2   |  NRAS 	0	0	0	0	-1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	0.030182	NaN	NaN	0.29238	0.2189	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 22423	BRAF  & NF2   |  ¬d(FANCG,PAX5)  & NRAS 	0	0	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	-1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	0	NaN	NaN	0.030182	NaN	0.29238	0.1243	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 22424	NF2  & ¬EP300   |  NRAS 	0	0	0	0	0	0	0	0	1	0	-1	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.29238	0.2189	NaN	0.030182	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 22425	¬CREBBP  & NF2   |  ¬CREBBP  & NRAS 	0	0	0	-1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	-1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	NaN	NaN	NaN	0.29238	0.2189	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 2251	¬BRAF  & NRAS   |  ¬KRAS  & NF2 	0	0	0	0	0	-1	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	-1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	0.031368	0	NaN	0.25967	0.2275	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 2252	NF2  & ¬TGFB-DOWN   |  NRAS  & ¬TGFB-DOWN 	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	-1	0 
+		0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	-1	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.30387	0.2275	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN 
+																					 
+Model 2253	NRAS   |  ¬KRAS  & NF2 	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	-1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	0.031368	NaN	NaN	0.30387	0.2275	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 2254	NRAS   |  BRAF  & NF2 	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	0.031368	NaN	0.30387	0.17942	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 2255	NRAS   |  NF2  & ¬TGFB-DOWN 	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	-1	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.30387	0.2275	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.031368	NaN 
+																					 
+Model 2256	NRAS   |  ¬CREBBP  & NF2 	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	-1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.031368	NaN	NaN	NaN	0.30387	0.2275	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 2257	¬d(FANCG,PAX5)  & NRAS   |  ¬CREBBP  & NF2 	0	0	-1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	-1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	0	0.031368	NaN	NaN	NaN	0.30387	0.2275	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 2258	NRAS  & ¬d13q14.2   |  ¬CREBBP  & NF2 	0	0	0	0	0	0	0	1	0	0	0	0	0	-1	0	0	0	0	0	0 
+		0	0	0	-1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.031368	NaN	NaN	NaN	0.30387	0.2275	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 2259	¬d19p12  & NRAS   |  ¬CREBBP  & NF2 	0	-1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	-1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	NaN	0.031368	NaN	NaN	NaN	0.30387	0.2275	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 22510	¬CREBBP  & NRAS   |  ¬CREBBP  & NF2 	0	0	0	-1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	-1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	NaN	NaN	NaN	0.30387	0.2275	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 22511	¬d19p12  & NRAS   |  NF2  & ¬EP300 	0	-1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	0	0	0	0	1	0	-1	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	NaN	NaN	NaN	NaN	NaN	0.30387	0.2275	NaN	0.031368	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 22512	¬d19p12  & NRAS   |  ¬KRAS  & NF2 	0	-1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	-1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	NaN	NaN	0.031368	NaN	NaN	0.30387	0.2275	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 22513	¬d19p12  & NRAS   |  NF2  & ¬TGFB-DOWN 	0	-1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	-1	0 
+	Feature Importance Scores:	NaN	0	NaN	NaN	NaN	NaN	NaN	0.30387	0.2275	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.031368	NaN 
+																					 
+Model 22514	¬NF1  & NRAS   |  ¬KRAS  & NF2 	0	0	0	0	0	0	-1	1	0	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	-1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	0.031368	NaN	0	0.30387	0.2275	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 22515	NRAS   |  NF2  & ¬EP300 	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	0	0	0	0	1	0	-1	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.30387	0.2275	NaN	0.031368	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 22516	¬BRAF  & NRAS   |  ¬CREBBP  & NF2 	0	0	0	0	0	-1	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	-1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.031368	NaN	0	NaN	0.25967	0.2275	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 22517	¬KRAS  & NRAS   |  ¬CREBBP  & NF2 	0	0	0	0	-1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	-1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.031368	0	NaN	NaN	0.30387	0.2275	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 22518	¬BRAF  & NRAS   |  NF2  & ¬TGFB-DOWN 	0	0	0	0	0	-1	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	-1	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	0	NaN	0.25967	0.2275	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.031368	NaN 
+																					 
+Model 22519	NRAS  & ¬TGFB-DOWN   |  NF2  & ¬TGFB-DOWN 	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	-1	0 
+		0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	-1	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.30387	0.2275	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN 
+																					 
+Model 22520	¬KRAS  & NRAS   |  ¬KRAS  & NF2 	0	0	0	0	-1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	-1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	0	NaN	NaN	0.30387	0.2275	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 22521	¬d(FANCG,PAX5)  & NRAS   |  ¬KRAS  & NF2 	0	0	-1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	-1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	0	NaN	0.031368	NaN	NaN	0.30387	0.2275	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 22522	NRAS  & ¬EP300   |  ¬KRAS  & NF2 	0	0	0	0	0	0	0	1	0	0	-1	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	-1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	0.031368	NaN	NaN	0.30387	0.2275	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 22523	¬CREBBP  & NRAS   |  ¬KRAS  & NF2 	0	0	0	-1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	-1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	0.031368	NaN	NaN	0.30387	0.2275	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 22524	NRAS  & ¬IL-1-UP   |  NF2  & ¬TGFB-DOWN 	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	-1	0	0	0	0 
+		0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	-1	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.30387	0.2275	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	0.031368	NaN 
+																					 
+Model 22525	NRAS  & ¬EP300   |  NF2  & ¬TGFB-DOWN 	0	0	0	0	0	0	0	1	0	0	-1	0	0	0	0	0	0	0	0	0 
+		0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	-1	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.30387	0.2275	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.031368	NaN 
+																					 
+Model 22526	¬NF1  & NRAS   |  ¬CREBBP  & NF2 	0	0	0	0	0	0	-1	1	0	0	0	0	0	0	0	0	0	0	0	0 
+		0	0	0	-1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.031368	NaN	NaN	0	0.30387	0.2275	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 3101	NRAS  | NF2  | SMARCA4 	0	0	0	0	0	0	0	1	1	0	0	0	1	0	0	0	0	0	0	0 
+CV error: 0.36036	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.27768	0.17923	NaN	NaN	NaN	0.013038	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 3102	d19p12  | NRAS  | NF2 	0	1	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0.00046006	NaN	NaN	NaN	NaN	NaN	0.27768	0.17923	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 3103	CREBBP  | NRAS  | NF2 	0	0	0	1	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.013038	NaN	NaN	NaN	0.27768	0.20789	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 3104	NRAS  | NF2  | EP300 	0	0	0	0	0	0	0	1	1	0	1	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.27768	0.20789	NaN	0.013038	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 3105	NRAS  | NF2  | TGFB-UP 	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.27768	0.17923	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.0009343	NaN	NaN	NaN 
+																					 
+Model 3106	NRAS  | NF2  | d13q14.2 	0	0	0	0	0	0	0	1	1	0	0	0	0	1	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.27768	0.17923	NaN	NaN	NaN	NaN	0.00046006	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 3107	NRAS  | NF2 	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.27768	0.17923	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 3108	NRAS  | NF2  | PI3K_only-DOWN 	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	1	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.13803	0.17923	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN 
+																					 
+Model 3109	NRAS  | NF2  | TGFB-DOWN 	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	1	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.27768	0.20789	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN 
+																					 
+Model 31010	KRAS  | NRAS  | NF2 	0	0	0	0	1	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	0	NaN	NaN	0.27768	0.20789	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 3111	NF2  | TGFB-UP  | PI3K_only-DOWN 	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	1	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.22059	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.0011499	0.17187	NaN	NaN 
+																					 
+Model 3112	d19p12  | NF2  | PI3K_only-DOWN 	0	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0 
+	Feature Importance Scores:	NaN	0.00056623	NaN	NaN	NaN	NaN	NaN	NaN	0.22059	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.17187	NaN	NaN 
+																					 
+Model 3113	CREBBP  | NF2  | PI3K_only-DOWN 	0	0	0	1	0	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	0.25587	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.17187	NaN	NaN 
+																					 
+Model 3114	KRAS  | NF2  | PI3K_only-DOWN 	0	0	0	0	1	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	0.25587	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.17187	NaN	NaN 
+																					 
+Model 3115	NRAS  | NF2  | TGFB-UP 	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.17187	0.22059	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.0011499	NaN	NaN	NaN 
+																					 
+Model 3116	KRAS  | NRAS  | NF2 	0	0	0	0	1	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	0	NaN	NaN	0.17187	0.25587	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 3117	NRAS  | NF2  | EP300 	0	0	0	0	0	0	0	1	1	0	1	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.17187	0.25587	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 3118	d19p12  | NRAS  | NF2 	0	1	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0.00056623	NaN	NaN	NaN	NaN	NaN	0.17187	0.22059	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 3119	NF2  | EP300  | PI3K_only-DOWN 	0	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0	0	1	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.25587	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	0.17187	NaN	NaN 
+																					 
+Model 31110	NF2  | d13q14.2  | PI3K_only-DOWN 	0	0	0	0	0	0	0	0	1	0	0	0	0	1	0	0	0	1	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.22059	NaN	NaN	NaN	NaN	0.00056623	NaN	NaN	NaN	0.17187	NaN	NaN 
+																					 
+Model 31111	NF2  | PI3K_only-DOWN 	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.22059	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.17187	NaN	NaN 
+																					 
+Model 31112	NF2  | PI3K_only-DOWN  | TGFB-DOWN 	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	1	1	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.25587	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.17187	0	NaN 
+																					 
+Model 31113	NRAS  | NF2  | d13q14.2 	0	0	0	0	0	0	0	1	1	0	0	0	0	1	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.17187	0.22059	NaN	NaN	NaN	NaN	0.00056623	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 31114	NRAS  | NF2 	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.17187	0.22059	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 31115	NRAS  | NF2  | PI3K_only-DOWN 	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	1	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	0.22059	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN 
+																					 
+Model 31116	NRAS  | NF2  | TGFB-DOWN 	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	1	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.17187	0.25587	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN 
+																					 
+Model 31117	CREBBP  | NRAS  | NF2 	0	0	0	1	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	NaN	NaN	NaN	0.17187	0.25587	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 3121	NRAS  | NF2  | SMARCA4 	0	0	0	0	0	0	0	1	1	0	0	0	1	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.21195	0.2752	NaN	NaN	NaN	0.020019	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 3122	d19p12  | NRAS  | NF2 	0	1	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0.0007064	NaN	NaN	NaN	NaN	NaN	0.21195	0.2752	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 3123	d(FANCG,PAX5)  | NRAS  | NF2 	0	0	1	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	0.0007064	NaN	NaN	NaN	NaN	0.21195	0.2752	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 3124	CREBBP  | NRAS  | NF2 	0	0	0	1	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.020019	NaN	NaN	NaN	0.21195	0.31921	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 3125	KRAS  | NRAS  | NF2 	0	0	0	0	1	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	0	NaN	NaN	0.21195	0.31921	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 3126	NF1  | NRAS  | NF2 	0	0	0	0	0	0	1	1	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	0.0007064	0.21195	0.2752	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 3127	NRAS  | NF2  | EP300 	0	0	0	0	0	0	0	1	1	0	1	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.21195	0.31921	NaN	0.020019	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 3128	NRAS  | NF2  | TGFB-UP 	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.21195	0.2752	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.0014346	NaN	NaN	NaN 
+																					 
+Model 3129	NRAS  | NF2  | d13q14.2 	0	0	0	0	0	0	0	1	1	0	0	0	0	1	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.21195	0.2752	NaN	NaN	NaN	NaN	0.0007064	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 31210	NRAS  | NF2 	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.21195	0.2752	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 31211	NRAS  | NF2  | TGFB-DOWN 	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	1	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.21195	0.31921	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN 
+																					 
+Model 3131	NRAS  | SMARCA4  | TGFB-UP 	0	0	0	0	0	0	0	1	0	0	0	0	1	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.41277	NaN	NaN	NaN	NaN	0.019381	NaN	NaN	NaN	0.0013888	NaN	NaN	NaN 
+																					 
+Model 3132	CREBBP  | NRAS  | TGFB-UP 	0	0	0	1	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.019381	NaN	NaN	NaN	0.41277	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.0013888	NaN	NaN	NaN 
+																					 
+Model 3133	d19p12  | NRAS  | EP300 	0	1	0	0	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0.00068387	NaN	NaN	NaN	NaN	NaN	0.41277	NaN	NaN	0.019381	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 3134	d19p12  | CREBBP  | NRAS 	0	1	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0.00068387	NaN	0.019381	NaN	NaN	NaN	0.41277	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 3135	d19p12  | NRAS  | SMARCA4 	0	1	0	0	0	0	0	1	0	0	0	0	1	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0.00068387	NaN	NaN	NaN	NaN	NaN	0.41277	NaN	NaN	NaN	NaN	0.019381	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 3136	d19p12  | NRAS  | TGFB-UP 	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	0.00068387	NaN	NaN	NaN	NaN	NaN	0.41277	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.0013888	NaN	NaN	NaN 
+																					 
+Model 3137	d19p12  | NRAS  | d13q14.2 	0	1	0	0	0	0	0	1	0	0	0	0	0	1	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	NaN	NaN	NaN	NaN	NaN	0.41277	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 3138	NRAS  | EP300  | SMARCA4 	0	0	0	0	0	0	0	1	0	0	1	0	1	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.41277	NaN	NaN	0	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 3139	NRAS  | EP300  | d13q14.2 	0	0	0	0	0	0	0	1	0	0	1	0	0	1	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.41277	NaN	NaN	0.019381	NaN	NaN	0.00068387	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 31310	NRAS  | d13q14.2  | TGFB-UP 	0	0	0	0	0	0	0	1	0	0	0	0	0	1	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.41277	NaN	NaN	NaN	NaN	NaN	0.00068387	NaN	NaN	0.0013888	NaN	NaN	NaN 
+																					 
+Model 31311	NRAS  | SMARCA4  | d13q14.2 	0	0	0	0	0	0	0	1	0	0	0	0	1	1	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.41277	NaN	NaN	NaN	NaN	0.019381	0.00068387	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 31312	NRAS  | TGFB-UP 	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.41277	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.0013888	NaN	NaN	NaN 
+																					 
+Model 31313	NRAS  | IL-1-UP  | TGFB-UP 	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.41277	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	0.0013888	NaN	NaN	NaN 
+																					 
+Model 31314	NRAS  | IL-1-UP 	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.41277	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN 
+																					 
+Model 31315	NRAS  | IL-1-UP  | PI3K_only-DOWN 	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	0	1	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.20519	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	0	NaN	NaN 
+																					 
+Model 31316	NRAS  | TGFB-UP  | PI3K_only-DOWN 	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	1	1	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.20519	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.0013888	0	NaN	NaN 
+																					 
+Model 31317	NRAS 	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.41277	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 31318	NRAS  | PI3K_only-DOWN 	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	1	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.20519	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN 
+																					 
+Model 31319	NRAS  | SMARCA4  | IL-1-UP 	0	0	0	0	0	0	0	1	0	0	0	0	1	0	0	1	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.41277	NaN	NaN	NaN	NaN	0.019381	NaN	NaN	0	NaN	NaN	NaN	NaN 
+																					 
+Model 31320	NRAS  | SMARCA4 	0	0	0	0	0	0	0	1	0	0	0	0	1	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.41277	NaN	NaN	NaN	NaN	0.019381	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 31321	NRAS  | SMARCA4  | PI3K_only-DOWN 	0	0	0	0	0	0	0	1	0	0	0	0	1	0	0	0	0	1	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.20519	NaN	NaN	NaN	NaN	0.019381	NaN	NaN	NaN	NaN	0	NaN	NaN 
+																					 
+Model 31322	NRAS  | d13q14.2  | IL-1-UP 	0	0	0	0	0	0	0	1	0	0	0	0	0	1	0	1	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.41277	NaN	NaN	NaN	NaN	NaN	0	NaN	0	NaN	NaN	NaN	NaN 
+																					 
+Model 31323	NRAS  | d13q14.2 	0	0	0	0	0	0	0	1	0	0	0	0	0	1	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.41277	NaN	NaN	NaN	NaN	NaN	0.00068387	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 31324	NRAS  | d13q14.2  | PI3K_only-DOWN 	0	0	0	0	0	0	0	1	0	0	0	0	0	1	0	0	0	1	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.20519	NaN	NaN	NaN	NaN	NaN	0.00068387	NaN	NaN	NaN	0	NaN	NaN 
+																					 
+Model 31325	NRAS  | EP300  | IL-1-UP 	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0	1	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.41277	NaN	NaN	0.019381	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN 
+																					 
+Model 31326	NRAS  | EP300  | TGFB-UP 	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.41277	NaN	NaN	0.019381	NaN	NaN	NaN	NaN	NaN	0.0013888	NaN	NaN	NaN 
+																					 
+Model 3141	NRAS  | NF2  | SMARCA4 	0	0	0	0	0	0	0	1	1	0	0	0	1	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.29238	0.18872	NaN	NaN	NaN	0.013729	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 3142	CREBBP  | NRAS  | NF2 	0	0	0	1	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.013729	NaN	NaN	NaN	0.29238	0.2189	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 3143	KRAS  | NRAS  | NF2 	0	0	0	0	1	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	0	NaN	NaN	0.29238	0.2189	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 3144	NRAS  | NF2  | EP300 	0	0	0	0	0	0	0	1	1	0	1	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.29238	0.2189	NaN	0.013729	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 3145	NRAS  | NF2  | TGFB-UP 	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.29238	0.18872	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.00098378	NaN	NaN	NaN 
+																					 
+Model 3146	NRAS  | NF2 	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.29238	0.18872	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 3147	NRAS  | NF2  | PI3K_only-DOWN 	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	1	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.14534	0.18872	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN 
+																					 
+Model 3148	NRAS  | NF2  | TGFB-DOWN 	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	1	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.29238	0.2189	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN 
+																					 
+Model 3151	NRAS  | NF2  | SMARCA4 	0	0	0	0	0	0	0	1	1	0	0	0	1	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.30387	0.19613	NaN	NaN	NaN	0.014268	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 3152	d19p12  | NRAS  | NF2 	0	1	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0.00050345	NaN	NaN	NaN	NaN	NaN	0.30387	0.19613	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 3153	CREBBP  | NRAS  | NF2 	0	0	0	1	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.014268	NaN	NaN	NaN	0.30387	0.2275	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 3154	NRAS  | NF2  | EP300 	0	0	0	0	0	0	0	1	1	0	1	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.30387	0.2275	NaN	0.014268	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 3155	NRAS  | NF2  | d13q14.2 	0	0	0	0	0	0	0	1	1	0	0	0	0	1	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.30387	0.19613	NaN	NaN	NaN	NaN	0.00050345	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 3156	NRAS  | NF2  | IL-1-UP 	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	1	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.30387	0.19613	NaN	NaN	NaN	NaN	NaN	NaN	0.00050345	NaN	NaN	NaN	NaN 
+																					 
+Model 3157	NRAS  | NF2 	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.30387	0.19613	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 3158	NRAS  | NF2  | PI3K_only-DOWN 	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	1	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.15105	0.19613	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN 
+																					 
+Model 3159	NRAS  | NF2  | TGFB-DOWN 	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	1	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.30387	0.2275	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN 
+																					 
+Model 31510	KRAS  | NRAS  | NF2 	0	0	0	0	1	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	0	NaN	NaN	0.30387	0.2275	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 4101	NRAS  | NF2  | SMARCA4  | TGFB-UP 	0	0	0	0	0	0	0	1	1	0	0	0	1	0	0	0	1	0	0	0 
+CV error: 0.36036	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.27768	0.17923	NaN	NaN	NaN	0.013038	NaN	NaN	NaN	0.0009343	NaN	NaN	NaN 
+																					 
+Model 4102	d19p12  | NRAS  | NF2  | SMARCA4 	0	1	0	0	0	0	0	1	1	0	0	0	1	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0.00046006	NaN	NaN	NaN	NaN	NaN	0.27768	0.17923	NaN	NaN	NaN	0.013038	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 4103	CREBBP  | NRAS  | NF2  | TGFB-UP 	0	0	0	1	0	0	0	1	1	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.013038	NaN	NaN	NaN	0.27768	0.20789	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.0009343	NaN	NaN	NaN 
+																					 
+Model 4104	CREBBP  | KRAS  | NRAS  | NF2 	0	0	0	1	1	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.013038	0	NaN	NaN	0.27768	0.20789	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 4105	d19p12  | CREBBP  | NRAS  | NF2 	0	1	0	1	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0.00046006	NaN	0.013038	NaN	NaN	NaN	0.27768	0.20789	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 4106	d19p12  | KRAS  | NRAS  | NF2 	0	1	0	0	1	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0.00046006	NaN	NaN	0	NaN	NaN	0.27768	0.20789	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 4107	d19p12  | NRAS  | NF2  | EP300 	0	1	0	0	0	0	0	1	1	0	1	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0.00046006	NaN	NaN	NaN	NaN	NaN	0.27768	0.20789	NaN	0.013038	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 4108	d19p12  | NRAS  | NF2  | TGFB-UP 	0	1	0	0	0	0	0	1	1	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	0.00046006	NaN	NaN	NaN	NaN	NaN	0.27768	0.17923	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.0009343	NaN	NaN	NaN 
+																					 
+Model 4109	d19p12  | NRAS  | NF2  | d13q14.2 	0	1	0	0	0	0	0	1	1	0	0	0	0	1	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	NaN	NaN	NaN	NaN	NaN	0.27768	0.17923	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 41010	d19p12  | NRAS  | NF2 	0	1	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0.00046006	NaN	NaN	NaN	NaN	NaN	0.27768	0.17923	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 41011	d19p12  | NRAS  | NF2  | PI3K_only-DOWN 	0	1	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	1	0	0 
+	Feature Importance Scores:	NaN	0.00046006	NaN	NaN	NaN	NaN	NaN	0.13803	0.17923	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN 
+																					 
+Model 41012	d19p12  | NRAS  | NF2  | TGFB-DOWN 	0	1	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	1	0 
+	Feature Importance Scores:	NaN	0.00046006	NaN	NaN	NaN	NaN	NaN	0.27768	0.20789	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN 
+																					 
+Model 41013	NRAS  | NF2  | EP300  | TGFB-UP 	0	0	0	0	0	0	0	1	1	0	1	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.27768	0.20789	NaN	0.013038	NaN	NaN	NaN	NaN	NaN	0.0009343	NaN	NaN	NaN 
+																					 
+Model 41014	NRAS  | NF2  | EP300  | SMARCA4 	0	0	0	0	0	0	0	1	1	0	1	0	1	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.27768	0.20789	NaN	0	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 41015	NRAS  | NF2  | EP300  | d13q14.2 	0	0	0	0	0	0	0	1	1	0	1	0	0	1	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.27768	0.20789	NaN	0.013038	NaN	NaN	0.00046006	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 41016	NRAS  | NF2  | EP300 	0	0	0	0	0	0	0	1	1	0	1	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.27768	0.20789	NaN	0.013038	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 41017	NRAS  | NF2  | EP300  | PI3K_only-DOWN 	0	0	0	0	0	0	0	1	1	0	1	0	0	0	0	0	0	1	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.13803	0.20789	NaN	0.013038	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN 
+																					 
+Model 41018	NRAS  | NF2  | EP300  | TGFB-DOWN 	0	0	0	0	0	0	0	1	1	0	1	0	0	0	0	0	0	0	1	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.27768	0.20789	NaN	0.013038	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN 
+																					 
+Model 41019	KRAS  | NRAS  | NF2  | SMARCA4 	0	0	0	0	1	0	0	1	1	0	0	0	1	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	0	NaN	NaN	0.27768	0.20789	NaN	NaN	NaN	0.013038	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 41020	KRAS  | NRAS  | NF2  | EP300 	0	0	0	0	1	0	0	1	1	0	1	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	0	NaN	NaN	0.27768	0.20789	NaN	0.013038	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 41021	KRAS  | NRAS  | NF2  | TGFB-UP 	0	0	0	0	1	0	0	1	1	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	0	NaN	NaN	0.27768	0.20789	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.0009343	NaN	NaN	NaN 
+																					 
+Model 41022	KRAS  | NRAS  | NF2  | d13q14.2 	0	0	0	0	1	0	0	1	1	0	0	0	0	1	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	0	NaN	NaN	0.27768	0.20789	NaN	NaN	NaN	NaN	0.00046006	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 41023	KRAS  | NRAS  | NF2 	0	0	0	0	1	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	0	NaN	NaN	0.27768	0.20789	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 41024	KRAS  | NRAS  | NF2  | PI3K_only-DOWN 	0	0	0	0	1	0	0	1	1	0	0	0	0	0	0	0	0	1	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	0	NaN	NaN	0.13803	0.20789	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN 
+																					 
+Model 41025	KRAS  | NRAS  | NF2  | TGFB-DOWN 	0	0	0	0	1	0	0	1	1	0	0	0	0	0	0	0	0	0	1	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	0	NaN	NaN	0.27768	0.20789	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN 
+																					 
+Model 41026	NRAS  | NF2  | SMARCA4  | d13q14.2 	0	0	0	0	0	0	0	1	1	0	0	0	1	1	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.27768	0.17923	NaN	NaN	NaN	0.013038	0.00046006	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 4111	d19p12  | NF2  | TGFB-UP  | PI3K_only-DOWN 	0	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	1	0	0 
+	Feature Importance Scores:	NaN	0.00056623	NaN	NaN	NaN	NaN	NaN	NaN	0.22059	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.0011499	0.17187	NaN	NaN 
+																					 
+Model 4112	NF2  | d13q14.2  | TGFB-UP  | PI3K_only-DOWN 	0	0	0	0	0	0	0	0	1	0	0	0	0	1	0	0	1	1	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.22059	NaN	NaN	NaN	NaN	0.00056623	NaN	NaN	0.0011499	0.17187	NaN	NaN 
+																					 
+Model 4113	d19p12  | CREBBP  | NF2  | PI3K_only-DOWN 	0	1	0	1	0	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0 
+	Feature Importance Scores:	NaN	0.00056623	NaN	0	NaN	NaN	NaN	NaN	0.25587	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.17187	NaN	NaN 
+																					 
+Model 4114	d19p12  | KRAS  | NF2  | PI3K_only-DOWN 	0	1	0	0	1	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0 
+	Feature Importance Scores:	NaN	0.00056623	NaN	NaN	0	NaN	NaN	NaN	0.25587	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.17187	NaN	NaN 
+																					 
+Model 4115	d19p12  | NRAS  | NF2  | TGFB-UP 	0	1	0	0	0	0	0	1	1	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	0.00056623	NaN	NaN	NaN	NaN	NaN	0.17187	0.22059	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.0011499	NaN	NaN	NaN 
+																					 
+Model 4116	d19p12  | KRAS  | NRAS  | NF2 	0	1	0	0	1	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0.00056623	NaN	NaN	0	NaN	NaN	0.17187	0.25587	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 4117	CREBBP  | NF2  | TGFB-UP  | PI3K_only-DOWN 	0	0	0	1	0	0	0	0	1	0	0	0	0	0	0	0	1	1	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	0.25587	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.0011499	0.17187	NaN	NaN 
+																					 
+Model 4118	CREBBP  | KRAS  | NF2  | PI3K_only-DOWN 	0	0	0	1	1	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	0	NaN	NaN	NaN	0.25587	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.17187	NaN	NaN 
+																					 
+Model 4119	CREBBP  | KRAS  | NRAS  | NF2 	0	0	0	1	1	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	0	NaN	NaN	0.17187	0.25587	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 41110	CREBBP  | NRAS  | NF2  | TGFB-UP 	0	0	0	1	0	0	0	1	1	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	NaN	NaN	NaN	0.17187	0.25587	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.0011499	NaN	NaN	NaN 
+																					 
+Model 41111	KRAS  | NF2  | TGFB-UP  | PI3K_only-DOWN 	0	0	0	0	1	0	0	0	1	0	0	0	0	0	0	0	1	1	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	0.25587	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.0011499	0.17187	NaN	NaN 
+																					 
+Model 41112	NRAS  | NF2  | d13q14.2  | TGFB-UP 	0	0	0	0	0	0	0	1	1	0	0	0	0	1	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.17187	0.22059	NaN	NaN	NaN	NaN	0.00056623	NaN	NaN	0.0011499	NaN	NaN	NaN 
+																					 
+Model 41113	NRAS  | NF2  | EP300  | TGFB-UP 	0	0	0	0	0	0	0	1	1	0	1	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.17187	0.25587	NaN	0	NaN	NaN	NaN	NaN	NaN	0.0011499	NaN	NaN	NaN 
+																					 
+Model 41114	NRAS  | NF2  | EP300  | d13q14.2 	0	0	0	0	0	0	0	1	1	0	1	0	0	1	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.17187	0.25587	NaN	0	NaN	NaN	0.00056623	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 41115	NRAS  | NF2  | EP300 	0	0	0	0	0	0	0	1	1	0	1	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.17187	0.25587	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 41116	NRAS  | NF2  | EP300  | PI3K_only-DOWN 	0	0	0	0	0	0	0	1	1	0	1	0	0	0	0	0	0	1	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	0.25587	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN 
+																					 
+Model 41117	NRAS  | NF2  | EP300  | TGFB-DOWN 	0	0	0	0	0	0	0	1	1	0	1	0	0	0	0	0	0	0	1	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.17187	0.25587	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN 
+																					 
+Model 41118	d19p12  | NRAS  | NF2  | EP300 	0	1	0	0	0	0	0	1	1	0	1	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0.00056623	NaN	NaN	NaN	NaN	NaN	0.17187	0.25587	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 41119	NF2  | EP300  | TGFB-UP  | PI3K_only-DOWN 	0	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0	1	1	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.25587	NaN	0	NaN	NaN	NaN	NaN	NaN	0.0011499	0.17187	NaN	NaN 
+																					 
+Model 41120	NF2  | TGFB-UP  | PI3K_only-DOWN 	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	1	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.22059	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.0011499	0.17187	NaN	NaN 
+																					 
+Model 41121	NF2  | d13q14.2  | PI3K_only-DOWN 	0	0	0	0	0	0	0	0	1	0	0	0	0	1	0	0	0	1	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.22059	NaN	NaN	NaN	NaN	0.00056623	NaN	NaN	NaN	0.17187	NaN	NaN 
+																					 
+Model 41122	NF2  | EP300  | d13q14.2  | PI3K_only-DOWN 	0	0	0	0	0	0	0	0	1	0	1	0	0	1	0	0	0	1	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.25587	NaN	0	NaN	NaN	0.00056623	NaN	NaN	NaN	0.17187	NaN	NaN 
+																					 
+Model 41123	NF2  | EP300  | PI3K_only-DOWN 	0	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0	0	1	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.25587	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	0.17187	NaN	NaN 
+																					 
+Model 41124	NF2  | EP300  | PI3K_only-DOWN  | TGFB-DOWN 	0	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0	0	1	1	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.25587	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	0.17187	0	NaN 
+																					 
+Model 41125	NF2  | PI3K_only-DOWN 	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.22059	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.17187	NaN	NaN 
+																					 
+Model 41126	CREBBP  | NRAS  | NF2  | d13q14.2 	0	0	0	1	0	0	0	1	1	0	0	0	0	1	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	NaN	NaN	NaN	0.17187	0.25587	NaN	NaN	NaN	NaN	0.00056623	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 4121	NRAS  | NF2  | SMARCA4  | TGFB-UP 	0	0	0	0	0	0	0	1	1	0	0	0	1	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.21195	0.2752	NaN	NaN	NaN	0.020019	NaN	NaN	NaN	0.0014346	NaN	NaN	NaN 
+																					 
+Model 4122	d19p12  | NRAS  | NF2  | SMARCA4 	0	1	0	0	0	0	0	1	1	0	0	0	1	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0.0007064	NaN	NaN	NaN	NaN	NaN	0.21195	0.2752	NaN	NaN	NaN	0.020019	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 4123	d(FANCG,PAX5)  | NRAS  | NF2  | SMARCA4 	0	0	1	0	0	0	0	1	1	0	0	0	1	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	0.0007064	NaN	NaN	NaN	NaN	0.21195	0.2752	NaN	NaN	NaN	0.020019	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 4124	CREBBP  | NRAS  | NF2  | TGFB-UP 	0	0	0	1	0	0	0	1	1	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.020019	NaN	NaN	NaN	0.21195	0.31921	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.0014346	NaN	NaN	NaN 
+																					 
+Model 4125	CREBBP  | KRAS  | NRAS  | NF2 	0	0	0	1	1	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.020019	0	NaN	NaN	0.21195	0.31921	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 4126	CREBBP  | NF1  | NRAS  | NF2 	0	0	0	1	0	0	1	1	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.020019	NaN	NaN	0.0007064	0.21195	0.31921	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 4127	CREBBP  | NRAS  | NF2  | EP300 	0	0	0	1	0	0	0	1	1	0	1	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	NaN	NaN	NaN	0.21195	0.31921	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 4128	CREBBP  | NRAS  | NF2  | SMARCA4 	0	0	0	1	0	0	0	1	1	0	0	0	1	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	NaN	NaN	NaN	0.21195	0.31921	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 4129	CREBBP  | NRAS  | NF2  | d13q14.2 	0	0	0	1	0	0	0	1	1	0	0	0	0	1	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.020019	NaN	NaN	NaN	0.21195	0.31921	NaN	NaN	NaN	NaN	0.0007064	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 41210	CREBBP  | NRAS  | NF2 	0	0	0	1	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.020019	NaN	NaN	NaN	0.21195	0.31921	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 41211	CREBBP  | NRAS  | NF2  | TGFB-DOWN 	0	0	0	1	0	0	0	1	1	0	0	0	0	0	0	0	0	0	1	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.020019	NaN	NaN	NaN	0.21195	0.31921	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN 
+																					 
+Model 41212	KRAS  | NRAS  | NF2  | SMARCA4 	0	0	0	0	1	0	0	1	1	0	0	0	1	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	0	NaN	NaN	0.21195	0.31921	NaN	NaN	NaN	0.020019	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 41213	KRAS  | NF1  | NRAS  | NF2 	0	0	0	0	1	0	1	1	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	0	NaN	0.0007064	0.21195	0.31921	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 41214	NF1  | NRAS  | NF2  | SMARCA4 	0	0	0	0	0	0	1	1	1	0	0	0	1	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	0.0007064	0.21195	0.2752	NaN	NaN	NaN	0.020019	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 41215	NF1  | NRAS  | NF2  | EP300 	0	0	0	0	0	0	1	1	1	0	1	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	0.0007064	0.21195	0.31921	NaN	0.020019	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 41216	NF1  | NRAS  | NF2  | TGFB-UP 	0	0	0	0	0	0	1	1	1	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	0.0007064	0.21195	0.2752	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.0014346	NaN	NaN	NaN 
+																					 
+Model 41217	NF1  | NRAS  | NF2  | d13q14.2 	0	0	0	0	0	0	1	1	1	0	0	0	0	1	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	0	0.21195	0.2752	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 41218	NF1  | NRAS  | NF2 	0	0	0	0	0	0	1	1	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	0.0007064	0.21195	0.2752	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 41219	NF1  | NRAS  | NF2  | TGFB-DOWN 	0	0	0	0	0	0	1	1	1	0	0	0	0	0	0	0	0	0	1	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	0.0007064	0.21195	0.31921	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN 
+																					 
+Model 41220	d19p12  | d(FANCG,PAX5)  | NRAS  | NF2 	0	1	1	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	0	NaN	NaN	NaN	NaN	0.21195	0.2752	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 41221	d19p12  | CREBBP  | NRAS  | NF2 	0	1	0	1	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0.0007064	NaN	0.020019	NaN	NaN	NaN	0.21195	0.31921	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 41222	d19p12  | NF1  | NRAS  | NF2 	0	1	0	0	0	0	1	1	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	NaN	NaN	NaN	NaN	0	0.21195	0.2752	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 41223	d19p12  | NRAS  | NF2  | EP300 	0	1	0	0	0	0	0	1	1	0	1	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0.0007064	NaN	NaN	NaN	NaN	NaN	0.21195	0.31921	NaN	0.020019	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 41224	d19p12  | NRAS  | NF2  | TGFB-UP 	0	1	0	0	0	0	0	1	1	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	0.0007064	NaN	NaN	NaN	NaN	NaN	0.21195	0.2752	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.0014346	NaN	NaN	NaN 
+																					 
+Model 41225	d19p12  | NRAS  | NF2  | d13q14.2 	0	1	0	0	0	0	0	1	1	0	0	0	0	1	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0	NaN	NaN	NaN	NaN	NaN	0.21195	0.2752	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 41226	d19p12  | NRAS  | NF2 	0	1	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0.0007064	NaN	NaN	NaN	NaN	NaN	0.21195	0.2752	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 4131	d19p12  | NRAS  | SMARCA4  | TGFB-UP 	0	1	0	0	0	0	0	1	0	0	0	0	1	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	0.00068387	NaN	NaN	NaN	NaN	NaN	0.41277	NaN	NaN	NaN	NaN	0.019381	NaN	NaN	NaN	0.0013888	NaN	NaN	NaN 
+																					 
+Model 4132	NRAS  | EP300  | d13q14.2  | TGFB-UP 	0	0	0	0	0	0	0	1	0	0	1	0	0	1	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.41277	NaN	NaN	0.019381	NaN	NaN	0.00068387	NaN	NaN	0.0013888	NaN	NaN	NaN 
+																					 
+Model 4133	d19p12  | NRAS  | EP300  | TGFB-UP 	0	1	0	0	0	0	0	1	0	0	1	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	0.00068387	NaN	NaN	NaN	NaN	NaN	0.41277	NaN	NaN	0.019381	NaN	NaN	NaN	NaN	NaN	0.0013888	NaN	NaN	NaN 
+																					 
+Model 4134	d19p12  | CREBBP  | NRAS  | TGFB-UP 	0	1	0	1	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	0.00068387	NaN	0.019381	NaN	NaN	NaN	0.41277	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.0013888	NaN	NaN	NaN 
+																					 
+Model 4135	CREBBP  | NRAS  | d13q14.2  | TGFB-UP 	0	0	0	1	0	0	0	1	0	0	0	0	0	1	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.019381	NaN	NaN	NaN	0.41277	NaN	NaN	NaN	NaN	NaN	0.00068387	NaN	NaN	0.0013888	NaN	NaN	NaN 
+																					 
+Model 4136	NRAS  | SMARCA4  | d13q14.2  | TGFB-UP 	0	0	0	0	0	0	0	1	0	0	0	0	1	1	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.41277	NaN	NaN	NaN	NaN	0.019381	0.00068387	NaN	NaN	0.0013888	NaN	NaN	NaN 
+																					 
+Model 4137	NRAS  | EP300  | SMARCA4  | TGFB-UP 	0	0	0	0	0	0	0	1	0	0	1	0	1	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.41277	NaN	NaN	0	NaN	0	NaN	NaN	NaN	0.0013888	NaN	NaN	NaN 
+																					 
+Model 4138	NRAS  | EP300  | IL-1-UP  | TGFB-UP 	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0	1	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.41277	NaN	NaN	0.019381	NaN	NaN	NaN	NaN	0	0.0013888	NaN	NaN	NaN 
+																					 
+Model 4139	NRAS  | EP300  | TGFB-UP 	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.41277	NaN	NaN	0.019381	NaN	NaN	NaN	NaN	NaN	0.0013888	NaN	NaN	NaN 
+																					 
+Model 41310	NRAS  | EP300  | d13q14.2  | IL-1-UP 	0	0	0	0	0	0	0	1	0	0	1	0	0	1	0	1	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.41277	NaN	NaN	0.019381	NaN	NaN	0	NaN	0	NaN	NaN	NaN	NaN 
+																					 
+Model 41311	NRAS  | EP300  | d13q14.2 	0	0	0	0	0	0	0	1	0	0	1	0	0	1	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.41277	NaN	NaN	0.019381	NaN	NaN	0.00068387	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 41312	NRAS  | EP300  | d13q14.2  | PI3K_only-DOWN 	0	0	0	0	0	0	0	1	0	0	1	0	0	1	0	0	0	1	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.20519	NaN	NaN	0.019381	NaN	NaN	0.00068387	NaN	NaN	NaN	0	NaN	NaN 
+																					 
+Model 41313	NRAS  | EP300  | TGFB-UP  | PI3K_only-DOWN 	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0	0	1	1	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.20519	NaN	NaN	0.019381	NaN	NaN	NaN	NaN	NaN	0.0013888	0	NaN	NaN 
+																					 
+Model 41314	NRAS  | EP300  | SMARCA4  | d13q14.2 	0	0	0	0	0	0	0	1	0	0	1	0	1	1	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.41277	NaN	NaN	0	NaN	0	0.00068387	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 41315	NRAS  | EP300 	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.41277	NaN	NaN	0.019381	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 41316	NRAS  | EP300  | PI3K_only-DOWN 	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0	0	0	1	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.20519	NaN	NaN	0.019381	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN 
+																					 
+Model 41317	CREBBP  | NRAS  | EP300  | TGFB-UP 	0	0	0	1	0	0	0	1	0	0	1	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	NaN	NaN	NaN	0.41277	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	0.0013888	NaN	NaN	NaN 
+																					 
+Model 41318	CREBBP  | NRAS  | EP300  | SMARCA4 	0	0	0	1	0	0	0	1	0	0	1	0	1	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	NaN	NaN	NaN	0.41277	NaN	NaN	0	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 41319	CREBBP  | NRAS  | EP300  | d13q14.2 	0	0	0	1	0	0	0	1	0	0	1	0	0	1	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	NaN	NaN	NaN	0.41277	NaN	NaN	0	NaN	NaN	0.00068387	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 41320	NRAS  | EP300  | IL-1-UP 	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0	1	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.41277	NaN	NaN	0.019381	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN 
+																					 
+Model 41321	NRAS  | EP300  | IL-1-UP  | PI3K_only-DOWN 	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0	1	0	1	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.20519	NaN	NaN	0.019381	NaN	NaN	NaN	NaN	0	NaN	0	NaN	NaN 
+																					 
+Model 41322	CREBBP  | NRAS  | SMARCA4  | TGFB-UP 	0	0	0	1	0	0	0	1	0	0	0	0	1	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	NaN	NaN	NaN	0.41277	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	0.0013888	NaN	NaN	NaN 
+																					 
+Model 41323	CREBBP  | NRAS  | SMARCA4  | d13q14.2 	0	0	0	1	0	0	0	1	0	0	0	0	1	1	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	NaN	NaN	NaN	0.41277	NaN	NaN	NaN	NaN	0	0.00068387	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 41324	CREBBP  | NRAS  | SMARCA4  | IL-1-UP 	0	0	0	1	0	0	0	1	0	0	0	0	1	0	0	1	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	NaN	NaN	NaN	0.41277	NaN	NaN	NaN	NaN	0	NaN	NaN	0	NaN	NaN	NaN	NaN 
+																					 
+Model 41325	CREBBP  | NRAS  | SMARCA4 	0	0	0	1	0	0	0	1	0	0	0	0	1	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	NaN	NaN	NaN	0.41277	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 41326	CREBBP  | NRAS  | SMARCA4  | PI3K_only-DOWN 	0	0	0	1	0	0	0	1	0	0	0	0	1	0	0	0	0	1	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	NaN	NaN	NaN	0.20519	NaN	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	0	NaN	NaN 
+																					 
+Model 4141	NRAS  | NF2  | SMARCA4  | TGFB-UP 	0	0	0	0	0	0	0	1	1	0	0	0	1	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.29238	0.18872	NaN	NaN	NaN	0.013729	NaN	NaN	NaN	0.00098378	NaN	NaN	NaN 
+																					 
+Model 4142	CREBBP  | NRAS  | NF2  | TGFB-UP 	0	0	0	1	0	0	0	1	1	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.013729	NaN	NaN	NaN	0.29238	0.2189	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.00098378	NaN	NaN	NaN 
+																					 
+Model 4143	CREBBP  | KRAS  | NRAS  | NF2 	0	0	0	1	1	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.013729	0	NaN	NaN	0.29238	0.2189	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 4144	CREBBP  | NRAS  | NF2  | EP300 	0	0	0	1	0	0	0	1	1	0	1	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	NaN	NaN	NaN	0.29238	0.2189	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 4145	CREBBP  | NRAS  | NF2  | SMARCA4 	0	0	0	1	0	0	0	1	1	0	0	0	1	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	NaN	NaN	NaN	0.29238	0.2189	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 4146	CREBBP  | NRAS  | NF2 	0	0	0	1	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.013729	NaN	NaN	NaN	0.29238	0.2189	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 4147	CREBBP  | NRAS  | NF2  | PI3K_only-DOWN 	0	0	0	1	0	0	0	1	1	0	0	0	0	0	0	0	0	1	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.013729	NaN	NaN	NaN	0.14534	0.2189	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN 
+																					 
+Model 4148	CREBBP  | NRAS  | NF2  | TGFB-DOWN 	0	0	0	1	0	0	0	1	1	0	0	0	0	0	0	0	0	0	1	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.013729	NaN	NaN	NaN	0.29238	0.2189	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN 
+																					 
+Model 4149	KRAS  | NRAS  | NF2  | SMARCA4 	0	0	0	0	1	0	0	1	1	0	0	0	1	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	0	NaN	NaN	0.29238	0.2189	NaN	NaN	NaN	0.013729	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 41410	NRAS  | NF2  | EP300  | TGFB-UP 	0	0	0	0	0	0	0	1	1	0	1	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.29238	0.2189	NaN	0.013729	NaN	NaN	NaN	NaN	NaN	0.00098378	NaN	NaN	NaN 
+																					 
+Model 41411	NRAS  | NF2  | EP300  | SMARCA4 	0	0	0	0	0	0	0	1	1	0	1	0	1	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.29238	0.2189	NaN	0	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 41412	NRAS  | NF2  | EP300 	0	0	0	0	0	0	0	1	1	0	1	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.29238	0.2189	NaN	0.013729	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 41413	NRAS  | NF2  | EP300  | PI3K_only-DOWN 	0	0	0	0	0	0	0	1	1	0	1	0	0	0	0	0	0	1	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.14534	0.2189	NaN	0.013729	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN 
+																					 
+Model 41414	NRAS  | NF2  | EP300  | TGFB-DOWN 	0	0	0	0	0	0	0	1	1	0	1	0	0	0	0	0	0	0	1	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.29238	0.2189	NaN	0.013729	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN 
+																					 
+Model 41415	NRAS  | NF2  | TGFB-UP 	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.29238	0.18872	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.00098378	NaN	NaN	NaN 
+																					 
+Model 41416	NRAS  | NF2  | SMARCA4 	0	0	0	0	0	0	0	1	1	0	0	0	1	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.29238	0.18872	NaN	NaN	NaN	0.013729	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 41417	NRAS  | NF2  | SMARCA4  | PI3K_only-DOWN 	0	0	0	0	0	0	0	1	1	0	0	0	1	0	0	0	0	1	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.14534	0.18872	NaN	NaN	NaN	0.013729	NaN	NaN	NaN	NaN	0	NaN	NaN 
+																					 
+Model 41418	NRAS  | NF2  | SMARCA4  | TGFB-DOWN 	0	0	0	0	0	0	0	1	1	0	0	0	1	0	0	0	0	0	1	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.29238	0.2189	NaN	NaN	NaN	0.013729	NaN	NaN	NaN	NaN	NaN	0	NaN 
+																					 
+Model 41419	NRAS  | NF2 	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.29238	0.18872	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 41420	NRAS  | NF2  | PI3K_only-DOWN 	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	1	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.14534	0.18872	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN 
+																					 
+Model 41421	NRAS  | NF2  | PI3K_only-DOWN  | TGFB-DOWN 	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	1	1	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.14534	0.2189	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	0	NaN 
+																					 
+Model 41422	NRAS  | NF2  | TGFB-UP  | PI3K_only-DOWN 	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	1	1	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.14534	0.18872	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.00098378	0	NaN	NaN 
+																					 
+Model 41423	NRAS  | NF2  | TGFB-UP  | TGFB-DOWN 	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	1	0	1	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.29238	0.2189	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.00098378	NaN	0	NaN 
+																					 
+Model 41424	KRAS  | NRAS  | NF2  | EP300 	0	0	0	0	1	0	0	1	1	0	1	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	0	NaN	NaN	0.29238	0.2189	NaN	0.013729	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 41425	KRAS  | NRAS  | NF2  | TGFB-UP 	0	0	0	0	1	0	0	1	1	0	0	0	0	0	0	0	1	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	0	NaN	NaN	0.29238	0.2189	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.00098378	NaN	NaN	NaN 
+																					 
+Model 41426	KRAS  | NRAS  | NF2 	0	0	0	0	1	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	0	NaN	NaN	0.29238	0.2189	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 4151	NRAS  | NF2  | SMARCA4  | d13q14.2 	0	0	0	0	0	0	0	1	1	0	0	0	1	1	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.30387	0.19613	NaN	NaN	NaN	0.014268	0.00050345	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 4152	d19p12  | NRAS  | NF2  | SMARCA4 	0	1	0	0	0	0	0	1	1	0	0	0	1	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0.00050345	NaN	NaN	NaN	NaN	NaN	0.30387	0.19613	NaN	NaN	NaN	0.014268	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 4153	d19p12  | CREBBP  | NRAS  | NF2 	0	1	0	1	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	0.00050345	NaN	0.014268	NaN	NaN	NaN	0.30387	0.2275	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 4154	CREBBP  | NRAS  | NF2  | d13q14.2 	0	0	0	1	0	0	0	1	1	0	0	0	0	1	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.014268	NaN	NaN	NaN	0.30387	0.2275	NaN	NaN	NaN	NaN	0.00050345	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 4155	CREBBP  | KRAS  | NRAS  | NF2 	0	0	0	1	1	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.014268	0	NaN	NaN	0.30387	0.2275	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 4156	CREBBP  | NRAS  | NF2  | EP300 	0	0	0	1	0	0	0	1	1	0	1	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	NaN	NaN	NaN	0.30387	0.2275	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 4157	CREBBP  | NRAS  | NF2  | SMARCA4 	0	0	0	1	0	0	0	1	1	0	0	0	1	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0	NaN	NaN	NaN	0.30387	0.2275	NaN	NaN	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 4158	CREBBP  | NRAS  | NF2  | IL-1-UP 	0	0	0	1	0	0	0	1	1	0	0	0	0	0	0	1	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.014268	NaN	NaN	NaN	0.30387	0.2275	NaN	NaN	NaN	NaN	NaN	NaN	0.00050345	NaN	NaN	NaN	NaN 
+																					 
+Model 4159	CREBBP  | NRAS  | NF2 	0	0	0	1	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.014268	NaN	NaN	NaN	0.30387	0.2275	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 41510	CREBBP  | NRAS  | NF2  | PI3K_only-DOWN 	0	0	0	1	0	0	0	1	1	0	0	0	0	0	0	0	0	1	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.014268	NaN	NaN	NaN	0.15105	0.2275	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN 
+																					 
+Model 41511	CREBBP  | NRAS  | NF2  | TGFB-DOWN 	0	0	0	1	0	0	0	1	1	0	0	0	0	0	0	0	0	0	1	0 
+	Feature Importance Scores:	NaN	NaN	NaN	0.014268	NaN	NaN	NaN	0.30387	0.2275	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN 
+																					 
+Model 41512	KRAS  | NRAS  | NF2  | SMARCA4 	0	0	0	0	1	0	0	1	1	0	0	0	1	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	0	NaN	NaN	0.30387	0.2275	NaN	NaN	NaN	0.014268	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 41513	KRAS  | NRAS  | NF2  | EP300 	0	0	0	0	1	0	0	1	1	0	1	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	0	NaN	NaN	0.30387	0.2275	NaN	0.014268	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 41514	KRAS  | NRAS  | NF2  | d13q14.2 	0	0	0	0	1	0	0	1	1	0	0	0	0	1	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	0	NaN	NaN	0.30387	0.2275	NaN	NaN	NaN	NaN	0.00050345	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 41515	KRAS  | NRAS  | NF2  | IL-1-UP 	0	0	0	0	1	0	0	1	1	0	0	0	0	0	0	1	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	0	NaN	NaN	0.30387	0.2275	NaN	NaN	NaN	NaN	NaN	NaN	0.00050345	NaN	NaN	NaN	NaN 
+																					 
+Model 41516	KRAS  | NRAS  | NF2 	0	0	0	0	1	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	0	NaN	NaN	0.30387	0.2275	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 41517	KRAS  | NRAS  | NF2  | PI3K_only-DOWN 	0	0	0	0	1	0	0	1	1	0	0	0	0	0	0	0	0	1	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	0	NaN	NaN	0.15105	0.2275	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN 
+																					 
+Model 41518	KRAS  | NRAS  | NF2  | TGFB-DOWN 	0	0	0	0	1	0	0	1	1	0	0	0	0	0	0	0	0	0	1	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	0	NaN	NaN	0.30387	0.2275	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN 
+																					 
+Model 41519	NRAS  | NF2  | EP300  | d13q14.2 	0	0	0	0	0	0	0	1	1	0	1	0	0	1	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.30387	0.2275	NaN	0.014268	NaN	NaN	0.00050345	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 41520	NRAS  | NF2  | EP300  | SMARCA4 	0	0	0	0	0	0	0	1	1	0	1	0	1	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.30387	0.2275	NaN	0	NaN	0	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 41521	NRAS  | NF2  | EP300  | IL-1-UP 	0	0	0	0	0	0	0	1	1	0	1	0	0	0	0	1	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.30387	0.2275	NaN	0.014268	NaN	NaN	NaN	NaN	0.00050345	NaN	NaN	NaN	NaN 
+																					 
+Model 41522	NRAS  | NF2  | EP300 	0	0	0	0	0	0	0	1	1	0	1	0	0	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.30387	0.2275	NaN	0.014268	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN 
+																					 
+Model 41523	NRAS  | NF2  | EP300  | PI3K_only-DOWN 	0	0	0	0	0	0	0	1	1	0	1	0	0	0	0	0	0	1	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.15105	0.2275	NaN	0.014268	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN	NaN 
+																					 
+Model 41524	NRAS  | NF2  | EP300  | TGFB-DOWN 	0	0	0	0	0	0	0	1	1	0	1	0	0	0	0	0	0	0	1	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.30387	0.2275	NaN	0.014268	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0	NaN 
+																					 
+Model 41525	NRAS  | NF2  | SMARCA4  | IL-1-UP 	0	0	0	0	0	0	0	1	1	0	0	0	1	0	0	1	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.30387	0.19613	NaN	NaN	NaN	0.014268	NaN	NaN	0.00050345	NaN	NaN	NaN	NaN 
+																					 
+Model 41526	NRAS  | NF2  | SMARCA4 	0	0	0	0	0	0	0	1	1	0	0	0	1	0	0	0	0	0	0	0 
+	Feature Importance Scores:	NaN	NaN	NaN	NaN	NaN	NaN	NaN	0.30387	0.19613	NaN	NaN	NaN	0.014268	NaN	NaN	NaN	NaN	NaN	NaN	NaN 

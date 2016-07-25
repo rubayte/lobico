@@ -1036,7 +1036,7 @@
 				y = myChart.addMeasureAxis("y", "CountValues");
 				y.ticks = null;
 				y.overrideMax = countMax;
-				x = myChart.addCategoryAxis("x", "MD");
+				x = myChart.addCategoryAxis("x", "Model");
 				x.addOrderRule("MD");
 				c = myChart.addColorAxis("TP", "#036A1C");
 				var mySeries = myChart.addSeries("Count", dimple.plot.bar);
@@ -1073,7 +1073,7 @@
 				y = myChart.addMeasureAxis("y", "CountValues");
 				y.ticks = null;
 				y.overrideMax = countMax;
-				x = myChart.addCategoryAxis("x", "MD");
+				x = myChart.addCategoryAxis("x", "Model");
 				x.addOrderRule("MD");
 				c = myChart.addColorAxis("TN", "#02BB30");
 				var mySeries = myChart.addSeries(null, dimple.plot.bar);
@@ -1104,7 +1104,7 @@
 				y = myChart.addMeasureAxis("y", "CountValues");
 				y.ticks = null;
 				y.overrideMax = countMax;
-				x = myChart.addCategoryAxis("x", "MD");
+				x = myChart.addCategoryAxis("x", "Model");
 				x.addOrderRule("MD");
 				c = myChart.addColorAxis("FP", "#FF0000");
 				var mySeries = myChart.addSeries(null, dimple.plot.bar);
@@ -1135,7 +1135,7 @@
 				y = myChart.addMeasureAxis("y", "CountValues");
 				y.ticks = null;
 				y.overrideMax = countMax;
-				x = myChart.addCategoryAxis("x", "MD");
+				x = myChart.addCategoryAxis("x", "Model");
 				x.addOrderRule("MD");
 				c = myChart.addColorAxis("FN", "#FA5858");
 				var mySeries = myChart.addSeries(null, dimple.plot.bar);
@@ -1168,7 +1168,7 @@
 				y.ticks = null;
 				y.overrideMax = 1;
 				y.tickFormat = "%";
-				x = myChart.addCategoryAxis("x", "MD");
+				x = myChart.addCategoryAxis("x", "Model");
 				x.addOrderRule("MD");
 				//c = myChart.addColorAxis("Specificity", "#4685CE");
 				var mySeries = myChart.addSeries(null, dimple.plot.bar);
@@ -1185,26 +1185,29 @@
 	                .style("opacity", 0.5)
 	                .text("Specificity");
 				myChart.draw();
-				x.shapes.selectAll("text").attr("transform", " translate(10,-10) rotate(45)");
+				//x.shapes.selectAll("text").attr("transform", " translate(10,-10) rotate(45)");
 				x.shapes.selectAll('.tick')
 					.each(function(d,i){
-						//console.log(d);
-						for (var i = 0; i < data.length; i++){
-							if (data[i].MD == d && data[i].Model == "Model1"){
-								//bestmodel
+						var modelDescription = "";
+						if (d.indexOf("Model") > -1){
+							var text = d3.select(this).selectAll('text').data(d);
+							//console.log(text);
+							text.remove();
+							for (var j = 0; j < data.length; j++){
+								if (data[j].Model == d){
+									modelDescription = data[j].MD;
+								}
+							}
+							text.enter().append("text").attr("x", 20).attr("y", 15).text(modelDescription);
+							if (d == "Model1"){
 								d3.select(this)
 								.selectAll('text')
 									.style("fill","#01DF3A")
-									.style("font-weight", "bold")
+									.style("font-weight", "bold")								
 							}
-						}
-						//if (d.indexOf("F8") > -1){
-						//	d3.select(this)
-						//		.selectAll('text')
-						//			.style("fill","#01DF3A")
-						//			.style("font-weight", "bold")
-						//}
+						}						
 				})
+				x.shapes.selectAll("text").attr("transform", " translate(10,-10) rotate(45)");
 			}else if(i == 5){
 				// draw the Precision plot
 				var data = dimple.filterData(dataModel,"Stats","Precision");
@@ -1219,7 +1222,7 @@
 				y.ticks = null;
 				y.overrideMax = 1;
 				y.tickFormat = "%";
-				x = myChart.addCategoryAxis("x", "MD");
+				x = myChart.addCategoryAxis("x", "Model");
 				x.addOrderRule("MD");
 				//c = myChart.addColorAxis("Precision", "#67A3E8");
 				var mySeries = myChart.addSeries(null, dimple.plot.bar);
@@ -1236,19 +1239,28 @@
 	                .style("opacity", 0.5)
 	                .text("Precision");
 				myChart.draw();
-				x.shapes.selectAll("text").attr("transform", " translate(10,-10) rotate(45)");
 				x.shapes.selectAll('.tick')
 					.each(function(d,i){
-						for (var i = 0; i < data.length; i++){
-							if (data[i].MD == d && data[i].Model == "Model1"){
-								//bestmodel
+						var modelDescription = "";
+						if (d.indexOf("Model") > -1){
+							var text = d3.select(this).selectAll('text').data(d);
+							//console.log(text);
+							text.remove();
+							for (var j = 0; j < data.length; j++){
+								if (data[j].Model == d){
+									modelDescription = data[j].MD;
+								}
+							}
+							text.enter().append("text").attr("x", 20).attr("y", 15).text(modelDescription);
+							if (d == "Model1"){
 								d3.select(this)
 								.selectAll('text')
 									.style("fill","#01DF3A")
-									.style("font-weight", "bold")
+									.style("font-weight", "bold")								
 							}
-						}
-					})
+						}						
+				})
+				x.shapes.selectAll("text").attr("transform", " translate(10,-10) rotate(45)");
 			}else if(i == 6){
 				// draw the Recall plot
 				var data = dimple.filterData(dataModel,"Stats","Recall");
@@ -1263,7 +1275,7 @@
 				y.ticks = null;
 				y.overrideMax = 1;
 				y.tickFormat = "%";
-				x = myChart.addCategoryAxis("x", "MD");
+				x = myChart.addCategoryAxis("x", "Model");
 				x.addOrderRule("MD");
 				//c = myChart.addColorAxis("Recall", "#89B7EB");
 				var mySeries = myChart.addSeries(null, dimple.plot.bar);
@@ -1280,20 +1292,28 @@
 	                .style("opacity", 0.5)
 	                .text("Recall");
 				myChart.draw();
-				x.shapes.selectAll("text").attr("transform", " translate(10,-10) rotate(45)");
 				x.shapes.selectAll('.tick')
 					.each(function(d,i){
-						//console.log(d);
-						for (var i = 0; i < data.length; i++){
-							if (data[i].MD == d && data[i].Model == "Model1"){
-								//bestmodel
+						var modelDescription = "";
+						if (d.indexOf("Model") > -1){
+							var text = d3.select(this).selectAll('text').data(d);
+							//console.log(text);
+							text.remove();
+							for (var j = 0; j < data.length; j++){
+								if (data[j].Model == d){
+									modelDescription = data[j].MD;
+								}
+							}
+							text.enter().append("text").attr("x", 20).attr("y", 15).text(modelDescription);
+							if (d == "Model1"){
 								d3.select(this)
 								.selectAll('text')
 									.style("fill","#01DF3A")
-									.style("font-weight", "bold")
+									.style("font-weight", "bold")								
 							}
-						}
+						}						
 				})
+				x.shapes.selectAll("text").attr("transform", " translate(10,-10) rotate(45)");
 			}
 			else{
 			}

@@ -1,0 +1,42 @@
+IHH-4	KRAS		thyroid	Origin
+IHH-4	BRAF	Mutated	thyroid	Origin
+IHH-4	NRAS		thyroid	Origin
+IHH-4	NF2		thyroid	Origin
+IHH-4	SMARCA4	Mutated	thyroid	Origin
+IHH-4	H2O2-UP		thyroid	Origin
+IHH-4	TGFB-UP		thyroid	Origin
+ML-1	KRAS		thyroid	Origin
+ML-1	BRAF		thyroid	Origin
+ML-1	NRAS		thyroid	Origin
+ML-1	NF2		thyroid	Origin
+ML-1	SMARCA4		thyroid	Origin
+ML-1	H2O2-UP		thyroid	Origin
+ML-1	TGFB-UP		thyroid	Origin
+TT2609-C02	KRAS		thyroid	Origin
+TT2609-C02	BRAF		thyroid	Origin
+TT2609-C02	NRAS	Mutated	thyroid	Origin
+TT2609-C02	NF2		thyroid	Origin
+TT2609-C02	SMARCA4		thyroid	Origin
+TT2609-C02	H2O2-UP		thyroid	Origin
+TT2609-C02	TGFB-UP		thyroid	Origin
+ASH-3	KRAS		thyroid	Origin
+ASH-3	BRAF		thyroid	Origin
+ASH-3	NRAS	Mutated	thyroid	Origin
+ASH-3	NF2		thyroid	Origin
+ASH-3	SMARCA4		thyroid	Origin
+ASH-3	H2O2-UP		thyroid	Origin
+ASH-3	TGFB-UP		thyroid	Origin
+CGTH-W-1	KRAS		thyroid	Origin
+CGTH-W-1	BRAF		thyroid	Origin
+CGTH-W-1	NRAS		thyroid	Origin
+CGTH-W-1	NF2		thyroid	Origin
+CGTH-W-1	SMARCA4		thyroid	Origin
+CGTH-W-1	H2O2-UP		thyroid	Origin
+CGTH-W-1	TGFB-UP	Mutated	thyroid	Origin
+8505C	KRAS		thyroid	Origin
+8505C	BRAF	Mutated	thyroid	Origin
+8505C	NRAS		thyroid	Origin
+8505C	NF2	Mutated	thyroid	Origin
+8505C	SMARCA4		thyroid	Origin
+8505C	H2O2-UP		thyroid	Origin
+8505C	TGFB-UP		thyroid	Origin
