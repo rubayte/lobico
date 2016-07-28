@@ -5,6 +5,7 @@ Lobico::Application.routes.draw do
   match ':controller(/:action(/:id))(.:format)'
   root :to => 'app#index'
   match "index", :to => 'app#index'
+  match "about", :to => 'app#about'
   match "indexCancerJson", :to => 'app#indexCancerJson'
   match "indexDrugsJson", :to => 'app#indexDrugsJson'
   match "browseByCancerGenes", :to => 'app#browseByCancerGenes'

@@ -1,0 +1,208 @@
+    <div class="container">
+
+		<div class="row">
+			
+			<div class="col-md-4">
+				<h2>Links</h2>
+				<ul>
+					<li>
+						<a href="#mp">Model Plots</a>
+						<ul>
+							<li><a href="#ic">Input Celllines Histograms &amp; Heatmaps</a></li>
+							<li><a href="#m">Models Overall &amp; Highlight Plots</a></li>
+							<li><a href="#mb">Models BoxPlots</a></li>
+						</ul>
+					</li>	
+				</ul>
+			</div>	
+			
+			<div class="col-md-8">
+
+				<div class="page-header" id="mp">
+				  <h1>Model Plots<small></small></h1>
+				  	<p>The next sections descriobe all the plot details and specifications.</p>
+				</div>
+
+				<div class="page-header" id="ic">
+					
+  				  <h2>Input Cell-lines<small> &nbsp; histogram, tissue &amp; mutation status heatmaps</small></h2>
+					<div class="row">
+					  <div class="col-sm-6 col-md-12">
+					    <div class="thumbnail">
+					      <img src="assets/helpHistogram.png" alt="celllines histogram">
+					      <div class="caption">
+					        <p>
+					        	The input celllines histogram plot (y axis the logIC50 values) shows the sensitive and resistant cellline counts. The orange color and blue colors 
+					        	represent the sensitive and the resistant celllines respectively. The legend of the plot also shows the count in each type. Hovering over the plot bars, 
+					        	you can see the type, the count and the logIC50 value.
+					        </p>
+   					        <a href="#">Back to top</a>
+					      </div>
+					    </div>
+					  </div>
+					</div>
+					
+					<div class="row">
+					  <div class="col-sm-6 col-md-12">
+					    <div class="thumbnail">
+					      <img src="assets/helpTissueHeatmap.png" alt="celllines tissue type heatmaps">
+					      <div class="caption">
+					        <p>
+					        	This binary heatmap indicates for each of
+								the sensitive cell lines the tissue of
+								origin (indicated by light blue).
+								Hovering over the blue blocks, gives you the names of the cellline and the tissue type.
+					        </p>
+					        <a href="#">Back to top</a>					        
+					      </div>
+					    </div>
+					  </div>
+					</div>
+					
+					<div class="row">  
+					  <div class="col-sm-6 col-md-12">
+					    <div class="thumbnail">
+					      <img src="assets/helpTissueHeatmap2.png" alt="celllines mutation status heatmaps">
+					      <div class="caption">
+					        <p>
+					        	Green to red heatmap indicating
+								whether cell lines from the indicated
+								tissue type are enriched within the
+								group of sensitive cell lines. Red
+								indicates strong enrichment.
+								log2 of odds ratio is used to calculate the enrichment. 
+					        	If you hover over the bars, then you can see how many sensitive and resistant celllines are from this tissue type in the total input celllines set 
+					        	along with the percentage.
+					        </p>
+					        <a href="#">Back to top</a>					        
+					      </div>
+					    </div>
+					  </div>
+					</div>
+
+					<div class="row">
+					  <div class="col-sm-6 col-md-12">
+					    <div class="thumbnail">
+					      <img src="assets/helpMutationHeatmap.png" alt="celllines tissue type odds ratio heatmaps">
+					      <div class="caption">
+					        <p>
+					        	This binary heatmap shows for each of the
+								sensitive cell lines whether they have a
+								mutation of the indicated feature (dark
+								red).
+								Hovering over the red blocks gives you the names of the cellline and the input feature.
+					        </p>
+					        <a href="#">Back to top</a>
+					      </div>
+					    </div>
+					  </div>
+					</div>
+					
+					<div class="row">  
+					  <div class="col-sm-6 col-md-12">
+					    <div class="thumbnail">
+					      <img src="assets/helpMutationHeatmap2.png" alt="celllines mutation status odds ratio heatmaps">
+					      <div class="caption">
+					        <p>
+					        	Green to red heatmap indicating whether
+								cell lines that have a mutation of the
+								indicated genomic feature are enriched
+								within the group of sensitive cell lines.
+								Bright red indicates strong enrichment.
+								log2 of odds ratio is used to calculate the enrichment. 
+					        	If you hover over the blocks, then you can see how many sensitive and resistant celllines are mutated  
+					        	along with the percentage.
+					        </p>
+					        <a href="#">Back to top</a>
+					      </div>
+					    </div>
+					  </div>
+					</div>
+
+					
+				</div>
+
+				<div class="page-header" id="m">
+					
+  				  <h2>Models<small> &nbsp; model overall and highlight plots</small></h2>
+					<div class="row">
+					  <div class="col-sm-6 col-md-12">
+					    <div class="thumbnail">
+					      <img src="assets/helpModelOverall.png" alt="model overall bar plots">
+					      <div class="caption">
+					        <p>
+					        	The model overall plots depict all the models in the x axis and the first row in the y axis, all the prediction counts (true positive &amp; negative and false
+					        	positive &amp; negative). The second row in the y axis shows the specificity, precision and recall values across models.
+					        	The best model among the models is colored in green.
+					        	Hovering over the bars in the plots shows you the specific value of the bar and the name of the model. 
+					        	If you click on any of the bars on the plot, then the clicked plot highlights are loaded in the right hand side window.
+					        </p>
+					        <a href="#">Back to top</a>
+					      </div>
+					    </div>
+					  </div>
+					</div>
+
+					<div class="row">
+					  <div class="col-sm-6 col-md-12">
+					    <div class="thumbnail">
+					      <img src="assets/helpModelHighlight.png" alt="model highlight plots">
+					      <div class="caption">
+					        <p>
+					        	The model highlight plot shows the circuit diagram of the model, the TPs and FPs counts, specificity, recall, precision of the model and lastly the
+					        	boxplot of the predictions. If you hover over the ring plot you can see the actual count values and also hovering over the bar plots shows the actual percetage 
+					        	of the statistics.
+					        </p>
+					        <a href="#">Back to top</a>
+					      </div>
+					    </div>
+					  </div>
+					</div>
+
+					<div class="row">
+					  <div class="col-sm-6 col-md-12">
+					    <div class="thumbnail">
+					      <img src="assets/helpModelHighlightBoxplot.png" alt="model highlight boxplot">
+					      <div class="caption">
+					        <p>
+					        	The boxplot in the hightlight plot section, shows the prediction of the model and the y axis shows the actual logIC50 values.
+					        	The black dot line shows the cutoff value between sensitive and resistant celllines.
+					        	If you hover over the outlier dots, then you can see the name of the cellline.
+					        	If you click the box, then it explodes into a scatter plot where you can see all the data points in this section.
+					        	Similarly, a double click reverts back to boxplot.
+					        </p>
+					        <a href="#">Back to top</a>
+					      </div>
+					    </div>
+					  </div>
+					</div>
+
+				</div>
+				
+				<div class="page-header" id="mb">
+					
+  				  <h2>Models Boxplots<small> &nbsp; model overall boxplots</small></h2>
+					<div class="row">
+					  <div class="col-sm-6 col-md-12">
+					    <div class="thumbnail">
+					      <img src="assets/helpModelBoxplots.png" alt="model boxplots">
+					      <div class="caption">
+					        <p>
+					        	This section depicts all the boxplots from all the models with their predictions. The y axis is the logIC50 value. 
+					        	The model name is shown on top of all boxplot pairs.
+					        	The best model is highlighted in green color.
+					        	You can click the boxes in the plots to view the scatter plot and double click to go back to boxplots.
+					        	The black dotted line is the cutoff between the sensitive and resistant celllines.
+					        </p>
+					        <a href="#">Back to top</a>
+					      </div>
+					    </div>
+					  </div>
+					</div>
+				
+				</div>
+
+			</div>	
+		</div>
+	
+	</div>
