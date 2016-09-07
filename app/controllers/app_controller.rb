@@ -86,7 +86,7 @@ class AppController < ApplicationController
     @drug = params[:drug]
     @cancer = params[:cancer]
     @ds = params[:dataset]
-    (@models,@histData,@modelData,@boxData,@heatmapData,@overallData,@models2,@mnData,@totalCelllines,@highestPredCounts,@cutoffIC50,@oct,@oci,@hhp) = Datafile.getModelByCancerDrug(params[:cancer],params[:drug])
+    (@models,@histData,@modelData,@boxData,@heatmapData,@overallData,@models2,@mnData,@totalCelllines,@highestPredCounts,@cutoffIC50,@oct,@oci,@hhp,@totalSCL,@sClass,@rClass) = Datafile.getModelByCancerDrug(params[:cancer],params[:drug])
     @singleModel = "Single Model"
     @cvModel = "CV Model"
   end

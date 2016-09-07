@@ -1,32 +1,32 @@
-Model1	BRAF 	TP	7	Specificity	1.000
-Model1	BRAF 	TN	5	Precision	1.000
-Model1	BRAF 	FP	0	Recall	0.700
-Model1	BRAF 	FN	3	NA	0
-Model7	BRAF   |  PI3K_only-DOWN 	TP	8	Specificity	1.000
-Model7	BRAF   |  PI3K_only-DOWN 	TN	5	Precision	1.000
-Model7	BRAF   |  PI3K_only-DOWN 	FP	0	Recall	0.800
-Model7	BRAF   |  PI3K_only-DOWN 	FN	2	NA	0
-Model6	BRAF  & ¬NRAS 	TP	7	Specificity	1.000
-Model6	BRAF  & ¬NRAS 	TN	5	Precision	1.000
-Model6	BRAF  & ¬NRAS 	FP	0	Recall	0.700
-Model6	BRAF  & ¬NRAS 	FN	3	NA	0
-Model4	¬d(FANCG,PAX5)  & ¬NF1  & ¬NRAS 	TP	9	Specificity	0.800
-Model4	¬d(FANCG,PAX5)  & ¬NF1  & ¬NRAS 	TN	4	Precision	0.900
-Model4	¬d(FANCG,PAX5)  & ¬NF1  & ¬NRAS 	FP	1	Recall	0.900
-Model4	¬d(FANCG,PAX5)  & ¬NF1  & ¬NRAS 	FN	1	NA	0
-Model8	¬d(FANCG,PAX5)  & ¬NF1  & ¬NRAS  & ¬H2O2-UP 	TP	9	Specificity	1.000
-Model8	¬d(FANCG,PAX5)  & ¬NF1  & ¬NRAS  & ¬H2O2-UP 	TN	5	Precision	1.000
-Model8	¬d(FANCG,PAX5)  & ¬NF1  & ¬NRAS  & ¬H2O2-UP 	FP	0	Recall	0.900
-Model8	¬d(FANCG,PAX5)  & ¬NF1  & ¬NRAS  & ¬H2O2-UP 	FN	1	NA	0
-Model2	BRAF  | TGFB-UP  | PI3K_only-DOWN  | TGFB-DOWN 	TP	10	Specificity	1.000
-Model2	BRAF  | TGFB-UP  | PI3K_only-DOWN  | TGFB-DOWN 	TN	5	Precision	1.000
-Model2	BRAF  | TGFB-UP  | PI3K_only-DOWN  | TGFB-DOWN 	FP	0	Recall	1.000
-Model2	BRAF  | TGFB-UP  | PI3K_only-DOWN  | TGFB-DOWN 	FN	0	NA	0
-Model5	BRAF  | PI3K_only-DOWN 	TP	8	Specificity	1.000
-Model5	BRAF  | PI3K_only-DOWN 	TN	5	Precision	1.000
-Model5	BRAF  | PI3K_only-DOWN 	FP	0	Recall	0.800
-Model5	BRAF  | PI3K_only-DOWN 	FN	2	NA	0
-Model3	BRAF  | PI3K_only-DOWN  | TGFB-DOWN 	TP	9	Specificity	1.000
-Model3	BRAF  | PI3K_only-DOWN  | TGFB-DOWN 	TN	5	Precision	1.000
-Model3	BRAF  | PI3K_only-DOWN  | TGFB-DOWN 	FP	0	Recall	0.900
-Model3	BRAF  | PI3K_only-DOWN  | TGFB-DOWN 	FN	1	NA	0
+Model1	BRAF 	TP	7	Specificity	1.000	K	1	mcr1
+Model1	BRAF 	TN	5	Precision	1.000	M	1	mcr1
+Model1	BRAF 	FP	0	Recall	0.700	NA	NA	mcr1
+Model1	BRAF 	FN	3	CVE	 0.1188	NA	NA	mcr1
+Model2	¬d(FANCG,PAX5)  & ¬NF1  & ¬NRAS 	TP	9	Specificity	0.800	K	1	mcr3
+Model2	¬d(FANCG,PAX5)  & ¬NF1  & ¬NRAS 	TN	4	Precision	0.900	M	3	mcr3
+Model2	¬d(FANCG,PAX5)  & ¬NF1  & ¬NRAS 	FP	1	Recall	0.900	NA	NA	mcr3
+Model2	¬d(FANCG,PAX5)  & ¬NF1  & ¬NRAS 	FN	1	CVE	 0.56925	NA	NA	mcr3
+Model5	BRAF   |  PI3K_only-DOWN 	TP	8	Specificity	1.000	K	2	mcr6
+Model5	BRAF   |  PI3K_only-DOWN 	TN	5	Precision	1.000	M	2	mcr6
+Model5	BRAF   |  PI3K_only-DOWN 	FP	0	Recall	0.800	NA	NA	mcr6
+Model5	BRAF   |  PI3K_only-DOWN 	FN	2	CVE	 0.1188	NA	NA	mcr6
+Model7	BRAF  | TGFB-UP  | PI3K_only-DOWN  | TGFB-DOWN 	TP	10	Specificity	1.000	K	4	mcr8
+Model7	BRAF  | TGFB-UP  | PI3K_only-DOWN  | TGFB-DOWN 	TN	5	Precision	1.000	M	1	mcr8
+Model7	BRAF  | TGFB-UP  | PI3K_only-DOWN  | TGFB-DOWN 	FP	0	Recall	1.000	NA	NA	mcr8
+Model7	BRAF  | TGFB-UP  | PI3K_only-DOWN  | TGFB-DOWN 	FN	0	CVE	 0.35216	NA	NA	mcr8
+Model4	BRAF  | PI3K_only-DOWN  | TGFB-DOWN 	TP	9	Specificity	1.000	K	3	mcr7
+Model4	BRAF  | PI3K_only-DOWN  | TGFB-DOWN 	TN	5	Precision	1.000	M	1	mcr7
+Model4	BRAF  | PI3K_only-DOWN  | TGFB-DOWN 	FP	0	Recall	0.900	NA	NA	mcr7
+Model4	BRAF  | PI3K_only-DOWN  | TGFB-DOWN 	FN	1	CVE	 0.35216	NA	NA	mcr7
+Model3	¬d(FANCG,PAX5)  & ¬NF1  & ¬NRAS  & ¬H2O2-UP 	TP	9	Specificity	1.000	K	1	mcr4
+Model3	¬d(FANCG,PAX5)  & ¬NF1  & ¬NRAS  & ¬H2O2-UP 	TN	5	Precision	1.000	M	4	mcr4
+Model3	¬d(FANCG,PAX5)  & ¬NF1  & ¬NRAS  & ¬H2O2-UP 	FP	0	Recall	0.900	NA	NA	mcr4
+Model3	¬d(FANCG,PAX5)  & ¬NF1  & ¬NRAS  & ¬H2O2-UP 	FN	1	CVE	 0.28912	NA	NA	mcr4
+Model6	BRAF  | PI3K_only-DOWN 	TP	8	Specificity	1.000	K	2	mcr5
+Model6	BRAF  | PI3K_only-DOWN 	TN	5	Precision	1.000	M	1	mcr5
+Model6	BRAF  | PI3K_only-DOWN 	FP	0	Recall	0.800	NA	NA	mcr5
+Model6	BRAF  | PI3K_only-DOWN 	FN	2	CVE	 0.35216	NA	NA	mcr5
+Model8	BRAF  & ¬NRAS 	TP	7	Specificity	1.000	K	1	mcr2
+Model8	BRAF  & ¬NRAS 	TN	5	Precision	1.000	M	2	mcr2
+Model8	BRAF  & ¬NRAS 	FP	0	Recall	0.700	NA	NA	mcr2
+Model8	BRAF  & ¬NRAS 	FN	3	CVE	 0.1188	NA	NA	mcr2

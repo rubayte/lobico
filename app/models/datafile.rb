@@ -196,6 +196,9 @@ class Datafile
     end  
     
     totalCellLines = 0
+    totalSenCelllines = 0
+    sClassValue = ""
+    rClassValue = ""
     highestPeak = 0
     histContents = ""
     File.open(Rails.root.join('data',histFile)) do |fl|
@@ -208,11 +211,15 @@ class Datafile
             highestPeak = temp[1].to_i
           end
           if (temp[2] =~ /RES/)
+            rClassValue = temp[2].strip()
             if (temp[0].to_f < minR)
               minR = temp[0].to_f
             end
           end
           if (temp[2] =~ /SEN/)
+            sClassValue = temp[2].strip()
+            ctemp = temp[2].split("\s")
+            totalSenCelllines = ctemp[0][1..ctemp[0].length]
             if (temp[0].to_f > maxS)
               maxS = temp[0].to_f
             end
@@ -240,7 +247,7 @@ class Datafile
     end
     modelContents = modelContents[1..-1]
     # modelData = modelContents.split("\t").each_slice(8).map{|s| {Model: s[0], TP: s[1], FP: s[2], FN: s[3], TN: s[4], Specificity: s[5], Precision: s[6], Recall: s[7] }}.to_json
-    modelData = modelContents.split("\t").each_slice(6).map{|s| {Model: s[0], MD: s[1], Count: s[2], CountValues: s[3], Stats: s[4], StatsValues: s[5]}}.to_json
+    modelData = modelContents.split("\t").each_slice(9).map{|s| {Model: s[0], MD: s[1], Count: s[2], CountValues: s[3], Stats: s[4], StatsValues: s[5], Complexity: s[6], ComplexityValues: s[7], ModelXRank: s[8]}}.to_json
     
     boxContents = ""
     modelNames = ""
@@ -308,7 +315,7 @@ class Datafile
     diff = minR - maxS
     cutoffIc50 = maxS + (diff/2)
     
-    return models,histData,modelData,boxData,heatmapData,overallData,models2,modelNameData,totalCellLines,highestPredCounts,cutoffIc50,colortypeT,colortypeI,highestPeak+1
+    return models,histData,modelData,boxData,heatmapData,overallData,models2,modelNameData,totalCellLines,highestPredCounts,cutoffIc50,colortypeT,colortypeI,highestPeak+1,totalSenCelllines,sClassValue,rClassValue
     
   end
 

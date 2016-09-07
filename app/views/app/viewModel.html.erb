@@ -37,17 +37,26 @@
   								
 								<div class="row">
 									<div class="col-md-8">
-										<div align="center">
-											<div class="alert alert-warning alert-dismissible" role="alert">
-												<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-												<p align="center">Click on the model bars to view model diagram and statistics! The model name highlighted in green is the best model!</p>
-											</div>
-			  								<div id="modelOverallPlot">
-  												<div align="center">
-	  												<b>Models</b>
-	  											</div>
+										<div class="panel panel-default">
+											<div class="panel-heading" id = "modelOverallPanelHeaderDiv">
+								    			<h4 class="panel-title">
+								    				All Models
+								    			</h4>
+								  			</div>
+								  			<div class="panel-body">
+												<div align="center">
+													<div class="alert alert-warning alert-dismissible" role="alert">
+														<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+														<p align="center">Click on the model bars to view model diagram and statistics! The model name highlighted in green is the best model!</p>
+													</div>
+			  										<div id="modelOverallPlot">
+  														<div align="center">
+	  														<b>Models</b>
+	  													</div>
+  													</div>
+  												</div>
   											</div>
-  										</div>	
+  										</div>		
   									</div>
 									<div class="col-md-4">
 								    	<div class="panel panel-default">
@@ -60,41 +69,37 @@
 								  			<div class="panel-body">
 								  				<div align="center">
 								  					<div class="row">
-	  													<div id="modelCircuitPlot">
-  														</div>						  						
+														<div id="modelCircuitPlot">
+														</div>
 								  					</div>
 								  					<!--
 								  					<div class="row">
-	  														Specificity = TN/(FP+TN) &nbsp;
-	  														Precision = TP/(TP + FP) &nbsp;
-	  														Recall = TP/(TP + FN)
-
-								  					</div>
-								  					-->	
-								  					<div class="row">
-			  											<div id="modelPlot">
+			  											<div id="modelContengencyTable">
+  																						  						<div class="col-md-4">
+								  							<div class="row">
+			  													<div class="col-md-6" id="mCTTP">
+			  													</div>
+			  													<div class="col-md-6" id="mCTFP">
+			  													</div>
+			  													<div class="col-md-6" id="mCTFN">
+			  													</div>	
+			  													<div class="col-md-6" id="mCTTN">
+			  													</div>
+			  												</div>	
+								  						</div>
   														</div>
 								  					</div>
-								  					<!--
-								  					<div class="row">
-														<div class="col-md-4">
-			  												Specificity = TN/(FP+TN)
-														</div>	
-														<div class="col-md-4">
-			  												Precision = TP/(TP + FP)
-														</div>	
-														<div class="col-md-4">
-															Recall = TP/(TP + FN)
-														</div>	
-								  					</div>
 								  					-->
+								  					<div class="row">
+				  										<div id="modelPlot">
+  														</div>
+								  					</div>
 								  					<div class="row">
 						  								<div class="plot-warning">
 							  								<div class="alert alert-warning alert-dismissible" role="alert">
 																<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 																<p align="center">
-																	Click on the box plots to view the scatter plot and double click to reverse! The dashed black line is the cutoff
-																	log IC50 value for the sensitive and resistant cell lines.
+																	Click on the box plots to view the scatter plot and double click to reverse!
 																</p>
 															</div>
 														</div>									  						
@@ -149,6 +154,9 @@
   		var data= <%= @histData.html_safe %>;
   		var heatmapdata = <%= @heatmapData.html_safe %>;
   		var overalldata = <%= @overallData.html_safe %>;
+  		var totalSensitiveCelllines = <%= @totalSCL %>;
+  		var sCV = "<%= @sClass %>";
+  		var rCV = "<%= @rClass %>";
   		var oddsRatioTissueColorType = "<%= @oct %>";
   		var oddsRatioInputColorType = "<%= @oci %>";
   		var histXMax = <%= @hhp %>;
@@ -182,7 +190,7 @@
 		var pixelsW = $("#inputPlot").width();
 		//console.log(pixelsW);
 		//var pixelsW = 1000;
-		var pixelsH = 700;  		
+		var pixelsH = 600;  		
 
   		var svg = dimple.newSvg("#inputPlot", pixelsW, pixelsH);
 		
@@ -217,12 +225,16 @@
 			var y = 0;
 			if (i == 0)
 			{
+				var w = width;
+				if (totalSensitiveCelllines <= 50){
+					w = width - 50;
+				}
 				// draw the histogram of sensitive and resistant cell lines		
 				var myChart = new dimple.chart(svg, data);
 				myChart.setBounds(
 					left + (col * (width + inMarg)),
 					top + (row * (height + inMarg)),
-					width,
+					w,
 					heightMain);
 
 				y = myChart.addCategoryAxis("y", "logIC50");
@@ -231,14 +243,14 @@
 				y.fontSize = "10px";
 				x = myChart.addMeasureAxis("x", "Number_of_Cell_lines");
 				x.overrideMax = histXMax;
+				x.showGridlines = false;
 				myChart.addSeries("Classification", dimple.plot.bar);
-				myChart.assignColor("RESISTANT", "#E6E6E6");
-				myChart.assignColor("SENSITIVE", "#F78181");
+				myChart.assignColor(rCV, "#E6E6E6");
+				myChart.assignColor(sCV, "#F78181");
 				myChart.addLegend(left + (col * (width + inMarg))+10, (top - 10), (width/2), 20, "right");
 				myChart.draw();
 				y.shapes.selectAll('.tick')
 					.each(function(d,i){
-						//if (d == 0 || d == -10 || d == 10 || d == -5 || d == 5 || d == -4 || d == 4 || d == -3 || d == 3 || d == -2 || d == 2 || d == -1 || d == 1 || d == -6 || d == 6 || d == -7 || d == 7 || d == -8 || d == 8 || d == -9 || d == 9)
 						if (d == 0 || d == 10 || d == -10 || d == 5 || d == -5)
 						{
 							// ok
@@ -260,12 +272,11 @@
 				//myChart.addSeries(null, dimple.plot.bar);
 				var s = myChart.addSeries("Origin?", dimple.plot.bar);
 				//s.addOrderRule("Tissue");
-				myChart.assignColor("Origin", "#819FF7");
+				myChart.assignColor("Origin", "#F78181");
 				myChart.stacked = false;
 				myChart.addLegend(left + (col * (width + inMarg))+10, (top - 10), (width/2), 20, "right");
 				myChart.draw();				
 				x.shapes.selectAll("text").attr("transform", " translate(10,-10) rotate(45)");
-				
 				// titles
 				svg.append("text")
    					.attr("x", myChart._xPixels() + myChart._widthPixels() / 2)
@@ -273,7 +284,7 @@
 					.style("text-anchor", "middle")
 					.style("font-family", "sans-serif")
 					.style("font-weight", "bold")
-					.text("Tissue Types");	
+					.text("Tissue Types (Sensitive Cell lines)");	
 			}else if (i == 2){
 				// draw the binary cell line mutation heatmap
 				var myChart = new dimple.chart(svg, heatmapdata);
@@ -287,7 +298,7 @@
 				//myChart.addSeries(null, dimple.plot.bar);
 				myChart.addSeries("Mutated?", dimple.plot.bar);
 				myChart.assignColor("", "#FFFFFF","#FFFFFF",0);
-				myChart.assignColor("Mutated", "#B40431");				
+				myChart.assignColor("Mutated", "#F78181");				
 				myChart.stacked = false;
 				myChart.addLegend(left + (col * (width + inMarg))+10, (top - 10), (width/2), 20, "right");
 				myChart.draw();
@@ -300,7 +311,7 @@
 					.style("text-anchor", "middle")
 					.style("font-family", "sans-serif")
 					.style("font-weight", "bold")
-					.text("Mutations");					
+					.text("Mutations (Sensitive Cell lines)");					
 			}else if (i == 4){
 				// draw the overall tissue scenario
 				var todata = dimple.filterData(overalldata, "Param", "Tissue");
@@ -677,15 +688,19 @@
 				// Once drawn we can access the shapes
 				// If this is not in the first column remove the y text
 				if (col > 0) {
-					y.shapes.selectAll("text").remove();
-					//if (i != 4){
-						// Remove the axis labels
-						y.titleShape.remove();
-					//}
+					if (totalSensitiveCelllines <= 50 && i == 1){
+						// keep them						
+					}else{
+						y.shapes.selectAll("text").remove();
+					}
+					// Remove the axis labels
+					y.titleShape.remove();					
 				}
 				// If this is not in the last row remove the x text
 				if (row < 1) {
-					x.shapes.selectAll("text").remove();
+					if (i > 0 ){
+						x.shapes.selectAll("text").remove();						
+					}
 					if (i > 0){
 						// Remove the axis labels
 						x.titleShape.remove();	
@@ -716,7 +731,7 @@
 		d3.select("#modelPlot").select("svg").remove();		
   		var dataModel = <%= @modelData.html_safe %>;
   		var cutoff = <%= @cutoffIC50 %>;
-  		console.log(cutoff);
+  		//console.log(cutoff);
 		//var divid = i;
 		var svgName = "#modelPlot";
 		var modelParamToCheck = "MD";
@@ -727,7 +742,6 @@
 		
 		var modelName = model;
 		var data = dimple.filterData(dataModel,modelParamToCheck,modelName);
-		
 		// set panel header with the model name
 		if (data[0].Model == "Model1")
 		{
@@ -747,7 +761,7 @@
 		plotModelSingleBoxplot("#modelSingleBox",data[0].Model,true,200,200,true,"NA",false,cutoff);	
 						
 		var width = $("#modelPlot").width();
- 		var height = 150;
+ 		var height = 140;
  		var svg = dimple.newSvg(svgName, width, height);
 	  	
 	  	// Set the bounds for the charts
@@ -756,12 +770,12 @@
 		top = 5,
 		left = 5,
 		inMarg = 20,
-		width = width/2 - 30,
+		width = width/3 - 5,
 		height = height - 50,
 		totalWidth = parseFloat(svg.attr("width"));
 		
 		// loop over 
-		for (i = 0; i < 2; i++ )
+		for (i = 0; i < 3; i++ )
 		{
 			// Wrap to the row above
 			//if (left + ((col + 1) * (width + inMarg)) > totalWidth) {
@@ -774,17 +788,17 @@
 			var c = 0;
 			if (i == 0)
 			{
-		 		// draw the ring chart with T* and F*
+				// draw the ring chart with T* and F*
 		 		var myChart = new dimple.chart(svg, data);
 	 			myChart.setBounds(
 					left + (col * (width + inMarg)),
 					top + (row * (height + inMarg)),
-					width,
+					width ,
 					height);
 				myChart.addMeasureAxis("p", "CountValues");
 				//c = myChart.addColorAxis(["TP","TN","FP","FN"], ["#036A1C","#02BB30",,]);
 				var ring = myChart.addSeries("Count", dimple.plot.pie);
-	    		ring.innerRadius = "80%";
+	    		//ring.innerRadius = "0%";
 	    		myChart.assignColor("TP", "#036A1C");
 	    		myChart.assignColor("TN","#02BB30");
 	    		myChart.assignColor("FP","#FF0000");
@@ -809,7 +823,7 @@
 			}else if(i == 1)
 			{
 				//draw the bar plots for specificity, precision and recall
-				tempData = dimple.filterData(data,"Stats",["Specificity","Precision","Recall"]);
+				tempData = dimple.filterData(data,"Stats",["Specificity","Precision","Recall", "CVE"]);
 				var myChart = new dimple.chart(svg, tempData);
 	 							myChart.setBounds(
 					left + (col * (width + inMarg)),
@@ -891,75 +905,55 @@
 			{
 				// draw the specificty ring chart
 				//var tempData = dimple.filterData(dataModel,modelParamToCheck,modelName);
-				tempData = dimple.filterData(data,"Stats","Precision");
-				var val = Math.round(((tempData[0].StatsValues * 100)*100)/100) + "%";
+				tempData = dimple.filterData(data,"Complexity",["K","M"]);
 	 			var myChart = new dimple.chart(svg, tempData);
 	 							myChart.setBounds(
 					left + (col * (width + inMarg)),
 					top + (row * (height + inMarg)),
 					width,
 					height);
-				myChart.addMeasureAxis("p", "Stats");
-				var ring = myChart.addSeries("StatsValues", dimple.plot.pie);
+				myChart.addMeasureAxis("p", "ComplexityValues");
+				var ring = myChart.addSeries("Complexity", dimple.plot.pie);
 	    		ring.innerRadius = "75%";
 	    		myChart.draw();
 	    		// central values and titles
-				svg.append("text")
-   					.attr("x", myChart._xPixels() + myChart._widthPixels() / 2)
-   					.attr("y", myChart._yPixels() + myChart._heightPixels() / 2 + 5)
-					.style("text-anchor", "middle")
-					.style("font-family", "sans-serif")
-					.style("font-weight", "bold")
-					.style("font-size", "18px")	
-					.text(val);				
+	    		var offset = -5;
+	    		for (j = 0; j < 2; j++){
+		    		var val = tempData[j].Complexity;
+		    		val = val + " : "+ tempData[j].ComplexityValues;
+		    		// print central values
+					svg.append("text")
+	   					.attr("x", myChart._xPixels() + myChart._widthPixels() / 2)
+	   					.attr("y", myChart._yPixels() + myChart._heightPixels() / 2 + offset)
+						.style("text-anchor", "middle")
+						.style("font-family", "sans-serif")
+						.style("font-weight", "bold")
+						.style("font-size", "12px")	
+						.text(val);
+					offset += 15;						    			
+	    		}
+				//svg.append("text")
+   				//	.attr("x", myChart._xPixels() + myChart._widthPixels() / 2)
+   				//	.attr("y", myChart._yPixels() + myChart._heightPixels() / 2 + 5)
+				//	.style("text-anchor", "middle")
+				//	.style("font-family", "sans-serif")
+				//	.style("font-weight", "bold")
+				//	.style("font-size", "18px")	
+				//	.text(val);				
 					
-				svg.append("text")
-   					.attr("x", myChart._xPixels() + myChart._widthPixels() / 2)
-   					.attr("y", myChart._yPixels() + myChart._heightPixels()  + 10)
-					.style("text-anchor", "middle")
-					.style("font-family", "sans-serif")
-					.style("font-weight", "bold")
-					.style("font-size", "12px")	
-					.text("Precision = TP/(TP + FP)");				
-			}else if(i == 3)
-			{
-				// draw the specificty ring chart
-				//var tempData = dimple.filterData(dataModel,modelParamToCheck,modelName);
-				tempData = dimple.filterData(data,"Stats","Recall");
-				var val = Math.round(((tempData[0].StatsValues * 100)*100)/100) + "%";
-	 			var myChart = new dimple.chart(svg, tempData);
-	 							myChart.setBounds(
-					left + (col * (width + inMarg)),
-					top + (row * (height + inMarg)),
-					width,
-					height);
-				myChart.addMeasureAxis("p", "Stats");
-				var ring = myChart.addSeries("StatsValues", dimple.plot.pie);
-	    		ring.innerRadius = "75%";
-	    		myChart.draw();
-	    		// central values and titles
-				svg.append("text")
-   					.attr("x", myChart._xPixels() + myChart._widthPixels() / 2)
-   					.attr("y", myChart._yPixels() + myChart._heightPixels() / 2 + 5)
-					.style("text-anchor", "middle")
-					.style("font-family", "sans-serif")
-					.style("font-weight", "bold")
-					.style("font-size", "18px")	
-					.text(val);				
-					
-				svg.append("text")
-   					.attr("x", myChart._xPixels() + myChart._widthPixels() / 2)
-   					.attr("y", myChart._yPixels() + myChart._heightPixels()  + 10)
-					.style("text-anchor", "middle")
-					.style("font-family", "sans-serif")
-					.style("font-weight", "bold")
-					.style("font-size", "12px")	
-					.text("Recall = TP/(TP + FN)");					
+				//svg.append("text")
+   				//	.attr("x", myChart._xPixels() + myChart._widthPixels() / 2)
+   				//	.attr("y", myChart._yPixels() + myChart._heightPixels()  + 10)
+				//	.style("text-anchor", "middle")
+				//	.style("font-family", "sans-serif")
+				//	.style("font-weight", "bold")
+				//	.style("font-size", "12px")	
+				//	.text("Precision = TP/(TP + FP)");				
 			}else{
 				
 			}
 
-			if (i > 0){
+			if (i == 1){
 				x.titleShape.remove();
 				y.titleShape.remove();							
 			}
@@ -996,7 +990,7 @@
 		var pixelsH = 600;  		
 
   		var svg = dimple.newSvg("#modelOverallPlot", pixelsW, pixelsH);
-
+		
 		
 		// Set the bounds for the charts
 		var row = 0,
@@ -1005,12 +999,12 @@
 		left = 50,
 		inMarg = 20,
 		width = (pixelsW/4) - 30,
-		height = (pixelsH/2) - 145,
-		//heightBottomRow = 45,
+		height = (pixelsH/2) - 180,
+		heightBottomRow = 30,
 		totalWidth = parseFloat(svg.attr("width"));
 		
 		// loop over 
-		for (i = 0; i < 7; i++ )
+		for (i = 0; i < 12; i++ )
 		{
 			//var svg = svg1;
 			// Wrap to the row above
@@ -1037,7 +1031,8 @@
 				y.ticks = null;
 				y.overrideMax = countMax;
 				x = myChart.addCategoryAxis("x", "Model");
-				x.addOrderRule("MD");
+				x.addOrderRule("ModelXRank");
+				y.showGridlines = false;
 				c = myChart.addColorAxis("TP", "#036A1C");
 				var mySeries = myChart.addSeries("Count", dimple.plot.bar);
 				//myChart.addLegend(left + (col * (width + inMarg))+10, (top - 10), (width/2), 20, "right");
@@ -1057,8 +1052,6 @@
 	                .style("opacity", 0.5)
 	                .text("TP");
 				myChart.draw();
-				x.shapes.selectAll("text").attr("transform", " translate(10,-10) rotate(45)");
-				
 			}else if(i == 1)
 			{
 				// draw the TN plot
@@ -1073,8 +1066,9 @@
 				y = myChart.addMeasureAxis("y", "CountValues");
 				y.ticks = null;
 				y.overrideMax = countMax;
+				y.showGridlines = false;
 				x = myChart.addCategoryAxis("x", "Model");
-				x.addOrderRule("MD");
+				x.addOrderRule("ModelXRank");
 				c = myChart.addColorAxis("TN", "#02BB30");
 				var mySeries = myChart.addSeries(null, dimple.plot.bar);
 				mySeries.addEventHandler("click", function (e) {
@@ -1090,7 +1084,7 @@
 	                .style("opacity", 0.5)
 	                .text("TN");
 				myChart.draw();
-				x.shapes.selectAll("text").attr("transform", " translate(10,-10) rotate(45)");
+				//x.shapes.selectAll("text").attr("transform", " translate(10,-10) rotate(90)");
 			}else if(i == 2){
 				// draw the FP plot
 				var data = dimple.filterData(dataModel,"Count","FP");
@@ -1104,8 +1098,9 @@
 				y = myChart.addMeasureAxis("y", "CountValues");
 				y.ticks = null;
 				y.overrideMax = countMax;
+				y.showGridlines = false;
 				x = myChart.addCategoryAxis("x", "Model");
-				x.addOrderRule("MD");
+				x.addOrderRule("ModelXRank");
 				c = myChart.addColorAxis("FP", "#FF0000");
 				var mySeries = myChart.addSeries(null, dimple.plot.bar);
 				mySeries.addEventHandler("click", function (e) {
@@ -1121,7 +1116,7 @@
 	                .style("opacity", 0.5)
 	                .text("FP");
 				myChart.draw();
-				x.shapes.selectAll("text").attr("transform", " translate(10,-10) rotate(45)");
+				//x.shapes.selectAll("text").attr("transform", " translate(10,-10) rotate(90)");
 			}else if(i == 3){
 				// draw the FN plot
 				var data = dimple.filterData(dataModel,"Count","FN");
@@ -1135,8 +1130,9 @@
 				y = myChart.addMeasureAxis("y", "CountValues");
 				y.ticks = null;
 				y.overrideMax = countMax;
+				y.showGridlines = false;
 				x = myChart.addCategoryAxis("x", "Model");
-				x.addOrderRule("MD");
+				x.addOrderRule("ModelXRank");
 				c = myChart.addColorAxis("FN", "#FA5858");
 				var mySeries = myChart.addSeries(null, dimple.plot.bar);
 				mySeries.addEventHandler("click", function (e) {
@@ -1152,7 +1148,7 @@
 	                .style("opacity", 0.5)
 	                .text("FN");
 				myChart.draw();
-				x.shapes.selectAll("text").attr("transform", " translate(10,-10) rotate(45)");
+				//x.shapes.selectAll("text").attr("transform", " translate(10,-10) rotate(90)");
 			}else if(i == 4){
 				// draw the Specificity plot
 				var data = dimple.filterData(dataModel,"Stats","Specificity");
@@ -1167,9 +1163,10 @@
 				y = myChart.addMeasureAxis("y", "StatsValues");
 				y.ticks = null;
 				y.overrideMax = 1;
+				y.showGridlines = false;
 				y.tickFormat = "%";
 				x = myChart.addCategoryAxis("x", "Model");
-				x.addOrderRule("MD");
+				x.addOrderRule("ModelXRank");
 				//c = myChart.addColorAxis("Specificity", "#4685CE");
 				var mySeries = myChart.addSeries(null, dimple.plot.bar);
 				mySeries.addEventHandler("click", function (e) {
@@ -1198,16 +1195,16 @@
 									modelDescription = data[j].MD;
 								}
 							}
-							text.enter().append("text").attr("x", 20).attr("y", 15).text(modelDescription);
+							text.enter().append("text").text(modelDescription);
 							if (d == "Model1"){
 								d3.select(this)
 								.selectAll('text')
 									.style("fill","#01DF3A")
-									.style("font-weight", "bold")								
+									.style("font-weight", "bold")
 							}
 						}						
 				})
-				x.shapes.selectAll("text").attr("transform", " translate(10,-10) rotate(45)");
+				x.shapes.selectAll("text").attr("transform", " translate(10,10) rotate(90)");
 			}else if(i == 5){
 				// draw the Precision plot
 				var data = dimple.filterData(dataModel,"Stats","Precision");
@@ -1222,8 +1219,9 @@
 				y.ticks = null;
 				y.overrideMax = 1;
 				y.tickFormat = "%";
+				y.showGridlines = false;
 				x = myChart.addCategoryAxis("x", "Model");
-				x.addOrderRule("MD");
+				x.addOrderRule("ModelXRank");
 				//c = myChart.addColorAxis("Precision", "#67A3E8");
 				var mySeries = myChart.addSeries(null, dimple.plot.bar);
 				mySeries.addEventHandler("click", function (e) {
@@ -1251,7 +1249,8 @@
 									modelDescription = data[j].MD;
 								}
 							}
-							text.enter().append("text").attr("x", 20).attr("y", 15).text(modelDescription);
+							//text.enter().append("text").attr("x", 20).attr("y", 15).text(modelDescription);
+							text.enter().append("text").text(modelDescription);
 							if (d == "Model1"){
 								d3.select(this)
 								.selectAll('text')
@@ -1260,7 +1259,7 @@
 							}
 						}						
 				})
-				x.shapes.selectAll("text").attr("transform", " translate(10,-10) rotate(45)");
+				x.shapes.selectAll("text").attr("transform", " translate(10,10) rotate(90)");
 			}else if(i == 6){
 				// draw the Recall plot
 				var data = dimple.filterData(dataModel,"Stats","Recall");
@@ -1275,8 +1274,9 @@
 				y.ticks = null;
 				y.overrideMax = 1;
 				y.tickFormat = "%";
+				y.showGridlines = false;
 				x = myChart.addCategoryAxis("x", "Model");
-				x.addOrderRule("MD");
+				x.addOrderRule("ModelXRank");
 				//c = myChart.addColorAxis("Recall", "#89B7EB");
 				var mySeries = myChart.addSeries(null, dimple.plot.bar);
 				mySeries.addEventHandler("click", function (e) {
@@ -1304,7 +1304,7 @@
 									modelDescription = data[j].MD;
 								}
 							}
-							text.enter().append("text").attr("x", 20).attr("y", 15).text(modelDescription);
+							text.enter().append("text").text(modelDescription);
 							if (d == "Model1"){
 								d3.select(this)
 								.selectAll('text')
@@ -1313,18 +1313,122 @@
 							}
 						}						
 				})
-				x.shapes.selectAll("text").attr("transform", " translate(10,-10) rotate(45)");
+				x.shapes.selectAll("text").attr("transform", " translate(10,10) rotate(90)");
 			}
-			else{
+			else if (i ==7){
+				// draw the CVE plot
+				var data = dimple.filterData(dataModel,"Stats","CVE");
+				var myChart = new dimple.chart(svg, data);
+				myChart.setBounds(
+					left + (col * (width + inMarg)),
+					top + (row * (height + inMarg)),
+					width,
+					height);
+
+				y = myChart.addMeasureAxis("y", "StatsValues");
+				y.ticks = null;
+				y.overrideMax = 1;
+				y.tickFormat = "%";
+				y.showGridlines = false;
+				x = myChart.addCategoryAxis("x", "Model");
+				x.addOrderRule("ModelXRank");
+				//c = myChart.addColorAxis("Recall", "#89B7EB");
+				var mySeries = myChart.addSeries(null, dimple.plot.bar);
+				mySeries.addEventHandler("click", function (e) {
+					plotModelStats(e.xValue);
+				});
+				svg
+	            .append("text")
+	                .attr("x", left + (col * (width + inMarg)) + (width / 2))
+	                .attr("y", top + (row * (height + inMarg)) + (height / 2) + 12)
+	                .style("font-family", "sans-serif")
+	                .style("text-anchor", "middle")
+	                .style("font-size", "28px")
+	                .style("opacity", 0.5)
+	                .text("CV Error");
+				myChart.draw();
+				x.shapes.selectAll('.tick')
+					.each(function(d,i){
+						var modelDescription = "";
+						if (d.indexOf("Model") > -1){
+							var text = d3.select(this).selectAll('text').data(d);
+							//console.log(text);
+							text.remove();
+							for (var j = 0; j < data.length; j++){
+								if (data[j].Model == d){
+									modelDescription = data[j].MD;
+								}
+							}
+							text.enter().append("text").text(modelDescription);
+							if (d == "Model1"){
+								d3.select(this)
+								.selectAll('text')
+									.style("fill","#01DF3A")
+									.style("font-weight", "bold")								
+							}
+						}						
+				})
+				x.shapes.selectAll("text").attr("transform", " translate(10,10) rotate(90)");
+			}else{
+				// draw the complexity plot
+				var data = dimple.filterData(dataModel,"Complexity",["K","M"]);
+				var myChart = new dimple.chart(svg, data);
+				myChart.setBounds(
+					left + (col * (width + inMarg)),
+					top + (row * (height + inMarg)),
+					width,
+					heightBottomRow);
+
+				x = myChart.addCategoryAxis("x", ["Model","Complexity"]);
+				y = myChart.addMeasureAxis("y", "ComplexityValues");
+				y.showGridlines = false;
+				//y.ticks = null;
+				//y.overrideMax = 1;
+				//y.tickFormat = "%";
+				//x.addOrderRule(["K","M"]);
+				x.addOrderRule("ModelXRank");
+				var s = myChart.addSeries("Complexity", dimple.plot.bar);
+				myChart.draw();
+				x.shapes.selectAll('.tick')
+					.each(function(d,i){
+						var modelDescription = "";
+						if (d.indexOf("Model") > -1){
+							var text = d3.select(this).selectAll('text').data(d);
+							//console.log(text);
+							text.remove();
+							for (var j = 0; j < data.length; j++){
+								if (data[j].Model == d){
+									modelDescription = data[j].MD;
+								}
+							}
+							text.enter().append("text").text(modelDescription);
+							if (d == "Model1"){
+								d3.select(this)
+								.selectAll('text')
+									.style("fill","#01DF3A")
+									.style("font-weight", "bold")								
+							}
+						}						
+				})
+				x.shapes.selectAll("text").attr("transform", " translate(10,10) rotate(90)");
+				y.shapes.selectAll('.tick')
+					.each(function(d,i){
+						if (d == 0 || d == 2 ||d == 4)
+						{
+							// ok
+						}else{
+							d3.select(this).selectAll('text').remove();
+						}
+				})
 			}
 			
 			// Once drawn we can access the shapes
 			// If this is not in the first column remove the y text
-			if (col > 0 && i != 4) {
+			if (col > 0 && i != 4 && i != 8) {
 				y.shapes.selectAll("text").remove();
 			}
 			// If this is not in the last row remove the x text
-			if (row < 1) {
+			if (row < 2) {
 				x.shapes.selectAll("text").remove();
 			//	if (i > 0){
 					// Remove the axis labels
@@ -1338,7 +1442,7 @@
 			// Remove the axis labels
 			x.titleShape.remove();
 			y.titleShape.remove();
-			if (i == 3){
+			if (i == 3 || i == 7){
 				row += 1;
 				col = 0;
 			}else{
