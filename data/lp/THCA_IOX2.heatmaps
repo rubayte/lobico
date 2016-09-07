@@ -1,0 +1,54 @@
+IHH-4	d(FANCG,PAX5)		thyroid	Origin
+IHH-4	BRAF	Mutated	thyroid	Origin
+IHH-4	NF1		thyroid	Origin
+IHH-4	NRAS		thyroid	Origin
+IHH-4	NF2		thyroid	Origin
+IHH-4	SMARCA4	Mutated	thyroid	Origin
+IHH-4	H2O2-UP		thyroid	Origin
+IHH-4	TGFB-UP		thyroid	Origin
+IHH-4	PI3K_only-DOWN		thyroid	Origin
+ASH-3	d(FANCG,PAX5)		thyroid	Origin
+ASH-3	BRAF		thyroid	Origin
+ASH-3	NF1		thyroid	Origin
+ASH-3	NRAS	Mutated	thyroid	Origin
+ASH-3	NF2		thyroid	Origin
+ASH-3	SMARCA4		thyroid	Origin
+ASH-3	H2O2-UP		thyroid	Origin
+ASH-3	TGFB-UP		thyroid	Origin
+ASH-3	PI3K_only-DOWN	Mutated	thyroid	Origin
+BHT-101	d(FANCG,PAX5)		thyroid	Origin
+BHT-101	BRAF	Mutated	thyroid	Origin
+BHT-101	NF1		thyroid	Origin
+BHT-101	NRAS		thyroid	Origin
+BHT-101	NF2		thyroid	Origin
+BHT-101	SMARCA4		thyroid	Origin
+BHT-101	H2O2-UP		thyroid	Origin
+BHT-101	TGFB-UP		thyroid	Origin
+BHT-101	PI3K_only-DOWN		thyroid	Origin
+CAL-62	d(FANCG,PAX5)		thyroid	Origin
+CAL-62	BRAF		thyroid	Origin
+CAL-62	NF1		thyroid	Origin
+CAL-62	NRAS		thyroid	Origin
+CAL-62	NF2	Mutated	thyroid	Origin
+CAL-62	SMARCA4		thyroid	Origin
+CAL-62	H2O2-UP		thyroid	Origin
+CAL-62	TGFB-UP		thyroid	Origin
+CAL-62	PI3K_only-DOWN		thyroid	Origin
+CGTH-W-1	d(FANCG,PAX5)		thyroid	Origin
+CGTH-W-1	BRAF		thyroid	Origin
+CGTH-W-1	NF1		thyroid	Origin
+CGTH-W-1	NRAS		thyroid	Origin
+CGTH-W-1	NF2		thyroid	Origin
+CGTH-W-1	SMARCA4		thyroid	Origin
+CGTH-W-1	H2O2-UP		thyroid	Origin
+CGTH-W-1	TGFB-UP	Mutated	thyroid	Origin
+CGTH-W-1	PI3K_only-DOWN		thyroid	Origin
+8505C	d(FANCG,PAX5)		thyroid	Origin
+8505C	BRAF	Mutated	thyroid	Origin
+8505C	NF1		thyroid	Origin
+8505C	NRAS		thyroid	Origin
+8505C	NF2	Mutated	thyroid	Origin
+8505C	SMARCA4		thyroid	Origin
+8505C	H2O2-UP		thyroid	Origin
+8505C	TGFB-UP		thyroid	Origin
+8505C	PI3K_only-DOWN		thyroid	Origin

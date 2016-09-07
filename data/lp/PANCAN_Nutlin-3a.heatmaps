@@ -28,16 +28,16 @@ H290	a11q13.2		lung	Origin
 H290	a(PABPC1,UBR5)		lung	Origin
 H290	a(F8,HCFC1,RPL10)		lung	Origin
 H290	d(CUL3)		lung	Origin
-Hs633T	CTNNB1		soft_tissue	Origin
-Hs633T	GATA3		soft_tissue	Origin
-Hs633T	MTOR		soft_tissue	Origin
-Hs633T	RB1		soft_tissue	Origin
-Hs633T	SMAD4		soft_tissue	Origin
-Hs633T	TP53	Mutated	soft_tissue	Origin
-Hs633T	a11q13.2		soft_tissue	Origin
-Hs633T	a(PABPC1,UBR5)		soft_tissue	Origin
-Hs633T	a(F8,HCFC1,RPL10)		soft_tissue	Origin
-Hs633T	d(CUL3)		soft_tissue	Origin
+Hs633T	CTNNB1		NA	NA
+Hs633T	GATA3		NA	NA
+Hs633T	MTOR		NA	NA
+Hs633T	RB1		NA	NA
+Hs633T	SMAD4		NA	NA
+Hs633T	TP53	Mutated	NA	NA
+Hs633T	a11q13.2		NA	NA
+Hs633T	a(PABPC1,UBR5)		NA	NA
+Hs633T	a(F8,HCFC1,RPL10)		NA	NA
+Hs633T	d(CUL3)		NA	NA
 IHH-4	CTNNB1		thyroid	Origin
 IHH-4	GATA3		thyroid	Origin
 IHH-4	MTOR		thyroid	Origin

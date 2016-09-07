@@ -570,19 +570,19 @@ no-11	dXp11.3		nervous_system	Origin
 no-11	dXq22.3		nervous_system	Origin
 no-11	PI3K_only-UP		nervous_system	Origin
 no-11	PI3K_only-DOWN		nervous_system	Origin
-NTERA-2 cl.D1	ASPM		urogenital_system	Origin
-NTERA-2 cl.D1	d(LARP4B)		urogenital_system	Origin
-NTERA-2 cl.D1	d(BMPR1A,FAS,PTEN)		urogenital_system	Origin
-NTERA-2 cl.D1	d(EXT2)		urogenital_system	Origin
-NTERA-2 cl.D1	a(MYC)		urogenital_system	Origin
-NTERA-2 cl.D1	d(SYNCRIP,ZNF292)		urogenital_system	Origin
-NTERA-2 cl.D1	d(RPL22)	Mutated	urogenital_system	Origin
-NTERA-2 cl.D1	d17p13.2		urogenital_system	Origin
-NTERA-2 cl.D1	d(CHD3,GPS2,TP53)		urogenital_system	Origin
-NTERA-2 cl.D1	dXp11.3		urogenital_system	Origin
-NTERA-2 cl.D1	dXq22.3		urogenital_system	Origin
-NTERA-2 cl.D1	PI3K_only-UP		urogenital_system	Origin
-NTERA-2 cl.D1	PI3K_only-DOWN		urogenital_system	Origin
+NTERA-2 cl.D1	ASPM		NA	NA
+NTERA-2 cl.D1	d(LARP4B)		NA	NA
+NTERA-2 cl.D1	d(BMPR1A,FAS,PTEN)		NA	NA
+NTERA-2 cl.D1	d(EXT2)		NA	NA
+NTERA-2 cl.D1	a(MYC)		NA	NA
+NTERA-2 cl.D1	d(SYNCRIP,ZNF292)		NA	NA
+NTERA-2 cl.D1	d(RPL22)	Mutated	NA	NA
+NTERA-2 cl.D1	d17p13.2		NA	NA
+NTERA-2 cl.D1	d(CHD3,GPS2,TP53)		NA	NA
+NTERA-2 cl.D1	dXp11.3		NA	NA
+NTERA-2 cl.D1	dXq22.3		NA	NA
+NTERA-2 cl.D1	PI3K_only-UP		NA	NA
+NTERA-2 cl.D1	PI3K_only-DOWN		NA	NA
 OPM-2	ASPM		blood	Origin
 OPM-2	d(LARP4B)		blood	Origin
 OPM-2	d(BMPR1A,FAS,PTEN)	Mutated	blood	Origin

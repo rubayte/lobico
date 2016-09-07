@@ -798,7 +798,7 @@
 				myChart.addMeasureAxis("p", "CountValues");
 				//c = myChart.addColorAxis(["TP","TN","FP","FN"], ["#036A1C","#02BB30",,]);
 				var ring = myChart.addSeries("Count", dimple.plot.pie);
-	    		//ring.innerRadius = "0%";
+	    		ring.innerRadius = "80%";
 	    		myChart.assignColor("TP", "#036A1C");
 	    		myChart.assignColor("TN","#02BB30");
 	    		myChart.assignColor("FP","#FF0000");
@@ -914,7 +914,7 @@
 					height);
 				myChart.addMeasureAxis("p", "ComplexityValues");
 				var ring = myChart.addSeries("Complexity", dimple.plot.pie);
-	    		ring.innerRadius = "75%";
+	    		ring.innerRadius = "80%";
 	    		myChart.draw();
 	    		// central values and titles
 	    		var offset = -5;

@@ -1,32 +1,32 @@
-Model3	NRAS 	TP	2	Specificity	1.000
-Model3	NRAS 	TN	9	Precision	1.000
-Model3	NRAS 	FP	0	Recall	0.333
-Model3	NRAS 	FN	4	NA	0
-Model2	NRAS  | NF2  | SMARCA4 	TP	4	Specificity	0.889
-Model2	NRAS  | NF2  | SMARCA4 	TN	8	Precision	0.800
-Model2	NRAS  | NF2  | SMARCA4 	FP	1	Recall	0.667
-Model2	NRAS  | NF2  | SMARCA4 	FN	2	NA	0
-Model6	NRAS  | NF2  | SMARCA4  | TGFB-UP 	TP	5	Specificity	0.889
-Model6	NRAS  | NF2  | SMARCA4  | TGFB-UP 	TN	8	Precision	0.833
-Model6	NRAS  | NF2  | SMARCA4  | TGFB-UP 	FP	1	Recall	0.833
-Model6	NRAS  | NF2  | SMARCA4  | TGFB-UP 	FN	1	NA	0
-Model8	NRAS 	TP	2	Specificity	1.000
-Model8	NRAS 	TN	9	Precision	1.000
-Model8	NRAS 	FP	0	Recall	0.333
-Model8	NRAS 	FN	4	NA	0
-Model4	¬KRAS  & NRAS  & ¬H2O2-UP 	TP	2	Specificity	1.000
-Model4	¬KRAS  & NRAS  & ¬H2O2-UP 	TN	9	Precision	1.000
-Model4	¬KRAS  & NRAS  & ¬H2O2-UP 	FP	0	Recall	0.333
-Model4	¬KRAS  & NRAS  & ¬H2O2-UP 	FN	4	NA	0
-Model1	¬BRAF  & NRAS   |  ¬KRAS  & NF2 	TP	3	Specificity	1.000
-Model1	¬BRAF  & NRAS   |  ¬KRAS  & NF2 	TN	9	Precision	1.000
-Model1	¬BRAF  & NRAS   |  ¬KRAS  & NF2 	FP	0	Recall	0.500
-Model1	¬BRAF  & NRAS   |  ¬KRAS  & NF2 	FN	3	NA	0
-Model7	NRAS  | NF2 	TP	3	Specificity	0.889
-Model7	NRAS  | NF2 	TN	8	Precision	0.750
-Model7	NRAS  | NF2 	FP	1	Recall	0.500
-Model7	NRAS  | NF2 	FN	3	NA	0
-Model5	NRAS 	TP	2	Specificity	1.000
-Model5	NRAS 	TN	9	Precision	1.000
-Model5	NRAS 	FP	0	Recall	0.333
-Model5	NRAS 	FN	4	NA	0
+Model7	NRAS 	TP	2	Specificity	1.000	K	1	mcr1
+Model7	NRAS 	TN	9	Precision	1.000	M	1	mcr1
+Model7	NRAS 	FP	0	Recall	0.333	NA	NA	mcr1
+Model7	NRAS 	FN	4	CVE	 0.5	NA	NA	mcr1
+Model6	NRAS 	TP	2	Specificity	1.000	K	1	mcr3
+Model6	NRAS 	TN	9	Precision	1.000	M	3	mcr3
+Model6	NRAS 	FP	0	Recall	0.333	NA	NA	mcr3
+Model6	NRAS 	FN	4	CVE	 0.5	NA	NA	mcr3
+Model5	NRAS  | NF2  | SMARCA4  | TGFB-UP 	TP	5	Specificity	0.889	K	4	mcr8
+Model5	NRAS  | NF2  | SMARCA4  | TGFB-UP 	TN	8	Precision	0.833	M	1	mcr8
+Model5	NRAS  | NF2  | SMARCA4  | TGFB-UP 	FP	1	Recall	0.833	NA	NA	mcr8
+Model5	NRAS  | NF2  | SMARCA4  | TGFB-UP 	FN	1	CVE	 0.36036	NA	NA	mcr8
+Model1	¬BRAF  & NRAS   |  ¬KRAS  & NF2 	TP	3	Specificity	1.000	K	2	mcr6
+Model1	¬BRAF  & NRAS   |  ¬KRAS  & NF2 	TN	9	Precision	1.000	M	2	mcr6
+Model1	¬BRAF  & NRAS   |  ¬KRAS  & NF2 	FP	0	Recall	0.500	NA	NA	mcr6
+Model1	¬BRAF  & NRAS   |  ¬KRAS  & NF2 	FN	3	CVE	 0.25099	NA	NA	mcr6
+Model4	NRAS  | NF2  | SMARCA4 	TP	4	Specificity	0.889	K	3	mcr7
+Model4	NRAS  | NF2  | SMARCA4 	TN	8	Precision	0.800	M	1	mcr7
+Model4	NRAS  | NF2  | SMARCA4 	FP	1	Recall	0.667	NA	NA	mcr7
+Model4	NRAS  | NF2  | SMARCA4 	FN	2	CVE	 0.36036	NA	NA	mcr7
+Model3	¬KRAS  & NRAS  & ¬H2O2-UP 	TP	2	Specificity	1.000	K	1	mcr4
+Model3	¬KRAS  & NRAS  & ¬H2O2-UP 	TN	9	Precision	1.000	M	4	mcr4
+Model3	¬KRAS  & NRAS  & ¬H2O2-UP 	FP	0	Recall	0.333	NA	NA	mcr4
+Model3	¬KRAS  & NRAS  & ¬H2O2-UP 	FN	4	CVE	 0.52866	NA	NA	mcr4
+Model8	NRAS 	TP	2	Specificity	1.000	K	1	mcr2
+Model8	NRAS 	TN	9	Precision	1.000	M	2	mcr2
+Model8	NRAS 	FP	0	Recall	0.333	NA	NA	mcr2
+Model8	NRAS 	FN	4	CVE	 0.5	NA	NA	mcr2
+Model2	NRAS  | NF2 	TP	3	Specificity	0.889	K	2	mcr5
+Model2	NRAS  | NF2 	TN	8	Precision	0.750	M	1	mcr5
+Model2	NRAS  | NF2 	FP	1	Recall	0.500	NA	NA	mcr5
+Model2	NRAS  | NF2 	FN	3	CVE	 0.36036	NA	NA	mcr5
