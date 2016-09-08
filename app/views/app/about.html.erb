@@ -8,9 +8,18 @@
 					<li>
 						<a href="#mp">Model Plots</a>
 						<ul>
-							<li><a href="#ic">Input Celllines Histograms &amp; Heatmaps</a></li>
+							<li><a href="#ic">Input (cell lines): histogram, tissue &amp; mutation heatmaps</a></li>
 							<li><a href="#m">Models Overall &amp; Highlight Plots</a></li>
-							<li><a href="#mb">Models BoxPlots</a></li>
+							<li><a href="#mb">Model BoxPlots</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="#ds">Datasets</a>
+						<ul>
+							<li><a href="#gdsc">GDSC Dataset</a></li>
+							<ul>
+								<li><a href="#gdscic">Input Samples: tissue types &amp; input features</a></li>
+							</ul>
 						</ul>
 					</li>	
 				</ul>
@@ -20,21 +29,25 @@
 
 				<div class="page-header" id="mp">
 				  <h1>Model Plots<small></small></h1>
-				  	<p>The next sections descriobe all the plot details and specifications.</p>
+				  	<p>We describe here the details and specifications of the LOBICO plots.</p>
 				</div>
 
 				<div class="page-header" id="ic">
 					
-  				  <h2>Input Cell-lines<small> &nbsp; histogram, tissue &amp; mutation status heatmaps</small></h2>
+				    <h2>Input (cell lines) <small>histogram, tissue &amp; mutation heatmaps</small></h2>	
+				  	<p>
+			        	The input plot is split into 3 parts: i) the drug sensitivity histogram for all cell lines ii) the tissue type heatmap for the sensitive cell lines 
+			        	iii) the input (e.g. mutations) heatmap for the sensitive cell lines.
+				  	</p>	
 					<div class="row">
 					  <div class="col-sm-6 col-md-12">
 					    <div class="thumbnail">
 					      <img src="assets/helpHistogram.png" alt="celllines histogram">
 					      <div class="caption">
 					        <p>
-					        	The input celllines histogram plot (y axis the logIC50 values) shows the sensitive and resistant cellline counts. The orange color and blue colors 
-					        	represent the sensitive and the resistant celllines respectively. The legend of the plot also shows the count in each type. Hovering over the plot bars, 
-					        	you can see the type, the count and the logIC50 value.
+					        	The drug sensitivity histogram shows how many cell lines (on the x axis) have a given sensitivity (natural log of the IC50 on the y axis) 
+					        	for that particular drug. The legend indicates the number of sensitive and resistant cell lines after the binarization of the IC50. 
+					        	Hovering over a specific bar of the histogram, you can see the associated values (resistant or sensitive, the number of cell lines and the log IC50 value).		    
 					        </p>
    					        <a href="#">Back to top</a>
 					      </div>
@@ -48,10 +61,8 @@
 					      <img src="assets/helpTissueHeatmap.png" alt="celllines tissue type heatmaps">
 					      <div class="caption">
 					        <p>
-					        	This binary heatmap indicates for each of
-								the sensitive cell lines the tissue of
-								origin (indicated by light blue).
-								Hovering over the blue blocks, gives you the names of the cellline and the tissue type.
+					        	For each of the sensitive cell lines, the (binary) tissue type heatmap indicates its tissue of origin (indicated by light blue). 
+					        	Hovering over the blue blocks makes an information bubble appear with the name and tissue type of the cell line.
 					        </p>
 					        <a href="#">Back to top</a>					        
 					      </div>
@@ -65,14 +76,10 @@
 					      <img src="assets/helpTissueHeatmap2.png" alt="celllines mutation status heatmaps">
 					      <div class="caption">
 					        <p>
-					        	Green to red heatmap indicating
-								whether cell lines from the indicated
-								tissue type are enriched within the
-								group of sensitive cell lines. Red
-								indicates strong enrichment.
-								log2 of odds ratio is used to calculate the enrichment. 
-					        	If you hover over the bars, then you can see how many sensitive and resistant celllines are from this tissue type in the total input celllines set 
-					        	along with the percentage.
+					        	Below the binary heatmap is a quantitative (green to red) heatmap indicating whether the cell lines from a given tissue type are 
+					        	enriched within the group of sensitive cell lines, as measured by the log2 of the odds ratio (Fisher’s exact test). 
+					        	Red indicates a strong enrichment, while green indicates a strong depletion. If you hover over the bars, then you can see how 
+					        	many sensitive and resistant cell lines are from this tissue type in the total cell lines set along with the associated percentages.			
 					        </p>
 					        <a href="#">Back to top</a>					        
 					      </div>
@@ -86,11 +93,8 @@
 					      <img src="assets/helpMutationHeatmap.png" alt="celllines tissue type odds ratio heatmaps">
 					      <div class="caption">
 					        <p>
-					        	This binary heatmap shows for each of the
-								sensitive cell lines whether they have a
-								mutation of the indicated feature (dark
-								red).
-								Hovering over the red blocks gives you the names of the cellline and the input feature.
+								For all sensitive cell lines, the (binary) input heatmap indicates whether a given cell line is associated with that input feature 
+								i.e. harbor that genetic alteration (dark red) or not (white). Hovering over the red blocks gives you the names of the cell line and the input feature.
 					        </p>
 					        <a href="#">Back to top</a>
 					      </div>
@@ -104,14 +108,10 @@
 					      <img src="assets/helpMutationHeatmap2.png" alt="celllines mutation status odds ratio heatmaps">
 					      <div class="caption">
 					        <p>
-					        	Green to red heatmap indicating whether
-								cell lines that have a mutation of the
-								indicated genomic feature are enriched
-								within the group of sensitive cell lines.
-								Bright red indicates strong enrichment.
-								log2 of odds ratio is used to calculate the enrichment. 
-					        	If you hover over the blocks, then you can see how many sensitive and resistant celllines are mutated  
-					        	along with the percentage.
+								Below the binary heatmap is a quantitative (green to red) heatmap indicating whether the cell lines associated with a specific input feature 
+								(e.g. harboring a mutation in a given gene) are enriched within the group of sensitive cell lines, as measured by the log2 of the odds ratio 
+								(Fisher’s exact test). Red indicates a strong enrichment, while green indicates a strong depletion. If you hover over the bars, 
+								then you can see how many sensitive and resistant cell lines are associated with that feature in the total cell lines set along with the associated percentages.
 					        </p>
 					        <a href="#">Back to top</a>
 					      </div>
@@ -131,11 +131,10 @@
 					      <img src="assets/helpModelOverall.png" alt="model overall bar plots">
 					      <div class="caption">
 					        <p>
-					        	The model overall plots depict all the models in the x axis and the first row in the y axis, all the prediction counts (true positive &amp; negative and false
-					        	positive &amp; negative). The second row in the y axis shows the specificity, precision and recall values across models.
-					        	The best model among the models is colored in green.
-					        	Hovering over the bars in the plots shows you the specific value of the bar and the name of the model. 
-					        	If you click on any of the bars on the plot, then the clicked plot highlights are loaded in the right hand side window.
+								This modified trellis bar plot depicts all models (x axis; best model colored in green) and performance stats (y axis). The upper row shows counts of 
+								the confusion matrix (shades of green with true positives & negatives and shades of red for the false  positives & negatives). The lower row shows the 
+								specificity (true negative rate TN/FP+TN), precision (positive predictive value TP/TP+FP) and recall (sensitivity or true positive rate TP/TP+FN). Hovering 
+								over all the bars indicates the model names and values. If you click on any of the bar, then the associated model is highlighted on the right hand frame.
 					        </p>
 					        <a href="#">Back to top</a>
 					      </div>
@@ -149,9 +148,8 @@
 					      <img src="assets/helpModelHighlight.png" alt="model highlight plots">
 					      <div class="caption">
 					        <p>
-					        	The model highlight plot shows the circuit diagram of the model, the TPs and FPs counts, specificity, recall, precision of the model and lastly the
-					        	boxplot of the predictions. If you hover over the ring plot you can see the actual count values and also hovering over the bar plots shows the actual percetage 
-					        	of the statistics.
+								The model highlight plot has 3 sections: 1. circuit diagram of the model 2. confusion matrix counts and model performance stats 
+								3. boxplot of the prediction group (resistant & sensitive cell lines) for the drug sensitivity (natural log of IC50).
 					        </p>
 					        <a href="#">Back to top</a>
 					      </div>
@@ -165,11 +163,9 @@
 					      <img src="assets/helpModelHighlightBoxplot.png" alt="model highlight boxplot">
 					      <div class="caption">
 					        <p>
-					        	The boxplot in the hightlight plot section, shows the prediction of the model and the y axis shows the actual logIC50 values.
-					        	The black dot line shows the cutoff value between sensitive and resistant celllines.
-					        	If you hover over the outlier dots, then you can see the name of the cellline.
-					        	If you click the box, then it explodes into a scatter plot where you can see all the data points in this section.
-					        	Similarly, a double click reverts back to boxplot.
+								The boxplot shows the natural log IC50 values (y axis) of predicted group (resistant and sensitive) for the input cell lines (x axis). 
+								The black dotted line indicates the cutoff value after the binarization of IC50 values. Clicking on the box explodes into a scatter plot and 
+								double click reverses back to original plot. Hovering over the scatter plot points shows the cell line name and log value of IC50.
 					        </p>
 					        <a href="#">Back to top</a>
 					      </div>
@@ -181,18 +177,17 @@
 				
 				<div class="page-header" id="mb">
 					
-  				  <h2>Models Boxplots<small> &nbsp; model overall boxplots</small></h2>
+  				  <h2>Model Boxplots<small> &nbsp; model overall boxplots</small></h2>
 					<div class="row">
 					  <div class="col-sm-6 col-md-12">
 					    <div class="thumbnail">
 					      <img src="assets/helpModelBoxplots.png" alt="model boxplots">
 					      <div class="caption">
 					        <p>
-					        	This section depicts all the boxplots from all the models with their predictions. The y axis is the logIC50 value. 
-					        	The model name is shown on top of all boxplot pairs.
-					        	The best model is highlighted in green color.
-					        	You can click the boxes in the plots to view the scatter plot and double click to go back to boxplots.
-					        	The black dotted line is the cutoff between the sensitive and resistant celllines.
+								This section depicts all boxplots with natural log IC50 values (y axis) of predicted group (resistant and sensitive) for the input cell lines (x axis)
+								 for all models. The model names are shown on the top of the boxplot (best model with green color).  The black dotted line indicates the cutoff value 
+								 after the binarization of IC50 values. Clicking on the box explodes into a scatter plot and double click reverses back to original plot. Hovering over the 
+								 scatter plot points shows the cell line name and log value of IC50.
 					        </p>
 					        <a href="#">Back to top</a>
 					      </div>
@@ -201,6 +196,59 @@
 					</div>
 				
 				</div>
+
+
+				<div class="page-header" id="ds">
+					<h1>Datasets</h1>
+				</div>
+				
+				<div class="page-header" id="gdsc">
+					<h2>GDSC Dataset</h2>
+					<p>
+						We describe here the details and specifications of the GDSC dataset.
+					</p>
+				</div>
+				
+				<div class="page-header" id="gdscic">
+					
+				    <h3>Input Samples <small>histogram, tissue &amp; mutation heatmaps</small></h3>	
+				  	<p>
+						The input samples are cell lines in this dataset. These cell lines are originated from 22 tissue types. These types are:
+						<ul>
+						    <li>aero_digestive_tract</li>	
+						    <li>aero_dig_tract</li>
+							<li>blood</li>
+							<li>bone</li>
+							<li>breast</li>
+							<li>digestive_system</li>
+							<li>kidney</li>
+							<li>large_intestine</li>
+							<li>leukemia</li>
+							<li>lung</li>
+							<li>lung_NSCLC</li>
+							<li>lung_SCLC</li>
+							<li>lymphoma</li>
+							<li>myeloma</li>
+							<li>nervous_system</li>
+							<li>neuroblastoma</li>
+							<li>pancreas</li>
+							<li>skin</li>
+							<li>soft_tissue</li>
+							<li>thyroid</li>
+							<li>urogenital_system</li>
+						</ul>    
+
+						There are main 4 types of input features for the cell lines in this dataset:
+						<ul>
+						    <li>Genes (e.g. SMAD4, ATM)</li>
+						    <li>Amplification or deletion of gene or a set of genes represented as a(g1), d(g1,g2). (e.g. a(CCND1,CTTN), d(FAT1))</li>
+						    <li>Locus or chromosome locations (e.g. d18q22.1)</li>
+						    <li>Pathway (e.g. TNFa-UP, TGFB-DOWN)</li>
+						</ul>    
+				  	</p>	
+					<a href="#">Back to top</a>
+				</div>	
+
 
 			</div>	
 		</div>
