@@ -141,3 +141,8 @@
   padding: 3px 0;
   border-bottom: 1px solid #ccc;
 }
+
+.fixedContentsLeft{
+	position: fixed;
+	width: 100%;
+}

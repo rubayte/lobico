@@ -3,26 +3,27 @@
 		<div class="row">
 			
 			<div class="col-md-4">
-				<h2>Contents</h2>
-				<ul>
-					<li>
-						<a href="#mp">Model Plots</a>
-						<ul>
-							<li><a href="#ic">Input (cell lines): histogram, tissue &amp; mutation heatmaps</a></li>
-							<li><a href="#m">Models Overall &amp; Highlight Plots</a></li>
-							<li><a href="#mb">Model BoxPlots</a></li>
-						</ul>
-					</li>
-					<li>
-						<a href="#ds">Datasets</a>
-						<ul>
-							<li><a href="#gdsc">GDSC Dataset</a></li>
+					<h2>Contents</h2>
+					<ul>
+						<li>
+							<a href="#mp">Model Plots</a>
 							<ul>
-								<li><a href="#gdscic">Input Samples: tissue types &amp; input features</a></li>
+								<li><a href="#ic">Input (cell lines): histogram, tissue &amp; mutation heatmaps</a></li>
+								<li><a href="#m">Models Overall &amp; Highlight Plots</a></li>
+								<li><a href="#mb">Model BoxPlots</a></li>
 							</ul>
-						</ul>
-					</li>	
-				</ul>
+						</li>
+						<li>
+							<a href="#ds">Datasets</a>
+							<ul>
+								<li><a href="#gdsc">GDSC Dataset</a></li>
+								<ul>
+									<li><a href="#gdscic">Input Samples: tissue, cancer types &amp; input features</a></li>
+									<li><a href="#gdsco">Output: models to explain drug response</a></li>
+								</ul>
+							</ul>
+						</li>	
+					</ul>
 			</div>	
 			
 			<div class="col-md-8">
@@ -205,15 +206,51 @@
 				<div class="page-header" id="gdsc">
 					<h2>GDSC Dataset</h2>
 					<p>
-						We describe here the details and specifications of the GDSC dataset.
+						We describe here the details and specifications of the <a href="http://www.cancerrxgene.org/gdsc1000/GDSC1000_WebResources/Home.html" target="_blank">GDSC dataset</a>.
 					</p>
 				</div>
 				
 				<div class="page-header" id="gdscic">
 					
-				    <h3>Input Samples <small>histogram, tissue &amp; mutation heatmaps</small></h3>	
+				    <h3>Input Samples <small>tissue, cancer types &amp; input features</small></h3>	
 				  	<p>
-						The input samples are cell lines in this dataset. These cell lines are originated from 22 tissue types. These types are:
+						The input samples used for generating the logic models using LOBICO algorithm are cell lines from the GDSC dataset 
+						(<a href="http://www.cancerrxgene.org/gdsc1000/GDSC1000_WebResources/Data_Summary.html" target="_blank">GDSC complete dataset</a> contains primary tumors and cell lines). 
+						These cell lines are originated from 21 tissue types. An overview of the tissue types and cancer types (TCGA labels) are give below.
+						<div class="table-responsive">
+							<table class="table table-hover table-bordered">
+								<thead>
+									<tr><th>GDSC Tissue Descriptor 1</th><th>GDSC Tissue Descriptor 2</th><th>Cancer Type (TCGA Label)</th></tr>								
+								</thead>
+								<tbody>
+									<tr><td>urogenital_system</td><td>Bladder</td><td>BLCA</td></tr>
+									<tr><td>breast</td><td>breast</td><td>BRCA</td></tr>
+									<tr><td>large_intestine</td><td>large_intestine</td><td>COAD/READ</td></tr>
+									<tr><td>lymphoma</td><td>B_cell_lymphoma</td><td>DLBC</td></tr>
+									<tr><td>aero_dig_tract</td><td>oesophagus</td><td>ESCA</td></tr>
+									<tr><td>nervous_system</td><td>glioma</td><td>GBM</td></tr>
+									<tr><td>aero_dig_tract</td><td>head and neck</td><td>HNSC</td></tr>																		
+
+									<tr><td>kidney</td><td>kidney</td><td>KIRC</td></tr>
+									<tr><td>leukemia</td><td>acute_myeloid_leukaemia, leukemia</td><td>LAML</td></tr>
+									<tr><td>nervous_system</td><td>glioma</td><td>LGG</td></tr>
+									<tr><td>digestive_system</td><td>liver</td><td>LIHC</td></tr>
+									<tr><td>lung_NSCLC</td><td>lung_NSCLC_adenocarcinoma</td><td>LUAD</td></tr>
+									<tr><td>lung_NSCLC</td><td>lung_NSCLC_squamous_cell_carcinoma</td><td>LUSC</td></tr>
+									<tr><td>urogenital_system</td><td>ovary</td><td>OV</td></tr>																		
+
+									<tr><td>pancreas</td><td>pancreas</td><td>PAAD</td></tr>
+									<tr><td>skin</td><td>melanoma</td><td>SKCM</td></tr>
+									<tr><td>digestive_system</td><td>stomach</td><td>STAD</td></tr>
+									<tr><td>thyroid</td><td>thyroid</td><td>THCA</td></tr>
+									<tr><td>bone,soft_tissue, *</td><td>*</td><td>PANCAN</td></tr>
+								</tbody>
+							</table>
+						</div>
+						<p>
+							You can download the complete sample landscape for the GDSC dataset <a href="http://www.cancerrxgene.org/gdsc1000/GDSC1000_WebResources//Data/suppData/TableS1E.xlsx">here</a>.							
+						</p>
+						<!--
 						<ul>
 						    <li>aero_digestive_tract</li>	
 						    <li>aero_dig_tract</li>
@@ -237,17 +274,36 @@
 							<li>thyroid</li>
 							<li>urogenital_system</li>
 						</ul>    
-
+						-->
+						<p>
+							The main input features for the cell lines in this dataset:							
+							<ul>
+						   		<li>Mutated Genes with point mutations, small insertions or deletions (e.g. SMAD4, ATM)</li>
+						    	<li>Amplification or deletion of gene, a set of genes, locus / chromosome locations represented as a(g1), d(g1,g2) or pathways. (e.g. a(CCND1,CTTN), d(FAT1), d18q22.1,TNFa-UP, TGFB-DOWN)</li>
+						    </ul>
+						</p>
+						<!--
 						There are main 4 types of input features for the cell lines in this dataset:
 						<ul>
 						    <li>Genes (e.g. SMAD4, ATM)</li>
 						    <li>Amplification or deletion of gene or a set of genes represented as a(g1), d(g1,g2). (e.g. a(CCND1,CTTN), d(FAT1))</li>
 						    <li>Locus or chromosome locations (e.g. d18q22.1)</li>
 						    <li>Pathway (e.g. TNFa-UP, TGFB-DOWN)</li>
-						</ul>    
+						</ul>
+						-->    
 				  	</p>	
 					<a href="#">Back to top</a>
 				</div>	
+
+				<div class="page-header" id="gdsco">
+					<h3>Output <small>models to explain drug response</small></h3>
+					<p>
+						LOBICO generates logic models to explain drug response based on binarized mutation data of cancer samples. In the GDSC dataset, 
+						a total of 265 drug compounds are screened. A summary of the complete screened compounds can be downloaded 
+						from <a href="http://www.cancerrxgene.org/gdsc1000/GDSC1000_WebResources//Data/suppData/TableS1F.xlsx">here</a>.
+					</p>
+					<a href="#">Back to top</a>
+				</div>
 
 
 			</div>	

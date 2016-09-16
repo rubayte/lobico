@@ -69,6 +69,10 @@
 								  			<div class="panel-body">
 								  				<div align="center">
 								  					<div class="row">
+								  						<div id="modelComplexity">								  							
+								  						</div>
+								  					</div>
+								  					<div class="row">
 														<div id="modelCircuitPlot">
 														</div>
 								  					</div>
@@ -752,6 +756,12 @@
 			document.getElementById("modelPanelHeader").innerHTML= "Model: <strong>" + data[0].MD + "</strong>";
 		}
 		
+		// display K and M values for the model
+		tempKMD = dimple.filterData(data,"Complexity",["K","M"]);
+		//console.log(tempKMD[0].ComplexityValues);
+		//console.log(tempKMD[1].ComplexityValues);
+		document.getElementById("modelComplexity").innerHTML= "maximal capacity of the model K = <strong>" + tempKMD[0].ComplexityValues + "</strong> and M = <strong>" + tempKMD[1].ComplexityValues + "</strong>";
+		
 		// call model circuit diagram plot fuinction
 		plotModelCircuitDiagram(data[0].MD);
 		//console.log('checking data[0]');
@@ -770,12 +780,12 @@
 		top = 5,
 		left = 5,
 		inMarg = 20,
-		width = width/3 - 5,
+		width = width/2 - 50,
 		height = height - 50,
 		totalWidth = parseFloat(svg.attr("width"));
 		
 		// loop over 
-		for (i = 0; i < 3; i++ )
+		for (i = 0; i < 2; i++ )
 		{
 			// Wrap to the row above
 			//if (left + ((col + 1) * (width + inMarg)) > totalWidth) {
@@ -1004,7 +1014,7 @@
 		totalWidth = parseFloat(svg.attr("width"));
 		
 		// loop over 
-		for (i = 0; i < 12; i++ )
+		for (i = 0; i < 8; i++ )
 		{
 			//var svg = svg1;
 			// Wrap to the row above
@@ -1425,10 +1435,11 @@
 			// Once drawn we can access the shapes
 			// If this is not in the first column remove the y text
 			if (col > 0 && i != 4 && i != 8) {
+			//if (col > 0 && i != 4) {
 				y.shapes.selectAll("text").remove();
 			}
 			// If this is not in the last row remove the x text
-			if (row < 2) {
+			if (row < 1) {
 				x.shapes.selectAll("text").remove();
 			//	if (i > 0){
 					// Remove the axis labels
