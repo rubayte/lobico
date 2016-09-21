@@ -62,8 +62,8 @@
 					      <img src="assets/helpTissueHeatmap.png" alt="celllines tissue type heatmaps">
 					      <div class="caption">
 					        <p>
-					        	For each of the sensitive cell lines, the (binary) tissue type heatmap indicates its tissue of origin (indicated by light blue). 
-					        	Hovering over the blue blocks makes an information bubble appear with the name and tissue type of the cell line.
+					        	For each of the sensitive cell lines, the (binary) tissue type heatmap indicates its tissue of origin (indicated by light red). 
+					        	Hovering over the light red blocks makes an information bubble appear with the name and tissue type of the cell line.
 					        </p>
 					        <a href="#">Back to top</a>					        
 					      </div>
@@ -95,7 +95,7 @@
 					      <div class="caption">
 					        <p>
 								For all sensitive cell lines, the (binary) input heatmap indicates whether a given cell line is associated with that input feature 
-								i.e. harbor that genetic alteration (dark red) or not (white). Hovering over the red blocks gives you the names of the cell line and the input feature.
+								i.e. harbor that genetic alteration (dark red) or not (white). Hovering over the light red blocks gives you the names of the cell line and the input feature.
 					        </p>
 					        <a href="#">Back to top</a>
 					      </div>
@@ -132,10 +132,11 @@
 					      <img src="assets/helpModelOverall.png" alt="model overall bar plots">
 					      <div class="caption">
 					        <p>
-								This modified trellis bar plot depicts all models (x axis; best model colored in green) and performance stats (y axis). The upper row shows counts of 
-								the confusion matrix (shades of green with true positives & negatives and shades of red for the false  positives & negatives). The lower row shows the 
-								specificity (true negative rate TN/FP+TN), precision (positive predictive value TP/TP+FP) and recall (sensitivity or true positive rate TP/TP+FN). Hovering 
-								over all the bars indicates the model names and values. If you click on any of the bar, then the associated model is highlighted on the right hand frame.
+					        	This modified trellis bar plot depicts all models (x axis; best model colored in green) and performance stats (y axis). The upper row shows counts 
+					        	of the confusion matrix (shades of green with true positives &amp; negatives and shades of red for the false  positives &amp; negatives). The lower row 
+					        	shows the specificity (true negative rate TN/FP+TN), precision (positive predictive value TP/TP+FP), recall (sensitivity or true positive rate TP/TP+FN) and cross 
+					        	validation error. Hovering over all the bars indicates the model names and values. If you click on any of the bar, then the associated model is 
+					        	highlighted on the right hand frame.
 					        </p>
 					        <a href="#">Back to top</a>
 					      </div>
@@ -215,8 +216,10 @@
 				    <h3>Input Samples <small>tissue, cancer types &amp; input features</small></h3>	
 				  	<p>
 						The input samples used for generating the logic models using LOBICO algorithm are cell lines from the GDSC dataset 
-						(<a href="http://www.cancerrxgene.org/gdsc1000/GDSC1000_WebResources/Data_Summary.html" target="_blank">GDSC complete dataset</a> contains primary tumors and cell lines). 
-						These cell lines are originated from 21 tissue types. An overview of the tissue types and cancer types (TCGA labels) are give below.
+						(GDSC complete dataset contains primary tumors and cell lines). 
+						These cell lines are originated from 21 tissue types. An overview of the tissue types and cancer types (TCGA labels) are given 
+						<a href="http://www.cancerrxgene.org/gdsc1000/GDSC1000_WebResources/Data_Summary.html" target="_blank">here</a>.
+						<!--
 						<div class="table-responsive">
 							<table class="table table-hover table-bordered">
 								<thead>
@@ -247,6 +250,7 @@
 								</tbody>
 							</table>
 						</div>
+						-->
 						<p>
 							You can download the complete sample landscape for the GDSC dataset <a href="http://www.cancerrxgene.org/gdsc1000/GDSC1000_WebResources//Data/suppData/TableS1E.xlsx">here</a>.							
 						</p>
@@ -278,8 +282,13 @@
 						<p>
 							The main input features for the cell lines in this dataset:							
 							<ul>
-						   		<li>Mutated Genes with point mutations, small insertions or deletions (e.g. SMAD4, ATM)</li>
-						    	<li>Amplification or deletion of gene, a set of genes, locus / chromosome locations represented as a(g1), d(g1,g2) or pathways. (e.g. a(CCND1,CTTN), d(FAT1), d18q22.1,TNFa-UP, TGFB-DOWN)</li>
+						   		<li><span title="download the full list of CGs"><a href="http://www.cancerrxgene.org/gdsc1000/GDSC1000_WebResources//Data/suppData/TableS2A.xlsx" target="_blank">Cancer Genes (CGs) </a></span>
+						   			 with point mutations, small insertions or deletions (e.g. SMAD4, ATM)</li>
+						    	<li><span title="download the full list of RACSs"><a href="http://www.cancerrxgene.org/gdsc1000/GDSC1000_WebResources//Data/suppData/TableS2D.xlsx" target="_blank">Recurrently aberrant copy number segments (RACSs)</a></span> 
+						    		of a cancer gene or genes, locus / chromosome locations. 
+						    		Amplifications are represented as a(g1,g2,..) (e.g. a(CCND1,CTTN)) and deletions as d(g1,g2) (e.g. d(FAT1), d18q22.1).</li>
+						    	<li>Activation signature of signaling pathways containing well-known mutational activations, copy number alterations and other signaling aberrations. (e.g. TNFa-UP, TGFB-DOWN).
+						    		Click <a href="http://www.cancerrxgene.org/gdsc1000/GDSC1000_WebResources//Data/suppData/TableS5A.xlsx" target="_blank">here</a> to download the pathway activity scores across cell lines.</li>
 						    </ul>
 						</p>
 						<!--
@@ -298,8 +307,10 @@
 				<div class="page-header" id="gdsco">
 					<h3>Output <small>models to explain drug response</small></h3>
 					<p>
-						LOBICO generates logic models to explain drug response based on binarized mutation data of cancer samples. In the GDSC dataset, 
-						a total of 265 drug compounds are screened. A summary of the complete screened compounds can be downloaded 
+						LOBICO generates logic models to explain drug response based on binarized mutation data of cancer samples. 
+						LOBICO was executed for each drug separately utilizing pan-cancer and cancer-specific molecular datasets.
+						This led to the inference of 1,080 logic models.
+						In the GDSC dataset, a total of 265 drug compounds are screened. A summary of the complete screened compounds can be downloaded 
 						from <a href="http://www.cancerrxgene.org/gdsc1000/GDSC1000_WebResources//Data/suppData/TableS1F.xlsx">here</a>.
 					</p>
 					<a href="#">Back to top</a>
