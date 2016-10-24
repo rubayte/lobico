@@ -62,8 +62,26 @@
 						<div class="caption">
 							<h3>DataSets</h3>
 						    <p>Browse all data sets &amp; their models in LOBICO web-app.</p>
-						    <p><a href="browseByDatasets" class="btn btn-primary" role="button">Browse</a>
-		  				</div>
+						    <!--
+						    <p><a href="browseByDatasets" class="btn btn-primary" role="button">Browse</a></p>
+						    -->
+		  					<div class="btn-group">
+							  <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							    Browse <span class="caret"></span>
+							  </button>
+							  <ul class="dropdown-menu">
+							  	<% @datasets.each do |ds| -%>
+								    <li>
+								    	<a href="#">
+								    		<%= link_to ds.html_safe,  {:controller => "app", :action => "browseByModels", :dataset => 'GDSC' } %>
+								    	</a>
+								    </li>
+							  	<% end -%>
+							    <li role="separator" class="divider"></li>
+							    <li><a href="browseByDatasets">View all datasets</a></li>
+							  </ul>
+							</div>
+		  				</div>		  				
 		  			</div>	
 				</div>
 				<div class="col-md-3">

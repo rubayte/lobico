@@ -1,6 +1,7 @@
 class AppController < ApplicationController
 
   def index
+    @datasets = ['GDSC']
     (@modelsHash,canlist,druglist) = Datafile.getBestModels(params)
     @cancers = canlist.to_json
     @drugs = druglist.to_json
