@@ -67,6 +67,14 @@
 						</div>
     					<% end -%>	
   					</div>	
+  					<!--
+  					<div>
+  						 Button trigger modal 
+						<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#modelModal">
+						  Show help!
+						</button>
+  					</div>	
+  					-->
 	   	 			<div align="center">
 		    			<table id="modelsTable" class="table table-striped">
 		    				<thead>
@@ -87,8 +95,11 @@
 	   	    						<% items = values.split("#") -%>
 	   	    						<% items.each do |item| -%>
 		    							<% vals = item.split(";") -%>
+		    							<% valsPassModal = cvmodel + "#" + vals[0] + "#" + vals[1] + "#" + vals[7]  -%>
 		    							<tr>
-			   								<td><%= cvmodel %></td>	    	    							
+			   								<td><%= cvmodel %> &nbsp; 
+			   									<%= link_to "<span class='glyphicon glyphicon-question-sign' area-hiddne='true'></span>".html_safe, "#", "data-toggle" => "modal", 'data-target' => '#modelModal', "data-id" => valsPassModal %> 
+			   								</td>	    	    							
 		       						    	<td><%= smodel %></td>	
 		       						    	<td> <%= vals[7] %></td>    					
 	    									<td><%= vals[0] %></td> 
@@ -96,8 +107,8 @@
 	    									<td><%= vals[8] %></td>
 	    									<td> <%= vals[5] %></td>
 	    									<td>
-	    										<div align="rihgt">	
-			    	   								<%= link_to '<span class="glyphicon glyphicon-triangle-right" area-hiddne="true"></span> View'.html_safe,  {:controller => "app", :action => "viewModel", :cancer => vals[0] , :drug => vals[1], :dataset => vals[7] }, :class => "btn btn-xs btn-success" %>
+	    										<div align="center">
+			    	   								<%= link_to '<span class="glyphicon glyphicon-triangle-right" area-hiddne="true"></span> View model'.html_safe,  {:controller => "app", :action => "viewModel", :cancer => vals[0] , :drug => vals[1], :dataset => vals[7] }, :class => "btn btn-xs btn-success" %>
 		       									</div>
 		       								</td>
 		       							</tr>	
@@ -113,12 +124,160 @@
     </div>	
 
 	
-<script type="text/javascript">
+<!-- Model modal-->
+<div class="modal fade bs-example-modal-lg" id="modelModal" tabindex="-1" role="dialog" aria-labelledby="modelModalLabel">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel"></h4>
+        <i>See help on lobico models below. An example similar to the selected model type is highlighted in bold.</i></br>
+		<%= link_to '<span class="glyphicon glyphicon-triangle-right" area-hiddne="true"></span> View this model'.html_safe,  {:controller => "app", :action => "viewModel" },:id => "modalModelView", :class => "btn btn-success" %>
+      </div>
+      <div class="modal-body">	
+      	<p>
+			LOBICO is used to find the logic combinations of mutations that best explain the
+			response of cancer cell lines to anticancer drugs. A gene was called mutated when it had a point
+			mutation, a small insertion or deletion as determined by capillary sequencing, or when it
+			was highly amplified or homozygously deleted based on copy number arrays. 
+			These logic models that are described in the disjunctive normal form (DNF), a
+			standard notation in which every logic function can be expressed. The DNF is parameterized
+			by two parameters: K, the number of disjuncts, and M, the number of terms per disjunct. LOBICO is applied with eight 
+			different parameter settings, i.e. from simple single-predictor
+			models (K=1, M=1) to more complex multi-predictor models ( K>1, M>1). A table is given below for the possible 8 models.
+			<table id="modelTable" class="table table-striped">
+				<thead>
+			    	<tr>
+		    			<th>Model complexity</th>
+		    		    <th>Drug name</th>
+		    	    	<th>Drug target</th>
+		    	    	<th>Optimal logic model</th>
+		    	    </tr>
+				</thead>
+	   			<tbody>
+					<tr id='sinPre'>
+						<td>K=1,M=1 (Single predictor)</td>	    	    							
+						<td>PLX4720</td>	
+						<td>RAF</td>    					
+						<td>BRAF</td> 
+					</tr>
+		    		<tr id="2AND">
+			   			<td>K=1,M=2 (2-input AND)</td>	    	    							
+						<td>Paclitaxel</td>	
+		       			<td>Microtubules</td>    					
+	    				<td>CDKN2A &amp; TP53</td> 
+		       		</tr>
+		    		<tr id="3AND">
+			   			<td>K=1,M=3 (3-input AND)</td>	    	    							
+						<td>Cytarabine</td>	
+		       			<td>DNA synthesis</td>    					
+	    				<td>CDKN2A &amp; ¬EGFR &amp; ¬SMAD4</td> 
+		       		</tr>
+		    		<tr id="4AND">
+			   			<td>K=1,M=4 (4-input AND)</td>	    	    							
+						<td>KIN001-102</td>	
+		       			<td>Akt1</td>    					
+	    				<td>¬APC &amp; ¬BRAF &amp; ¬EGFR &amp; ¬KRAS</td> 
+		       		</tr>
+		    		<tr id="2OR">
+			   			<td>K=2,M=1 (2-input OR)</td>	    	    							
+						<td>BEZ235</td>	
+		       			<td>PI3K,MTORC</td>    					
+	    				<td>PIK3CA | PTEN</td> 
+		       		</tr>
+		    		<tr id="3OR">
+			   			<td>K=3,M=1 (3-input OR)</td>	    	    							
+						<td>AZD6244</td>	
+		       			<td>MEK 1/2</td>    					
+	    				<td>BRAF | KRAS | NRAS</td> 
+		       		</tr>
+		    		<tr id="4OR">
+			   			<td>K=4,M=1 (4-input OR)</td>	    	    							
+						<td>Afatinib</td>	
+		       			<td>EGFR, ERBB2</td>    					
+	    				<td>EGFR | ERBB2 | JAK2 | SMAD4</td> 
+		       		</tr>
+		    		<tr id="2by2">
+			   			<td>K=2,M=2 (2-by-2)</td>	    	    							
+						<td>JQ12</td>	
+		       			<td>HDAC</td>    					
+	    				<td>(CDKN2A &amp; ¬SMAD4) | (¬KRAS &amp; ¬TP53)</td> 
+		       		</tr>
+		    	</tbody>
+			</table>	
+		</p>	
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
 
+<script type='text/javascript'>
+	
+	function toggleTrBoldStatus(element){
+		elms = ['sinPre','2AND','3AND','4AND','2OR','3OR','4OR','2by2'];
+		for (i = 0; i < elms.length; i++){
+			if (elms[i] == element){
+				document.getElementById(elms[i]).style.fontWeight = 700;
+			}else{
+				document.getElementById(elms[i]).style.fontWeight = 400;
+			}
+		}
+	}
+		
+</script>
+	
+<script type="text/javascript">
+$(document).ready(function () {
+    $('#modelModal').on('show.bs.modal', function (event) {
+        //console.log($(event.relatedTarget).attr('data-id'));
+        var data = $(event.relatedTarget).attr('data-id').split('#');
+        var model = data[0];
+        var cancer = data[1];
+        var drug = data[2];
+        var dataset = data[3];
+
+
+        // define the model type
+        if (model.indexOf('&') == -1 && model.indexOf('|') == -1){
+        	toggleTrBoldStatus('sinPre');
+        	//document.getElementById("sinPre").style.fontWeight = 700;
+        }else if (model.indexOf('&') != -1 && model.indexOf('|') == -1){
+        	tokens = model.split('&');
+        	if (tokens.length == 2){
+        		toggleTrBoldStatus('2AND');
+        	}else if (tokens.length == 3){
+        		toggleTrBoldStatus('3AND');
+        	}else if (tokens.length == 4){
+        		toggleTrBoldStatus('4AND');
+        	}
+        }else if (model.indexOf('&') == -1 && model.indexOf('|') != -1){
+        	tokens = model.split('|');
+        	if (tokens.length == 2){
+        		toggleTrBoldStatus('2OR');
+        	}else if (tokens.length == 3){
+        		toggleTrBoldStatus('3OR');
+        	}else if (tokens.length == 4){
+        		toggleTrBoldStatus('4OR');
+        	}
+        }else{
+        	toggleTrBoldStatus('2by2');
+        }
+        document.getElementById("myModalLabel").innerHTML = "Model : " + model;
+        $("#modalModelView").click(function(){
+        	console.log(this);
+        	$(this).attr("href","/viewModel?cancer=" + cancer + "&dataset=" + dataset + "&drug=" + drug +"");
+        });
+    });
+});
+</script>
+	
+<script type="text/javascript">
 	$(document).ready(function(){
 		$('#modelsTable').DataTable({
 			paging: true
 		});
 	});
-
 </script>
