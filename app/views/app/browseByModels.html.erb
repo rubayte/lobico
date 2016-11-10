@@ -136,15 +136,37 @@
       </div>
       <div class="modal-body">	
       	<p>
-			LOBICO is used to find the logic combinations of mutations that best explain the
-			response of cancer cell lines to anticancer drugs. A gene was called mutated when it had a point
-			mutation, a small insertion or deletion as determined by capillary sequencing, or when it
-			was highly amplified or homozygously deleted based on copy number arrays. 
+			LOBICO is used to find the logic combinations of binary input features (e.g. mutations, CNAs) 
+			that best explain the response of cancer cell lines to anticancer drugs. 
 			These logic models that are described in the disjunctive normal form (DNF), a
 			standard notation in which every logic function can be expressed. The DNF is parameterized
 			by two parameters: K, the number of disjuncts, and M, the number of terms per disjunct. LOBICO is applied with eight 
 			different parameter settings, i.e. from simple single-predictor
-			models (K=1, M=1) to more complex multi-predictor models ( K>1, M>1). A table is given below for the possible 8 models.
+			models (K=1, M=1) to more complex multi-predictor models ( K>1, M>1). Tables with logic symbols and the possible 8 models are given below.
+			
+			<table id="logicSymbolTable" class="table table-striped">
+				<thead>
+					<tr>
+						<th>Logic Symbol Name</th>
+						<th>Logic Symbol</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>AND</td>
+						<td>&amp;</td>
+					</tr>
+					<tr>
+						<td>OR</td>	
+						<td>|</td>
+					</tr>
+					<tr>
+						<td>NOT</td>	
+						<td>¬</td>
+					</tr>
+				</tbody>	
+			</table>
+			
 			<table id="modelTable" class="table table-striped">
 				<thead>
 			    	<tr>
